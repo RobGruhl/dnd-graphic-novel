@@ -1,0 +1,19 @@
+{
+  "page_num": 7,
+  "title": "The Sword Guardians",
+  "scene_type": "establishing_shot",
+  "panel_count": 1,
+  "panels": [
+    {
+      "panel_num": 1,
+      "visual": "A circular stone chamber within the maze with a domed ceiling. Three enchanted steel longswords float menacingly above stone pedestals arranged in a triangle, blades gleaming with faint blue magical energy. The swords hover in combat-ready positions, tips tracking for intruders. A glowing blue control crystal pulses in the center of the ceiling high above. The single entrance shows the crystal corridor behind. Scorch marks and old damage on the walls hint at past battles. Dim magical ambient light fills the deadly trap room. Tension before the trigger.",
+      "dialogue": "",
+      "characters": [],
+      "npcs": [],
+      "monsters": ["AnimatedFlyingSword"],
+      "location": "MazeSwordRoom",
+      "aspect_ratio": "portrait",
+      "size": "1024x1536"
+    }
+  ]
+}

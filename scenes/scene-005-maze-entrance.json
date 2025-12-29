@@ -1,0 +1,19 @@
+{
+  "page_num": 5,
+  "title": "The Enchanted Maze",
+  "scene_type": "establishing_shot",
+  "panel_count": 1,
+  "panels": [
+    {
+      "panel_num": 1,
+      "visual": "A dark archway carved into a natural cliff face, marking the entrance to the Maze of Echoes. Ancient glowing runes circle the arch, pulsing with soft blue and purple magical light. Beyond the threshold, crystalline walls shimmer and refract light in dazzling prismatic patterns, reflecting infinite images into the depths. A faint magical mist hovers at the threshold. Carved warning symbols flank the entrance. The corridor beyond seems to twist and shift, promising mystery and danger. Dim natural light at the entrance contrasts with the ethereal magical glow from within.",
+      "dialogue": "",
+      "characters": [],
+      "npcs": [],
+      "monsters": [],
+      "location": "MazeEntrance",
+      "aspect_ratio": "portrait",
+      "size": "1024x1536"
+    }
+  ]
+}

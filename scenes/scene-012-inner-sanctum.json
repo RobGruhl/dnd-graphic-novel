@@ -1,0 +1,19 @@
+{
+  "page_num": 12,
+  "title": "The Shadow Sorcerer",
+  "scene_type": "establishing_shot",
+  "panel_count": 1,
+  "panels": [
+    {
+      "panel_num": 1,
+      "visual": "The inner sanctum of the Temple - a circular domed chamber with a ceiling painted with stars and constellations, now dimmed by shadow. A stone altar stands in the center. Rising behind the altar is THE SHADOW SORCERER - a tall menacing figure in flowing dark robes that seem to merge with the surrounding shadows. Face completely hidden within a deep hood, only two burning purple eyes visible in the darkness beneath. Dark magical energy crackles around outstretched hands, tendrils of shadow extending from the sorcerer toward the altar. Arms spread wide in dramatic villain pose. An evil wizard corrupted by dark magic, consumed by jealousy and a thirst for power. Four alcoves with statues of the Aspects are obscured by creeping darkness. Cold mist pools on the floor. The temple's sacred space violated by this dark presence.",
+      "dialogue": "",
+      "characters": [],
+      "npcs": [],
+      "monsters": ["Specter"],
+      "location": "TempleSanctum",
+      "aspect_ratio": "portrait",
+      "size": "1024x1536"
+    }
+  ]
+}

@@ -1,0 +1,220 @@
+{
+  "cards": [
+    {
+      "id": "warrior-01-mighty-blow",
+      "name": "Mighty Blow",
+      "aspect": "warrior",
+      "icon": "⚔",
+      "description": "A powerful attack with your weapon. Put all your strength behind it!",
+      "mechanics": "Roll d20+4 to hit, d8 damage",
+      "illustration": "A muscular arm bringing down a massive two-handed sword in a devastating overhead strike, impact sparks flying, stone cracking beneath the blow"
+    },
+    {
+      "id": "warrior-02-shield-wall",
+      "name": "Shield Wall",
+      "aspect": "warrior",
+      "icon": "🛡",
+      "description": "Raise your defenses to protect yourself or someone nearby from harm.",
+      "mechanics": "Reduce incoming damage by 5",
+      "illustration": "A tower shield raised high, arrows and spear tips deflecting off its surface with sparks, protective stance with boots planted firmly"
+    },
+    {
+      "id": "warrior-03-battle-cry",
+      "name": "Battle Cry",
+      "aspect": "warrior",
+      "icon": "📣",
+      "description": "Let out a mighty shout! Scare your enemies and inspire your allies.",
+      "mechanics": "Roll d20+3 vs Enemy Morale DC 12",
+      "illustration": "A warrior with head thrown back, mouth open in a thunderous roar, visible shockwave emanating outward, enemies recoiling in fear"
+    },
+    {
+      "id": "warrior-04-reckless-strike",
+      "name": "Reckless Strike",
+      "aspect": "warrior",
+      "icon": "⚡",
+      "description": "Attack with everything you've got! More damage, but you leave yourself open.",
+      "mechanics": "Roll d20+6 to hit, but enemies get +2 to hit you",
+      "illustration": "A wild lunging attack with weapon extended fully forward, leaving the warrior's guard completely open, desperate and powerful"
+    },
+    {
+      "id": "warrior-05-disarm",
+      "name": "Disarm",
+      "aspect": "warrior",
+      "icon": "🗡",
+      "description": "Knock the weapon right out of your enemy's hand!",
+      "mechanics": "Roll d20+3 opposed check",
+      "illustration": "A sword being twisted and knocked away from an enemy's grip, the weapon spinning through the air, hands empty and surprised"
+    },
+    {
+      "id": "warrior-06-grapple",
+      "name": "Grapple",
+      "aspect": "warrior",
+      "icon": "🤜",
+      "description": "Grab your enemy and hold them tight! They can't move while you've got them.",
+      "mechanics": "Roll d20+4 to grab, enemy can't move",
+      "illustration": "Powerful arms wrapped around an opponent in a wrestling hold, muscles straining, neither fighter able to escape the other's grip"
+    },
+    {
+      "id": "hunter-01-precise-shot",
+      "name": "Precise Shot",
+      "aspect": "hunter",
+      "icon": "🏹",
+      "description": "Take careful aim at your target. One shot, one hit.",
+      "mechanics": "Roll d20+4 to hit, d6 damage",
+      "illustration": "An arrow mid-flight, perfectly aimed, leaving a bow string still vibrating, target in the distance about to be struck"
+    },
+    {
+      "id": "hunter-02-quick-shot",
+      "name": "Quick Shot",
+      "aspect": "hunter",
+      "icon": "➡➡",
+      "description": "Fire rapidly! Less accurate, but you get two shots.",
+      "mechanics": "Roll d20+2 to hit TWICE",
+      "illustration": "Two arrows flying through the air simultaneously, rapid-fire archery, hands blurred with speed, quiver arrows depleting"
+    },
+    {
+      "id": "hunter-03-track",
+      "name": "Track",
+      "aspect": "hunter",
+      "icon": "🐾",
+      "description": "Follow trails, find footprints, discover hidden paths others would miss.",
+      "mechanics": "Roll d20+5 for tracking/investigation",
+      "illustration": "A hand pointing at animal tracks in soft earth, broken twigs, and disturbed leaves forming a trail into the forest"
+    },
+    {
+      "id": "hunter-04-sneak",
+      "name": "Sneak",
+      "aspect": "hunter",
+      "icon": "👁",
+      "description": "Move like a shadow. No one sees you coming.",
+      "mechanics": "Roll d20+4 stealth check",
+      "illustration": "A cloaked figure melting into shadows between trees, only eyes visible, guards in the background completely unaware"
+    },
+    {
+      "id": "hunter-05-trap",
+      "name": "Trap",
+      "aspect": "hunter",
+      "icon": "⚠",
+      "description": "Set a trap to catch enemies, or carefully disarm one blocking your path.",
+      "mechanics": "Roll d20+3 to set/disarm, d8 trap damage",
+      "illustration": "A rope snare being carefully set among leaves, or a bear trap being disarmed with steady hands, tension in the moment"
+    },
+    {
+      "id": "hunter-06-animal-friendship",
+      "name": "Animal Friendship",
+      "aspect": "hunter",
+      "icon": "🐺",
+      "description": "Calm a wild beast or befriend an animal. They sense your good heart.",
+      "mechanics": "Roll d20+3 vs animal's will",
+      "illustration": "A hand extended gently toward a wild wolf, the wolf's posture softening from aggressive to curious, eyes meeting with understanding"
+    },
+    {
+      "id": "arcane-01-magic-bolt",
+      "name": "Magic Bolt",
+      "aspect": "arcane",
+      "icon": "✨",
+      "description": "Blast your enemy with pure magical energy from up to 60 feet away!",
+      "mechanics": "Roll d20+4 to hit, d6 damage",
+      "illustration": "A crackling bolt of blue-white magical energy shooting from an outstretched hand, arcing toward a distant target with electric intensity"
+    },
+    {
+      "id": "arcane-02-shield-spell",
+      "name": "Shield Spell",
+      "aspect": "arcane",
+      "icon": "🔮",
+      "description": "A shimmering magical barrier appears to block an incoming attack!",
+      "mechanics": "+5 Defense for one attack",
+      "illustration": "A translucent dome of shimmering blue energy materializing just in time to deflect an incoming arrow or blade, magical runes flickering"
+    },
+    {
+      "id": "arcane-03-illusion",
+      "name": "Illusion",
+      "aspect": "arcane",
+      "icon": "🎭",
+      "description": "Create a fake image or sound to trick your enemies!",
+      "mechanics": "Roll d20+4, enemies must see through it",
+      "illustration": "A ghostly duplicate image of a person or creature shimmering into existence, slightly transparent, fooling onlookers"
+    },
+    {
+      "id": "arcane-04-telekinesis",
+      "name": "Telekinesis",
+      "aspect": "arcane",
+      "icon": "🤎",
+      "description": "Move objects with your mind! Push, pull, or lift up to 50 pounds.",
+      "mechanics": "Roll d20+3",
+      "illustration": "Objects floating in mid-air surrounded by a purple glow, an outstretched hand with fingers spread, concentration visible on face"
+    },
+    {
+      "id": "arcane-05-detect-magic",
+      "name": "Detect Magic",
+      "aspect": "arcane",
+      "icon": "🔭",
+      "description": "Your senses open to the magical world. You can feel magic within 30 feet.",
+      "mechanics": "AUTOMATIC - No roll needed",
+      "illustration": "Eyes glowing with arcane sight, magical auras visible as colored glows around enchanted objects, hidden runes revealed"
+    },
+    {
+      "id": "arcane-06-enchant",
+      "name": "Enchant",
+      "aspect": "arcane",
+      "icon": "★",
+      "description": "Temporarily infuse an item with magical power!",
+      "mechanics": "+2 bonus to one item, one use",
+      "illustration": "Hands hovering over a sword as magical energy flows into it, the blade beginning to glow with arcane runes appearing along its length"
+    },
+    {
+      "id": "divine-01-healing-light",
+      "name": "Healing Light",
+      "aspect": "divine",
+      "icon": "❤",
+      "description": "Golden light flows from your hands, healing wounds and restoring health.",
+      "mechanics": "Heal d8+2 hit points",
+      "illustration": "Warm golden light emanating from open palms, washing over a wounded ally, cuts and bruises fading, peaceful expression of relief"
+    },
+    {
+      "id": "divine-02-bless",
+      "name": "Bless",
+      "aspect": "divine",
+      "icon": "♔",
+      "description": "Grant good fortune to yourself or an ally. The gods smile upon them!",
+      "mechanics": "+2 bonus to next roll",
+      "illustration": "A hand raised in blessing, golden motes of light descending upon the blessed person, a subtle halo forming momentarily"
+    },
+    {
+      "id": "divine-03-smite",
+      "name": "Smite",
+      "aspect": "divine",
+      "icon": "⚔✨",
+      "description": "Channel holy power into your attack! Your weapon blazes with radiant light.",
+      "mechanics": "Roll d20+3 to hit, d8 radiant damage",
+      "illustration": "A weapon wreathed in brilliant golden flames, mid-swing against a shadowy foe, holy light searing the darkness"
+    },
+    {
+      "id": "divine-04-turn-undead",
+      "name": "Turn Undead",
+      "aspect": "divine",
+      "icon": "💀❌",
+      "description": "Holy light bursts from you, forcing undead creatures to flee in terror!",
+      "mechanics": "Roll d20+4 vs undead",
+      "illustration": "A radiant burst of holy light exploding outward, skeletal figures recoiling and fleeing, shadows burning away in the brilliance"
+    },
+    {
+      "id": "divine-05-protection-circle",
+      "name": "Protection Circle",
+      "aspect": "divine",
+      "icon": "⬤",
+      "description": "Draw a sacred circle on the ground. Evil creatures cannot enter!",
+      "mechanics": "Creates safe zone evil cannot enter",
+      "illustration": "A glowing golden circle inscribed on the ground with holy symbols, dark creatures pressing against an invisible barrier unable to cross"
+    },
+    {
+      "id": "divine-06-divine-guidance",
+      "name": "Divine Guidance",
+      "aspect": "divine",
+      "icon": "📜",
+      "description": "Pray for wisdom. The gods send you a vision or whisper a hint.",
+      "mechanics": "Ask the DM for one helpful clue",
+      "illustration": "A figure kneeling in prayer, a beam of light from above, a ghostly vision or symbol appearing in the light, divine wisdom descending"
+    }
+  ]
+}

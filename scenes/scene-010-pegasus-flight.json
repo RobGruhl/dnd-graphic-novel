@@ -1,0 +1,19 @@
+{
+  "page_num": 10,
+  "title": "Flight on Starwind",
+  "scene_type": "establishing_shot",
+  "panel_count": 1,
+  "panels": [
+    {
+      "panel_num": 1,
+      "visual": "High above the Whispering Valley, an aerial view from pegasus-back. STARWIND the magnificent white pegasus soars through a brilliant sunset sky, her massive 20-foot white feathered wings spread wide, coat glowing with restored celestial shimmer. Golden and orange clouds surround them at eye level. Far below, the valley landscape spreads out - the maze visible as a crystalline structure, the ruined tower, the stone bridge over the glinting river, all tiny from this height. Ahead in the distance, the Temple of Aspects with its four colored towers - but something is wrong. Unnatural darkness creeps around the Temple, the tower lights flickering weakly. Exhilarating flight mixed with growing dread. Wind and freedom and approaching danger.",
+      "dialogue": "",
+      "characters": [],
+      "npcs": ["Starwind"],
+      "monsters": [],
+      "location": "SkyFlight",
+      "aspect_ratio": "portrait",
+      "size": "1024x1536"
+    }
+  ]
+}

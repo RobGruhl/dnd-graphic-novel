@@ -1,0 +1,19 @@
+{
+  "page_num": 1,
+  "title": "The Temple of Aspects",
+  "scene_type": "establishing_shot",
+  "panel_count": 1,
+  "panels": [
+    {
+      "panel_num": 1,
+      "visual": "Wide establishing shot of the Temple of Aspects courtyard on the Day of Choosing. Four magnificent stone pillars dominate the courtyard, each glowing with its Aspect color - red (warrior), green (hunter), blue (arcane), and gold (divine). The ancient temple rises behind with four matching colored towers. Colorful festival banners flutter in the morning breeze. Nervous young candidates mill about in the courtyard, watched by guards in ceremonial armor. The Elder stands before the temple doors in shimmering robes. The morning sun casts long shadows across the white marble courtyard. Sacred and ceremonial atmosphere filled with anticipation.",
+      "dialogue": "",
+      "characters": [],
+      "npcs": ["TheElder"],
+      "monsters": [],
+      "location": "TempleCourtyard",
+      "aspect_ratio": "portrait",
+      "size": "1024x1536"
+    }
+  ]
+}

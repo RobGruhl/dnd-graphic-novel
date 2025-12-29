@@ -1,0 +1,19 @@
+{
+  "page_num": 4,
+  "title": "The Goblin Ambush",
+  "scene_type": "establishing_shot",
+  "panel_count": 1,
+  "panels": [
+    {
+      "panel_num": 1,
+      "visual": "A wide clearing with a crumbling stone watchtower about 30 feet high at the far side. Three GOBLIN WARRIORS crouch on top of the tower ruins, cackling as they fire arrows down at a colorful merchant wagon pinned in the clearing. Arrows thud into the wagon's wood. Below near the tower base, a GOBLIN BOSS and another goblin creep toward the wagon with drawn scimitars. A grey-bearded merchant (Garrett) cowers behind his wagon wheel, terrified, his draft horse panicking nearby. Scattered trade goods - fabric bolts, crates - lie around the wagon. Bright daylight fills the clearing. Action and chaos captured mid-moment.",
+      "dialogue": "",
+      "characters": [],
+      "npcs": ["GarrettHiding"],
+      "monsters": ["GoblinWarrior", "GoblinBoss"],
+      "location": "TowerRuins",
+      "aspect_ratio": "portrait",
+      "size": "1024x1536"
+    }
+  ]
+}

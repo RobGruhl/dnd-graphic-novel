@@ -1,0 +1,42 @@
+{
+  "warrior": {
+    "aspect_name": "Warrior",
+    "color_palette": "Deep crimson red, bronze, iron gray, blood orange accents",
+    "border_style": "Heavy iron frame with riveted corners, crossed swords motif at top, chain mail texture in border",
+    "background": "Smoky battlefield with distant flames, weathered stone arena, banners of war",
+    "icon_style": "Bold weapon silhouettes, sharp angular shapes, battle-worn metal textures",
+    "typography": "Heavy bold medieval blackletter, engraved into metal plate",
+    "card_texture": "Hammered bronze metal surface with battle scars and dents",
+    "accent_elements": "Sparks, embers, claw marks, sword nicks in the frame"
+  },
+  "hunter": {
+    "aspect_name": "Hunter",
+    "color_palette": "Forest green, earth brown, moss, amber accents, silver moonlight",
+    "border_style": "Twisted vines and branches forming the frame, leaf motifs, animal tracks carved into wood",
+    "background": "Misty forest clearing, moonlit woodland path, undergrowth and ferns",
+    "icon_style": "Nature silhouettes, flowing organic curves, feathers and fur textures",
+    "typography": "Elegant woodland script carved into bark, flowing natural letters",
+    "card_texture": "Weathered leather and aged wood grain, natural imperfections",
+    "accent_elements": "Paw prints, arrow fletching, owl feathers, glowing animal eyes in shadows"
+  },
+  "arcane": {
+    "aspect_name": "Arcane",
+    "color_palette": "Deep sapphire blue, purple, silver, crackling electric cyan accents",
+    "border_style": "Geometric arcane runes forming the frame, crystalline edges, floating mystical symbols",
+    "background": "Swirling cosmic void, star fields, magical energy streams, ancient library shelves",
+    "icon_style": "Geometric magical symbols, glowing runes, crystalline structures, ethereal wisps",
+    "typography": "Elegant arcane script with glowing edges, magical symbols integrated into letters",
+    "card_texture": "Polished obsidian with veins of glowing blue energy, crystal facets",
+    "accent_elements": "Floating runes, magical sparkles, energy arcs, mystical eye symbols"
+  },
+  "divine": {
+    "aspect_name": "Divine",
+    "color_palette": "Radiant gold, warm white, cream, rose gold accents, holy light",
+    "border_style": "Ornate cathedral frame with pointed arches, angelic wings, sun ray patterns",
+    "background": "Heavenly clouds bathed in golden light, stained glass cathedral, sunrise on mountaintop",
+    "icon_style": "Sacred symbols, radiant halos, soft glowing edges, holy geometric patterns",
+    "typography": "Illuminated manuscript style with gold leaf, decorative holy script",
+    "card_texture": "Burnished gold leaf over vellum, soft radiant glow emanating from surface",
+    "accent_elements": "Light rays, floating motes of golden light, dove feathers, sacred geometry"
+  }
+}

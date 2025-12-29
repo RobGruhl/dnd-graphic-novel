@@ -1,0 +1,19 @@
+{
+  "page_num": 11,
+  "title": "Temple Under Shadow",
+  "scene_type": "establishing_shot",
+  "panel_count": 1,
+  "panels": [
+    {
+      "panel_num": 1,
+      "visual": "The Temple of Aspects courtyard transformed by dark magic. The once-bright courtyard is now cold and dark. The four colored pillars are cracked, their lights flickering weakly. Festival banners hang torn and tattered. Ceremonial items lie scattered and broken. Unnatural cold mist seeps from the temple doors which hang ominously open. THE ELDER - a kind-faced elderly man with a long white beard, wearing warm burgundy and gold ceremonial robes - stands weakened near the entrance, leaning against a cracked pillar for support. His face shows exhaustion and worry but remains gentle and grandfatherly. One weathered hand reaches out pleadingly toward the viewer. The colored tower lights flicker like dying candles. Frost creeps across the white marble. A sacred place in need of a hero.",
+      "dialogue": "",
+      "characters": [],
+      "npcs": ["ElderWeakened"],
+      "monsters": [],
+      "location": "CorruptedTemple",
+      "aspect_ratio": "portrait",
+      "size": "1024x1536"
+    }
+  ]
+}

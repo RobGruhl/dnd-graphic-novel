@@ -1,0 +1,19 @@
+{
+  "page_num": 8,
+  "title": "A Friend in Need",
+  "scene_type": "establishing_shot",
+  "panel_count": 1,
+  "panels": [
+    {
+      "panel_num": 1,
+      "visual": "A small hidden alcove behind a cracked crystal column in the maze. Curled up in the alcove is PIP, a tiny cat-sized pseudodragon with beautiful reddish-brown scales and iridescent bat-like wings. One wing is bent at a painful wrong angle. Pip looks up with enormous frightened amber eyes full of fear and hope. Around the tiny dragon is a nest of soft moss and fabric scraps, surrounded by a collection of small treasures - shiny stones, a lost coin, a broken crystal shard. Soft reflected light from maze crystals illuminates this secret sanctuary. A creature in need of kindness.",
+      "dialogue": "",
+      "characters": [],
+      "npcs": ["PipInjured"],
+      "monsters": [],
+      "location": "PseudodragonAlcove",
+      "aspect_ratio": "portrait",
+      "size": "1024x1536"
+    }
+  ]
+}

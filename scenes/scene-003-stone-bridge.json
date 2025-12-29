@@ -1,0 +1,19 @@
+{
+  "page_num": 3,
+  "title": "The Beast at the Bridge",
+  "scene_type": "establishing_shot",
+  "panel_count": 1,
+  "panels": [
+    {
+      "panel_num": 1,
+      "visual": "An ancient moss-covered stone bridge spanning a rushing river with white rapids below. Standing in the middle of the bridge is a massive DIRE WOLF the size of a horse, silver-grey fur bristling, blocking the only path forward. One of its front legs is wrapped in crackling dark purple-black energy - a visible curse causing it pain. The wolf snarls defensively, amber eyes clouded with pain and fear, not malice. Dappled forest light filters through, sunlight glinting off the rushing water below. The bridge is crumbling at the edges, clearly ancient. Dense forest presses close on both ends of the bridge.",
+      "dialogue": "",
+      "characters": [],
+      "npcs": [],
+      "monsters": ["DireWolfCursed"],
+      "location": "StoneBridge",
+      "aspect_ratio": "portrait",
+      "size": "1024x1536"
+    }
+  ]
+}

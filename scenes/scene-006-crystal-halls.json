@@ -1,0 +1,19 @@
+{
+  "page_num": 6,
+  "title": "The Crystal Halls",
+  "scene_type": "establishing_shot",
+  "panel_count": 1,
+  "panels": [
+    {
+      "panel_num": 1,
+      "visual": "A corridor of shimmering crystal walls that reflect and refract light in dazzling prismatic patterns. The floor is paved with glowing tiles in red, green, blue, and gold - the Aspect colors - some tiles raised, others sunken, creating a shifting puzzle pattern. Multiple reflections stretch in every direction, some showing the true path, others illusions hiding danger. Floating motes of magical light drift through the air. The ceiling is lost in reflected brilliance. Colors shift and dance with no clear light source. A disorienting but beautiful magical labyrinth.",
+      "dialogue": "",
+      "characters": [],
+      "npcs": [],
+      "monsters": [],
+      "location": "MazeCrystalHalls",
+      "aspect_ratio": "portrait",
+      "size": "1024x1536"
+    }
+  ]
+}

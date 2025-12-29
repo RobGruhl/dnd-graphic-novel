@@ -1,0 +1,19 @@
+{
+  "page_num": 2,
+  "title": "The Whispering Valley",
+  "scene_type": "establishing_shot",
+  "panel_count": 1,
+  "panels": [
+    {
+      "panel_num": 1,
+      "visual": "Sweeping vista of the Whispering Valley stretching out from the Temple gates. An ancient stone path winds through varied mystical terrain - misty meadows, dark forests, distant ruins, and a glinting river. Carved waymarker stones with glowing Aspect symbols line the path. Light mist curls along the ground, making the valley seem alive with magic. The four colored towers of the Temple are visible behind, growing smaller in the distance. Ahead, the path disappears into mystery and adventure. Filtered daylight through high clouds creates patches of light and shadow across the landscape.",
+      "dialogue": "",
+      "characters": [],
+      "npcs": [],
+      "monsters": [],
+      "location": "WhisperingValley",
+      "aspect_ratio": "portrait",
+      "size": "1024x1536"
+    }
+  ]
+}

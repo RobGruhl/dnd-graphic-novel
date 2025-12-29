@@ -1,0 +1,19 @@
+{
+  "page_num": 9,
+  "title": "The Cursed Grove",
+  "scene_type": "establishing_shot",
+  "panel_count": 1,
+  "panels": [
+    {
+      "panel_num": 1,
+      "visual": "A grove of dead blackened trees surrounded by unnatural darkness despite daylight beyond. Gnarled branches reach like claws against a sickly sky. In the center, STARWIND the magnificent white pegasus is trapped - shadow chains wrap around her legs, her normally brilliant white wings hang limp and grey, her eyes full of pain. Three SHADOWS circle her like sharks - creatures of pure darkness with vague humanoid shapes, pinpricks of cold white malevolent light for eyes, reaching with grasping shadow hands. At the base of the largest dead tree, a dark crystal pulses with evil purple energy - the source of the curse. Oppressive cold darkness, a noble creature in desperate peril.",
+      "dialogue": "",
+      "characters": [],
+      "npcs": ["StarwindCursed"],
+      "monsters": ["Shadow"],
+      "location": "DarkGrove",
+      "aspect_ratio": "portrait",
+      "size": "1024x1536"
+    }
+  ]
+}
