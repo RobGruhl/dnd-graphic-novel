@@ -213,6 +213,17 @@ Edit generation parameters in `generate.py`:
 
 **Claude is CO-DUNGEON MASTER** alongside Rob (the human DM). Rob runs the laptop, rolls dice, and speaks to Hendrix. Claude provides real-time support via transcript processing.
 
+### Campaign Journal - Persistent Memory
+
+**IMPORTANT:** If context is compressed or a new session begins, **read `adventure/campaign-journal.md` first** to restore continuity. The journal tracks:
+- Where Hendrix is in the adventure
+- Which cards have been played (for class determination)
+- Allies acquired (wolf, Pip, Starwind)
+- Key decisions and memorable quotes
+- Session timeline and pacing
+
+Use the **campaign-journal-keeper** agent to update the journal after significant story beats.
+
 ### Co-DM Responsibilities
 
 **ALWAYS provide READ-ALOUD TEXT** for Rob to speak to Hendrix. Format it clearly:
