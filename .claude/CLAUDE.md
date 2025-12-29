@@ -248,7 +248,7 @@ The **dnd-image-generator** agent creates images on-demand during play:
 - Uses Gemini 3 Pro Image (nanobanana pro)
 - Pulls descriptions from `characters.json`, `locations.json`, `monsters.json`
 - Saves to `output/campaign-images/` with timestamp filenames
-- 2:3 portrait aspect ratio
+- **16:10 landscape aspect ratio** (fills MacBook screen for showing Hendrix)
 - **Automatically opens the image in Chrome** after generation
 
 Example: "Make an image of Hendrix facing down the dire wolf on the bridge"

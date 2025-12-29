@@ -70,7 +70,7 @@
     "role": "Rescued Companion",
     "full_description": "A cat-sized dragon with reddish-brown scales and iridescent bat-like wings. Large expressive eyes full of intelligence and emotion. Found injured in the maze, becomes a loyal companion when shown kindness. Communicates through emotion rather than words.",
     "description_components": {
-      "head_face": "Small dragon head with large expressive amber eyes, tiny horns, snout like a cat, intelligent curious expression",
+      "head_face": "Small DRAGON head with large expressive amber eyes, tiny curved horns, elongated reptilian snout with small nostrils, intelligent curious expression - this is a dragon not a cat",
       "body_build": "Cat-sized dragon body covered in reddish-brown scales, sinuous and graceful, long neck and tail",
       "armor_clothing": "Natural scales in warm reddish-brown tones, iridescent sheen catching light, no clothing or adornment",
       "accessories": "Bat-like wings folded or spread, long tail ending in venomous stinger (only used to help friends), small clawed feet for perching on shoulders"

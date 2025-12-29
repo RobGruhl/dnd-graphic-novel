@@ -140,10 +140,10 @@ def generate_campaign_image(prompt: str, description: str) -> str:
     filename = f"{timestamp}_{safe_description}.png"
     filepath = OUTPUT_DIR / filename
 
-    # Generate image with 2:3 portrait aspect ratio
+    # Generate image with 16:10 landscape aspect ratio (matches MacBook screen)
     config = types.GenerateContentConfig(
         response_modalities=['Image'],
-        image_config=types.ImageConfig(aspect_ratio='2:3')
+        image_config=types.ImageConfig(aspect_ratio='16:10')
     )
 
     response = client.models.generate_content(
@@ -215,17 +215,17 @@ Save to: `output/campaign-images/`
 | Setting | Value |
 |---------|-------|
 | Model | `gemini-3-pro-image-preview` (nanobanana pro) |
-| Aspect Ratio | `2:3` (portrait) |
+| Aspect Ratio | `16:10` (landscape, matches MacBook screen) |
 | API Method | `client.models.generate_content()` with `response_modalities=['Image']` |
 | Output Dir | `output/campaign-images/` |
 
 ## Quality Guidelines
 
 1. **Always check databases first** - Look up characters, locations, monsters before generating
-2. **Use 2:3 portrait ratio** - Full page illustrations
+2. **Use 16:10 landscape ratio** - Fills MacBook screen for showing players
 3. **Fantasy aesthetic** - Bold ink line art, vibrant colors, comic book style
 4. **No modern elements** - Medieval fantasy only
-5. **Frame dramatically** - Cinematic composition enhances storytelling
+5. **Frame dramatically** - Cinematic widescreen composition enhances storytelling
 
 ## Response Format
 
