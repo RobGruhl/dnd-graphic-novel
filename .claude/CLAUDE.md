@@ -238,8 +238,23 @@ The **dnd-image-generator** agent creates images on-demand during play:
 - Pulls descriptions from `characters.json`, `locations.json`, `monsters.json`
 - Saves to `output/campaign-images/` with timestamp filenames
 - 2:3 portrait aspect ratio
+- **Automatically opens the image in Chrome** after generation
 
 Example: "Make an image of Hendrix facing down the dire wolf on the bridge"
+
+### Displaying Scene Images
+
+As the adventure progresses, **open scene images in Chrome** for Hendrix to see:
+
+```bash
+open -a "Google Chrome" output/scene_panels/IMAGE_NAME.png
+```
+
+Proactively display relevant images when:
+- Entering a new location (show establishing shot)
+- Starting a trial (show trial image)
+- Beginning tutorial pillars (show pillar image)
+- Dramatic moments warrant visualization
 
 ### Equipment Checklist
 - [ ] Blue Yeti microphone (set to **interview mode**)

@@ -115,6 +115,7 @@ def assemble_prompt(scene_description, characters=None, location=None, monsters=
 
 ```python
 import os
+import subprocess
 import datetime
 from pathlib import Path
 from dotenv import load_dotenv
@@ -155,10 +156,24 @@ def generate_campaign_image(prompt: str, description: str) -> str:
     for part in response.parts:
         if image := part.as_image():
             image.save(str(filepath))
+
+            # Open image in Chrome for immediate viewing
+            subprocess.run(['open', '-a', 'Google Chrome', str(filepath)])
+
             return str(filepath)
 
     raise Exception("No image generated in response")
 ```
+
+### Step 4: Open in Browser
+
+After saving, **always open the image in Chrome** so the DM can immediately show it to the player:
+
+```bash
+open -a "Google Chrome" /path/to/image.png
+```
+
+This displays the generated image in a new browser tab for immediate use during the session.
 
 ## Complete Example
 
