@@ -1,12 +1,172 @@
 {
-  "ExampleLocation": {
-    "name": "The Rusty Tankard Tavern",
-    "full_description": "A cozy medieval tavern with warm lighting and rough-hewn wooden beams. The common room is filled with round tables, and a large stone fireplace dominates one wall. Adventurers and locals mingle over mugs of ale.",
+  "HendrixRoom": {
+    "name": "Hendrix's Bedroom",
+    "full_description": "A cozy bedroom in a village home, morning sunlight streaming through a small window. Simple but comfortable furnishings, with personal treasures and keepsakes on shelves. The bed is rumpled from sleep, and adventure awaits beyond the door.",
     "description_components": {
-      "architecture": "Two-story timber-frame building, thatched roof, small diamond-paned windows, creaky wooden floorboards",
-      "atmosphere": "Warm and welcoming, filled with conversation and laughter, smell of roasting meat and spilled ale",
-      "lighting": "Warm golden light from oil lamps and crackling fireplace, shadows dancing in corners",
-      "key_features": "Large stone fireplace with iron cooking pot, long wooden bar with brass taps, mounted hunting trophies on walls"
+      "architecture": "Small cozy room in a timber-frame village house, rough plastered walls, wooden beamed ceiling, single window with wooden shutters",
+      "atmosphere": "Warm morning light, dust motes dancing in sunbeams, sense of anticipation and excitement",
+      "lighting": "Golden morning sunlight streaming through window, warm ambient glow",
+      "key_features": "Simple wooden bed with wool blanket, small wooden chest for belongings, shelf with treasured keepsakes, worn rug on wooden floor"
+    }
+  },
+  "VillageStreet": {
+    "name": "Village Street on Choosing Day",
+    "full_description": "A bustling medieval village street on a special festival day. Villagers have paused their work to watch young candidates walk toward the Temple. Colorful banners flutter from buildings, and the atmosphere is charged with excitement and anticipation.",
+    "description_components": {
+      "architecture": "Cobblestone street lined with timber-frame buildings, thatched roofs, merchant stalls, village well in small square",
+      "atmosphere": "Festive excitement, proud villagers watching, children pointing and whispering, sense of ceremony and tradition",
+      "lighting": "Bright morning sunlight, clear blue sky, shadows cast by buildings",
+      "key_features": "Colorful festival banners in red green blue and gold, villagers lining the street, flower petals scattered on cobblestones, Temple visible in distance"
+    }
+  },
+  "TempleCourtyard": {
+    "name": "Temple of Aspects - Courtyard",
+    "full_description": "A sacred stone courtyard before an ancient temple with four colored towers. Young candidates gather nervously while guards stand at attention. Four glowing pillars pulse with magical energy - red, green, blue, and gold - representing the four Aspects of Power.",
+    "description_components": {
+      "architecture": "Circular stone courtyard of white marble, ancient temple facade with four towers each a different color (red green blue gold), ornate stone archways, ceremonial steps leading to temple doors",
+      "atmosphere": "Sacred and ancient, magical energy humming in air, nervous excitement of candidates, solemn ceremony about to begin",
+      "lighting": "Bright daylight with mystical glow emanating from four colored pillars, each pillar casting light in its color",
+      "key_features": "Four glowing stone pillars (red warrior green hunter blue arcane gold divine), ancient temple doors carved with symbols, colorful banners matching tower colors, ceremonial guards in gleaming armor"
+    }
+  },
+  "TempleSanctum": {
+    "name": "Temple of Aspects - Inner Sanctum",
+    "full_description": "The sacred heart of the Temple - a circular domed chamber with a ceiling painted with stars and constellations. A stone altar stands in the center. In times of peace, this room glows with divine light; when corrupted by shadow, it becomes dark and menacing.",
+    "description_components": {
+      "architecture": "Circular domed chamber of polished white stone, high vaulted ceiling painted with stars and constellations, tall narrow windows, stone altar in center",
+      "atmosphere": "Sacred and powerful, normally filled with divine light, can shift to ominous when corrupted by shadow magic",
+      "lighting": "Variable - normally soft divine glow from ceiling stars, or corrupted with unnatural darkness and cold shadow mist",
+      "key_features": "Central stone altar with ancient runes, domed ceiling painted with stars and constellations, four alcoves with statues representing the Aspects, tall ceremonial candles"
+    }
+  },
+  "WhisperingValley": {
+    "name": "The Whispering Valley",
+    "full_description": "A misty valley stretching out from the Temple, where the Trials of Choosing take place. Ancient paths wind through varied terrain - from peaceful meadows to dark forests. The valley seems to shift and change, responding to the magic of the Choosing.",
+    "description_components": {
+      "architecture": "Natural valley landscape, ancient stone path winding through terrain, occasional waymarker stones carved with Aspect symbols",
+      "atmosphere": "Mystical and ever-changing, light mist curling along ground, sense of being tested and watched",
+      "lighting": "Filtered daylight through high clouds, patches of sunlight and shadow, mist diffusing light",
+      "key_features": "Winding ancient stone path, carved waymarker stones, varied terrain visible ahead (bridge river forest ruins grove), distant Temple towers visible behind"
+    }
+  },
+  "StoneBridge": {
+    "name": "The Stone Bridge",
+    "full_description": "An ancient moss-covered stone bridge spanning a rushing river. The bridge is the only crossing point, making it a natural chokepoint. A large cursed dire wolf guards the bridge, wounded and in pain, lashing out at any who approach.",
+    "description_components": {
+      "architecture": "Ancient stone arch bridge, moss-covered stones, crumbling edges, weathered carvings on railings, single span over rushing water",
+      "atmosphere": "Tense confrontation, sound of rushing water below, wounded animal in pain and fear, sense of danger and choice",
+      "lighting": "Dappled forest light, sunlight glinting off rushing water, shadows under bridge arch",
+      "key_features": "Moss-covered stone bridge with low walls, rushing river with white rapids below, steep banks on either side, forest pressing close on both ends"
+    }
+  },
+  "TowerRuins": {
+    "name": "The Ruined Tower",
+    "full_description": "Crumbling ruins of an ancient watchtower, about 30 feet high, overlooking a wide clearing. Goblin archers have claimed the high ground and are firing down at a trapped merchant wagon. Broken walls provide cover, and a half-collapsed stairway leads up.",
+    "description_components": {
+      "architecture": "Ruined stone watchtower 30 feet tall, crumbling walls with arrow slits, half-collapsed spiral stairway inside, scattered rubble, partial roof remaining",
+      "atmosphere": "Active combat zone, arrows flying, shouts and cries, merchant in peril, tactical challenge",
+      "lighting": "Bright daylight in clearing, shadows within tower ruins, dust and debris in air",
+      "key_features": "Crumbling tower with goblin archers on top, wide clearing with trapped merchant wagon, scattered stone rubble for cover, collapsed wall sections creating entry points"
+    }
+  },
+  "MerchantWagon": {
+    "name": "Garrett's Merchant Wagon",
+    "full_description": "A sturdy traveling merchant's wagon, painted in cheerful colors, now riddled with goblin arrows. A grey-bearded merchant cowers behind it for cover. Scattered trade goods lie around - fabrics, tools, provisions - evidence of a prosperous journey interrupted.",
+    "description_components": {
+      "architecture": "Four-wheeled wooden merchant wagon with canvas cover, painted panels depicting trade symbols, wooden chests and crates lashed to sides",
+      "atmosphere": "Desperate shelter under attack, arrows thudding into wood, frightened but hopeful merchant, scattered valuable goods",
+      "lighting": "Bright clearing light, wagon casting shadow providing cover, dust kicked up by arrows",
+      "key_features": "Colorful painted wagon riddled with arrows, canvas cover torn, trade goods scattered (fabric bolts weapon crates food barrels), draft horse cowering nearby"
+    }
+  },
+  "MazeEntrance": {
+    "name": "Entrance to the Enchanted Maze",
+    "full_description": "A dark archway carved into a cliff face, marking the entrance to the Maze of Echoes. Ancient runes glow faintly around the arch. Beyond, crystalline walls shimmer with magical light, reflecting infinite images and hiding the true path.",
+    "description_components": {
+      "architecture": "Carved stone archway in natural cliff face, ancient runes etched around arch, crystal-lined corridor visible beyond, no visible exit",
+      "atmosphere": "Mysterious and magical, humming with arcane energy, sense of puzzle and challenge, faint sounds echoing from within",
+      "lighting": "Dim natural light at entrance, magical glow from runes, prismatic light refracting from crystal walls within",
+      "key_features": "Stone archway with glowing runes, crystalline walls beyond reflecting light and images, carved warning symbols, faint magical mist at threshold"
+    }
+  },
+  "MazeCrystalHalls": {
+    "name": "The Crystal Halls of the Maze",
+    "full_description": "A corridor of shimmering crystal walls that reflect and refract light in dazzling patterns. Multiple reflections of the traveler stretch in every direction. Some reflections show the truth; others are illusions hiding danger.",
+    "description_components": {
+      "architecture": "Corridor with walls of magical crystal, floor of polished stone tiles in colored patterns, ceiling lost in reflected light, multiple branching paths",
+      "atmosphere": "Disorienting and beautiful, magical energy pulsing through crystals, sense of being watched by own reflections, puzzle to be solved",
+      "lighting": "Prismatic magical light refracting through crystals, colors shifting and dancing, no clear light source, shadows moving unexpectedly",
+      "key_features": "Crystalline walls reflecting infinite images, colored floor tiles that may shift or trap, floating motes of magical light, false passages and real ones"
+    }
+  },
+  "MazeSwordRoom": {
+    "name": "The Sword Guardian Chamber",
+    "full_description": "A circular chamber within the maze where three enchanted swords float on pedestals. When the center is crossed, the swords animate and attack. A control crystal glows in the high ceiling, the key to disabling the guardians.",
+    "description_components": {
+      "architecture": "Circular stone chamber with domed ceiling, three stone pedestals arranged in triangle, single entrance and exit, crystal embedded in ceiling center",
+      "atmosphere": "Deadly trap room, tension before triggering, magical energy crackling, weapons poised to strike",
+      "lighting": "Faint glow from floating swords, control crystal pulsing with blue light above, dim ambient magical light",
+      "key_features": "Three floating enchanted swords on pedestals, central trigger zone on floor, glowing control crystal in ceiling, scorch marks and old damage on walls from past battles"
+    }
+  },
+  "MazeRiddleDoor": {
+    "name": "The Riddle Door",
+    "full_description": "A massive stone door carved with mysterious symbols blocks the path. When approached, a hollow voice speaks a riddle. The door only opens when the correct answer is spoken. Beyond lies the final chamber of the maze.",
+    "description_components": {
+      "architecture": "Massive stone door 10 feet tall, carved with map-like symbols and ancient runes, no visible handle or mechanism, recessed into crystalline wall",
+      "atmosphere": "Ancient puzzle guardian, echoing voice, sense of ancient wisdom testing the worthy",
+      "lighting": "Symbols on door glow faintly when riddle is spoken, otherwise dim magical ambient light",
+      "key_features": "Carved stone door with map and geographical symbols, speaking face carved in stone above door, runes that glow when riddle activates, smooth floor worn by ancient footsteps"
+    }
+  },
+  "PseudodragonAlcove": {
+    "name": "Hidden Alcove - Pip's Refuge",
+    "full_description": "A small hidden alcove behind a cracked crystal column in the maze. A tiny injured pseudodragon has taken shelter here, its wing bent at a wrong angle. Tiny treasures - shiny stones, a lost coin, a broken crystal - surround its makeshift nest.",
+    "description_components": {
+      "architecture": "Small natural alcove behind cracked crystal column, just large enough for a cat-sized creature, partially hidden from main path",
+      "atmosphere": "Secret hiding spot, injured creature in need, opportunity for compassion, potential friendship",
+      "lighting": "Dim reflected light from maze crystals, soft glow from pseudodragon's scales",
+      "key_features": "Cracked crystal column partially concealing entrance, nest of soft moss and fabric scraps, tiny treasure collection of shiny objects, injured pseudodragon with bent wing"
+    }
+  },
+  "DarkGrove": {
+    "name": "The Cursed Grove",
+    "full_description": "A grove of dead trees surrounded by unnatural darkness despite the daylight. Shadows move with malevolent purpose around a trapped pegasus. A dark crystal pulses with evil energy at the base of the largest dead tree, source of the corruption.",
+    "description_components": {
+      "architecture": "Natural grove of ancient trees now dead and blackened, gnarled branches reaching like claws, ground covered in dead leaves, largest tree in center",
+      "atmosphere": "Oppressive darkness, cold malevolent energy, noble creature in peril, shadows moving with purpose, evil to be defeated",
+      "lighting": "Unnatural darkness despite daylight, sickly purple glow from curse crystal, shadows deeper than they should be, light seeming to avoid the area",
+      "key_features": "Dead blackened trees with claw-like branches, cursed pegasus bound by shadow chains, circling shadows with malevolent eyes, pulsing dark crystal at base of largest tree"
+    }
+  },
+  "SkyFlight": {
+    "name": "Flight on Starwind",
+    "full_description": "High above the Whispering Valley, riding on the back of a magnificent pegasus. The wind rushes past as the world spreads out below - the maze, the tower, the bridge, all visible from above. The Temple appears ahead, but something is wrong - darkness surrounds it.",
+    "description_components": {
+      "architecture": "Open sky view, landscape visible far below, clouds at eye level, Temple towers in distance",
+      "atmosphere": "Exhilarating flight, freedom and wonder, wind rushing past, but growing dread as darkness around Temple becomes visible",
+      "lighting": "Bright sunset sky with golden and orange clouds, world below in shadow, Temple towers dimmed by unnatural darkness",
+      "key_features": "Pegasus wings spread wide in flight, valley landscape visible below, clouds and open sky around, Temple with four towers ahead surrounded by creeping shadow"
+    }
+  },
+  "CorruptedTemple": {
+    "name": "Temple Under Shadow",
+    "full_description": "The Temple of Aspects transformed by dark magic. The courtyard where the ceremony began is now cold and dark. Banners are torn, pillars cracked, and an unnatural mist seeps from the temple doors. The beloved NPC is trapped within.",
+    "description_components": {
+      "architecture": "Same temple courtyard but corrupted - cracked pillars, torn banners, shattered ceremonial items, temple doors hanging open",
+      "atmosphere": "Sacred place violated, cold dread, urgency to save loved one, final confrontation approaching",
+      "lighting": "Dim and sickly, colored tower lights flickering weakly, cold mist diffusing what light remains, unnatural darkness pooling in corners",
+      "key_features": "Cracked and dimmed aspect pillars, torn colorful banners, cold mist seeping from temple doors, scattered ceremonial items, frightened Elder at entrance"
+    }
+  },
+  "ShadowHalls": {
+    "name": "Temple Shadow Halls",
+    "full_description": "The corridors of the Temple, once bright and sacred, now filled with creeping shadow and echoes of past trials. Ghost images of the challenges faced earlier appear - shadow wolves, goblin spirits, maze echoes - testing the hero one final time.",
+    "description_components": {
+      "architecture": "Temple interior corridors, high ceilings with sacred carvings, now obscured by shadow, floor tiles in Aspect colors now dim",
+      "atmosphere": "Haunted reflection of the journey, echoes of past trials, determination to reach the sanctum, everything faced before returning",
+      "lighting": "Deep shadows with occasional flickers of colored light from Aspect symbols, ghostly glow from apparitions",
+      "key_features": "Long corridor toward inner sanctum, ghostly echoes of trial creatures, flickering Aspect symbols on walls, sanctum doors visible at far end"
     }
   }
 }

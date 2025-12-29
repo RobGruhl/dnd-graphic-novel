@@ -1,0 +1,156 @@
+{
+  "DireWolfCursed": {
+    "name": "Cursed Dire Wolf",
+    "role": "Trial 1 Guardian / Potential Ally",
+    "full_description": "An enormous wolf the size of a horse, thick silver-grey fur matted with pain. One front leg is wrapped in crackling dark energy - a visible curse causing agony. Intelligent pack-hunter eyes show fear and pain, not malice. Snarling defensively, blocking the bridge.",
+    "description_components": {
+      "head_face": "Massive wolf head with silver-grey fur, intelligent amber eyes clouded with pain, bared fangs in defensive snarl, ears flat against skull",
+      "body_build": "Enormous wolf size of a horse, powerful but trembling with pain, thick grey fur matted and dirty, favoring injured leg",
+      "distinguishing_features": "Dark purple-black energy crackling around one front leg like chains of shadow, visible wound beneath the curse, foam at mouth from pain",
+      "pose_behavior": "Blocking stone bridge, hackles raised, snarling but backing up when approached, limping on cursed leg, desperate rather than aggressive"
+    }
+  },
+  "DireWolfHostile": {
+    "name": "Dire Wolf (Attacking)",
+    "role": "Combat Encounter",
+    "full_description": "The same enormous cursed wolf now in full attack mode. Leaping with jaws wide, claws extended. Despite the curse causing pain, fighting to protect itself. A tragic enemy that could have been an ally.",
+    "description_components": {
+      "head_face": "Massive wolf jaws wide open revealing rows of teeth, amber eyes wild with pain and fury, saliva flying",
+      "body_build": "Enormous wolf mid-leap, muscles coiled for attack, grey fur bristling, cursed leg trailing dark energy",
+      "distinguishing_features": "Same curse on leg now leaving dark trail in air as wolf attacks, teeth as long as fingers, claws extended",
+      "pose_behavior": "Leaping attack, jaws aimed to bite, body stretched in motion, powerful and terrifying despite injury"
+    }
+  },
+  "GoblinWarrior": {
+    "name": "Goblin Warrior",
+    "role": "Trial 2 Enemy",
+    "full_description": "A small green-skinned goblin with large pointed ears and a long nose. Yellow eyes gleaming with cruel mischief. Wearing scrappy leather armor, armed with scimitar and shield. Sneering from atop the ruined tower, firing arrows at helpless travelers.",
+    "description_components": {
+      "head_face": "Small head with green warty skin, oversized pointed ears, long hooked nose, yellow eyes with slit pupils, sneering gap-toothed grin",
+      "body_build": "Small wiry frame about 3 feet tall, lean and quick, green skin visible between armor pieces",
+      "distinguishing_features": "Yellow eyes catching torchlight, large ears twitching, leather armor decorated with crude trophies, shortbow in hands",
+      "pose_behavior": "Crouched on tower ruins drawing bow, cackling while firing at merchant below, looking for next target"
+    }
+  },
+  "GoblinWarriorMelee": {
+    "name": "Goblin Warrior (Melee)",
+    "role": "Ground Combat",
+    "full_description": "The same goblin now in close combat, scimitar drawn and shield raised. Moving with surprising speed, trying to flank and strike from behind. Cowardly but dangerous in groups.",
+    "description_components": {
+      "head_face": "Same green goblin face, yellow eyes darting for advantage, tongue licking lips, teeth bared in anticipation",
+      "body_build": "Same small wiry frame in fighting crouch, weight balanced to dodge",
+      "distinguishing_features": "Curved scimitar raised to strike, battered wooden shield with crude symbol, leather armor showing patches and repairs",
+      "pose_behavior": "Crouched low moving to flank, scimitar ready for quick slash, eyes watching for opening"
+    }
+  },
+  "GoblinBoss": {
+    "name": "Goblin Boss",
+    "role": "Trial 2 Leader",
+    "full_description": "A larger and more cunning goblin with dark green skin. Oversized ears draped with crude jewelry, yellowed teeth in a cruel grin. Wearing slightly better scavenged armor decorated with trophies from fallen foes. Commands lesser goblins while staying safely behind them.",
+    "description_components": {
+      "head_face": "Larger goblin head with dark green skin, oversized ears with bone piercings, yellowed teeth in permanent cruel grin, calculating yellow eyes",
+      "body_build": "Bigger than regular goblins at nearly 4 feet, still lean but more muscular, dark green skin scarred from old fights",
+      "distinguishing_features": "Better quality chain shirt scavenged from fallen warrior, trophy belt with bones and coins, crude crown of bent metal, scimitar with notched blade",
+      "pose_behavior": "Standing behind lesser goblins directing attacks, pointing at targets, quick to use minions as shields, cruel satisfaction on face"
+    }
+  },
+  "AnimatedFlyingSword": {
+    "name": "Animated Flying Sword",
+    "role": "Trial 3 Trap Guardian",
+    "full_description": "A steel longsword floating in mid-air, glowing faintly with blue enchantment. Blade gleaming and deadly sharp, moving with precise deadly intention as if wielded by an invisible master swordsman. Part of the maze's magical defenses.",
+    "description_components": {
+      "head_face": "N/A - no face, the sword itself is the creature",
+      "body_build": "Steel longsword with ornate crossguard and leather-wrapped hilt, blade polished to mirror shine",
+      "distinguishing_features": "Faint blue magical glow along blade edge, floating without visible support, slight hum of enchantment energy",
+      "pose_behavior": "Hovering at combat ready position, blade tip tracking movement, responding to intruders with deadly precision"
+    }
+  },
+  "AnimatedSwordAttacking": {
+    "name": "Animated Flying Sword (Attacking)",
+    "role": "Active Combat",
+    "full_description": "The enchanted sword in mid-strike, slashing through the air with supernatural speed. Blue energy trails behind the blade. Multiple swords attacking in coordinated patterns like an invisible fighting force.",
+    "description_components": {
+      "head_face": "N/A",
+      "body_build": "Same steel longsword now in motion, blade catching light as it swings",
+      "distinguishing_features": "Blue magical energy trailing behind blade in arc, motion blur effect, enchantment glowing brighter during attack",
+      "pose_behavior": "Mid-slash attack, blade sweeping in deadly arc, moving with impossible speed and precision"
+    }
+  },
+  "Shadow": {
+    "name": "Shadow",
+    "role": "Trial 4 Curse Manifestation",
+    "full_description": "An incorporeal undead creature of pure darkness, vaguely humanoid silhouette with no distinguishing features except cold pinpricks of malevolent white light for eyes. Sliding along walls and floor, reaching with grasping shadow hands toward the trapped pegasus.",
+    "description_components": {
+      "head_face": "Vague suggestion of head shape in darkness, two pinpricks of cold white light for eyes, no other features, darkness deeper than natural shadow",
+      "body_build": "Humanoid silhouette made of living darkness, edges blur and shift, no solid form, moves like liquid shadow",
+      "distinguishing_features": "Eyes of cold malevolent white light, reaching clawed hands of pure darkness, drains color from surroundings, cold emanates from its presence",
+      "pose_behavior": "Circling the cursed pegasus, grasping hands reaching to drain life, sliding along ground and walls, drawn to living warmth"
+    }
+  },
+  "ShadowAttacking": {
+    "name": "Shadow (Attacking)",
+    "role": "Combat",
+    "full_description": "The shadow creature lunging to attack, reaching hands of pure darkness extended to drain life energy. Cold white eyes blazing with hunger. Where it touches, color and warmth fade away.",
+    "description_components": {
+      "head_face": "Same vague head shape, eyes now blazing brighter with hunger, dark mouth opening in silent scream",
+      "body_build": "Same shadow form now extended in attack, stretching unnaturally, clawed hands reaching",
+      "distinguishing_features": "Hands leaving trails of darkness, eyes intense with predatory light, area around it fading to grey",
+      "pose_behavior": "Lunging attack, hands reaching for target's chest, mouth open to feed on life force"
+    }
+  },
+  "Specter": {
+    "name": "The Jealous Specter",
+    "role": "Final Boss - Tragic Villain",
+    "full_description": "A translucent ghostly humanoid in tattered ceremonial robes - once a Choosing candidate who failed and died in bitterness. Twisted spectral features frozen between anguish and rage. Trailing wisps of ectoplasm. Hovering in the corrupted sanctum, life-draining touch ready.",
+    "description_components": {
+      "head_face": "Translucent ghostly face twisted between pain and rage, features that might have once been young now distorted, hollow eyes burning with jealous purple-white fire",
+      "body_build": "Ghostly humanoid form in tattered robes, translucent enough to see through, floating above ground, trailing wisps of ectoplasm",
+      "distinguishing_features": "Remnants of ceremonial Choosing robes now tattered and grey, spectral hands with long draining fingers, purple-white ghostfire in eyes and around hands",
+      "pose_behavior": "Hovering above altar where beloved NPC is bound, arms spread in dramatic villain pose, face showing bitter triumph and ancient pain"
+    }
+  },
+  "SpecterAttacking": {
+    "name": "The Specter (Attacking)",
+    "role": "Combat",
+    "full_description": "The specter in full attack mode, rushing forward with life-draining hands extended. Face twisted in pure rage. Trailing ectoplasmic wake. Cold aura visible as frost forms in the air around it.",
+    "description_components": {
+      "head_face": "Same ghostly face now contorted in rage, mouth open in silent shriek, eyes blazing with purple-white fire",
+      "body_build": "Same spectral form now rushing forward, robes streaming behind, form more solid with aggressive intent",
+      "distinguishing_features": "Hands wreathed in life-draining purple-white energy, frost forming in air around it, ectoplasm trailing like dark comet tail",
+      "pose_behavior": "Rushing attack, hands reaching for hero's heart, entire form leaning into aggressive charge"
+    }
+  },
+  "SpecterRedeemed": {
+    "name": "The Specter (Finding Peace)",
+    "role": "Redemption Ending",
+    "full_description": "The same specter but transformed by the hero's compassion. Rage fading to sorrow, then acceptance. The purple-white fire softening to gentle golden light. Features smoothing from twisted to peaceful. Finally ready to move on after centuries of anger.",
+    "description_components": {
+      "head_face": "Same ghostly face now softening, rage fading to tears, features becoming young and peaceful again, eyes filled with golden light instead of angry fire",
+      "body_build": "Same spectral form now becoming more translucent, edges softening, beginning to disperse into motes of light",
+      "distinguishing_features": "Purple-white fire transforming to soft golden glow, tattered robes becoming whole briefly, peaceful expression replacing anguish",
+      "pose_behavior": "Floating peacefully, hands lowered non-threatening, head slightly bowed in gratitude and release, beginning to fade into light"
+    }
+  },
+  "GhostWolf": {
+    "name": "Ghost Wolf Echo",
+    "role": "Shadow Halls Obstacle",
+    "full_description": "A ghostly echo of the dire wolf from Trial 1 - if the hero killed it, it returns as a vengeful spirit. Translucent silver-grey form, eyes burning with accusation. If the hero saved it, this obstacle doesn't appear.",
+    "description_components": {
+      "head_face": "Same dire wolf features but ghostly translucent, amber eyes now burning with spectral fire, accusation in its gaze",
+      "body_build": "Same enormous wolf form but made of pale silver ghost-stuff, see-through, floating slightly above ground",
+      "distinguishing_features": "The cursed leg wound now a glowing spectral scar, ghostly howl echoing, transparent enough to see through",
+      "pose_behavior": "Blocking passage in shadow halls, accusatory stare at hero who killed it, ready to fight again"
+    }
+  },
+  "GoblinGhost": {
+    "name": "Goblin Spirit",
+    "role": "Shadow Halls Obstacle",
+    "full_description": "Ghostly echoes of defeated goblins patrolling the shadow halls. Translucent green forms with glowing yellow eyes. Less solid than the original goblins, they can be avoided or dispersed more easily.",
+    "description_components": {
+      "head_face": "Same goblin features but ghostly, translucent green, yellow eyes now glowing with spectral light",
+      "body_build": "Same small goblin form but made of translucent ectoplasm, floating rather than walking",
+      "distinguishing_features": "Spectral weapons that glow faintly, less solid than living goblins, can be seen through walls approaching",
+      "pose_behavior": "Patrolling shadow halls in patterns, less alert than living goblins, can be distracted or avoided"
+    }
+  }
+}
