@@ -84,33 +84,52 @@ Explain briefly:
 
 ### Tutorial: The Four Pillars
 
-> **"Before you begin your trials, touch each pillar to feel the power within."**
+> **"Before you begin your trials, touch each pillar to feel the power within. But remember - sometimes one Aspect alone is not enough. The wise hero combines their strengths."**
 >
 > *Four stone pillars stand in the courtyard, each glowing with one of the Aspect colors.*
 
 **Red Pillar - Warrior Test:**
-> *A training dummy stands before the red pillar.*
-> "Strike it with a Warrior card!"
-- Have Hendrix pick any Warrior card and roll
-- Narrate the result dramatically
+> *A training dummy stands before the red pillar. But this is no ordinary dummy - it wears thick plate armor that gleams in the sunlight.*
+> **"Strike the armored dummy!"**
+
+- **Primary (obvious):** Any Warrior card - Mighty Blow, Reckless Strike
+- **Secondary (bonus):** Arcane Enchant (+2 to hit armor), Divine Bless (+2), or Hunter Track (find the weak point)
+- If just Warrior: "Your blow clangs against the armor - solid hit!"
+- If combo: "Your [secondary] finds the gap in the armor - devastating strike!"
+- **Elder:** "Strength alone works. But strength guided by [other Aspect]? Even better."
 
 **Green Pillar - Hunter Test:**
-> *A target appears 30 feet away.*
-> "Hit it with a Hunter card!"
-- Have Hendrix pick any Hunter card and roll
-- Narrate the result
+> *A target appears 30 feet away. But between you and it, shimmering bushes block your view - some look solid, others flicker strangely.*
+> **"Hit the target!"**
+
+- **Primary (obvious):** Any Hunter card - Precise Shot, Quick Shot
+- **Secondary (bonus):** Arcane Detect Magic (reveals which bushes are illusions), or Track (read the wind)
+- If just Hunter: "Your arrow flies true, clipping the edge of the target!"
+- If combo: "You see right through the illusions - bullseye!"
+- **Elder:** "The hunter's eye is sharp. But the hunter who sees through deception? Sharper still."
 
 **Blue Pillar - Arcane Test:**
-> *A floating crystal hovers above the blue pillar.*
-> "Use magic to interact with it!"
-- Have Hendrix pick any Arcane card
-- Narrate the magical effect
+> *A crystal hovers above the blue pillar, spinning fast. Every few seconds it blinks and teleports a few inches in a random direction.*
+> **"Catch or strike the crystal!"**
+
+- **Primary (obvious):** Any Arcane card - Magic Bolt, Telekinesis
+- **Secondary (bonus):** Hunter Track (predict its pattern), Divine Bless (+2 to grab)
+- If just Arcane: "Your magic grazes the crystal as it blinks away!"
+- If combo: "You anticipate its movement - got it!"
+- **Elder:** "Magic is powerful. But magic with patience and precision? Unstoppable."
 
 **Gold Pillar - Divine Test:**
-> *A wilted flower sits in a pot by the gold pillar.*
-> "Call upon divine power!"
-- Have Hendrix pick any Divine card
-- The flower blooms beautifully
+> *A wilted flower sits in a pot by the gold pillar. A tiny shadow creature, no bigger than a mouse, crouches on the pot's rim, draining the flower's life.*
+> **"Save the flower!"**
+
+- **Primary (obvious):** Any Divine card - Healing Light on flower, Turn Undead on shadow
+- **Secondary (bonus):** Warrior Smite (destroy shadow), then Divine heal, or two Divine cards
+- If just Divine: "Your light drives the shadow back, and the flower slowly recovers."
+- If combo: "The shadow is banished AND the flower blooms brilliantly!"
+- **Elder:** "Compassion heals. But compassion that also protects? That is true divine power."
+
+**After all four pillars:**
+> **Elder:** "You begin to understand. Each trial ahead can be faced many ways. Your PRIMARY choice shows your instinct. Your SECONDARY choice shows your wisdom. Now... go discover who you truly are."
 
 ### Transition to Trials:
 
@@ -138,31 +157,41 @@ Explain briefly:
 >
 > *And standing in the middle of the bridge is a DIRE WOLF.*
 >
-> *It's huge - bigger than any wolf you've ever seen, with silver-gray fur and eyes that glow with an unnatural purple light. One of its front legs is wounded, wrapped in tendrils of dark, crackling energy. A curse.*
+> *It's HUGE - bigger than any wolf you've ever seen, easily the size of a horse. Silver-gray fur bristles along its back. Its eyes glow with an unnatural purple light as it locks onto you. Hackles raised. Teeth bared - each one as long as your finger.*
 >
-> *The wolf sees you and snarls, baring teeth as long as your fingers. It's in pain. It's scared. And it's blocking your path.*
+> *The wolf SNARLS. A deep, rumbling growl that you feel in your chest. It takes a step toward you, then stops. One of its front legs hovers slightly off the ground.*
+>
+> *It's blocking your path. And it doesn't look friendly.*
+
+**DM Note:** Do NOT mention "curse," "pain," or "scared" in the read-aloud. Let Hendrix discover what's really going on.
 
 ### What Hendrix Can Do:
 
 **WARRIOR Approach:**
 - Mighty Blow / Reckless Strike: Direct combat (wolf has AC 14, 22 HP)
-- Battle Cry: DC 12 morale - if successful, wolf backs up but doesn't flee
-- Shield Wall: If wolf attacks, reduce damage
+- Battle Cry: DC 12 - wolf hesitates, backs up a step, but holds the bridge
+- Shield Wall: Defensive stance if wolf charges
+- Grapple: Bold move - wolf is BIG
 
 **HUNTER Approach:**
-- Animal Friendship: DC 12 - wolf calms, sits, whimpers at its wounded leg
-- Sneak: DC 15 (wolf has Perception +5) to get past without confrontation
-- Track: Notice the curse came from deeper in the valley
+- Animal Friendship (DC 12): **REVEALS** - "Wait... this isn't aggression. It's fear. The wolf is terrified of something. And that leg..."
+- Track: **REVEALS** - "The way it's holding that leg... and those scorch marks on the bridge stones... something magical happened here."
+- Sneak (DC 15): Get past without confrontation, but wolf whimpers as you pass
 
 **ARCANE Approach:**
-- Detect Magic: Automatically sense the curse on the wolf's leg
-- Telekinesis: Could move the wolf (50 lb limit - wolf is bigger, but could nudge it)
-- Illusion: Create distraction (prey animal) to lure wolf off bridge
+- Detect Magic: **REVEALS** - "Dark energy wraps around the wolf's front leg like a vice. A curse. Someone did this to it."
+- Telekinesis: Could nudge it aside (wolf is big, but you could unbalance it)
+- Illusion: Create distraction - prey animal to lure wolf off bridge
 
 **DIVINE Approach:**
-- Healing Light: Heals the wound AND breaks the curse - wolf becomes ally
-- Divine Guidance: "The wolf is not your enemy. Something hurt it."
+- Divine Guidance: **REVEALS** - "A voice whispers: 'This creature suffers. It guards the bridge not from malice, but from pain.'"
+- Healing Light: Heals the curse immediately - wolf becomes ally
 - Turn Undead: Doesn't work - it's cursed, not undead
+
+**If Hendrix ATTACKS first:**
+- Wolf defends itself, fights back
+- But if Hendrix wins a round, wolf doesn't pursue - it limps back, whimpering
+- **DM prompt:** "Strange... a predator this size should be chasing you. Instead it just... sits there, licking its wounded leg."
 
 ### Resolution Outcomes:
 
@@ -258,16 +287,22 @@ Explain briefly:
 
 ### Transition:
 
-> *Garrett points toward a dark opening in the valley wall ahead.*
+> *Garrett points toward a dark opening in the valley wall ahead - an archway carved with ancient runes.*
 >
-> **Garrett:** "The path continues through there - the old Maze of Echoes. Be careful, young hero. They say it's full of magical traps."
+> **Garrett:** "The ONLY path forward is through there - the Maze of Echoes. There's no way around it, no way over it. Every Choosing candidate must pass through."
 >
-> *If wolf is present:* The wolf sniffs at the maze entrance and whines nervously.
+> *He leans in closer.*
+>
+> **Garrett:** "They say the maze tests more than strength. It tests your mind. Your heart. Be careful, young hero - and if you hear crying in there, it might be something that needs your help."
+>
+> *If wolf is present:* The wolf sniffs at the maze entrance and whines nervously, but follows you in.
 
 ---
 
+# THE MAZE AWAITS
+
 ## Trial 3: The Enchanted Maze
-*A puzzle of illusions and magical traps*
+*A puzzle of illusions and magical traps - and a friend in need*
 
 ### Setup:
 
@@ -349,20 +384,29 @@ If stuck, Divine Guidance gives a hint: "Think of parchment and ink..."
 ---
 
 ## Trial 4: The Wounded Guardian
-*Someone needs saving, not fighting*
+*Three paths to salvation*
 
 ### Setup:
 
 > *As you approach the dark grove, you see her. A PEGASUS - a magnificent winged horse with a coat like fresh snow and wings of pure white feathers. She should be beautiful. She IS beautiful. But something is terribly wrong.*
 >
-> *Dark chains made of shadow wrap around her legs. Her wings hang limp and gray. Her eyes are full of pain. And circling her, like sharks in dark water, are THREE SHADOWS - creatures of pure darkness with reaching, grasping hands.*
+> *Dark chains made of shadow wrap around her legs, pinning her in place. Her wings hang limp and gray. THREE SHADOWS circle her like sharks - creatures of pure darkness with reaching, grasping hands, draining her life with every pass.*
 >
-> *The Pegasus sees you and lets out a sound that breaks your heart - a plea for help.*
+> *The Pegasus strains toward you, and for a moment her wings flicker with faint light - there's still fight in her.*
+>
+> *At the base of the largest dead tree, something PULSES with sickly purple light. The shadows seem tethered to it somehow - they circle the Pegasus but never stray far from that glow.*
+>
+> *The Pegasus lets out a sound that breaks your heart - a plea for help.*
+
+**Three clear paths are visible:**
+1. **The Shadows** - immediate threat, circling and draining
+2. **The Pegasus** - suffering but still fighting, wings flickering
+3. **The Crystal** - pulsing at the tree base, shadows seem connected to it
 
 ### The Scene:
-- Pegasus: Cursed, can't fly, HP reduced to 15
+- Pegasus: Cursed, can't fly, HP reduced to 15, but can fight back if healed
 - 3 Shadows: CR 1/2 each, circling, draining her
-- Dark Crystal: Hidden at the base of the largest dead tree, source of the curse
+- Dark Crystal: VISIBLE at the base of the largest dead tree, pulsing with curse energy
 
 ### What Hendrix Can Do:
 
