@@ -1,0 +1,52 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+venv/
+ENV/
+env/
+.venv/
+*.egg-info/
+dist/
+build/
+
+# Environment
+.env
+.env.local
+
+# Output files (large, regeneratable)
+output/panels/
+output/pages/
+output/*.cbz
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+._*
+
+# Thumbnails
+Thumbs.db
+
+# Web assets (generated)
+docs/images/pages/
+docs/images/thumbnails/
+docs/images/characters/
+docs/images/locations/
+
+# Keep data directory structure
+!docs/data/.gitkeep
+
+# Temporary files
+*.tmp
+*.temp
+*.log

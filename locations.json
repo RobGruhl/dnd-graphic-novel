@@ -1,0 +1,12 @@
+{
+  "ExampleLocation": {
+    "name": "The Rusty Tankard Tavern",
+    "full_description": "A cozy medieval tavern with warm lighting and rough-hewn wooden beams. The common room is filled with round tables, and a large stone fireplace dominates one wall. Adventurers and locals mingle over mugs of ale.",
+    "description_components": {
+      "architecture": "Two-story timber-frame building, thatched roof, small diamond-paned windows, creaky wooden floorboards",
+      "atmosphere": "Warm and welcoming, filled with conversation and laughter, smell of roasting meat and spilled ale",
+      "lighting": "Warm golden light from oil lamps and crackling fireplace, shadows dancing in corners",
+      "key_features": "Large stone fireplace with iron cooking pot, long wooden bar with brass taps, mounted hunting trophies on walls"
+    }
+  }
+}

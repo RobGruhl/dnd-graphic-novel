@@ -1,0 +1,12 @@
+{
+  "ExampleCharacter": {
+    "name": "ExampleCharacter",
+    "full_description": "A tall human warrior with weathered features and a kind smile. Wears practical leather armor over a dark green tunic. Carries a longsword at their hip and a wooden shield on their back.",
+    "description_components": {
+      "head_face": "Weathered human face, strong jaw, kind brown eyes, short dark hair with grey at the temples, small scar on left cheek",
+      "body_build": "Tall and muscular, broad shoulders, athletic build, mid-40s",
+      "armor_clothing": "Practical brown leather armor, dark green tunic underneath, sturdy leather boots, worn leather gloves",
+      "accessories": "Longsword in leather scabbard at hip, round wooden shield with iron boss on back, leather belt pouch"
+    }
+  }
+}

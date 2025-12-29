@@ -1,0 +1,22 @@
+{
+  "comic_aesthetic": {
+    "base_style": "Professional comic book panel illustration. High quality graphic novel art.",
+    "art_style": "Bold ink line art with vibrant colors. Dynamic composition with strong perspective. Sequential art style with clear visual storytelling.",
+    "setting_tone": "High fantasy medieval setting. Heroic adventure atmosphere. Rich world-building details.",
+    "visual_quality": "High detail, professional quality, publication-ready artwork. Clean lines and consistent character designs.",
+    "important_restrictions": [
+      "No modern elements like phones, cars, or contemporary clothing",
+      "No real-world brand logos or text",
+      "Maintain consistent character appearances across panels",
+      "Keep fantasy medieval aesthetic throughout"
+    ]
+  },
+  "dialogue_rendering": {
+    "instruction": "Include speech bubbles with the dialogue text clearly readable. Position bubbles to not obscure important visual elements. Use traditional comic book speech bubble style."
+  },
+  "panel_guidelines": {
+    "action_scenes": "Dynamic angles, motion lines, dramatic lighting",
+    "dialogue_scenes": "Clear character expressions, appropriate body language, comfortable framing",
+    "establishing_shots": "Wide perspective showing environment and context, atmospheric lighting"
+  }
+}
