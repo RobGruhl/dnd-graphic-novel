@@ -50,3 +50,9 @@ docs/images/locations/
 *.tmp
 *.temp
 *.log
+
+# Audio recordings and transcripts (large/private)
+audio-recording/
+
+# Local Claude settings
+.claude/settings.local.json

@@ -1,22 +1,22 @@
 {
   "HendrixRoom": {
-    "name": "Hendrix's Bedroom",
-    "full_description": "A cozy bedroom in a village home, morning sunlight streaming through a small window. Simple but comfortable furnishings, with personal treasures and keepsakes on shelves. The bed is rumpled from sleep, and adventure awaits beyond the door.",
+    "name": "Hendrix's Cave Bedroom",
+    "full_description": "A cozy bedroom carved into a natural underground cave. A small river runs directly through the room, its gentle burbling a constant companion. Bioluminescent fungi and crystals provide soft light. Fish swim lazily in the clear water. The bed is carved from stone but piled with comfortable furs.",
     "description_components": {
-      "architecture": "Small cozy room in a timber-frame village house, rough plastered walls, wooden beamed ceiling, single window with wooden shutters",
-      "atmosphere": "Warm morning light, dust motes dancing in sunbeams, sense of anticipation and excitement",
-      "lighting": "Golden morning sunlight streaming through window, warm ambient glow",
-      "key_features": "Simple wooden bed with wool blanket, small wooden chest for belongings, shelf with treasured keepsakes, worn rug on wooden floor"
+      "architecture": "Natural cave chamber with smooth stone walls, stalactites hanging from ceiling, carved stone furniture, river channel running through the middle of the room",
+      "atmosphere": "Peaceful underground sanctuary, sound of flowing water, cool and comfortable, sense of hidden wonder",
+      "lighting": "Soft bioluminescent glow from fungi and crystals on walls, shimmering reflections from the river, no sunlight but warmly lit",
+      "key_features": "Underground river with colorful fish swimming through the bedroom, stone bed piled with furs, glowing mushrooms and crystals, small myconid friend nearby"
     }
   },
   "VillageStreet": {
-    "name": "Village Street on Choosing Day",
-    "full_description": "A bustling medieval village street on a special festival day. Villagers have paused their work to watch young candidates walk toward the Temple. Colorful banners flutter from buildings, and the atmosphere is charged with excitement and anticipation.",
+    "name": "Underground Village on Choosing Day",
+    "full_description": "A bustling underground village carved into vast caverns. Myconids and other underground folk have paused their work to watch young candidates walk toward the Temple. Glowing banners of bioluminescent fabric flutter from stalactites, and the atmosphere is charged with excitement.",
     "description_components": {
-      "architecture": "Cobblestone street lined with timber-frame buildings, thatched roofs, merchant stalls, village well in small square",
-      "atmosphere": "Festive excitement, proud villagers watching, children pointing and whispering, sense of ceremony and tradition",
-      "lighting": "Bright morning sunlight, clear blue sky, shadows cast by buildings",
-      "key_features": "Colorful festival banners in red green blue and gold, villagers lining the street, flower petals scattered on cobblestones, Temple visible in distance"
+      "architecture": "Vast underground cavern with carved walkways, mushroom gardens, glowing crystal formations, bridges over underground streams",
+      "atmosphere": "Festive excitement, myconids releasing celebratory spores, underground creatures watching, sense of ancient ceremony",
+      "lighting": "Bioluminescent fungi, glowing crystals, magical lanterns casting colorful light, no sun but brilliantly lit by underground sources",
+      "key_features": "Colorful glowing banners in red green blue and gold, myconids and cave dwellers lining the paths, luminescent flower petals scattered on stone, Temple cavern visible ahead"
     }
   },
   "TempleCourtyard": {
