@@ -1,0 +1,493 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Character Sheet - The Trials of the Choosing</title>
+    <style>
+        @page {
+            size: letter;
+            margin: 0.5in;
+        }
+
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+        }
+
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background: #f5f5f5;
+            padding: 20px;
+            color: #333;
+        }
+
+        .sheet {
+            background: white;
+            max-width: 8.5in;
+            margin: 0 auto;
+            padding: 0.5in;
+            box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+        }
+
+        .header {
+            text-align: center;
+            border-bottom: 3px double #333;
+            padding-bottom: 15px;
+            margin-bottom: 20px;
+        }
+
+        .title {
+            font-size: 28px;
+            font-weight: bold;
+            letter-spacing: 2px;
+            margin-bottom: 5px;
+        }
+
+        .subtitle {
+            font-size: 14px;
+            color: #666;
+            font-style: italic;
+        }
+
+        .row {
+            display: flex;
+            gap: 20px;
+            margin-bottom: 20px;
+        }
+
+        .col {
+            flex: 1;
+        }
+
+        .col-2 {
+            flex: 2;
+        }
+
+        .section {
+            border: 2px solid #333;
+            border-radius: 8px;
+            padding: 15px;
+            margin-bottom: 15px;
+        }
+
+        .section-title {
+            font-size: 14px;
+            font-weight: bold;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+            margin-bottom: 10px;
+            padding-bottom: 5px;
+            border-bottom: 1px solid #ccc;
+        }
+
+        .field {
+            margin-bottom: 12px;
+        }
+
+        .field-label {
+            font-size: 10px;
+            text-transform: uppercase;
+            color: #666;
+            margin-bottom: 3px;
+        }
+
+        .field-value {
+            border-bottom: 1px solid #333;
+            min-height: 24px;
+            font-size: 16px;
+        }
+
+        .field-value.large {
+            min-height: 60px;
+            border: 1px solid #333;
+            border-radius: 4px;
+            padding: 5px;
+        }
+
+        .stat-box {
+            display: inline-block;
+            width: 70px;
+            text-align: center;
+            margin: 5px;
+        }
+
+        .stat-circle {
+            width: 50px;
+            height: 50px;
+            border: 2px solid #333;
+            border-radius: 50%;
+            margin: 0 auto 5px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 20px;
+            font-weight: bold;
+        }
+
+        .stat-label {
+            font-size: 10px;
+            text-transform: uppercase;
+        }
+
+        .hp-tracker {
+            display: flex;
+            align-items: center;
+            gap: 10px;
+            font-size: 14px;
+        }
+
+        .hp-box {
+            width: 60px;
+            height: 40px;
+            border: 2px solid #333;
+            border-radius: 4px;
+            text-align: center;
+            font-size: 24px;
+            font-weight: bold;
+        }
+
+        .aspect-grid {
+            display: grid;
+            grid-template-columns: repeat(4, 1fr);
+            gap: 10px;
+        }
+
+        .aspect-category {
+            text-align: center;
+            padding: 10px;
+            border-radius: 8px;
+            color: white;
+        }
+
+        .aspect-category.warrior { background: #dc3545; }
+        .aspect-category.hunter { background: #28a745; }
+        .aspect-category.arcane { background: #6f42c1; }
+        .aspect-category.divine { background: #ffc107; color: #333; }
+
+        .aspect-count {
+            font-size: 24px;
+            font-weight: bold;
+            margin: 10px 0;
+            border: 2px solid rgba(255,255,255,0.5);
+            border-radius: 4px;
+            padding: 5px;
+            background: rgba(255,255,255,0.2);
+        }
+
+        .aspect-label {
+            font-size: 10px;
+            text-transform: uppercase;
+        }
+
+        .ally-box {
+            display: flex;
+            align-items: center;
+            gap: 10px;
+            padding: 10px;
+            border: 1px solid #ccc;
+            border-radius: 8px;
+            margin-bottom: 10px;
+        }
+
+        .ally-checkbox {
+            width: 20px;
+            height: 20px;
+            border: 2px solid #333;
+            border-radius: 4px;
+        }
+
+        .ally-info {
+            flex: 1;
+        }
+
+        .ally-name {
+            font-weight: bold;
+            font-size: 14px;
+        }
+
+        .ally-desc {
+            font-size: 11px;
+            color: #666;
+        }
+
+        .notes-area {
+            min-height: 100px;
+            border: 1px solid #333;
+            border-radius: 4px;
+            padding: 10px;
+        }
+
+        .portrait-box {
+            width: 150px;
+            height: 180px;
+            border: 2px solid #333;
+            border-radius: 8px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 12px;
+            color: #999;
+            text-align: center;
+            padding: 10px;
+        }
+
+        .class-reveal {
+            background: linear-gradient(135deg, #ffd700 0%, #ff8c00 100%);
+            color: #333;
+            padding: 20px;
+            border-radius: 8px;
+            text-align: center;
+        }
+
+        .class-reveal .label {
+            font-size: 12px;
+            text-transform: uppercase;
+            letter-spacing: 2px;
+        }
+
+        .class-reveal .value {
+            font-size: 28px;
+            font-weight: bold;
+            margin-top: 5px;
+            text-transform: uppercase;
+            letter-spacing: 3px;
+            min-height: 35px;
+        }
+
+        @media print {
+            body {
+                background: white;
+                padding: 0;
+            }
+            .sheet {
+                box-shadow: none;
+                padding: 0;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="sheet">
+        <div class="header">
+            <div class="title">THE TRIALS OF THE CHOOSING</div>
+            <div class="subtitle">Character Record Sheet</div>
+        </div>
+
+        <div class="row">
+            <div class="col-2">
+                <div class="section">
+                    <div class="section-title">Character Identity</div>
+                    <div class="row">
+                        <div class="col-2">
+                            <div class="field">
+                                <div class="field-label">Character Name</div>
+                                <div class="field-value"></div>
+                            </div>
+                        </div>
+                        <div class="col">
+                            <div class="field">
+                                <div class="field-label">Player Name</div>
+                                <div class="field-value">Hendrix</div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col">
+                            <div class="field">
+                                <div class="field-label">Race/Ancestry</div>
+                                <div class="field-value"></div>
+                            </div>
+                        </div>
+                        <div class="col">
+                            <div class="field">
+                                <div class="field-label">Age</div>
+                                <div class="field-value"></div>
+                            </div>
+                        </div>
+                        <div class="col">
+                            <div class="field">
+                                <div class="field-label">Homeland</div>
+                                <div class="field-value"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="portrait-box">
+                    Draw Your Character Here!
+                </div>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col">
+                <div class="section">
+                    <div class="section-title">Combat Stats</div>
+                    <div class="hp-tracker">
+                        <span>Current HP:</span>
+                        <div class="hp-box"></div>
+                        <span>/ 20</span>
+                    </div>
+                    <div style="margin-top: 15px;">
+                        <div class="stat-box">
+                            <div class="stat-circle">13</div>
+                            <div class="stat-label">Armor Class</div>
+                        </div>
+                        <div class="stat-box">
+                            <div class="stat-circle">30</div>
+                            <div class="stat-label">Speed (ft)</div>
+                        </div>
+                        <div class="stat-box">
+                            <div class="stat-circle">+2</div>
+                            <div class="stat-label">Initiative</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-2">
+                <div class="class-reveal">
+                    <div class="label">Your Chosen Class</div>
+                    <div class="value"></div>
+                </div>
+            </div>
+        </div>
+
+        <div class="section">
+            <div class="section-title">Aspect Usage Tracker</div>
+            <p style="font-size: 11px; color: #666; margin-bottom: 15px;">
+                Mark each time you use an Aspect as Primary (P) or Secondary (S). Count totals at the end to determine your class!
+            </p>
+            <div class="aspect-grid">
+                <div class="aspect-category warrior">
+                    <div class="aspect-label">Warrior</div>
+                    <div class="aspect-count"></div>
+                    <div class="aspect-label">Total Uses</div>
+                </div>
+                <div class="aspect-category hunter">
+                    <div class="aspect-label">Hunter</div>
+                    <div class="aspect-count"></div>
+                    <div class="aspect-label">Total Uses</div>
+                </div>
+                <div class="aspect-category arcane">
+                    <div class="aspect-label">Arcane</div>
+                    <div class="aspect-count"></div>
+                    <div class="aspect-label">Total Uses</div>
+                </div>
+                <div class="aspect-category divine">
+                    <div class="aspect-label">Divine</div>
+                    <div class="aspect-count"></div>
+                    <div class="aspect-label">Total Uses</div>
+                </div>
+            </div>
+        </div>
+
+        <div class="section">
+            <div class="section-title">Allies Gained</div>
+            <div class="ally-box">
+                <div class="ally-checkbox"></div>
+                <div class="ally-info">
+                    <div class="ally-name">The Dire Wolf</div>
+                    <div class="ally-desc">A great silver wolf you saved from a dark curse. Loyal and protective.</div>
+                </div>
+                <div style="font-size: 11px; width: 100px;">
+                    Name: <span style="border-bottom: 1px solid #333; display: inline-block; width: 70px;"></span>
+                </div>
+            </div>
+            <div class="ally-box">
+                <div class="ally-checkbox"></div>
+                <div class="ally-info">
+                    <div class="ally-name">Pip the Pseudodragon</div>
+                    <div class="ally-desc">A tiny dragon with a big heart. Found injured in the Enchanted Maze.</div>
+                </div>
+                <div style="font-size: 11px; width: 100px;">
+                    (Can rename!)
+                </div>
+            </div>
+            <div class="ally-box">
+                <div class="ally-checkbox" style="background: #333;"></div>
+                <div class="ally-info">
+                    <div class="ally-name">Starwind the Pegasus</div>
+                    <div class="ally-desc">A magnificent winged horse freed from shadow chains. Your steed.</div>
+                </div>
+                <div style="font-size: 11px; width: 100px;">
+                    (Always yours!)
+                </div>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col">
+                <div class="section">
+                    <div class="section-title">Beloved NPC</div>
+                    <div class="field">
+                        <div class="field-label">Name</div>
+                        <div class="field-value"></div>
+                    </div>
+                    <div class="field">
+                        <div class="field-label">Who Are They?</div>
+                        <div class="field-value"></div>
+                    </div>
+                    <div class="field">
+                        <div class="field-label">What Did They Say Before You Left?</div>
+                        <div class="field-value large"></div>
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="section">
+                    <div class="section-title">Items & Rewards</div>
+                    <div class="field">
+                        <div class="field-label">From the Merchant (Garrett)</div>
+                        <div class="field-value"></div>
+                    </div>
+                    <div class="field">
+                        <div class="field-label">Other Treasures</div>
+                        <div class="field-value large"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="section">
+            <div class="section-title">Adventure Notes</div>
+            <div class="notes-area"></div>
+        </div>
+
+        <div class="section" style="background: #f9f9f9;">
+            <div class="section-title">For the Graphic Novel</div>
+            <div class="row">
+                <div class="col">
+                    <div class="field">
+                        <div class="field-label">Character Colors (Clothes, Magic Aura, etc.)</div>
+                        <div class="field-value"></div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="field">
+                        <div class="field-label">Typical Expression</div>
+                        <div class="field-value"></div>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col">
+                    <div class="field">
+                        <div class="field-label">Three Words for How They Move</div>
+                        <div class="field-value"></div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="field">
+                        <div class="field-label">Must-Have Visual Details</div>
+                        <div class="field-value"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </div>
+</body>
+</html>

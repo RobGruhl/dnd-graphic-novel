@@ -1,0 +1,633 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aspect Cards - The Trials of the Choosing</title>
+    <style>
+        @page {
+            size: letter;
+            margin: 0.5in;
+        }
+
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+        }
+
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background: #f5f5f5;
+            padding: 20px;
+        }
+
+        h1 {
+            text-align: center;
+            margin-bottom: 10px;
+            color: #333;
+        }
+
+        .instructions {
+            text-align: center;
+            margin-bottom: 20px;
+            color: #666;
+            font-size: 14px;
+        }
+
+        .card-grid {
+            display: grid;
+            grid-template-columns: repeat(3, 2.5in);
+            gap: 0.15in;
+            justify-content: center;
+            page-break-inside: avoid;
+        }
+
+        .page-break {
+            page-break-after: always;
+            margin: 40px 0;
+            border-top: 2px dashed #ccc;
+            padding-top: 20px;
+        }
+
+        .category-title {
+            grid-column: 1 / -1;
+            text-align: center;
+            font-size: 24px;
+            font-weight: bold;
+            padding: 10px;
+            margin-bottom: 10px;
+            border-radius: 8px;
+        }
+
+        .card {
+            width: 2.5in;
+            height: 3.5in;
+            border-radius: 12px;
+            padding: 12px;
+            display: flex;
+            flex-direction: column;
+            position: relative;
+            box-shadow: 0 2px 8px rgba(0,0,0,0.2);
+            page-break-inside: avoid;
+        }
+
+        /* Warrior - Red */
+        .warrior {
+            background: linear-gradient(135deg, #dc3545 0%, #a71d2a 100%);
+            border: 3px solid #6d1520;
+            color: white;
+        }
+        .warrior .category-title { background: #dc3545; color: white; }
+        .warrior .icon { color: #ffd700; }
+
+        /* Hunter - Green */
+        .hunter {
+            background: linear-gradient(135deg, #28a745 0%, #1e7e34 100%);
+            border: 3px solid #155724;
+            color: white;
+        }
+        .hunter .category-title { background: #28a745; color: white; }
+        .hunter .icon { color: #90EE90; }
+
+        /* Arcane - Blue */
+        .arcane {
+            background: linear-gradient(135deg, #6f42c1 0%, #4a2c82 100%);
+            border: 3px solid #351f5c;
+            color: white;
+        }
+        .arcane .category-title { background: #6f42c1; color: white; }
+        .arcane .icon { color: #00ffff; }
+
+        /* Divine - Gold */
+        .divine {
+            background: linear-gradient(135deg, #ffc107 0%, #d39e00 100%);
+            border: 3px solid #856404;
+            color: #333;
+        }
+        .divine .category-title { background: #ffc107; color: #333; }
+        .divine .icon { color: #fff; text-shadow: 0 0 10px #fff; }
+
+        .card-header {
+            text-align: center;
+            margin-bottom: 8px;
+        }
+
+        .icon {
+            font-size: 36px;
+            margin-bottom: 4px;
+        }
+
+        .card-name {
+            font-size: 16px;
+            font-weight: bold;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+        }
+
+        .card-body {
+            flex: 1;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+        }
+
+        .description {
+            font-size: 13px;
+            text-align: center;
+            line-height: 1.4;
+            margin-bottom: 12px;
+            padding: 8px;
+            background: rgba(255,255,255,0.15);
+            border-radius: 6px;
+        }
+
+        .dice-box {
+            background: rgba(0,0,0,0.3);
+            border-radius: 8px;
+            padding: 10px;
+            text-align: center;
+        }
+
+        .dice {
+            font-size: 18px;
+            font-weight: bold;
+            font-family: 'Courier New', monospace;
+        }
+
+        .dice-label {
+            font-size: 10px;
+            text-transform: uppercase;
+            opacity: 0.8;
+            margin-top: 4px;
+        }
+
+        .card-footer {
+            text-align: center;
+            font-size: 10px;
+            text-transform: uppercase;
+            letter-spacing: 2px;
+            opacity: 0.7;
+            margin-top: 8px;
+        }
+
+        @media print {
+            body {
+                background: white;
+                padding: 0;
+            }
+            h1, .instructions {
+                display: none;
+            }
+            .page-break {
+                border: none;
+                margin: 0;
+                padding: 0;
+            }
+            .card {
+                box-shadow: none;
+                -webkit-print-color-adjust: exact;
+                print-color-adjust: exact;
+            }
+        }
+    </style>
+</head>
+<body>
+    <h1>Aspect Cards - The Trials of the Choosing</h1>
+    <p class="instructions">Print this page, then cut out the cards along the borders. Best printed in color on cardstock.</p>
+
+    <!-- WARRIOR CARDS (Red) -->
+    <div class="card-grid">
+        <div class="category-title warrior">WARRIOR ASPECTS</div>
+
+        <div class="card warrior">
+            <div class="card-header">
+                <div class="icon">&#9876;</div>
+                <div class="card-name">Mighty Blow</div>
+            </div>
+            <div class="card-body">
+                <div class="description">A powerful attack with your weapon. Put all your strength behind it!</div>
+                <div class="dice-box">
+                    <div class="dice">d20+4 to hit</div>
+                    <div class="dice">d8 damage</div>
+                    <div class="dice-label">Attack Roll + Damage</div>
+                </div>
+            </div>
+            <div class="card-footer">Warrior Aspect</div>
+        </div>
+
+        <div class="card warrior">
+            <div class="card-header">
+                <div class="icon">&#128737;</div>
+                <div class="card-name">Shield Wall</div>
+            </div>
+            <div class="card-body">
+                <div class="description">Raise your defenses to protect yourself or someone nearby from harm.</div>
+                <div class="dice-box">
+                    <div class="dice">-5 Damage</div>
+                    <div class="dice-label">Reduce incoming damage by 5</div>
+                </div>
+            </div>
+            <div class="card-footer">Warrior Aspect</div>
+        </div>
+
+        <div class="card warrior">
+            <div class="card-header">
+                <div class="icon">&#128227;</div>
+                <div class="card-name">Battle Cry</div>
+            </div>
+            <div class="card-body">
+                <div class="description">Let out a mighty shout! Scare your enemies and inspire your allies.</div>
+                <div class="dice-box">
+                    <div class="dice">d20+3</div>
+                    <div class="dice-label">vs Enemy Morale (DC 12)</div>
+                </div>
+            </div>
+            <div class="card-footer">Warrior Aspect</div>
+        </div>
+
+        <div class="card warrior">
+            <div class="card-header">
+                <div class="icon">&#9889;</div>
+                <div class="card-name">Reckless Strike</div>
+            </div>
+            <div class="card-body">
+                <div class="description">Attack with everything you've got! More damage, but you leave yourself open.</div>
+                <div class="dice-box">
+                    <div class="dice">d20+6 to hit</div>
+                    <div class="dice" style="color: #ffaaaa;">Enemies +2 to hit you</div>
+                    <div class="dice-label">High Risk, High Reward</div>
+                </div>
+            </div>
+            <div class="card-footer">Warrior Aspect</div>
+        </div>
+
+        <div class="card warrior">
+            <div class="card-header">
+                <div class="icon">&#128481;</div>
+                <div class="card-name">Disarm</div>
+            </div>
+            <div class="card-body">
+                <div class="description">Knock the weapon right out of your enemy's hand!</div>
+                <div class="dice-box">
+                    <div class="dice">d20+3</div>
+                    <div class="dice-label">Opposed Check vs Enemy</div>
+                </div>
+            </div>
+            <div class="card-footer">Warrior Aspect</div>
+        </div>
+
+        <div class="card warrior">
+            <div class="card-header">
+                <div class="icon">&#129308;</div>
+                <div class="card-name">Grapple</div>
+            </div>
+            <div class="card-body">
+                <div class="description">Grab your enemy and hold them tight! They can't move while you've got them.</div>
+                <div class="dice-box">
+                    <div class="dice">d20+4</div>
+                    <div class="dice-label">To Grab - Enemy Can't Move</div>
+                </div>
+            </div>
+            <div class="card-footer">Warrior Aspect</div>
+        </div>
+    </div>
+
+    <div class="page-break"></div>
+
+    <!-- HUNTER CARDS (Green) -->
+    <div class="card-grid">
+        <div class="category-title hunter">HUNTER ASPECTS</div>
+
+        <div class="card hunter">
+            <div class="card-header">
+                <div class="icon">&#127993;</div>
+                <div class="card-name">Precise Shot</div>
+            </div>
+            <div class="card-body">
+                <div class="description">Take careful aim at your target. One shot, one hit.</div>
+                <div class="dice-box">
+                    <div class="dice">d20+4 to hit</div>
+                    <div class="dice">d6 damage</div>
+                    <div class="dice-label">Ranged Attack</div>
+                </div>
+            </div>
+            <div class="card-footer">Hunter Aspect</div>
+        </div>
+
+        <div class="card hunter">
+            <div class="card-header">
+                <div class="icon">&#10145;&#10145;</div>
+                <div class="card-name">Quick Shot</div>
+            </div>
+            <div class="card-body">
+                <div class="description">Fire rapidly! Less accurate, but you get two shots.</div>
+                <div class="dice-box">
+                    <div class="dice">d20+2 to hit</div>
+                    <div class="dice">TWICE!</div>
+                    <div class="dice-label">Two Attacks</div>
+                </div>
+            </div>
+            <div class="card-footer">Hunter Aspect</div>
+        </div>
+
+        <div class="card hunter">
+            <div class="card-header">
+                <div class="icon">&#128062;</div>
+                <div class="card-name">Track</div>
+            </div>
+            <div class="card-body">
+                <div class="description">Follow trails, find footprints, discover hidden paths others would miss.</div>
+                <div class="dice-box">
+                    <div class="dice">d20+5</div>
+                    <div class="dice-label">Tracking / Investigation</div>
+                </div>
+            </div>
+            <div class="card-footer">Hunter Aspect</div>
+        </div>
+
+        <div class="card hunter">
+            <div class="card-header">
+                <div class="icon">&#128065;</div>
+                <div class="card-name">Sneak</div>
+            </div>
+            <div class="card-body">
+                <div class="description">Move like a shadow. No one sees you coming.</div>
+                <div class="dice-box">
+                    <div class="dice">d20+4</div>
+                    <div class="dice-label">Stealth Check</div>
+                </div>
+            </div>
+            <div class="card-footer">Hunter Aspect</div>
+        </div>
+
+        <div class="card hunter">
+            <div class="card-header">
+                <div class="icon">&#9888;</div>
+                <div class="card-name">Trap</div>
+            </div>
+            <div class="card-body">
+                <div class="description">Set a trap to catch enemies, or carefully disarm one blocking your path.</div>
+                <div class="dice-box">
+                    <div class="dice">d20+3 to set/disarm</div>
+                    <div class="dice">d8 trap damage</div>
+                    <div class="dice-label">Trap Mastery</div>
+                </div>
+            </div>
+            <div class="card-footer">Hunter Aspect</div>
+        </div>
+
+        <div class="card hunter">
+            <div class="card-header">
+                <div class="icon">&#128058;</div>
+                <div class="card-name">Animal Friendship</div>
+            </div>
+            <div class="card-body">
+                <div class="description">Calm a wild beast or befriend an animal. They sense your good heart.</div>
+                <div class="dice-box">
+                    <div class="dice">d20+3</div>
+                    <div class="dice-label">vs Animal's Will</div>
+                </div>
+            </div>
+            <div class="card-footer">Hunter Aspect</div>
+        </div>
+    </div>
+
+    <div class="page-break"></div>
+
+    <!-- ARCANE CARDS (Purple/Blue) -->
+    <div class="card-grid">
+        <div class="category-title arcane">ARCANE ASPECTS</div>
+
+        <div class="card arcane">
+            <div class="card-header">
+                <div class="icon">&#10024;</div>
+                <div class="card-name">Magic Bolt</div>
+            </div>
+            <div class="card-body">
+                <div class="description">Blast your enemy with pure magical energy from up to 60 feet away!</div>
+                <div class="dice-box">
+                    <div class="dice">d20+4 to hit</div>
+                    <div class="dice">d6 damage</div>
+                    <div class="dice-label">Ranged Magic Attack</div>
+                </div>
+            </div>
+            <div class="card-footer">Arcane Aspect</div>
+        </div>
+
+        <div class="card arcane">
+            <div class="card-header">
+                <div class="icon">&#128302;</div>
+                <div class="card-name">Shield Spell</div>
+            </div>
+            <div class="card-body">
+                <div class="description">A shimmering magical barrier appears to block an incoming attack!</div>
+                <div class="dice-box">
+                    <div class="dice">+5 Defense</div>
+                    <div class="dice-label">For One Attack</div>
+                </div>
+            </div>
+            <div class="card-footer">Arcane Aspect</div>
+        </div>
+
+        <div class="card arcane">
+            <div class="card-header">
+                <div class="icon">&#127917;</div>
+                <div class="card-name">Illusion</div>
+            </div>
+            <div class="card-body">
+                <div class="description">Create a fake image or sound to trick your enemies!</div>
+                <div class="dice-box">
+                    <div class="dice">d20+4</div>
+                    <div class="dice-label">Enemies must see through it</div>
+                </div>
+            </div>
+            <div class="card-footer">Arcane Aspect</div>
+        </div>
+
+        <div class="card arcane">
+            <div class="card-header">
+                <div class="icon">&#129294;</div>
+                <div class="card-name">Telekinesis</div>
+            </div>
+            <div class="card-body">
+                <div class="description">Move objects with your mind! Push, pull, or lift up to 50 pounds.</div>
+                <div class="dice-box">
+                    <div class="dice">d20+3</div>
+                    <div class="dice-label">Mind Over Matter</div>
+                </div>
+            </div>
+            <div class="card-footer">Arcane Aspect</div>
+        </div>
+
+        <div class="card arcane">
+            <div class="card-header">
+                <div class="icon">&#128301;</div>
+                <div class="card-name">Detect Magic</div>
+            </div>
+            <div class="card-body">
+                <div class="description">Your senses open to the magical world. You can feel magic within 30 feet.</div>
+                <div class="dice-box">
+                    <div class="dice">AUTOMATIC</div>
+                    <div class="dice-label">No Roll Needed</div>
+                </div>
+            </div>
+            <div class="card-footer">Arcane Aspect</div>
+        </div>
+
+        <div class="card arcane">
+            <div class="card-header">
+                <div class="icon">&#9733;</div>
+                <div class="card-name">Enchant</div>
+            </div>
+            <div class="card-body">
+                <div class="description">Temporarily infuse an item with magical power!</div>
+                <div class="dice-box">
+                    <div class="dice">+2 Bonus</div>
+                    <div class="dice-label">To One Item, One Use</div>
+                </div>
+            </div>
+            <div class="card-footer">Arcane Aspect</div>
+        </div>
+    </div>
+
+    <div class="page-break"></div>
+
+    <!-- DIVINE CARDS (Gold) -->
+    <div class="card-grid">
+        <div class="category-title divine">DIVINE ASPECTS</div>
+
+        <div class="card divine">
+            <div class="card-header">
+                <div class="icon">&#10084;</div>
+                <div class="card-name">Healing Light</div>
+            </div>
+            <div class="card-body">
+                <div class="description">Golden light flows from your hands, healing wounds and restoring health.</div>
+                <div class="dice-box">
+                    <div class="dice">Heal d8+2</div>
+                    <div class="dice-label">Restore Hit Points</div>
+                </div>
+            </div>
+            <div class="card-footer">Divine Aspect</div>
+        </div>
+
+        <div class="card divine">
+            <div class="card-header">
+                <div class="icon">&#9812;</div>
+                <div class="card-name">Bless</div>
+            </div>
+            <div class="card-body">
+                <div class="description">Grant good fortune to yourself or an ally. The gods smile upon them!</div>
+                <div class="dice-box">
+                    <div class="dice">+2 Bonus</div>
+                    <div class="dice-label">To Their Next Roll</div>
+                </div>
+            </div>
+            <div class="card-footer">Divine Aspect</div>
+        </div>
+
+        <div class="card divine">
+            <div class="card-header">
+                <div class="icon">&#9876;&#10024;</div>
+                <div class="card-name">Smite</div>
+            </div>
+            <div class="card-body">
+                <div class="description">Channel holy power into your attack! Your weapon blazes with radiant light.</div>
+                <div class="dice-box">
+                    <div class="dice">d20+3 to hit</div>
+                    <div class="dice">d8 radiant damage</div>
+                    <div class="dice-label">Holy Attack</div>
+                </div>
+            </div>
+            <div class="card-footer">Divine Aspect</div>
+        </div>
+
+        <div class="card divine">
+            <div class="card-header">
+                <div class="icon">&#128128;&#10060;</div>
+                <div class="card-name">Turn Undead</div>
+            </div>
+            <div class="card-body">
+                <div class="description">Holy light bursts from you, forcing undead creatures to flee in terror!</div>
+                <div class="dice-box">
+                    <div class="dice">d20+4</div>
+                    <div class="dice-label">vs Undead</div>
+                </div>
+            </div>
+            <div class="card-footer">Divine Aspect</div>
+        </div>
+
+        <div class="card divine">
+            <div class="card-header">
+                <div class="icon">&#11044;</div>
+                <div class="card-name">Protection Circle</div>
+            </div>
+            <div class="card-body">
+                <div class="description">Draw a sacred circle on the ground. Evil creatures cannot enter!</div>
+                <div class="dice-box">
+                    <div class="dice">SAFE ZONE</div>
+                    <div class="dice-label">Evil Cannot Enter</div>
+                </div>
+            </div>
+            <div class="card-footer">Divine Aspect</div>
+        </div>
+
+        <div class="card divine">
+            <div class="card-header">
+                <div class="icon">&#128220;</div>
+                <div class="card-name">Divine Guidance</div>
+            </div>
+            <div class="card-body">
+                <div class="description">Pray for wisdom. The gods send you a vision or whisper a hint.</div>
+                <div class="dice-box">
+                    <div class="dice">ASK THE DM</div>
+                    <div class="dice-label">Get One Helpful Clue</div>
+                </div>
+            </div>
+            <div class="card-footer">Divine Aspect</div>
+        </div>
+    </div>
+
+    <div class="page-break"></div>
+
+    <!-- REFERENCE CARD -->
+    <div class="card-grid">
+        <div class="category-title" style="background: #333; color: white;">HOW TO PLAY</div>
+
+        <div class="card" style="background: linear-gradient(135deg, #333 0%, #555 100%); border: 3px solid #222; color: white; width: 5.15in; height: 3.5in;">
+            <div class="card-header">
+                <div class="card-name" style="font-size: 20px;">Using Your Aspects</div>
+            </div>
+            <div class="card-body" style="font-size: 13px; text-align: left; padding: 10px;">
+                <p style="margin-bottom: 12px;"><strong>Each turn, pick TWO cards:</strong></p>
+                <p style="margin-bottom: 8px;"><span style="color: #ffd700;">&#9733; PRIMARY ASPECT:</span> Your main action. Use its full effect.</p>
+                <p style="margin-bottom: 16px;"><span style="color: #aaa;">&#9734; SECONDARY ASPECT:</span> Supporting action. Half effect OR +1 to primary.</p>
+                <p style="margin-bottom: 12px;"><strong>Example Combos:</strong></p>
+                <ul style="margin-left: 20px; line-height: 1.6;">
+                    <li><span style="color: #dc3545;">Mighty Blow</span> + <span style="color: #ffc107;">Bless</span> = Blessed strike (+2 to hit and damage)</li>
+                    <li><span style="color: #6f42c1;">Magic Bolt</span> + <span style="color: #28a745;">Sneak</span> = Surprise magical attack!</li>
+                    <li><span style="color: #ffc107;">Healing Light</span> + <span style="color: #dc3545;">Shield Wall</span> = Heal while protected</li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="card" style="background: linear-gradient(135deg, #333 0%, #555 100%); border: 3px solid #222; color: white; width: 2.5in; height: 3.5in;">
+            <div class="card-header">
+                <div class="card-name">Your Stats</div>
+            </div>
+            <div class="card-body" style="font-size: 14px;">
+                <div style="background: rgba(255,255,255,0.1); padding: 15px; border-radius: 8px; text-align: center;">
+                    <p style="font-size: 24px; margin-bottom: 10px;">HP: 20</p>
+                    <p style="margin-bottom: 8px;">AC: 13</p>
+                    <p style="margin-bottom: 8px;">Speed: 30 ft</p>
+                    <hr style="border-color: rgba(255,255,255,0.2); margin: 10px 0;">
+                    <p style="font-size: 12px; opacity: 0.8;">Write current HP below:</p>
+                    <div style="border: 2px solid white; height: 30px; margin-top: 8px; border-radius: 4px;"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+</body>
+</html>
