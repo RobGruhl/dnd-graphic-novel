@@ -1,0 +1,19 @@
+{
+  "page_num": 103,
+  "title": "Trial 3: The Maze of Echoes",
+  "scene_type": "trial",
+  "panel_count": 1,
+  "panels": [
+    {
+      "panel_num": 1,
+      "visual": "The entrance to an ancient crystalline maze. Towering walls of semi-translucent blue-green crystal rise twenty feet high, their surfaces reflecting and refracting light in confusing patterns. Some walls shimmer with illusory magic - you can almost see through them. The floor is made of large stone tiles, some glowing faintly, others dark. Multiple branching paths visible from the entrance, each leading into mysterious depths. Floating motes of magical light drift lazily in the air. Deep within the maze, barely visible, crystalline halls twist and turn. A sense of ancient puzzles and hidden secrets. Above the entrance, carved runes spell out 'MAZE OF ECHOES' in an archaic script.",
+      "dialogue": "",
+      "characters": [],
+      "npcs": [],
+      "monsters": [],
+      "location": "MazeEntrance",
+      "aspect_ratio": "portrait",
+      "size": "1024x1536"
+    }
+  ]
+}

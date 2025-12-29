@@ -1,0 +1,19 @@
+{
+  "page_num": 202,
+  "title": "Tutorial: The Green Pillar",
+  "scene_type": "tutorial",
+  "panel_count": 1,
+  "panels": [
+    {
+      "panel_num": 1,
+      "visual": "OVER-THE-SHOULDER POV SHOT - ARCHER'S PERSPECTIVE. Camera positioned behind and slightly above an implied archer's position, looking down a 30-foot shooting lane. We see what the archer sees. FOREGROUND: The edge of the GREEN PILLAR visible on the right side of frame - forest green marble carved with twisting vines, leaves, and running deer. A leather quiver with three practice arrows rests against it. Soft green light emanates from the pillar. MIDGROUND: THE OBSTACLE - Five bushes grow between us and the target, but something is WRONG. Two bushes are solid, real, with detailed leaves and shadows on the ground. Three bushes SHIMMER AND FLICKER - semi-transparent, edges wavering like heat mirages, no shadows beneath them. ILLUSIONS. They block the obvious shot line, but which ones can an arrow pass through? BACKGROUND: The TARGET hangs from a wooden post - a circular straw target with concentric rings painted red and white, a red bullseye at center. It's partially obscured by the bush maze. LIGHTING: Dappled forest-like light filtering through, green-tinted from the pillar. The real bushes cast dark shadows; the illusions cast none. ATMOSPHERE: A soft breeze stirs the real leaves. The illusions don't move. A puzzle for the observant eye.",
+      "dialogue": "",
+      "characters": [],
+      "npcs": [],
+      "monsters": [],
+      "location": "TempleCourtyard",
+      "aspect_ratio": "portrait",
+      "size": "1024x1536"
+    }
+  ]
+}

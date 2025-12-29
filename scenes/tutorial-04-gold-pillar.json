@@ -1,0 +1,19 @@
+{
+  "page_num": 204,
+  "title": "Tutorial: The Gold Pillar",
+  "scene_type": "tutorial",
+  "panel_count": 1,
+  "panels": [
+    {
+      "panel_num": 1,
+      "visual": "INTIMATE MEDIUM CLOSE-UP - A SMALL DRAMA OF LIGHT VS SHADOW. Camera at waist height, eye-level with the flower pot, creating an intimate connection with the scene. Shallow depth of field focuses attention on the central conflict. FOREGROUND: Soft golden light washes across weathered stone tiles. A few fallen flower petals, brown and dried, scattered on the ground. CENTRAL FOCUS: A simple terracotta pot, cracked with age, sits at the base of the pillar. Inside grows a FLOWER IN DISTRESS - stem bowed, petals wilting and curling inward, leaves yellowing and spotted. It was once beautiful; it's dying. Perched on the pot's rim is the cause: a TINY SHADOW CREATURE the size of a kitten. Not terrifying - almost cute in a mischievous way. It resembles a small blob of living shadow with two glowing pale eyes, curious and impish. Wispy tendrils of darkness extend from it INTO the flower's stem, visibly draining life essence shown as faint golden motes flowing from flower to shadow. BACKGROUND: The GOLD PILLAR rises behind, warm honey-colored marble radiating gentle holy light like perpetual sunrise. Carved reliefs of hands offering healing, hearts, and suns. The golden light PUSHES toward the flower but the shadow creature's small darkness holds it at bay - a dome of dim around the pot. LIGHTING: Warm golden from the pillar, cold gray around the shadow. The contrast tells the story - light trying to reach, shadow blocking. ATMOSPHERE: Bittersweet. This isn't a battle scene - it's a rescue mission. The flower can be saved, but the shadow must be dealt with first.",
+      "dialogue": "",
+      "characters": [],
+      "npcs": [],
+      "monsters": [],
+      "location": "TempleCourtyard",
+      "aspect_ratio": "portrait",
+      "size": "1024x1536"
+    }
+  ]
+}

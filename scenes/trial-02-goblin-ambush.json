@@ -1,0 +1,19 @@
+{
+  "page_num": 102,
+  "title": "Trial 2: The Goblin Ambush",
+  "scene_type": "trial",
+  "panel_count": 1,
+  "panels": [
+    {
+      "panel_num": 1,
+      "visual": "A chaotic ambush scene at a crumbling stone tower. A MERCHANT with his overturned cart is pinned down behind wooden crates, trade goods scattered everywhere. His donkey brays in panic. THREE GOBLINS attack - small green-skinned creatures with pointed ears, wearing scavenged leather armor. One goblin fires a crossbow from a high window in the tower. Another goblin rushes in with a rusty scimitar. A LARGER GOBLIN BOSS in crude chainmail commands from behind cover, pointing and snarling orders. Arrows stick out of the cart. Dramatic action scene with multiple tactical options visible - high ground, cover, flanking opportunities.",
+      "dialogue": "",
+      "characters": [],
+      "npcs": ["Garrett"],
+      "monsters": ["Goblin", "GoblinBoss"],
+      "location": "RuinedTower",
+      "aspect_ratio": "portrait",
+      "size": "1024x1536"
+    }
+  ]
+}

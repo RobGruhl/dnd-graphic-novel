@@ -1,0 +1,19 @@
+{
+  "page_num": 201,
+  "title": "Tutorial: The Red Pillar",
+  "scene_type": "tutorial",
+  "panel_count": 1,
+  "panels": [
+    {
+      "panel_num": 1,
+      "visual": "CINEMATIC LOW-ANGLE HERO SHOT. Camera positioned at ground level, tilted upward 30 degrees, placing the viewer in the position of someone approaching a challenge. FOREGROUND: Cracked stone floor tiles of the temple courtyard, a wooden practice sword lies abandoned to the left. MIDGROUND: A TRAINING DUMMY dominates the frame - but this is no straw scarecrow. It's a articulated wooden mannequin wearing FULL PLATE ARMOR - burnished iron with overlapping plates, a closed-face helmet with a T-shaped visor, gauntlets, greaves. The armor has no gaps, no obvious weak points. The dummy is mounted on a rotating wooden post, arms positioned holding a wooden shield. BACKGROUND: The RED PILLAR rises behind the dummy, a 15-foot column of deep crimson marble veined with gold. Inner fire glows within the stone, casting dramatic red-orange light that makes the armor gleam like blood. Carved into the pillar's base are reliefs of ancient warriors in combat. LIGHTING: Strong directional light from the glowing pillar creates harsh shadows on the armor's contours. Rim lighting on the dummy's silhouette. The rest of the courtyard fades to cooler shadow. ATMOSPHERE: Dust motes drift in the red light beams. This is a test of strength AND cunning.",
+      "dialogue": "",
+      "characters": [],
+      "npcs": [],
+      "monsters": [],
+      "location": "TempleCourtyard",
+      "aspect_ratio": "portrait",
+      "size": "1024x1536"
+    }
+  ]
+}

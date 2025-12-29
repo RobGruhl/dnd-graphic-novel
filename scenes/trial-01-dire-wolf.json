@@ -1,0 +1,19 @@
+{
+  "page_num": 101,
+  "title": "Trial 1: The Dire Wolf",
+  "scene_type": "trial",
+  "panel_count": 1,
+  "panels": [
+    {
+      "panel_num": 1,
+      "visual": "A MASSIVE DIRE WOLF blocks an ancient stone bridge over a misty gorge. The wolf is HUGE - shoulder height of a grown man. Hackles raised, teeth bared in a vicious snarl, ears pinned back aggressively. Unnatural orange-red glow in its eyes. Muscular body tensed for combat, claws digging into the stone. One front leg is held slightly off the ground - barely noticeable. The bridge is narrow, with crumbling stone railings and moss-covered pillars. Deep gorge below with swirling mist. Threatening atmosphere - this beast means business. No obvious signs this is anything but a dangerous predator blocking the path.",
+      "dialogue": "",
+      "characters": [],
+      "npcs": [],
+      "monsters": ["DireWolf"],
+      "location": "StoneBridge",
+      "aspect_ratio": "portrait",
+      "size": "1024x1536"
+    }
+  ]
+}

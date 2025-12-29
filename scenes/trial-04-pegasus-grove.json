@@ -1,0 +1,19 @@
+{
+  "page_num": 104,
+  "title": "Trial 4: The Cursed Grove",
+  "scene_type": "trial",
+  "panel_count": 1,
+  "panels": [
+    {
+      "panel_num": 1,
+      "visual": "A moonlit forest grove corrupted by dark magic. THREE DISTINCT ELEMENTS clearly visible: FIRST - SHADOW CREATURES circle menacingly, dark wisps with glowing eyes, tethered by dark energy threads to something at the base of a dead tree. SECOND - A MAGNIFICENT WHITE PEGASUS trapped in the center, magical chains of shadow binding her wings. She strains toward the viewer, wings flickering with residual holy light, eyes pleading for help. THIRD - At the base of the LARGEST DEAD TREE, a GLOWING PURPLE CRYSTAL pulses with sickly light, clearly the source of the corruption. Dark tendrils extend from the crystal to both the shadows and the chains. Dead trees surround the clearing. The shadows seem unable to leave the grove's boundary. Three paths to victory visible: fight the shadows, help the pegasus, or destroy the crystal.",
+      "dialogue": "",
+      "characters": [],
+      "npcs": [],
+      "monsters": ["Shadow"],
+      "location": "CursedGrove",
+      "aspect_ratio": "portrait",
+      "size": "1024x1536"
+    }
+  ]
+}

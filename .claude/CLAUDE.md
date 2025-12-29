@@ -211,7 +211,35 @@ Edit generation parameters in `generate.py`:
 
 ## Live Session DM Mode: The Trials of the Choosing
 
-When running the adventure live, Claude assists as a DM co-pilot. Submit voice transcripts and get real-time support.
+**Claude is CO-DUNGEON MASTER** alongside Rob (the human DM). Rob runs the laptop, rolls dice, and speaks to Hendrix. Claude provides real-time support via transcript processing.
+
+### Co-DM Responsibilities
+
+**ALWAYS provide READ-ALOUD TEXT** for Rob to speak to Hendrix. Format it clearly:
+
+```
+📖 READ ALOUD:
+"The massive wolf blocks your path, hackles raised, teeth bared in a
+vicious snarl. Its eyes glow with an unnatural orange light. One front
+leg hovers slightly off the ground. What do you do?"
+```
+
+When responding to transcripts, Claude should provide:
+1. **Read-aloud text** - Boxed narration Rob can speak verbatim
+2. **Mechanics** - DC, rolls needed, card suggestions
+3. **Outcome options** - Success/failure narration ready to go
+4. **DM notes** - Whispered tips for Rob (not read aloud)
+
+### Image Generation Agent
+
+The **dnd-image-generator** agent creates images on-demand during play:
+- Trigger: "make an image of...", "illustrate...", "show me..."
+- Uses Gemini 3 Pro Image (nanobanana pro)
+- Pulls descriptions from `characters.json`, `locations.json`, `monsters.json`
+- Saves to `output/campaign-images/` with timestamp filenames
+- 2:3 portrait aspect ratio
+
+Example: "Make an image of Hendrix facing down the dire wolf on the bridge"
 
 ### Equipment Checklist
 - [ ] Blue Yeti microphone (set to **interview mode**)
@@ -245,6 +273,7 @@ When running the adventure live, Claude assists as a DM co-pilot. Submit voice t
 
 ```
 output/scene_panels/
+# Establishing shots (3 variants each)
 ├── scene-001-temple-courtyard-v[1-3].png   # Ceremony
 ├── scene-002-whispering-valley-v[1-3].png  # Valley path
 ├── scene-003-stone-bridge-v[1-3].png       # Dire wolf
@@ -257,6 +286,18 @@ output/scene_panels/
 ├── scene-010-pegasus-flight-v[1-3].png     # Flying scene
 ├── scene-011-corrupted-temple-v[1-3].png   # Temple under attack
 ├── scene-012-inner-sanctum-v[1-3].png      # Shadow Sorcerer boss
+
+# Tutorial pillar images (cinematic shots)
+├── tutorial-01-red-pillar.png    # Warrior test - armored dummy
+├── tutorial-02-green-pillar.png  # Hunter test - illusory bushes
+├── tutorial-03-blue-pillar.png   # Arcane test - spinning crystal
+├── tutorial-04-gold-pillar.png   # Divine test - shadow on flower
+
+# Trial images (action-focused)
+├── trial-01-dire-wolf.png        # Threatening wolf on bridge
+├── trial-02-goblin-ambush.png    # Merchant under attack
+├── trial-03-maze.png             # Maze of Echoes entrance
+├── trial-04-pegasus-grove.png    # Three paths visible
 ```
 
 ### Monster Quick Stats
@@ -318,11 +359,11 @@ for part in response.parts:
 
 ### Transcript Processing
 
-When you paste session transcripts, Claude will:
+When Rob pastes session transcripts, Claude will:
 1. Identify what Hendrix is trying to do
 2. Suggest which Aspect cards apply
 3. Provide DC targets and roll interpretations
-4. Offer dramatic narration for outcomes
+4. **Provide READ-ALOUD text for both outcomes**
 5. Track card usage for class determination
 6. Flag if pacing needs adjustment
 
@@ -330,8 +371,21 @@ When you paste session transcripts, Claude will:
 > "Hendrix says he wants to sneak past the wolf and look for another way across"
 
 **Claude response format:**
-- **Action:** Sneak past dire wolf
-- **Card:** Hunter - Sneak (DC 14, wolf has Perception +5)
-- **Roll needed:** d20+4 (Sneak bonus)
-- **If success:** "You move like a shadow along the bridge's edge..."
-- **If fail:** "A loose stone clatters - the wolf's ears perk up..."
+
+**Action:** Sneak past dire wolf
+**Card:** Hunter - Sneak (DC 14, wolf has Perception +5)
+**Roll needed:** d20+4 (Sneak bonus)
+
+📖 **IF SUCCESS - READ ALOUD:**
+> "You press yourself against the bridge's cold stone railing, moving like
+> a shadow. The wolf's ears twitch, but its burning eyes stay fixed on the
+> far end of the bridge. Step by careful step, you slip past... and the
+> beast never turns. You're across!"
+
+📖 **IF FAIL - READ ALOUD:**
+> "You're almost past when your boot catches a loose stone. It clatters
+> across the bridge like a warning bell. The wolf's head snaps toward you,
+> lips curling back from massive fangs. It knows you're here now."
+
+🎲 **DM NOTE:** If he fails, the wolf doesn't attack immediately - it blocks
+the path and growls. Give him a chance to try something else.

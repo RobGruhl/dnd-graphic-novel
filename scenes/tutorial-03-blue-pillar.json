@@ -1,0 +1,19 @@
+{
+  "page_num": 203,
+  "title": "Tutorial: The Blue Pillar",
+  "scene_type": "tutorial",
+  "panel_count": 1,
+  "panels": [
+    {
+      "panel_num": 1,
+      "visual": "DRAMATIC VERTICAL COMPOSITION - LOOKING UP INTO MAGIC. Camera at chest height, tilted upward 45 degrees, emphasizing the height and magical nature of the challenge. FOREGROUND: The base of the BLUE PILLAR fills the bottom third - deep sapphire marble with geometric patterns and arcane formulae carved in spiraling bands. Glowing blue runes pulse with rhythmic energy. Small arcs of lightning crawl across the stone surface. MIDGROUND: The pillar rises up, narrowing slightly with perspective. Motes of blue magical energy drift upward like glowing embers in reverse, trailing wisps of light. UPPER FRAME - THE CHALLENGE: A CRYSTAL hovers ten feet above the pillar's crown - a multifaceted gem the size of a child's fist, brilliant blue-white, SPINNING RAPIDLY on its axis. MOTION TRAILS show its movement - and also show it BLINKING, teleporting in small 6-inch jumps at random intervals. Three ghost-images of the crystal show where it was a moment ago, fading like afterimages. LIGHTING: The crystal is the brightest point, casting sharp moving shadows. The pillar glows from within. Electric blue dominates the palette with purple shadows. ATMOSPHERE: The air crackles with static. Hair would stand on end here. The crystal's pattern seems chaotic - but a patient observer might notice the rhythm.",
+      "dialogue": "",
+      "characters": [],
+      "npcs": [],
+      "monsters": [],
+      "location": "TempleCourtyard",
+      "aspect_ratio": "portrait",
+      "size": "1024x1536"
+    }
+  ]
+}
