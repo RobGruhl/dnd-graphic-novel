@@ -1,9 +1,9 @@
 # The Trials of the Choosing
-## A Solo Adventure for Hendrix
+## A Solo Adventure for the Player
 
 **Estimated Time:** 2 hours
-**Player:** Hendrix (age 10)
-**DM:** Uncle Rob
+**Player:** the Player (young)
+**DM:** the DM
 **Assistant:** Claude Code (for rulings, descriptions, adaptation)
 
 ---
@@ -25,7 +25,7 @@
 >
 > *You sit up in bed and look around your room...*
 
-### Ask Hendrix:
+### Ask the Player:
 
 1. **"What does your room look like? What's one cool thing in it?"**
    - (Let him describe - this becomes part of his character)
@@ -69,7 +69,7 @@
 >
 > **"Come forward, young one. Receive the Aspects."**
 
-### Give Hendrix the Cards:
+### Give the Player the Cards:
 
 > *The Elder hands you a deck of cards - each one glowing faintly with power.*
 >
@@ -163,9 +163,9 @@ Explain briefly:
 >
 > *It's blocking your path. And it doesn't look friendly.*
 
-**DM Note:** Do NOT mention "curse," "pain," or "scared" in the read-aloud. Let Hendrix discover what's really going on.
+**DM Note:** Do NOT mention "curse," "pain," or "scared" in the read-aloud. Let the Player discover what's really going on.
 
-### What Hendrix Can Do:
+### What the Player Can Do:
 
 **WARRIOR Approach:**
 - Mighty Blow / Reckless Strike: Direct combat (wolf has AC 14, 22 HP)
@@ -188,9 +188,9 @@ Explain briefly:
 - Healing Light: Heals the curse immediately - wolf becomes ally
 - Turn Undead: Doesn't work - it's cursed, not undead
 
-**If Hendrix ATTACKS first:**
+**If the Player ATTACKS first:**
 - Wolf defends itself, fights back
-- But if Hendrix wins a round, wolf doesn't pursue - it limps back, whimpering
+- But if the Player wins a round, wolf doesn't pursue - it limps back, whimpering
 - **DM prompt:** "Strange... a predator this size should be chasing you. Instead it just... sits there, licking its wounded leg."
 
 ### Resolution Outcomes:
@@ -231,7 +231,7 @@ Explain briefly:
 - Merchant trapped (35 ft away)
 - You're in concealment
 
-### What Hendrix Can Do:
+### What the Player Can Do:
 
 **WARRIOR Approach:**
 - Charge with Shield Wall: Block arrows while closing distance
@@ -408,7 +408,7 @@ If stuck, Divine Guidance gives a hint: "Think of parchment and ink..."
 - 3 Shadows: CR 1/2 each, circling, draining her
 - Dark Crystal: VISIBLE at the base of the largest dead tree, pulsing with curse energy
 
-### What Hendrix Can Do:
+### What the Player Can Do:
 
 **Fight the Shadows:**
 - Smite: Radiant damage - shadows are VULNERABLE (double damage!)
@@ -446,7 +446,7 @@ If stuck, Divine Guidance gives a hint: "Think of parchment and ink..."
 >
 > **~You freed me. You fought the darkness without hesitation. I am Starwind, and I have watched many Choosings from the clouds above. Never have I seen one face the trials with such...~**
 
-*What does Starwind say? Base it on how Hendrix has played:*
+*What does Starwind say? Base it on how the Player has played:*
 
 - Mostly Warrior: **"...such courage. You face danger head-on."**
 - Mostly Hunter: **"...such cleverness. You find the right path."**
@@ -490,10 +490,10 @@ If stuck, Divine Guidance gives a hint: "Think of parchment and ink..."
 > *The Temple doors groan open. Inside, the sacred halls are dark and cold. Shadows cling to the walls like living things. The path to the inner sanctum is blocked by:*
 
 **Obstacle 1 - The Shadow Wolves:**
-(If Hendrix fought and killed the dire wolf earlier)
+(If the Player fought and killed the dire wolf earlier)
 > *Two ghostly wolves materialize, snarling with hatred. They are echoes of the creature you struck down.*
 
-OR (If Hendrix helped the dire wolf)
+OR (If the Player helped the dire wolf)
 > *The dire wolf (if it followed him) growls at the shadows, and they part. Your companion's presence creates a path.*
 
 **Obstacle 2 - The Goblin Spirits:**
@@ -517,7 +517,7 @@ OR (If Hendrix helped the dire wolf)
 >
 > *They look up at you with frightened but hopeful eyes.*
 >
-> **[NPC]:** "[Hendrix's character name]! You came!"
+> **[NPC]:** "[the Player's character name]! You came!"
 >
 > *A COLD LAUGH echoes through the chamber.*
 
@@ -559,9 +559,9 @@ OR (If Hendrix helped the dire wolf)
 - **Magic Bolt + Enchant:** Enchanted bolt deals extra damage
 
 **The Compassion Option:**
-If Hendrix tries to HELP the Specter instead of just fighting:
+If the Player tries to HELP the Specter instead of just fighting:
 
-> **[If Hendrix says something like "I'm sorry that happened to you" or "You don't have to be alone"]**
+> **[If the Player says something like "I'm sorry that happened to you" or "You don't have to be alone"]**
 >
 > *The Specter falters. Something in your words hits home.*
 >
@@ -569,7 +569,7 @@ If Hendrix tries to HELP the Specter instead of just fighting:
 >
 > *Its form flickers between rage and something else. Something broken and sad.*
 
-This opens a path to REDEEM the Specter instead of destroying it. Have Hendrix make a case for why the Specter should let go of its anger. If it feels genuine:
+This opens a path to REDEEM the Specter instead of destroying it. Have the Player make a case for why the Specter should let go of its anger. If it feels genuine:
 
 > *The Specter looks at you for a long moment. Then, slowly, its form begins to glow - not with angry fire, but with soft, golden light.*
 >
@@ -699,7 +699,7 @@ Use the rubric from the DM Reference sheet. Read this aloud:
 
 # POST-SESSION
 
-## Discussion Questions for Hendrix:
+## Discussion Questions for the Player:
 
 1. What was your FAVORITE part of today?
 2. Which of your allies do you like best - the wolf, Pip, or Starwind?

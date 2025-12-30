@@ -1,4 +1,4 @@
-# Hendrix's D&D Character Backstory
+# the Player's D&D Character Backstory
 
 A graphic novel telling the origin story of [CHARACTER NAME].
 

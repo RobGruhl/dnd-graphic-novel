@@ -101,9 +101,9 @@
   "HeroPlaceholder": {
     "name": "[HERO NAME]",
     "role": "Main Character",
-    "full_description": "A young hero on the day of their Choosing, discovering their true potential. Appearance determined by Hendrix's choices. Carries the Aspect cards and faces trials with courage. By the end, their true class will be revealed.",
+    "full_description": "A young hero on the day of their Choosing, discovering their true potential. Appearance determined by the Player's choices. Carries the Aspect cards and faces trials with courage. By the end, their true class will be revealed.",
     "description_components": {
-      "head_face": "[To be determined by Hendrix - age, race, features, expression]",
+      "head_face": "[To be determined by the Player - age, race, features, expression]",
       "body_build": "[To be determined - young, athletic, appropriate for a new adventurer]",
       "armor_clothing": "[To be determined - starting outfit suitable for ceremony, may change during adventure]",
       "accessories": "[The Aspect Cards - deck of glowing cards in red green blue gold, plus any items gained during trials]"
@@ -112,10 +112,10 @@
   "BelovedNPCPlaceholder": {
     "name": "[BELOVED NPC NAME]",
     "role": "Motivation / Final Rescue Target",
-    "full_description": "The person or creature the hero cares about most. Determined by Hendrix at the start of the adventure. Captured by the Specter and held in the Temple Sanctum. Their rescue is the final trial's emotional core.",
+    "full_description": "The person or creature the hero cares about most. Determined by the Player at the start of the adventure. Captured by the Specter and held in the Temple Sanctum. Their rescue is the final trial's emotional core.",
     "description_components": {
-      "head_face": "[To be determined by Hendrix - could be parent, friend, sibling, mentor, or pet]",
-      "body_build": "[To be determined based on who Hendrix chooses]",
+      "head_face": "[To be determined by the Player - could be parent, friend, sibling, mentor, or pet]",
+      "body_build": "[To be determined based on who the Player chooses]",
       "armor_clothing": "[To be determined - appropriate for their role in hero's life]",
       "accessories": "[To be determined - something meaningful that connects them to the hero]"
     }

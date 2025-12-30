@@ -1,7 +1,7 @@
 # Campaign Journal: The Trials of the Choosing
 
 **Session Date:** 2025-12-29
-**Player:** Hendrix (age 10)
+**Player:** the Player (young)
 **DM:** Rob (human) + Claude (AI co-DM)
 **Adventure:** The Trials of the Choosing
 
@@ -68,7 +68,7 @@
 ### ACT 1 - THE CHOOSING CEREMONY
 
 **Scene 1: Morning at Home**
-- Hendrix established his character lives in an underground cave with a river running through his bedroom
+- the Player established his character lives in an underground cave with a river running through his bedroom
 - Fish swim in the river inside his room
 - Parents are like his real parents - fun and caring
 - Has a myconid friend named **Spore**
@@ -76,7 +76,7 @@
 
 **Scene 2: Temple Ceremony**
 - Received Aspect Cards from the Elder
-- Hendrix's brilliant idea: Before Choosing, candidates are **glowing indeterminate figures** in robes - no species yet!
+- the Player's brilliant idea: Before Choosing, candidates are **glowing indeterminate figures** in robes - no species yet!
 - After the trials, he will become a **Lizardfolk**
 
 **Tutorial Pillars:**
@@ -91,7 +91,7 @@
 
 **Trial 1: Dire Wolf at the Bridge**
 - First used **Illusion + Enchant** to create decoy copies with real scent
-- Wolf was confused but Hendrix noticed it was in pain, not attacking
+- Wolf was confused but the Player noticed it was in pain, not attacking
 - Chose compassion: **Smite + Healing Light** to destroy shadow chains and heal the wound
 - Wolf became ally, named **Darkstorm**
 - Key moment: Chose to help when he could have snuck past
@@ -138,13 +138,13 @@
   - **Animal Friendship** - calmed the scared creature
   - **Healing Light** - fixed the bent wing
   - **Enchant** - created memory link, SAW Pip's past (chased by swords, hurt, alone)
-  - Pip chose Hendrix! Now rides on shoulder, emotionally bonded
+  - Pip chose the Player! Now rides on shoulder, emotionally bonded
 
 **Trial 4: Cursed Grove - COMPLETE! (EPIC VICTORY)**
 - Found Starwind the pegasus bound by shadow chains
 - Three shadows circling and draining her life
 - Dark crystal at base of dead tree powering the curse
-- Hendrix went ALL IN with FOUR Divine cards:
+- the Player went ALL IN with FOUR Divine cards:
   - **Bless** on the dead trees (partial success)
   - **Turn Undead** (rolled 18!) - two shadows DESTROYED, one fled wounded
   - **Smite** on chains (rolled 2) - cracked but held!
@@ -152,7 +152,7 @@
   - **NATURAL 20 on the final roll!**
 - TOTAL VICTORY: Chains shattered, crystal exploded, last shadow destroyed
 - Dead grove BLOOMED back to life!
-- Starwind freed, pledged herself to Hendrix
+- Starwind freed, pledged herself to the Player
 - Now flying to Temple - Spore is in danger!
 
 ---
@@ -172,7 +172,7 @@
 - "I gave EVERYTHING and I FAILED. Now I'll take YOUR power!"
 
 **The Final Battle**
-- Hendrix carefully considered all his cards - took his time on this important moment
+- the Player carefully considered all his cards - took his time on this important moment
 - Chose THREE cards for a coordinated strike:
   - **Turn Undead** (rolled 9+4=13 with Pip's advantage) - HOLY LIGHT EXPLOSION! Sorcerer staggered and burned!
   - **Telekinesis** (rolled 14+3=17) - SHATTERED the shadow chains! Spore freed!
@@ -180,12 +180,12 @@
 - All three allies stood with him: Darkstorm roared, Pip screeched, Starwind reared
 - Shadow Sorcerer's form faded - revealed the sad, lonely person they once were
 - "Maybe that's what I was missing. Not power. Just... someone who cared."
-- Hendrix chose silence - the Sorcerer faded without redemption
+- the Player chose silence - the Sorcerer faded without redemption
 
 **The Transformation**
 - Temple restored, stars glowing on ceiling again
 - Spore freed, releasing rainbow spores of joy
-- Hendrix's glowing indeterminate form solidified into LIZARDFOLK
+- the Player's glowing indeterminate form solidified into LIZARDFOLK
 - Scales manifested - green-brown, draconic heritage revealed
 - The Choosing complete!
 
@@ -203,7 +203,7 @@
 
 **Session Date:** December 29, 2025
 **Duration:** ~60 minutes
-**Player:** Hendrix (age 10)
+**Player:** the Player (young)
 **DMs:** Rob (human) + Claude (AI co-DM)
 
 ### The Hero
@@ -442,26 +442,111 @@ All four trials passed. Shadow Sorcerer defeated. Spore rescued. The Choosing cr
 
 ## Memorable Quotes
 
-*Capturing the best moments in Hendrix's own words*
+*Capturing the best moments in the Player's own words*
 
 > *(Session not yet started)*
 
 ---
 
-## Session Notes
+## Session 1 Notes
 
 *DM observations, pacing notes, things to remember*
 
-*(Session not yet started)*
+- the Player loved the aspect card system - creative combinations encouraged
+- Preferred compassion over combat at every opportunity
+- The indeterminate form → species reveal was a hit
+- Natural 20s on Starwind rescue and maze vision were memorable
+- ~60 minutes total session time
 
 ---
 
-## Post-Session Summary
+## Session 1 Summary - COMPLETE
+
+**Final Class Determined:** Sorcerer (Draconic Sorcery)
+**Total Session Time:** ~60 minutes
+**Allies Acquired:** Darkstorm (Dire Wolf), Pip (Pseudodragon), Starwind (Pegasus), Spore (Myconid)
+**Favorite Moment (the Player):** TBD - ask after next session
+**What the Player Wants Next:** TBD
+
+---
+
+---
+
+# SESSION 2: THE DRAGON'S EGG
+## Preparation Notes
+
+**Adventure:** The Dragon's Egg
+**System:** Full D&D 5e (transitioning from Aspect Cards)
+**Characters:** Lightsword (Sorcerer 3) + Spore (Rogue 3) - BOTH as PCs
+**Duration:** ~90 minutes planned
+
+### Pre-Session Status
+
+**Characters:**
+- Lightsword: Level 3 Lizardfolk Sorcerer (Draconic Sorcery), Guide background
+- Spore: Level 3 Myconid Rogue (Soulknife), Circle Keeper background
+
+**Active Companions This Session:**
+- Pip (Pseudodragon) - KEY ROLE: leads heroes to dragon
+
+**Staying Home This Session:**
+- Darkstorm (Dire Wolf) - senses dragon territory, guards home
+- Starwind (Pegasus) - too large for deep tunnels
+
+### Adventure Hook
+
+Pip senses a psychic distress call from deep in the caves. Following the pseudodragon leads to **Emberheart**, a young copper dragon whose egg was stolen by a **Cult of Tiamat**. Lightsword and Spore must track the cultists and rescue the egg before a dark ritual corrupts it.
+
+### Key NPCs
+
+| NPC | Role | Notes |
+|-----|------|-------|
+| **Emberheart** | Quest-giver | Young copper dragon, grieving mother |
+| **Brother Ashscale** | Villain | Cult Fanatic, true believer |
+| **Marcus, Elena, Old Tomas** | Tricked Cultists | Not evil, just misled |
+
+### Session Goals
+
+1. [ ] Establish two-character play with full 5e mechanics
+2. [ ] Pip gets spotlight as guide
+3. [ ] Connect to Lightsword's draconic heritage
+4. [ ] Spore's stealth abilities shine
+5. [ ] Present moral choice about tricked cultists
+
+### Files Created
+
+- `adventure/session-2-dragon-egg.md` - Full session script
+- `adventure/dragon-egg-dm-reference.md` - Stat blocks and DCs
+- Scene images in `output/campaign-images/`
+
+---
+
+## Session 2 Timeline
+
+*To be filled during play*
+
+### ACT 1 - THE CALL
+*(Pip's distress, Darkstorm stays behind)*
+
+### ACT 2 - THE DRAGON'S LAIR
+*(Meet Emberheart, learn the quest)*
+
+### ACT 3 - TRACKING THE CULT
+*(Pit trap, fire beetles, find the shrine)*
+
+### ACT 4 - THE CULT HIDEOUT
+*(Infiltration, combat/persuasion, save the egg)*
+
+### ACT 5 - RESOLUTION
+*(Return egg, get rewards, story hooks)*
+
+---
+
+## Session 2 Summary
 
 *To be completed after the adventure*
 
-**Final Class Determined:** TBD
-**Total Session Time:** TBD
-**Allies Acquired:** TBD
-**Favorite Moment (Hendrix):** TBD
-**What Hendrix Wants Next:** TBD
+**Outcome:** TBD
+**Notable Moments:** TBD
+**XP Earned:** TBD
+**Story Hooks Planted:** Larger Tiamat cult, Emberheart's training offer

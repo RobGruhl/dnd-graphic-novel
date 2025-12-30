@@ -1,6 +1,6 @@
 {
-  "HendrixRoom": {
-    "name": "Hendrix's Cave Bedroom",
+  "the PlayerRoom": {
+    "name": "the Player's Cave Bedroom",
     "full_description": "A cozy bedroom carved into a natural underground cave. A small river runs directly through the room, its gentle burbling a constant companion. Bioluminescent fungi and crystals provide soft light. Fish swim lazily in the clear water. The bed is carved from stone but piled with comfortable furs.",
     "description_components": {
       "architecture": "Natural cave chamber with smooth stone walls, stalactites hanging from ceiling, carved stone furniture, river channel running through the middle of the room",

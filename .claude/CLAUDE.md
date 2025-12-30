@@ -211,12 +211,12 @@ Edit generation parameters in `generate.py`:
 
 ## Live Session DM Mode: The Trials of the Choosing
 
-**Claude is CO-DUNGEON MASTER** alongside Rob (the human DM). Rob runs the laptop, rolls dice, and speaks to Hendrix. Claude provides real-time support via transcript processing.
+**Claude is CO-DUNGEON MASTER** alongside Rob (the human DM). Rob runs the laptop, rolls dice, and speaks to the Player. Claude provides real-time support via transcript processing.
 
 ### Campaign Journal - Persistent Memory
 
 **IMPORTANT:** If context is compressed or a new session begins, **read `adventure/campaign-journal.md` first** to restore continuity. The journal tracks:
-- Where Hendrix is in the adventure
+- Where the Player is in the adventure
 - Which cards have been played (for class determination)
 - Allies acquired (wolf, Pip, Starwind)
 - Key decisions and memorable quotes
@@ -226,7 +226,7 @@ Use the **campaign-journal-keeper** agent to update the journal after significan
 
 ### Co-DM Responsibilities
 
-**ALWAYS provide READ-ALOUD TEXT** for Rob to speak to Hendrix. Format it clearly:
+**ALWAYS provide READ-ALOUD TEXT** for Rob to speak to the Player. Format it clearly:
 
 ```
 📖 READ ALOUD:
@@ -248,14 +248,14 @@ The **dnd-image-generator** agent creates images on-demand during play:
 - Uses Gemini 3 Pro Image (nanobanana pro)
 - Pulls descriptions from `characters.json`, `locations.json`, `monsters.json`
 - Saves to `output/campaign-images/` with timestamp filenames
-- **16:10 landscape aspect ratio** (fills MacBook screen for showing Hendrix)
+- **16:10 landscape aspect ratio** (fills MacBook screen for showing the Player)
 - **Automatically opens the image in Chrome** after generation
 
-Example: "Make an image of Hendrix facing down the dire wolf on the bridge"
+Example: "Make an image of the Player facing down the dire wolf on the bridge"
 
 ### Displaying Scene Images
 
-As the adventure progresses, **open scene images in Chrome** for Hendrix to see:
+As the adventure progresses, **open scene images in Chrome** for the Player to see:
 
 ```bash
 open -a "Google Chrome" output/scene_panels/IMAGE_NAME.png
@@ -273,10 +273,10 @@ Proactively display relevant images when:
 - [ ] Headphones
 - [ ] Analog pomodoro timer (ticking adds urgency!)
 - [ ] Printed Aspect Cards (`output/aspect-cards-printable-compressed.pdf`)
-- [ ] Scene images on laptop for showing Hendrix
+- [ ] Scene images on laptop for showing the Player
 
-### Hendrix-Specific Notes
-- **Age:** 10 years old
+### the Player-Specific Notes
+- **Age:** a young player
 - **NO zombies or undead humans** (mom confirmed)
 - **OK:** Skeletons, evil wizards, shadows, monsters
 - **Final boss:** "Shadow Sorcerer" (hooded wizard with purple eyes) - uses Specter stats
@@ -339,7 +339,7 @@ output/scene_panels/
 
 ### Class Determination (End of Session)
 
-Track which Aspect cards Hendrix uses most:
+Track which Aspect cards the Player uses most:
 
 | Primary | Secondary | Class |
 |---------|-----------|-------|
@@ -386,7 +386,7 @@ for part in response.parts:
 ### Transcript Processing
 
 When Rob pastes session transcripts, Claude will:
-1. Identify what Hendrix is trying to do
+1. Identify what the Player is trying to do
 2. Suggest which Aspect cards apply
 3. Provide DC targets and roll interpretations
 4. **Provide READ-ALOUD text for both outcomes**
@@ -394,7 +394,7 @@ When Rob pastes session transcripts, Claude will:
 6. Flag if pacing needs adjustment
 
 **Example transcript input:**
-> "Hendrix says he wants to sneak past the wolf and look for another way across"
+> "the Player says he wants to sneak past the wolf and look for another way across"
 
 **Claude response format:**
 

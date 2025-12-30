@@ -4,7 +4,7 @@
 
 ---
 
-Hey Hendrix! Before we create your graphic novel, we need to discover your character's story. This isn't a test - there are no wrong answers! Just pick whatever sounds the most awesome and fun to you.
+Hey the Player! Before we create your graphic novel, we need to discover your character's story. This isn't a test - there are no wrong answers! Just pick whatever sounds the most awesome and fun to you.
 
 Think of this like you're being interviewed by a bard who wants to write songs about your adventures. Tell your story!
 
@@ -374,7 +374,7 @@ Now put it all together! Fill in the blanks:
 
 ---
 
-## DM Hooks (For Uncle Rob!)
+## DM Hooks (For the DM!)
 
 Based on the answers above, here are things that can come up in adventures:
 

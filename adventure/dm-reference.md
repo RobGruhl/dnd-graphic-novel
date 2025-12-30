@@ -3,7 +3,7 @@
 
 ---
 
-## Hendrix's Stats
+## the Player's Stats
 - **HP:** 20
 - **AC:** 13
 - **Speed:** 30 ft
@@ -13,7 +13,7 @@
 
 ## Card Tracking Sheet
 
-Use tally marks each time Hendrix picks a card as Primary (P) or Secondary (S):
+Use tally marks each time the Player picks a card as Primary (P) or Secondary (S):
 
 | WARRIOR (Red) | P | S | | HUNTER (Green) | P | S |
 |---------------|---|---|---|----------------|---|---|
@@ -99,7 +99,7 @@ Use tally marks each time Hendrix picks a card as Primary (P) or Secondary (S):
 3. **Flying Sword Room:** 2-3 swords animate when center is crossed. Can be avoided with Sneak DC 15.
 4. **Riddle Door:** "I have cities but no houses, forests but no trees, water but no fish. What am I?" (Answer: A MAP)
 
-**Pseudodragon location:** Hiding in a alcove past the riddle door, injured. If Hendrix helps (healing, kind words, food), it bonds with him.
+**Pseudodragon location:** Hiding in a alcove past the riddle door, injured. If the Player helps (healing, kind words, food), it bonds with him.
 
 ---
 
@@ -124,7 +124,7 @@ Use tally marks each time Hendrix picks a card as Primary (P) or Secondary (S):
 - Track/Detect Magic: Find the curse anchor (dark crystal nearby)
 - Destroy crystal: DC 13 attack or Telekinesis to shatter it
 
-**If helped:** Pegasus offers to carry Hendrix to the final trial and becomes ally.
+**If helped:** Pegasus offers to carry the Player to the final trial and becomes ally.
 
 ---
 
@@ -135,7 +135,7 @@ Use tally marks each time Hendrix picks a card as Primary (P) or Secondary (S):
 |----|----|--------|---------|
 | 12 | 22 | +4, 2d6 necrotic + HP max reduction | Incorporeal. Resistant to almost everything. Sunlight = disadvantage. |
 
-**Story:** Spirit of a previous Choosing candidate who failed and died bitter. Wants to steal Hendrix's potential.
+**Story:** Spirit of a previous Choosing candidate who failed and died bitter. Wants to steal the Player's potential.
 
 **Setup:** Specter has captured/threatened the beloved NPC from Act 1. Found in a dark shrine.
 
@@ -147,7 +147,7 @@ Use tally marks each time Hendrix picks a card as Primary (P) or Secondary (S):
    - Turn Undead: Very effective (forces it away from NPC)
    - Divine attacks deal full damage (not resistant to radiant)
    - Healing Light on NPC: Weakens specter's hold
-   - Compassion approach: If Hendrix tries to help/forgive the specter, it may find peace
+   - Compassion approach: If the Player tries to help/forgive the specter, it may find peace
 
 **Victory:** NPC saved, specter defeated or redeemed, class crystallizes.
 
@@ -198,13 +198,13 @@ Count the totals from the tracking sheet above:
 
 ## Adaptive Difficulty
 
-**If Hendrix is struggling:**
+**If the Player is struggling:**
 - Reduce enemy HP by 25%
 - Have an ally appear (wolf, pegasus)
 - Let creative solutions auto-succeed
 - Divine Guidance gives very clear hints
 
-**If Hendrix is breezing through:**
+**If the Player is breezing through:**
 - Add one more enemy
 - Enemies use tactical positioning
 - Add a time pressure element

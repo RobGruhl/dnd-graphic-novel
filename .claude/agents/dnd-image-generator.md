@@ -177,7 +177,7 @@ This displays the generated image in a new browser tab for immediate use during 
 
 ## Complete Example
 
-When asked to "make an image of the Elder greeting Hendrix at the temple":
+When asked to "make an image of the Elder greeting the Player at the temple":
 
 ```python
 # 1. Load databases
@@ -188,7 +188,7 @@ style_db = load_database('style.json')
 # 2. Assemble prompt with database lookups
 prompt = assemble_prompt(
     scene_description="The Elder warmly greets a young boy at the temple entrance. The Elder's hand rests gently on the boy's shoulder. Morning light streams through the courtyard. A moment of welcome and destiny.",
-    characters=["Elder", "Hendrix"],
+    characters=["Elder", "the Player"],
     location="TempleCourtyard"
 )
 
@@ -238,9 +238,9 @@ Example:
 ```
 ✓ Image saved: output/campaign-images/143052_elder_greeting_hendrix.png
 
-Generated: The Elder (from characters.json) warmly greeting Hendrix in the Temple Courtyard (from locations.json). Morning light, warm grandfatherly moment.
+Generated: The Elder (from characters.json) warmly greeting the Player in the Temple Courtyard (from locations.json). Morning light, warm grandfatherly moment.
 
-Entities used: Elder, Hendrix, TempleCourtyard
+Entities used: Elder, the Player, TempleCourtyard
 ```
 
 ## Error Handling

@@ -734,5 +734,5 @@ Now Spore adventures at Lightsword's side - no longer just a peaceful circle-dwe
 
 *Character created following the Trials of the Choosing*
 *Session Date: December 29, 2025*
-*Player: Hendrix (age 10)*
+*Player: the Player (young)*
 *DMs: Rob & Claude*
