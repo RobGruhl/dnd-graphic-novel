@@ -78,19 +78,19 @@ def layout_splash(page_img: Image.Image, panel_images: List[Image.Image]):
     """
     Splash layout: Single panel fills entire page.
 
-    Panel is centered and scaled to fit page while maintaining aspect ratio.
+    Panel is centered and scaled to fit page while maintaining its ORIGINAL aspect ratio.
     """
     if not panel_images:
         return
 
     panel = panel_images[0]
 
-    # Calculate dimensions to fit panel in page (centered, maintain aspect ratio)
+    # Calculate dimensions to fit panel in page (centered, maintain ORIGINAL aspect ratio)
     available_width = PAGE_WIDTH - 2 * GUTTER
     available_height = PAGE_HEIGHT - 2 * GUTTER
 
-    # Panel is 2:3 ratio (1024x1536), scale to fit
-    panel_ratio = 2 / 3
+    # Use the panel's ACTUAL aspect ratio, not a fixed ratio
+    panel_ratio = panel.width / panel.height
     page_ratio = available_width / available_height
 
     if panel_ratio < page_ratio:
@@ -113,27 +113,15 @@ def layout_2x2_grid(page_img: Image.Image, panel_images: List[Image.Image]):
     """
     2x2 Grid layout: 4 panels in a grid.
 
-    Each panel maintains portrait 2:3 aspect ratio.
+    Each panel maintains its ORIGINAL aspect ratio, centered within its cell.
     Panels are evenly spaced with gutters.
     """
-    # Calculate panel dimensions (2 columns, 2 rows)
+    # Calculate cell dimensions (2 columns, 2 rows)
     available_width = PAGE_WIDTH - 3 * GUTTER  # Left, middle, right gutters
     available_height = PAGE_HEIGHT - 3 * GUTTER  # Top, middle, bottom gutters
 
-    panel_width = available_width // 2
-    panel_height = available_height // 2
-
-    # Ensure panels maintain 2:3 aspect ratio
-    # If calculated dimensions don't match, adjust to fit the more constraining dimension
-    ideal_height_from_width = int(panel_width * 1.5)  # 2:3 ratio
-    ideal_width_from_height = int(panel_height / 1.5)
-
-    if ideal_height_from_width <= panel_height:
-        # Width is constraining, use it
-        panel_height = ideal_height_from_width
-    else:
-        # Height is constraining, use it
-        panel_width = ideal_width_from_height
+    cell_width = available_width // 2
+    cell_height = available_height // 2
 
     # Draw panels in 2x2 grid
     positions = [
@@ -145,8 +133,28 @@ def layout_2x2_grid(page_img: Image.Image, panel_images: List[Image.Image]):
 
     for i, panel in enumerate(panel_images[:4]):  # Max 4 panels
         col, row = positions[i]
-        x = GUTTER + col * (panel_width + GUTTER)
-        y = GUTTER + row * (panel_height + GUTTER)
+
+        # Calculate cell position
+        cell_x = GUTTER + col * (cell_width + GUTTER)
+        cell_y = GUTTER + row * (cell_height + GUTTER)
+
+        # Scale panel to fit cell while maintaining its ORIGINAL aspect ratio
+        panel_ratio = panel.width / panel.height
+        cell_ratio = cell_width / cell_height
+
+        if panel_ratio > cell_ratio:
+            # Panel is wider than cell, fit to width
+            panel_width = cell_width
+            panel_height = int(panel_width / panel_ratio)
+        else:
+            # Panel is taller than cell, fit to height
+            panel_height = cell_height
+            panel_width = int(panel_height * panel_ratio)
+
+        # Center panel within cell
+        x = cell_x + (cell_width - panel_width) // 2
+        y = cell_y + (cell_height - panel_height) // 2
+
         draw_panel_with_shadow(page_img, panel, x, y, panel_width, panel_height)
 
 

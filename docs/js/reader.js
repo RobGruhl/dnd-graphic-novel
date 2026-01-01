@@ -17,7 +17,8 @@ class ComicReader {
             if (!response.ok) {
                 throw new Error('Failed to load pages data');
             }
-            this.pages = await response.json();
+            const data = await response.json();
+            this.pages = data.pages || data;
 
             // Initialize UI
             this.setupControls();

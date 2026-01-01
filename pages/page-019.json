@@ -21,12 +21,12 @@
       "visual": "Visual: Starwind lands in the corrupted courtyard. The Elder stumbles out, looking older and weaker, face full of fear. Characters: Lightsword, Starwind, The Elder",
       "dialogue": "Elder: \"Thank the gods you've returned!\"",
       "characters": {
-        "Lightsword": "A glowing, indeterminate humanoid figure wrapped in soft golden-white light No defined species - ethereal and mysterious Wearing simple ceremonial robes over the glowing form"
+        "Lightsword": "A GLOWING ETHEREAL FIGURE made entirely of soft golden-white light. NOT a lizard, NOT humanoid with defined features - pure luminous energy in vaguely humanoid shape. No visible face, just two bright points of warm light where eyes would be. The entire body GLOWS and PULSES with inner light. Wearing simple cream-colored ceremonial robes that the light shines through. Ethereal, mysterious, magical being of pure radiance."
       },
       "npcs": {},
       "aspect_ratio": "square",
       "size": "1024x1024",
-      "prompt": "Professional comic book panel illustration.\n\nCharacters:\n- Lightsword: A glowing, indeterminate humanoid figure wrapped in soft golden-white light No defined species - ethereal and mysterious Wearing simple ceremonial robes over the glowing form\n\nScene: Visual: Starwind lands in the corrupted courtyard. The Elder stumbles out, looking older and weaker, face full of fear. Characters: Lightsword, Starwind, The Elder\n\nDialogue: Elder: \"Thank the gods you've returned!\"\n\nInclude speech bubbles with the dialogue text clearly readable.\n\nStyle: Bold ink line art, vibrant colors, dynamic composition, sequential art style, graphic novel quality."
+      "prompt": "Professional comic book panel illustration.\n\nCharacters:\n- Lightsword: A GLOWING ETHEREAL FIGURE made entirely of soft golden-white light. NOT a lizard, NOT humanoid with defined features - pure luminous energy in vaguely humanoid shape. No visible face, just two bright points of warm light where eyes would be. The entire body GLOWS and PULSES with inner light. Wearing simple cream-colored ceremonial robes that the light shines through. Ethereal, mysterious, magical being of pure radiance.\n\nScene: Visual: Starwind lands in the corrupted courtyard. The Elder stumbles out, looking older and weaker, face full of fear. Characters: Lightsword, Starwind, The Elder\n\nDialogue: Elder: \"Thank the gods you've returned!\"\n\nInclude speech bubbles with the dialogue text clearly readable.\n\nStyle: Bold ink line art, vibrant colors, dynamic composition, sequential art style, graphic novel quality."
     },
     {
       "panel_num": 3,
@@ -45,12 +45,12 @@
       "visual": "Visual: The Elder grabs Lightsword's glowing arm desperately. Characters: The Elder, Lightsword",
       "dialogue": "Elder: \"And it has... it has SPORE!\" Lightsword: \"SPORE?!\" ",
       "characters": {
-        "Lightsword": "A glowing, indeterminate humanoid figure wrapped in soft golden-white light No defined species - ethereal and mysterious Wearing simple ceremonial robes over the glowing form"
+        "Lightsword": "A GLOWING ETHEREAL FIGURE made entirely of soft golden-white light. NOT a lizard, NOT humanoid with defined features - pure luminous energy in vaguely humanoid shape. No visible face, just two bright points of warm light where eyes would be. The entire body GLOWS and PULSES with inner light. Wearing simple cream-colored ceremonial robes that the light shines through. Ethereal, mysterious, magical being of pure radiance."
       },
       "npcs": {},
       "aspect_ratio": "square",
       "size": "1024x1024",
-      "prompt": "Professional comic book panel illustration.\n\nCharacters:\n- Lightsword: A glowing, indeterminate humanoid figure wrapped in soft golden-white light No defined species - ethereal and mysterious Wearing simple ceremonial robes over the glowing form\n\nScene: Visual: The Elder grabs Lightsword's glowing arm desperately. Characters: The Elder, Lightsword\n\nDialogue: Elder: \"And it has... it has SPORE!\" Lightsword: \"SPORE?!\" \n\nInclude speech bubbles with the dialogue text clearly readable.\n\nStyle: Bold ink line art, vibrant colors, dynamic composition, sequential art style, graphic novel quality."
+      "prompt": "Professional comic book panel illustration.\n\nCharacters:\n- Lightsword: A GLOWING ETHEREAL FIGURE made entirely of soft golden-white light. NOT a lizard, NOT humanoid with defined features - pure luminous energy in vaguely humanoid shape. No visible face, just two bright points of warm light where eyes would be. The entire body GLOWS and PULSES with inner light. Wearing simple cream-colored ceremonial robes that the light shines through. Ethereal, mysterious, magical being of pure radiance.\n\nScene: Visual: The Elder grabs Lightsword's glowing arm desperately. Characters: The Elder, Lightsword\n\nDialogue: Elder: \"And it has... it has SPORE!\" Lightsword: \"SPORE?!\" \n\nInclude speech bubbles with the dialogue text clearly readable.\n\nStyle: Bold ink line art, vibrant colors, dynamic composition, sequential art style, graphic novel quality."
     }
   ]
 }
