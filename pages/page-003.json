@@ -1,0 +1,56 @@
+{
+  "page_num": 3,
+  "title": "The Temple of Aspects",
+  "panel_count": 4,
+  "is_spread": false,
+  "panels": [
+    {
+      "panel_num": 1,
+      "annotation": "Wide - LANDSCAPE",
+      "visual": "Visual: The Temple of Aspects rises magnificently - an ancient stone building with four towers, each glowing a different color: red, green, blue, and gold. Banners flutter in the breeze. The glowing figure approaches through a crowd of other young candidates. Location: Temple of Aspects courtyard Characters: Lightsword, other candidates (all glowing indeterminate figures), guards",
+      "dialogue": "(Caption): \"The Temple of Aspects. Four towers. Four powers. One destiny.\"",
+      "characters": {
+        "Lightsword": "A glowing, indeterminate humanoid figure wrapped in soft golden-white light No defined species - ethereal and mysterious Wearing simple ceremonial robes over the glowing form"
+      },
+      "npcs": {},
+      "aspect_ratio": "wide",
+      "size": "1536x1024",
+      "prompt": "Professional comic book panel illustration.\n\nCharacters:\n- Lightsword: A glowing, indeterminate humanoid figure wrapped in soft golden-white light No defined species - ethereal and mysterious Wearing simple ceremonial robes over the glowing form\n\nScene: Visual: The Temple of Aspects rises magnificently - an ancient stone building with four towers, each glowing a different color: red, green, blue, and gold. Banners flutter in the breeze. The glowing figure approaches through a crowd of other young candidates. Location: Temple of Aspects courtyard Characters: Lightsword, other candidates (all glowing indeterminate figures), guards\n\nDialogue: (Caption): \"The Temple of Aspects. Four towers. Four powers. One destiny.\"\n\nInclude speech bubbles with the dialogue text clearly readable.\n\nStyle: Bold ink line art, vibrant colors, dynamic composition, sequential art style, graphic novel quality."
+    },
+    {
+      "panel_num": 2,
+      "annotation": null,
+      "visual": "Visual: The Elder emerges from the Temple doors, robes shimmering with all four colors. The crowd falls silent. Characters: The Elder",
+      "dialogue": "Elder: \"Welcome, young ones, to the Day of Choosing.\"",
+      "characters": {},
+      "npcs": {},
+      "aspect_ratio": "square",
+      "size": "1024x1024",
+      "prompt": "Professional comic book panel illustration.\n\nScene: Visual: The Elder emerges from the Temple doors, robes shimmering with all four colors. The crowd falls silent. Characters: The Elder\n\nDialogue: Elder: \"Welcome, young ones, to the Day of Choosing.\"\n\nInclude speech bubbles with the dialogue text clearly readable.\n\nStyle: Bold ink line art, vibrant colors, dynamic composition, sequential art style, graphic novel quality."
+    },
+    {
+      "panel_num": 3,
+      "annotation": null,
+      "visual": "Visual: Four glowing orbs appear in the air above the Elder's outstretched hands - red, green, blue, gold. Characters: The Elder",
+      "dialogue": "Elder: \"The Warrior's Strength. The Hunter's Cunning. The Mage's Mystery. The Divine's Blessing.\"",
+      "characters": {},
+      "npcs": {},
+      "aspect_ratio": "square",
+      "size": "1024x1024",
+      "prompt": "Professional comic book panel illustration.\n\nScene: Visual: Four glowing orbs appear in the air above the Elder's outstretched hands - red, green, blue, gold. Characters: The Elder\n\nDialogue: Elder: \"The Warrior's Strength. The Hunter's Cunning. The Mage's Mystery. The Divine's Blessing.\"\n\nInclude speech bubbles with the dialogue text clearly readable.\n\nStyle: Bold ink line art, vibrant colors, dynamic composition, sequential art style, graphic novel quality."
+    },
+    {
+      "panel_num": 4,
+      "annotation": null,
+      "visual": "Visual: The Elder looks directly at Lightsword, holding out a deck of glowing cards. Characters: The Elder, Lightsword",
+      "dialogue": "Elder: \"Come forward. Receive the Aspects.\" ",
+      "characters": {
+        "Lightsword": "A glowing, indeterminate humanoid figure wrapped in soft golden-white light No defined species - ethereal and mysterious Wearing simple ceremonial robes over the glowing form"
+      },
+      "npcs": {},
+      "aspect_ratio": "square",
+      "size": "1024x1024",
+      "prompt": "Professional comic book panel illustration.\n\nCharacters:\n- Lightsword: A glowing, indeterminate humanoid figure wrapped in soft golden-white light No defined species - ethereal and mysterious Wearing simple ceremonial robes over the glowing form\n\nScene: Visual: The Elder looks directly at Lightsword, holding out a deck of glowing cards. Characters: The Elder, Lightsword\n\nDialogue: Elder: \"Come forward. Receive the Aspects.\" \n\nInclude speech bubbles with the dialogue text clearly readable.\n\nStyle: Bold ink line art, vibrant colors, dynamic composition, sequential art style, graphic novel quality."
+    }
+  ]
+}

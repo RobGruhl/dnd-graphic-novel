@@ -1,0 +1,60 @@
+{
+  "page_num": 11,
+  "title": "The Maze of Echoes",
+  "panel_count": 4,
+  "is_spread": false,
+  "panels": [
+    {
+      "panel_num": 1,
+      "annotation": "Wide",
+      "visual": "Visual: Inside the maze - walls of shimmering crystal that reflect Lightsword's image a thousand times. Some reflections look normal, others... wrong. Colored lights pulse through the crystal. Location: Maze of Echoes entrance Characters: Lightsword, Darkstorm",
+      "dialogue": "(Caption): \"The Maze of Echoes. Illusions, traps, and somewhere deeper... crying.\"",
+      "characters": {
+        "Lightsword": "A glowing, indeterminate humanoid figure wrapped in soft golden-white light No defined species - ethereal and mysterious Wearing simple ceremonial robes over the glowing form"
+      },
+      "npcs": {},
+      "aspect_ratio": "wide",
+      "size": "1536x1024",
+      "prompt": "Professional comic book panel illustration.\n\nCharacters:\n- Lightsword: A glowing, indeterminate humanoid figure wrapped in soft golden-white light No defined species - ethereal and mysterious Wearing simple ceremonial robes over the glowing form\n\nScene: Visual: Inside the maze - walls of shimmering crystal that reflect Lightsword's image a thousand times. Some reflections look normal, others... wrong. Colored lights pulse through the crystal. Location: Maze of Echoes entrance Characters: Lightsword, Darkstorm\n\nDialogue: (Caption): \"The Maze of Echoes. Illusions, traps, and somewhere deeper... crying.\"\n\nInclude speech bubbles with the dialogue text clearly readable.\n\nStyle: Bold ink line art, vibrant colors, dynamic composition, sequential art style, graphic novel quality."
+    },
+    {
+      "panel_num": 2,
+      "annotation": null,
+      "visual": "Visual: A corridor with glowing tiles - red, green, blue, gold - shifting constantly. Detect Magic card glows as Lightsword sees which are safe. Location: Maze - shifting floor Characters: Lightsword",
+      "dialogue": "Lightsword: \"Detect Magic... there. The bright ones are safe.\"",
+      "characters": {
+        "Lightsword": "A glowing, indeterminate humanoid figure wrapped in soft golden-white light No defined species - ethereal and mysterious Wearing simple ceremonial robes over the glowing form"
+      },
+      "npcs": {},
+      "aspect_ratio": "square",
+      "size": "1024x1024",
+      "prompt": "Professional comic book panel illustration.\n\nCharacters:\n- Lightsword: A glowing, indeterminate humanoid figure wrapped in soft golden-white light No defined species - ethereal and mysterious Wearing simple ceremonial robes over the glowing form\n\nScene: Visual: A corridor with glowing tiles - red, green, blue, gold - shifting constantly. Detect Magic card glows as Lightsword sees which are safe. Location: Maze - shifting floor Characters: Lightsword\n\nDialogue: Lightsword: \"Detect Magic... there. The bright ones are safe.\"\n\nInclude speech bubbles with the dialogue text clearly readable.\n\nStyle: Bold ink line art, vibrant colors, dynamic composition, sequential art style, graphic novel quality."
+    },
+    {
+      "panel_num": 3,
+      "annotation": null,
+      "visual": "Visual: Three paths - left, right, middle. Lightsword uses Detect Magic + Telekinesis (rolling a NATURAL 20!). Their eyes BLAZE with power as they see through ALL illusions! Location: Maze - illusion walls Characters: Lightsword",
+      "dialogue": "(Caption): \"NATURAL TWENTY!\" Lightsword: \"I can see... EVERYTHING!\"",
+      "characters": {
+        "Lightsword": "A glowing, indeterminate humanoid figure wrapped in soft golden-white light No defined species - ethereal and mysterious Wearing simple ceremonial robes over the glowing form"
+      },
+      "npcs": {},
+      "aspect_ratio": "square",
+      "size": "1024x1024",
+      "prompt": "Professional comic book panel illustration.\n\nCharacters:\n- Lightsword: A glowing, indeterminate humanoid figure wrapped in soft golden-white light No defined species - ethereal and mysterious Wearing simple ceremonial robes over the glowing form\n\nScene: Visual: Three paths - left, right, middle. Lightsword uses Detect Magic + Telekinesis (rolling a NATURAL 20!). Their eyes BLAZE with power as they see through ALL illusions! Location: Maze - illusion walls Characters: Lightsword\n\nDialogue: (Caption): \"NATURAL TWENTY!\" Lightsword: \"I can see... EVERYTHING!\"\n\nInclude speech bubbles with the dialogue text clearly readable.\n\nStyle: Bold ink line art, vibrant colors, dynamic composition, sequential art style, graphic novel quality."
+    },
+    {
+      "panel_num": 4,
+      "annotation": null,
+      "visual": "Visual: A vision overlay - the entire maze layout revealed. Left = pit trap, Right = closing walls, Middle = true path. Characters: Lightsword",
+      "dialogue": "(Caption): \"The maze had no more secrets.\" ",
+      "characters": {
+        "Lightsword": "A glowing, indeterminate humanoid figure wrapped in soft golden-white light No defined species - ethereal and mysterious Wearing simple ceremonial robes over the glowing form"
+      },
+      "npcs": {},
+      "aspect_ratio": "square",
+      "size": "1024x1024",
+      "prompt": "Professional comic book panel illustration.\n\nCharacters:\n- Lightsword: A glowing, indeterminate humanoid figure wrapped in soft golden-white light No defined species - ethereal and mysterious Wearing simple ceremonial robes over the glowing form\n\nScene: Visual: A vision overlay - the entire maze layout revealed. Left = pit trap, Right = closing walls, Middle = true path. Characters: Lightsword\n\nDialogue: (Caption): \"The maze had no more secrets.\" \n\nInclude speech bubbles with the dialogue text clearly readable.\n\nStyle: Bold ink line art, vibrant colors, dynamic composition, sequential art style, graphic novel quality."
+    }
+  ]
+}

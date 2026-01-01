@@ -1,0 +1,60 @@
+{
+  "page_num": 6,
+  "title": "Compassion Over Combat",
+  "panel_count": 4,
+  "is_spread": false,
+  "panels": [
+    {
+      "panel_num": 1,
+      "annotation": null,
+      "visual": "Visual: Lightsword creates illusory copies of themselves - five glowing figures spread across the bridge. The wolf's head swings back and forth, confused. Characters: Lightsword, Dire Wolf",
+      "dialogue": "(Caption): \"First instinct: confusion. Create copies. Buy time.\"",
+      "characters": {
+        "Lightsword": "A glowing, indeterminate humanoid figure wrapped in soft golden-white light No defined species - ethereal and mysterious Wearing simple ceremonial robes over the glowing form"
+      },
+      "npcs": {},
+      "aspect_ratio": "square",
+      "size": "1024x1024",
+      "prompt": "Professional comic book panel illustration.\n\nCharacters:\n- Lightsword: A glowing, indeterminate humanoid figure wrapped in soft golden-white light No defined species - ethereal and mysterious Wearing simple ceremonial robes over the glowing form\n\nScene: Visual: Lightsword creates illusory copies of themselves - five glowing figures spread across the bridge. The wolf's head swings back and forth, confused. Characters: Lightsword, Dire Wolf\n\nDialogue: (Caption): \"First instinct: confusion. Create copies. Buy time.\"\n\nInclude speech bubbles with the dialogue text clearly readable.\n\nStyle: Bold ink line art, vibrant colors, dynamic composition, sequential art style, graphic novel quality."
+    },
+    {
+      "panel_num": 2,
+      "annotation": null,
+      "visual": "Visual: Close-up on the wolf's face - pain visible in its eyes. Close-up on Lightsword noticing this, head tilted in concern. Characters: Lightsword, Dire Wolf",
+      "dialogue": "Lightsword (thought): \"Wait... it's not attacking. It's... hurting.\"",
+      "characters": {
+        "Lightsword": "A glowing, indeterminate humanoid figure wrapped in soft golden-white light No defined species - ethereal and mysterious Wearing simple ceremonial robes over the glowing form"
+      },
+      "npcs": {},
+      "aspect_ratio": "square",
+      "size": "1024x1024",
+      "prompt": "Professional comic book panel illustration.\n\nCharacters:\n- Lightsword: A glowing, indeterminate humanoid figure wrapped in soft golden-white light No defined species - ethereal and mysterious Wearing simple ceremonial robes over the glowing form\n\nScene: Visual: Close-up on the wolf's face - pain visible in its eyes. Close-up on Lightsword noticing this, head tilted in concern. Characters: Lightsword, Dire Wolf\n\nDialogue: Lightsword (thought): \"Wait... it's not attacking. It's... hurting.\"\n\nInclude speech bubbles with the dialogue text clearly readable.\n\nStyle: Bold ink line art, vibrant colors, dynamic composition, sequential art style, graphic novel quality."
+    },
+    {
+      "panel_num": 3,
+      "annotation": null,
+      "visual": "Visual: Lightsword approaches slowly, hands raised in peace. Two cards glow: Smite + Healing Light. Golden light builds around their hands. Characters: Lightsword, Dire Wolf",
+      "dialogue": "Lightsword: \"Easy... I'm going to help you.\"",
+      "characters": {
+        "Lightsword": "A glowing, indeterminate humanoid figure wrapped in soft golden-white light No defined species - ethereal and mysterious Wearing simple ceremonial robes over the glowing form"
+      },
+      "npcs": {},
+      "aspect_ratio": "square",
+      "size": "1024x1024",
+      "prompt": "Professional comic book panel illustration.\n\nCharacters:\n- Lightsword: A glowing, indeterminate humanoid figure wrapped in soft golden-white light No defined species - ethereal and mysterious Wearing simple ceremonial robes over the glowing form\n\nScene: Visual: Lightsword approaches slowly, hands raised in peace. Two cards glow: Smite + Healing Light. Golden light builds around their hands. Characters: Lightsword, Dire Wolf\n\nDialogue: Lightsword: \"Easy... I'm going to help you.\"\n\nInclude speech bubbles with the dialogue text clearly readable.\n\nStyle: Bold ink line art, vibrant colors, dynamic composition, sequential art style, graphic novel quality."
+    },
+    {
+      "panel_num": 4,
+      "annotation": "Wide",
+      "visual": "Visual: EXPLOSION of golden light! The purple shadow chains SHATTER. The wolf's leg glows with healing warmth. The curse breaks! Characters: Lightsword, Dire Wolf (healing)",
+      "dialogue": "(SFX): \"KRASH-SHOOM!\" (Caption): \"Compassion. Not combat.\" ",
+      "characters": {
+        "Lightsword": "A glowing, indeterminate humanoid figure wrapped in soft golden-white light No defined species - ethereal and mysterious Wearing simple ceremonial robes over the glowing form"
+      },
+      "npcs": {},
+      "aspect_ratio": "wide",
+      "size": "1536x1024",
+      "prompt": "Professional comic book panel illustration.\n\nCharacters:\n- Lightsword: A glowing, indeterminate humanoid figure wrapped in soft golden-white light No defined species - ethereal and mysterious Wearing simple ceremonial robes over the glowing form\n\nScene: Visual: EXPLOSION of golden light! The purple shadow chains SHATTER. The wolf's leg glows with healing warmth. The curse breaks! Characters: Lightsword, Dire Wolf (healing)\n\nDialogue: (SFX): \"KRASH-SHOOM!\" (Caption): \"Compassion. Not combat.\" \n\nInclude speech bubbles with the dialogue text clearly readable.\n\nStyle: Bold ink line art, vibrant colors, dynamic composition, sequential art style, graphic novel quality."
+    }
+  ]
+}

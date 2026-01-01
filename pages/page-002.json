@@ -1,0 +1,60 @@
+{
+  "page_num": 2,
+  "title": "Farewell to Spore",
+  "panel_count": 4,
+  "is_spread": false,
+  "panels": [
+    {
+      "panel_num": 1,
+      "annotation": null,
+      "visual": "Visual: The glowing figure (Lightsword) kneels down to be at eye level with Spore, the small myconid. The mushroom creature looks up with big, sad eyes. Location: Cave bedroom doorway Characters: Lightsword, Spore",
+      "dialogue": "Lightsword: \"I have to go to the Temple today, Spore.\"",
+      "characters": {
+        "Lightsword": "A glowing, indeterminate humanoid figure wrapped in soft golden-white light No defined species - ethereal and mysterious Wearing simple ceremonial robes over the glowing form"
+      },
+      "npcs": {},
+      "aspect_ratio": "square",
+      "size": "1024x1024",
+      "prompt": "Professional comic book panel illustration.\n\nCharacters:\n- Lightsword: A glowing, indeterminate humanoid figure wrapped in soft golden-white light No defined species - ethereal and mysterious Wearing simple ceremonial robes over the glowing form\n\nScene: Visual: The glowing figure (Lightsword) kneels down to be at eye level with Spore, the small myconid. The mushroom creature looks up with big, sad eyes. Location: Cave bedroom doorway Characters: Lightsword, Spore\n\nDialogue: Lightsword: \"I have to go to the Temple today, Spore.\"\n\nInclude speech bubbles with the dialogue text clearly readable.\n\nStyle: Bold ink line art, vibrant colors, dynamic composition, sequential art style, graphic novel quality."
+    },
+    {
+      "panel_num": 2,
+      "annotation": null,
+      "visual": "Visual: Spore releases soft gray spores - sadness. His small hands reach up toward Lightsword. Characters: Spore",
+      "dialogue": "(Caption): \"Spore released sad gray spores...\"",
+      "characters": {
+        "Lightsword": "A glowing, indeterminate humanoid figure wrapped in soft golden-white light No defined species - ethereal and mysterious Wearing simple ceremonial robes over the glowing form"
+      },
+      "npcs": {},
+      "aspect_ratio": "square",
+      "size": "1024x1024",
+      "prompt": "Professional comic book panel illustration.\n\nCharacters:\n- Lightsword: A glowing, indeterminate humanoid figure wrapped in soft golden-white light No defined species - ethereal and mysterious Wearing simple ceremonial robes over the glowing form\n\nScene: Visual: Spore releases soft gray spores - sadness. His small hands reach up toward Lightsword. Characters: Spore\n\nDialogue: (Caption): \"Spore released sad gray spores...\"\n\nInclude speech bubbles with the dialogue text clearly readable.\n\nStyle: Bold ink line art, vibrant colors, dynamic composition, sequential art style, graphic novel quality."
+    },
+    {
+      "panel_num": 3,
+      "annotation": null,
+      "visual": "Visual: Lightsword gently pats Spore's cap, their glow warm and reassuring. Characters: Lightsword, Spore",
+      "dialogue": "Lightsword: \"I'll be back before you know it. I promise.\"",
+      "characters": {
+        "Lightsword": "A glowing, indeterminate humanoid figure wrapped in soft golden-white light No defined species - ethereal and mysterious Wearing simple ceremonial robes over the glowing form"
+      },
+      "npcs": {},
+      "aspect_ratio": "square",
+      "size": "1024x1024",
+      "prompt": "Professional comic book panel illustration.\n\nCharacters:\n- Lightsword: A glowing, indeterminate humanoid figure wrapped in soft golden-white light No defined species - ethereal and mysterious Wearing simple ceremonial robes over the glowing form\n\nScene: Visual: Lightsword gently pats Spore's cap, their glow warm and reassuring. Characters: Lightsword, Spore\n\nDialogue: Lightsword: \"I'll be back before you know it. I promise.\"\n\nInclude speech bubbles with the dialogue text clearly readable.\n\nStyle: Bold ink line art, vibrant colors, dynamic composition, sequential art style, graphic novel quality."
+    },
+    {
+      "panel_num": 4,
+      "annotation": null,
+      "visual": "Visual: Lightsword walking toward the cave exit, looking back with a wave. Spore waves a tiny hand, still releasing those gray spores. Characters: Lightsword, Spore",
+      "dialogue": "Lightsword: \"Bye, Spore!\" (Caption): \"If only he knew what awaited...\" ",
+      "characters": {
+        "Lightsword": "A glowing, indeterminate humanoid figure wrapped in soft golden-white light No defined species - ethereal and mysterious Wearing simple ceremonial robes over the glowing form"
+      },
+      "npcs": {},
+      "aspect_ratio": "square",
+      "size": "1024x1024",
+      "prompt": "Professional comic book panel illustration.\n\nCharacters:\n- Lightsword: A glowing, indeterminate humanoid figure wrapped in soft golden-white light No defined species - ethereal and mysterious Wearing simple ceremonial robes over the glowing form\n\nScene: Visual: Lightsword walking toward the cave exit, looking back with a wave. Spore waves a tiny hand, still releasing those gray spores. Characters: Lightsword, Spore\n\nDialogue: Lightsword: \"Bye, Spore!\" (Caption): \"If only he knew what awaited...\" \n\nInclude speech bubbles with the dialogue text clearly readable.\n\nStyle: Bold ink line art, vibrant colors, dynamic composition, sequential art style, graphic novel quality."
+    }
+  ]
+}

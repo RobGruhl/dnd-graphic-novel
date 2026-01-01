@@ -1,4 +1,59 @@
 {
+  "LightswordGlowing": {
+    "name": "Lightsword (Pre-Transformation)",
+    "role": "Main Character - Before Choosing",
+    "full_description": "A glowing, indeterminate humanoid figure wrapped in soft golden-white light. No defined species yet - ethereal and mysterious. Wearing simple ceremonial robes over the glowing form. Eyes are bright points of warm light. The light pulses gently with emotions.",
+    "description_components": {
+      "head_face": "Indeterminate glowing form, no defined features yet, face is soft golden-white light with brighter points where eyes would be, warm and kind expression visible through the glow",
+      "body_build": "Humanoid shape made of soft golden-white light, lean and young, no defined species characteristics yet, light streams and flows gently",
+      "armor_clothing": "Simple cream-colored ceremonial robes worn over the glowing form, hood down, the glow shines through the fabric softly",
+      "accessories": "Deck of Aspect Cards (red green blue gold glowing cards) tucked in belt pouch, no other items yet"
+    }
+  },
+  "LightswordLizardfolk": {
+    "name": "Lightsword (Post-Transformation)",
+    "role": "Main Character - Lizardfolk Sorcerer",
+    "full_description": "A Lizardfolk with green-brown scales that shimmer with draconic heritage. Lean, athletic build. Golden-amber eyes with vertical pupils. Small horn-like ridges along the brow. Scales occasionally shimmer with magical energy. Confident but kind expression. Can manifest a blade of pure light from his palm.",
+    "description_components": {
+      "head_face": "Lizardfolk head with green-brown scales, golden-amber eyes with vertical dragon-like pupils, small horn ridges along brow, kind intelligent expression, scales shimmer with inner magic",
+      "body_build": "Lean athletic Lizardfolk build, green-brown scales covering entire body, young and capable, draconic heritage visible in scale patterns",
+      "armor_clothing": "Simple adventurer's clothing suitable for cave dwelling - leather vest, cloth pants, bare scaled feet, practical and unadorned",
+      "accessories": "Deck of Aspect Cards in belt pouch, can manifest a blade of pure golden light from palm when needed, scales glow faintly when using magic"
+    }
+  },
+  "Spore": {
+    "name": "Spore the Myconid",
+    "role": "Beloved Companion / Best Friend",
+    "full_description": "A small mushroom creature about knee-height. Pale cap with bioluminescent spots that glow soft blue. Big, expressive dark eyes. Releases colored spores based on emotion - gray when scared or sad, rainbow when joyful. Lightsword's best friend from the underground village.",
+    "description_components": {
+      "head_face": "Mushroom cap head - pale cream color with bioluminescent blue-glowing spots, large expressive dark eyes like pools of night, small mouth that can smile or frown",
+      "body_build": "Small stubby myconid body knee-height to a humanoid, pale cream-colored stem body, short stubby arms and legs, spongy and soft looking",
+      "armor_clothing": "No clothing - natural myconid form, possibly tiny accessories like a friendship bracelet or small pouch",
+      "accessories": "Releases spores based on emotion (gray sad spores, rainbow joyful spores, blue curious spores), carries small treasures from underground home"
+    }
+  },
+  "SporeCaptive": {
+    "name": "Spore (Captured by Shadow Sorcerer)",
+    "role": "Hostage / Rescue Target",
+    "full_description": "Spore bound to the altar by chains of shadow in the corrupted Temple sanctum. Releasing scared gray spores. Big eyes wide with fear but lighting up with hope when Lightsword arrives. Struggling weakly against the dark chains.",
+    "description_components": {
+      "head_face": "Same mushroom cap head, bioluminescent spots dimmed by fear, eyes enormous with terror and hope, small mouth trembling",
+      "body_build": "Same small myconid body now bound and restrained, trembling with fear, gray spores puffing out involuntarily",
+      "armor_clothing": "No clothing, body pressed against cold stone altar",
+      "accessories": "Shadow chains wrapped around body pinning to altar, gray fear spores releasing constantly, reaching tiny arms toward Lightsword when seen"
+    }
+  },
+  "Darkstorm": {
+    "name": "Darkstorm the Dire Wolf",
+    "role": "Redeemed Ally / Companion",
+    "full_description": "An enormous wolf the size of a horse, with thick silver-grey fur. Once cursed and in pain, now healed and loyal. Intelligent amber eyes show gratitude and devotion. Follows at respectful distance, ready to protect. Named Darkstorm after being freed from shadow chains.",
+    "description_components": {
+      "head_face": "Massive wolf head with intelligent amber eyes, thick fur around neck like mane, ears alert, expression of loyalty and gratitude",
+      "body_build": "Enormous wolf size of a horse, powerful shoulders and haunches, thick silver-grey fur, healthy and strong after healing",
+      "armor_clothing": "Natural thick grey fur, no collar or harness, wild but allied",
+      "accessories": "Faint scar on front leg where curse once bound it, no other markings, moves with pack-hunter grace, can be enchanted to fly temporarily"
+    }
+  },
   "TheElder": {
     "name": "The Elder of Aspects",
     "role": "Mentor / Quest Giver",

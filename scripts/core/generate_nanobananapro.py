@@ -298,12 +298,16 @@ async def generate_panel_async(panel, page_num, client, characters_db, locations
             await rpm_limiter.acquire()
 
             try:
+                # Get aspect ratio from panel data
+                aspect_ratio = panel.get('aspect_ratio', '2:3')
+
                 success = await asyncio.to_thread(
                     generate_panel_sync,
                     prompt,
                     output_path,
                     page_num,
-                    panel_num
+                    panel_num,
+                    aspect_ratio
                 )
 
                 if success:
@@ -345,14 +349,28 @@ async def generate_panel_async(panel, page_num, client, characters_db, locations
     return False
 
 
-def generate_panel_sync(prompt, output_path, page_num, panel_num):
+def generate_panel_sync(prompt, output_path, page_num, panel_num, aspect_ratio='2:3'):
     """Synchronous generation (called from thread pool)."""
     try:
         client = genai.Client(api_key=os.getenv('GOOGLE_API_KEY'))
 
+        # Map panel aspect ratios to Gemini aspect ratios
+        # Gemini supports: 1:1, 3:4, 4:3, 9:16, 16:9
+        gemini_aspect = aspect_ratio
+        if aspect_ratio in ['tall', 'splash', 'portrait']:
+            gemini_aspect = '9:16'  # Portrait/tall panels
+        elif aspect_ratio in ['wide', 'landscape']:
+            gemini_aspect = '16:9'  # Landscape/wide panels
+        elif aspect_ratio == 'square':
+            gemini_aspect = '1:1'
+        elif aspect_ratio == '2:3':
+            gemini_aspect = '9:16'  # Closest to 2:3
+        elif aspect_ratio == '16:10':
+            gemini_aspect = '16:9'  # Closest to 16:10
+
         config = types.GenerateContentConfig(
             response_modalities=['Image'],
-            image_config=types.ImageConfig(aspect_ratio='2:3')
+            image_config=types.ImageConfig(aspect_ratio=gemini_aspect)
         )
 
         response = client.models.generate_content(

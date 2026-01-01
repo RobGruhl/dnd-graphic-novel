@@ -98,9 +98,31 @@
       "pose_behavior": "Lunging attack, hands reaching for target's chest, mouth open to feed on life force"
     }
   },
+  "ShadowSorcerer": {
+    "name": "The Shadow Sorcerer",
+    "role": "Final Boss - Tragic Villain",
+    "full_description": "A hooded figure in tattered dark robes - once a Choosing candidate who failed and died in bitterness centuries ago. Face is a hollow mask of who they once were. Purple eyes burning with jealousy and rage. Form flickers between solid and shadow. Tragic rather than purely evil.",
+    "description_components": {
+      "head_face": "Hollow masked face - once young, now twisted by centuries of jealousy, hood casting deep shadows, purple eyes burning with hateful fire, features flickering between solid and shadow",
+      "body_build": "Humanoid form in tattered robes, neither fully solid nor fully shadow, floating slightly above ground, trails wisps of darkness",
+      "distinguishing_features": "Burning purple eyes visible even in shadow, tattered ceremonial Choosing robes now grey and torn, hands wreathed in shadow energy, form flickers and wavers",
+      "pose_behavior": "Hovering behind altar where Spore is bound, arms spread in dramatic villain pose, ancient rage and bitter jealousy in every gesture"
+    }
+  },
+  "ShadowSorcererFading": {
+    "name": "The Shadow Sorcerer (Defeated)",
+    "role": "Villain's End",
+    "full_description": "The Shadow Sorcerer after being struck by Lightsword's three-card attack. Form dissolving, shadows fading. The rage draining away to reveal the sad, lonely person they once were - a young face, regretful eyes. Finding a moment of peace before fading completely.",
+    "description_components": {
+      "head_face": "Face transforming - rage fading to reveal young features, purple fire in eyes dimming to soft light, expression shifting from hatred to regret to peace",
+      "body_build": "Form dissolving into motes of shadow and light, becoming transparent, robes becoming less tattered as they fade",
+      "distinguishing_features": "Arrow of light piercing chest, shadows streaming away like smoke, young face briefly visible beneath the mask of centuries",
+      "pose_behavior": "Floating but sinking, hands lowered in surrender, head bowing, fading into nothing with words of regret"
+    }
+  },
   "Specter": {
     "name": "The Jealous Specter",
-    "role": "Final Boss - Tragic Villain",
+    "role": "Final Boss - Tragic Villain (Alternate Name)",
     "full_description": "A translucent ghostly humanoid in tattered ceremonial robes - once a Choosing candidate who failed and died in bitterness. Twisted spectral features frozen between anguish and rage. Trailing wisps of ectoplasm. Hovering in the corrupted sanctum, life-draining touch ready.",
     "description_components": {
       "head_face": "Translucent ghostly face twisted between pain and rage, features that might have once been young now distorted, hollow eyes burning with jealous purple-white fire",

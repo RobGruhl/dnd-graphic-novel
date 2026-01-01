@@ -1,0 +1,60 @@
+{
+  "page_num": 4,
+  "title": "The Four Pillars",
+  "panel_count": 4,
+  "is_spread": false,
+  "panels": [
+    {
+      "panel_num": 1,
+      "annotation": null,
+      "visual": "Visual: Lightsword at the RED pillar - a training dummy in plate armor. Cards flash: Disarm + Magic Bolt. The shield flies away as a blue bolt of energy blasts the dummy. Location: Temple courtyard, red pillar Characters: Lightsword",
+      "dialogue": "(Caption): \"The Warrior's test...\" (SFX): \"CLANG! BLAST!\"",
+      "characters": {
+        "Lightsword": "A glowing, indeterminate humanoid figure wrapped in soft golden-white light No defined species - ethereal and mysterious Wearing simple ceremonial robes over the glowing form"
+      },
+      "npcs": {},
+      "aspect_ratio": "square",
+      "size": "1024x1024",
+      "prompt": "Professional comic book panel illustration.\n\nCharacters:\n- Lightsword: A glowing, indeterminate humanoid figure wrapped in soft golden-white light No defined species - ethereal and mysterious Wearing simple ceremonial robes over the glowing form\n\nScene: Visual: Lightsword at the RED pillar - a training dummy in plate armor. Cards flash: Disarm + Magic Bolt. The shield flies away as a blue bolt of energy blasts the dummy. Location: Temple courtyard, red pillar Characters: Lightsword\n\nDialogue: (Caption): \"The Warrior's test...\" (SFX): \"CLANG! BLAST!\"\n\nInclude speech bubbles with the dialogue text clearly readable.\n\nStyle: Bold ink line art, vibrant colors, dynamic composition, sequential art style, graphic novel quality."
+    },
+    {
+      "panel_num": 2,
+      "annotation": null,
+      "visual": "Visual: Lightsword at the GREEN pillar - a target behind shimmering illusory bushes. Cards flash: Detect Magic + Precise Shot. Eyes glow as they see through the illusion, arrow flying true to bullseye. Location: Temple courtyard, green pillar Characters: Lightsword",
+      "dialogue": "(Caption): \"The Hunter's test...\" (SFX): \"THWACK!\"",
+      "characters": {
+        "Lightsword": "A glowing, indeterminate humanoid figure wrapped in soft golden-white light No defined species - ethereal and mysterious Wearing simple ceremonial robes over the glowing form"
+      },
+      "npcs": {},
+      "aspect_ratio": "square",
+      "size": "1024x1024",
+      "prompt": "Professional comic book panel illustration.\n\nCharacters:\n- Lightsword: A glowing, indeterminate humanoid figure wrapped in soft golden-white light No defined species - ethereal and mysterious Wearing simple ceremonial robes over the glowing form\n\nScene: Visual: Lightsword at the GREEN pillar - a target behind shimmering illusory bushes. Cards flash: Detect Magic + Precise Shot. Eyes glow as they see through the illusion, arrow flying true to bullseye. Location: Temple courtyard, green pillar Characters: Lightsword\n\nDialogue: (Caption): \"The Hunter's test...\" (SFX): \"THWACK!\"\n\nInclude speech bubbles with the dialogue text clearly readable.\n\nStyle: Bold ink line art, vibrant colors, dynamic composition, sequential art style, graphic novel quality."
+    },
+    {
+      "panel_num": 3,
+      "annotation": null,
+      "visual": "Visual: Lightsword at the BLUE pillar - a teleporting crystal that blinks around. Cards flash: Enchant + Magic Bolt. A glowing bolt curves and tracks the crystal like a homing missile. Location: Temple courtyard, blue pillar Characters: Lightsword",
+      "dialogue": "(Caption): \"The Arcane test...\" (SFX): \"ZZZT-CRACK!\"",
+      "characters": {
+        "Lightsword": "A glowing, indeterminate humanoid figure wrapped in soft golden-white light No defined species - ethereal and mysterious Wearing simple ceremonial robes over the glowing form"
+      },
+      "npcs": {},
+      "aspect_ratio": "square",
+      "size": "1024x1024",
+      "prompt": "Professional comic book panel illustration.\n\nCharacters:\n- Lightsword: A glowing, indeterminate humanoid figure wrapped in soft golden-white light No defined species - ethereal and mysterious Wearing simple ceremonial robes over the glowing form\n\nScene: Visual: Lightsword at the BLUE pillar - a teleporting crystal that blinks around. Cards flash: Enchant + Magic Bolt. A glowing bolt curves and tracks the crystal like a homing missile. Location: Temple courtyard, blue pillar Characters: Lightsword\n\nDialogue: (Caption): \"The Arcane test...\" (SFX): \"ZZZT-CRACK!\"\n\nInclude speech bubbles with the dialogue text clearly readable.\n\nStyle: Bold ink line art, vibrant colors, dynamic composition, sequential art style, graphic novel quality."
+    },
+    {
+      "panel_num": 4,
+      "annotation": null,
+      "visual": "Visual: Lightsword at the GOLD pillar - a wilted flower with a tiny shadow creature. THREE cards flash: Protection Circle + Healing Light + Bless. The shadow is banished AND the flower blooms brilliantly with golden light. Location: Temple courtyard, gold pillar Characters: Lightsword",
+      "dialogue": "(Caption): \"The Divine test...\" Elder (off-panel): \"Impressive. Now... face your true trials.\" ",
+      "characters": {
+        "Lightsword": "A glowing, indeterminate humanoid figure wrapped in soft golden-white light No defined species - ethereal and mysterious Wearing simple ceremonial robes over the glowing form"
+      },
+      "npcs": {},
+      "aspect_ratio": "square",
+      "size": "1024x1024",
+      "prompt": "Professional comic book panel illustration.\n\nCharacters:\n- Lightsword: A glowing, indeterminate humanoid figure wrapped in soft golden-white light No defined species - ethereal and mysterious Wearing simple ceremonial robes over the glowing form\n\nScene: Visual: Lightsword at the GOLD pillar - a wilted flower with a tiny shadow creature. THREE cards flash: Protection Circle + Healing Light + Bless. The shadow is banished AND the flower blooms brilliantly with golden light. Location: Temple courtyard, gold pillar Characters: Lightsword\n\nDialogue: (Caption): \"The Divine test...\" Elder (off-panel): \"Impressive. Now... face your true trials.\" \n\nInclude speech bubbles with the dialogue text clearly readable.\n\nStyle: Bold ink line art, vibrant colors, dynamic composition, sequential art style, graphic novel quality."
+    }
+  ]
+}

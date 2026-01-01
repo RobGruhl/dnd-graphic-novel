@@ -1,0 +1,21 @@
+{
+  "page_num": 22,
+  "title": "The Transformation",
+  "panel_count": 1,
+  "is_spread": false,
+  "panels": [
+    {
+      "panel_num": 1,
+      "annotation": "Splash - LANDSCAPE",
+      "visual": "Visual: The Temple RESTORED! Stars glow on the ceiling again! Light streams through! And Lightsword's glowing indeterminate form begins to CHANGE - the glow solidifies, taking SHAPE. GREEN-BROWN SCALES emerge across their skin. A Lizardfolk face forms - strong, kind, DRACONIC. The transformation is BEAUTIFUL. Location: Temple Inner Sanctum (restored) Characters: Lightsword (transforming)",
+      "dialogue": "(Caption): \"The Choosing was complete.\" (Caption): \"The light became scales. The mystery became form.\" ",
+      "characters": {
+        "Lightsword": "A glowing, indeterminate humanoid figure wrapped in soft golden-white light No defined species - ethereal and mysterious Wearing simple ceremonial robes over the glowing form"
+      },
+      "npcs": {},
+      "aspect_ratio": "splash",
+      "size": "1024x1536",
+      "prompt": "Professional comic book panel illustration.\n\nCharacters:\n- Lightsword: A glowing, indeterminate humanoid figure wrapped in soft golden-white light No defined species - ethereal and mysterious Wearing simple ceremonial robes over the glowing form\n\nScene: Visual: The Temple RESTORED! Stars glow on the ceiling again! Light streams through! And Lightsword's glowing indeterminate form begins to CHANGE - the glow solidifies, taking SHAPE. GREEN-BROWN SCALES emerge across their skin. A Lizardfolk face forms - strong, kind, DRACONIC. The transformation is BEAUTIFUL. Location: Temple Inner Sanctum (restored) Characters: Lightsword (transforming)\n\nDialogue: (Caption): \"The Choosing was complete.\" (Caption): \"The light became scales. The mystery became form.\" \n\nInclude speech bubbles with the dialogue text clearly readable.\n\nStyle: Bold ink line art, vibrant colors, dynamic composition, sequential art style, graphic novel quality."
+    }
+  ]
+}

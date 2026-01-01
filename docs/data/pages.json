@@ -1,0 +1,259 @@
+{
+  "pages": [
+    {
+      "page": 1,
+      "title": "Morning in the Deep",
+      "file": "page-001.webp",
+      "characters": [
+        "Lightsword"
+      ],
+      "locations": [
+        "Underground cave village, Lightsword's bedroom Characters: Lightsword (pre-transformation glowing form)"
+      ]
+    },
+    {
+      "page": 2,
+      "title": "Farewell to Spore",
+      "file": "page-002.webp",
+      "characters": [
+        "Lightsword"
+      ],
+      "locations": [
+        "Cave bedroom doorway Characters: Lightsword, Spore"
+      ]
+    },
+    {
+      "page": 3,
+      "title": "The Temple of Aspects",
+      "file": "page-003.webp",
+      "characters": [
+        "Lightsword"
+      ],
+      "locations": [
+        "Temple of Aspects courtyard Characters: Lightsword, other candidates (all glowing indeterminate figures), guards"
+      ]
+    },
+    {
+      "page": 4,
+      "title": "The Four Pillars",
+      "file": "page-004.webp",
+      "characters": [
+        "Lightsword"
+      ],
+      "locations": [
+        "Temple courtyard, green pillar Characters: Lightsword",
+        "Temple courtyard, blue pillar Characters: Lightsword",
+        "Temple courtyard, gold pillar Characters: Lightsword",
+        "Temple courtyard, red pillar Characters: Lightsword"
+      ]
+    },
+    {
+      "page": 5,
+      "title": "The Beast at the Bridge",
+      "file": "page-005.webp",
+      "characters": [
+        "Lightsword"
+      ],
+      "locations": [
+        "Stone bridge over river, Whispering Valley Characters: Lightsword, Cursed Dire Wolf"
+      ]
+    },
+    {
+      "page": 6,
+      "title": "Compassion Over Combat",
+      "file": "page-006.webp",
+      "characters": [
+        "Lightsword"
+      ],
+      "locations": []
+    },
+    {
+      "page": 7,
+      "title": "Darkstorm Joins",
+      "file": "page-007.webp",
+      "characters": [
+        "Lightsword"
+      ],
+      "locations": []
+    },
+    {
+      "page": 8,
+      "title": "Goblin Ambush",
+      "file": "page-008.webp",
+      "characters": [
+        "Lightsword"
+      ],
+      "locations": [
+        "Ruined tower clearing Characters: Goblins (5), Garrett the Merchant"
+      ]
+    },
+    {
+      "page": 9,
+      "title": "The Flying Wolf",
+      "file": "page-009.webp",
+      "characters": [
+        "Lightsword"
+      ],
+      "locations": []
+    },
+    {
+      "page": 10,
+      "title": "The Merchant's Gratitude",
+      "file": "page-010.webp",
+      "characters": [
+        "Lightsword"
+      ],
+      "locations": []
+    },
+    {
+      "page": 11,
+      "title": "The Maze of Echoes",
+      "file": "page-011.webp",
+      "characters": [
+        "Lightsword"
+      ],
+      "locations": [
+        "Maze of Echoes entrance Characters: Lightsword, Darkstorm",
+        "Maze - illusion walls Characters: Lightsword",
+        "Maze - shifting floor Characters: Lightsword"
+      ]
+    },
+    {
+      "page": 12,
+      "title": "The Sword Chamber",
+      "file": "page-012.webp",
+      "characters": [
+        "Lightsword"
+      ],
+      "locations": [
+        "Maze - Sword Chamber Characters: Lightsword, Darkstorm, Animated Flying Swords (3)"
+      ]
+    },
+    {
+      "page": 13,
+      "title": "Finding Pip",
+      "file": "page-013.webp",
+      "characters": [
+        "Lightsword"
+      ],
+      "locations": [
+        "Maze - Hidden Alcove Characters: Pip (injured)"
+      ]
+    },
+    {
+      "page": 14,
+      "title": "Pip Chooses",
+      "file": "page-014.webp",
+      "characters": [
+        "Lightsword"
+      ],
+      "locations": [
+        "Maze exit, view of Cursed Grove Characters: Lightsword, Pip, Darkstorm",
+        "Distant view of Cursed Grove Characters: Starwind (distant, chained)"
+      ]
+    },
+    {
+      "page": 15,
+      "title": "The Cursed Grove",
+      "file": "page-015.webp",
+      "characters": [],
+      "locations": [
+        "Cursed Grove Characters: Starwind (chained), Shadows (3)"
+      ]
+    },
+    {
+      "page": 16,
+      "title": "Four Divine Cards",
+      "file": "page-016.webp",
+      "characters": [
+        "Lightsword"
+      ],
+      "locations": []
+    },
+    {
+      "page": 17,
+      "title": "Natural Twenty",
+      "file": "page-017.webp",
+      "characters": [
+        "Lightsword"
+      ],
+      "locations": []
+    },
+    {
+      "page": 18,
+      "title": "Flight to the Temple",
+      "file": "page-018.webp",
+      "characters": [
+        "Lightsword"
+      ],
+      "locations": [
+        "Sky above the valley Characters: Lightsword, Starwind (flying), Pip, Darkstorm (below)"
+      ]
+    },
+    {
+      "page": 19,
+      "title": "The Temple Under Shadow",
+      "file": "page-019.webp",
+      "characters": [
+        "Lightsword"
+      ],
+      "locations": [
+        "Temple of Aspects (corrupted) Characters: (Temple exterior)"
+      ]
+    },
+    {
+      "page": 20,
+      "title": "The Shadow Sorcerer",
+      "file": "page-020.webp",
+      "characters": [
+        "Lightsword"
+      ],
+      "locations": [
+        "Temple Inner Sanctum (corrupted) Characters: Shadow Sorcerer, Spore (captive)"
+      ]
+    },
+    {
+      "page": 21,
+      "title": "The Final Strike",
+      "file": "page-021.webp",
+      "characters": [
+        "Lightsword"
+      ],
+      "locations": []
+    },
+    {
+      "page": 22,
+      "title": "The Transformation",
+      "file": "page-022.webp",
+      "characters": [
+        "Lightsword"
+      ],
+      "locations": [
+        "Temple Inner Sanctum (restored) Characters: Lightsword (transforming)"
+      ]
+    },
+    {
+      "page": 23,
+      "title": "The Choosing Ceremony",
+      "file": "page-023.webp",
+      "characters": [
+        "Lightsword"
+      ],
+      "locations": [
+        "Temple Courtyard (restored) Characters: Lightsword (Lizardfolk), Elder, Spore, Darkstorm, Pip, Starwind, villagers"
+      ]
+    },
+    {
+      "page": 24,
+      "title": "Legend Begins",
+      "file": "page-024.webp",
+      "characters": [
+        "Lightsword"
+      ],
+      "locations": [
+        "Temple Courtyard, sunset Characters: Lightsword, Darkstorm, Pip, Starwind, Spore"
+      ]
+    }
+  ],
+  "total": 24
+}

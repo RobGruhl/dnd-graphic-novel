@@ -1,0 +1,60 @@
+{
+  "page_num": 16,
+  "title": "Four Divine Cards",
+  "panel_count": 4,
+  "is_spread": false,
+  "panels": [
+    {
+      "panel_num": 1,
+      "annotation": null,
+      "visual": "Visual: Lightsword stands at the grove's edge, Pip on shoulder, Darkstorm at side. They pull out FOUR cards - all glowing gold. Determination on their face. Characters: Lightsword, Pip, Darkstorm",
+      "dialogue": "Lightsword: \"All or nothing.\" (Caption): \"Bless. Turn Undead. Smite. Healing Light.\"",
+      "characters": {
+        "Lightsword": "A glowing, indeterminate humanoid figure wrapped in soft golden-white light No defined species - ethereal and mysterious Wearing simple ceremonial robes over the glowing form"
+      },
+      "npcs": {},
+      "aspect_ratio": "square",
+      "size": "1024x1024",
+      "prompt": "Professional comic book panel illustration.\n\nCharacters:\n- Lightsword: A glowing, indeterminate humanoid figure wrapped in soft golden-white light No defined species - ethereal and mysterious Wearing simple ceremonial robes over the glowing form\n\nScene: Visual: Lightsword stands at the grove's edge, Pip on shoulder, Darkstorm at side. They pull out FOUR cards - all glowing gold. Determination on their face. Characters: Lightsword, Pip, Darkstorm\n\nDialogue: Lightsword: \"All or nothing.\" (Caption): \"Bless. Turn Undead. Smite. Healing Light.\"\n\nInclude speech bubbles with the dialogue text clearly readable.\n\nStyle: Bold ink line art, vibrant colors, dynamic composition, sequential art style, graphic novel quality."
+    },
+    {
+      "panel_num": 2,
+      "annotation": null,
+      "visual": "Visual: BLESS on the dead trees - they glow faintly, weakening the curse's grip. Characters: Lightsword",
+      "dialogue": "(SFX): \"Hmmmmmm...\"",
+      "characters": {
+        "Lightsword": "A glowing, indeterminate humanoid figure wrapped in soft golden-white light No defined species - ethereal and mysterious Wearing simple ceremonial robes over the glowing form"
+      },
+      "npcs": {},
+      "aspect_ratio": "square",
+      "size": "1024x1024",
+      "prompt": "Professional comic book panel illustration.\n\nCharacters:\n- Lightsword: A glowing, indeterminate humanoid figure wrapped in soft golden-white light No defined species - ethereal and mysterious Wearing simple ceremonial robes over the glowing form\n\nScene: Visual: BLESS on the dead trees - they glow faintly, weakening the curse's grip. Characters: Lightsword\n\nDialogue: (SFX): \"Hmmmmmm...\"\n\nInclude speech bubbles with the dialogue text clearly readable.\n\nStyle: Bold ink line art, vibrant colors, dynamic composition, sequential art style, graphic novel quality."
+    },
+    {
+      "panel_num": 3,
+      "annotation": null,
+      "visual": "Visual: TURN UNDEAD (rolled 18!) - HOLY LIGHT EXPLODES outward! Two shadows SCREAM and DISSOLVE! The third flees wounded! Characters: Lightsword, Shadows (dissolving)",
+      "dialogue": "Lightsword: \"TURN UNDEAD!\" (SFX): \"SHRIEEEEK!\"",
+      "characters": {
+        "Lightsword": "A glowing, indeterminate humanoid figure wrapped in soft golden-white light No defined species - ethereal and mysterious Wearing simple ceremonial robes over the glowing form"
+      },
+      "npcs": {},
+      "aspect_ratio": "square",
+      "size": "1024x1024",
+      "prompt": "Professional comic book panel illustration.\n\nCharacters:\n- Lightsword: A glowing, indeterminate humanoid figure wrapped in soft golden-white light No defined species - ethereal and mysterious Wearing simple ceremonial robes over the glowing form\n\nScene: Visual: TURN UNDEAD (rolled 18!) - HOLY LIGHT EXPLODES outward! Two shadows SCREAM and DISSOLVE! The third flees wounded! Characters: Lightsword, Shadows (dissolving)\n\nDialogue: Lightsword: \"TURN UNDEAD!\" (SFX): \"SHRIEEEEK!\"\n\nInclude speech bubbles with the dialogue text clearly readable.\n\nStyle: Bold ink line art, vibrant colors, dynamic composition, sequential art style, graphic novel quality."
+    },
+    {
+      "panel_num": 4,
+      "annotation": null,
+      "visual": "Visual: SMITE on the chains - they CRACK but hold! (Rolled a 2!) Lightsword strains, pouring more power. Characters: Lightsword, Starwind",
+      "dialogue": "Lightsword: \"Come ON!\" (Caption): \"The chains held. But heroes don't give up.\" ",
+      "characters": {
+        "Lightsword": "A glowing, indeterminate humanoid figure wrapped in soft golden-white light No defined species - ethereal and mysterious Wearing simple ceremonial robes over the glowing form"
+      },
+      "npcs": {},
+      "aspect_ratio": "square",
+      "size": "1024x1024",
+      "prompt": "Professional comic book panel illustration.\n\nCharacters:\n- Lightsword: A glowing, indeterminate humanoid figure wrapped in soft golden-white light No defined species - ethereal and mysterious Wearing simple ceremonial robes over the glowing form\n\nScene: Visual: SMITE on the chains - they CRACK but hold! (Rolled a 2!) Lightsword strains, pouring more power. Characters: Lightsword, Starwind\n\nDialogue: Lightsword: \"Come ON!\" (Caption): \"The chains held. But heroes don't give up.\" \n\nInclude speech bubbles with the dialogue text clearly readable.\n\nStyle: Bold ink line art, vibrant colors, dynamic composition, sequential art style, graphic novel quality."
+    }
+  ]
+}

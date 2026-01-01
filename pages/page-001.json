@@ -1,0 +1,21 @@
+{
+  "page_num": 1,
+  "title": "Morning in the Deep",
+  "panel_count": 1,
+  "is_spread": false,
+  "panels": [
+    {
+      "panel_num": 1,
+      "annotation": "Splash - Full Page - LANDSCAPE",
+      "visual": "Visual: A magical underground cave bedroom. A glowing river runs through the center of the room, luminescent fish swimming lazily. Bioluminescent fungi and crystals line the walls, casting soft blue and purple light. A glowing, indeterminate figure sits up in a simple bed, light streaming from their form. Location: Underground cave village, Lightsword's bedroom Characters: Lightsword (pre-transformation glowing form)",
+      "dialogue": "(Caption): \"In the caverns deep where rivers flow through bedrooms carved in stone...\" (Caption): \"Today is the Day of Choosing.\" ",
+      "characters": {
+        "Lightsword": "A glowing, indeterminate humanoid figure wrapped in soft golden-white light No defined species - ethereal and mysterious Wearing simple ceremonial robes over the glowing form"
+      },
+      "npcs": {},
+      "aspect_ratio": "splash",
+      "size": "1024x1536",
+      "prompt": "Professional comic book panel illustration.\n\nCharacters:\n- Lightsword: A glowing, indeterminate humanoid figure wrapped in soft golden-white light No defined species - ethereal and mysterious Wearing simple ceremonial robes over the glowing form\n\nScene: Visual: A magical underground cave bedroom. A glowing river runs through the center of the room, luminescent fish swimming lazily. Bioluminescent fungi and crystals line the walls, casting soft blue and purple light. A glowing, indeterminate figure sits up in a simple bed, light streaming from their form. Location: Underground cave village, Lightsword's bedroom Characters: Lightsword (pre-transformation glowing form)\n\nDialogue: (Caption): \"In the caverns deep where rivers flow through bedrooms carved in stone...\" (Caption): \"Today is the Day of Choosing.\" \n\nInclude speech bubbles with the dialogue text clearly readable.\n\nStyle: Bold ink line art, vibrant colors, dynamic composition, sequential art style, graphic novel quality."
+    }
+  ]
+}

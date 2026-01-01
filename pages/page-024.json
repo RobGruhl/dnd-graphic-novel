@@ -1,0 +1,21 @@
+{
+  "page_num": 24,
+  "title": "Legend Begins",
+  "panel_count": 1,
+  "is_spread": false,
+  "panels": [
+    {
+      "panel_num": 1,
+      "annotation": "Splash - LANDSCAPE",
+      "visual": "Visual: HERO PORTRAIT - Lightsword stands tall and proud, Lizardfolk Sorcerer in full glory. Darkstorm the dire wolf at his right, Pip the pseudodragon on his shoulder, Starwind the pegasus behind with wings spread wide, and little Spore hugging his leg. The sunset blazes behind them. Stars begin to appear in the darkening sky. Location: Temple Courtyard, sunset Characters: Lightsword, Darkstorm, Pip, Starwind, Spore",
+      "dialogue": "(Caption): \"Four trials. Four companions. One hero.\" (Caption): \"The Trials of the Choosing were complete.\" (Caption): \"But LIGHTSWORD's legend had just begun.\" (Caption): \"THE END... for now.\"  ## NOTES ### Story Arc ### Visual Themes ### Key Character Moments 1. Choosing to heal the wolf instead of fight 2. Making Darkstorm FLY with Enchant 3. Seeing Pip's memories through magic link 4. Four Divine cards at once to save Starwind (NAT 20!) 5. Three-card coordinated strike on Shadow Sorcerer 6. The transformation reveal ### Panel Aspect Ratios Portrait (2:3): Dialogue scenes, character moments, indoor scenes Landscape (16:10): Action scenes, splash pages, dramatic reveals, outdoor vistas",
+      "characters": {
+        "Lightsword": "A glowing, indeterminate humanoid figure wrapped in soft golden-white light No defined species - ethereal and mysterious Wearing simple ceremonial robes over the glowing form"
+      },
+      "npcs": {},
+      "aspect_ratio": "splash",
+      "size": "1024x1536",
+      "prompt": "Professional comic book panel illustration.\n\nCharacters:\n- Lightsword: A glowing, indeterminate humanoid figure wrapped in soft golden-white light No defined species - ethereal and mysterious Wearing simple ceremonial robes over the glowing form\n\nScene: Visual: HERO PORTRAIT - Lightsword stands tall and proud, Lizardfolk Sorcerer in full glory. Darkstorm the dire wolf at his right, Pip the pseudodragon on his shoulder, Starwind the pegasus behind with wings spread wide, and little Spore hugging his leg. The sunset blazes behind them. Stars begin to appear in the darkening sky. Location: Temple Courtyard, sunset Characters: Lightsword, Darkstorm, Pip, Starwind, Spore\n\nDialogue: (Caption): \"Four trials. Four companions. One hero.\" (Caption): \"The Trials of the Choosing were complete.\" (Caption): \"But LIGHTSWORD's legend had just begun.\" (Caption): \"THE END... for now.\"  ## NOTES ### Story Arc ### Visual Themes ### Key Character Moments 1. Choosing to heal the wolf instead of fight 2. Making Darkstorm FLY with Enchant 3. Seeing Pip's memories through magic link 4. Four Divine cards at once to save Starwind (NAT 20!) 5. Three-card coordinated strike on Shadow Sorcerer 6. The transformation reveal ### Panel Aspect Ratios Portrait (2:3): Dialogue scenes, character moments, indoor scenes Landscape (16:10): Action scenes, splash pages, dramatic reveals, outdoor vistas\n\nInclude speech bubbles with the dialogue text clearly readable.\n\nStyle: Bold ink line art, vibrant colors, dynamic composition, sequential art style, graphic novel quality."
+    }
+  ]
+}

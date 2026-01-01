@@ -1,0 +1,21 @@
+{
+  "page_num": 18,
+  "title": "Flight to the Temple",
+  "panel_count": 1,
+  "is_spread": false,
+  "panels": [
+    {
+      "panel_num": 1,
+      "annotation": "Splash - LANDSCAPE",
+      "visual": "Visual: LIGHTSWORD RIDING STARWIND THROUGH THE SKY! Pip clings to their shoulder, wings spread in joy. Below, Darkstorm runs at incredible speed, following. The valley shrinks beneath them. Wind rushes past. It's MAGNIFICENT. Location: Sky above the valley Characters: Lightsword, Starwind (flying), Pip, Darkstorm (below)",
+      "dialogue": "(Caption): \"Three companions now. Flying toward destiny.\" ",
+      "characters": {
+        "Lightsword": "A glowing, indeterminate humanoid figure wrapped in soft golden-white light No defined species - ethereal and mysterious Wearing simple ceremonial robes over the glowing form"
+      },
+      "npcs": {},
+      "aspect_ratio": "splash",
+      "size": "1024x1536",
+      "prompt": "Professional comic book panel illustration.\n\nCharacters:\n- Lightsword: A glowing, indeterminate humanoid figure wrapped in soft golden-white light No defined species - ethereal and mysterious Wearing simple ceremonial robes over the glowing form\n\nScene: Visual: LIGHTSWORD RIDING STARWIND THROUGH THE SKY! Pip clings to their shoulder, wings spread in joy. Below, Darkstorm runs at incredible speed, following. The valley shrinks beneath them. Wind rushes past. It's MAGNIFICENT. Location: Sky above the valley Characters: Lightsword, Starwind (flying), Pip, Darkstorm (below)\n\nDialogue: (Caption): \"Three companions now. Flying toward destiny.\" \n\nInclude speech bubbles with the dialogue text clearly readable.\n\nStyle: Bold ink line art, vibrant colors, dynamic composition, sequential art style, graphic novel quality."
+    }
+  ]
+}

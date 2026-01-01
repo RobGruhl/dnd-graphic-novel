@@ -1,0 +1,58 @@
+{
+  "page_num": 8,
+  "title": "Goblin Ambush",
+  "panel_count": 4,
+  "is_spread": false,
+  "panels": [
+    {
+      "panel_num": 1,
+      "annotation": "Wide - LANDSCAPE",
+      "visual": "Visual: CHAOS! A ruined tower (30 feet high) with THREE GOBLIN ARCHERS on top raining arrows down. A merchant's wagon is pinned in a clearing - GARRETT hiding behind it. On the ground, a GOBLIN and GOBLIN BOSS creep toward him with drawn swords. Location: Ruined tower clearing Characters: Goblins (5), Garrett the Merchant",
+      "dialogue": "Garrett: \"HELP! Please, someone help!\" Goblin Boss: \"Heheheh! Give us your gold, human!\"",
+      "characters": {},
+      "npcs": {},
+      "aspect_ratio": "wide",
+      "size": "1536x1024",
+      "prompt": "Professional comic book panel illustration.\n\nScene: Visual: CHAOS! A ruined tower (30 feet high) with THREE GOBLIN ARCHERS on top raining arrows down. A merchant's wagon is pinned in a clearing - GARRETT hiding behind it. On the ground, a GOBLIN and GOBLIN BOSS creep toward him with drawn swords. Location: Ruined tower clearing Characters: Goblins (5), Garrett the Merchant\n\nDialogue: Garrett: \"HELP! Please, someone help!\" Goblin Boss: \"Heheheh! Give us your gold, human!\"\n\nInclude speech bubbles with the dialogue text clearly readable.\n\nStyle: Bold ink line art, vibrant colors, dynamic composition, sequential art style, graphic novel quality."
+    },
+    {
+      "panel_num": 2,
+      "annotation": null,
+      "visual": "Visual: Lightsword bursts from cover, cards flashing: Protection Circle around Garrett, Illusion creating FIVE copies of themselves! Characters: Lightsword, Darkstorm, Garrett",
+      "dialogue": "Lightsword: \"Not today!\" (SFX): \"FWOOSH!\"",
+      "characters": {
+        "Lightsword": "A glowing, indeterminate humanoid figure wrapped in soft golden-white light No defined species - ethereal and mysterious Wearing simple ceremonial robes over the glowing form"
+      },
+      "npcs": {},
+      "aspect_ratio": "square",
+      "size": "1024x1024",
+      "prompt": "Professional comic book panel illustration.\n\nCharacters:\n- Lightsword: A glowing, indeterminate humanoid figure wrapped in soft golden-white light No defined species - ethereal and mysterious Wearing simple ceremonial robes over the glowing form\n\nScene: Visual: Lightsword bursts from cover, cards flashing: Protection Circle around Garrett, Illusion creating FIVE copies of themselves! Characters: Lightsword, Darkstorm, Garrett\n\nDialogue: Lightsword: \"Not today!\" (SFX): \"FWOOSH!\"\n\nInclude speech bubbles with the dialogue text clearly readable.\n\nStyle: Bold ink line art, vibrant colors, dynamic composition, sequential art style, graphic novel quality."
+    },
+    {
+      "panel_num": 3,
+      "annotation": null,
+      "visual": "Visual: Goblins firing arrows at the five Lightsword copies - all missing! The real Lightsword fires Quick Shot - one arrow hits the boss! Characters: Lightsword (copies), Goblins",
+      "dialogue": "Goblin: \"Which one is real?!\" (SFX): \"THUNK!\"",
+      "characters": {
+        "Lightsword": "A glowing, indeterminate humanoid figure wrapped in soft golden-white light No defined species - ethereal and mysterious Wearing simple ceremonial robes over the glowing form"
+      },
+      "npcs": {},
+      "aspect_ratio": "square",
+      "size": "1024x1024",
+      "prompt": "Professional comic book panel illustration.\n\nCharacters:\n- Lightsword: A glowing, indeterminate humanoid figure wrapped in soft golden-white light No defined species - ethereal and mysterious Wearing simple ceremonial robes over the glowing form\n\nScene: Visual: Goblins firing arrows at the five Lightsword copies - all missing! The real Lightsword fires Quick Shot - one arrow hits the boss! Characters: Lightsword (copies), Goblins\n\nDialogue: Goblin: \"Which one is real?!\" (SFX): \"THUNK!\"\n\nInclude speech bubbles with the dialogue text clearly readable.\n\nStyle: Bold ink line art, vibrant colors, dynamic composition, sequential art style, graphic novel quality."
+    },
+    {
+      "panel_num": 4,
+      "annotation": null,
+      "visual": "Visual: Darkstorm trying to run up the tower stairs, struggling on the narrow steps. Characters: Darkstorm",
+      "dialogue": "(Caption): \"Darkstorm couldn't reach the tower archers...\" Lightsword (thought): \"I have an idea...\" ",
+      "characters": {
+        "Lightsword": "A glowing, indeterminate humanoid figure wrapped in soft golden-white light No defined species - ethereal and mysterious Wearing simple ceremonial robes over the glowing form"
+      },
+      "npcs": {},
+      "aspect_ratio": "square",
+      "size": "1024x1024",
+      "prompt": "Professional comic book panel illustration.\n\nCharacters:\n- Lightsword: A glowing, indeterminate humanoid figure wrapped in soft golden-white light No defined species - ethereal and mysterious Wearing simple ceremonial robes over the glowing form\n\nScene: Visual: Darkstorm trying to run up the tower stairs, struggling on the narrow steps. Characters: Darkstorm\n\nDialogue: (Caption): \"Darkstorm couldn't reach the tower archers...\" Lightsword (thought): \"I have an idea...\" \n\nInclude speech bubbles with the dialogue text clearly readable.\n\nStyle: Bold ink line art, vibrant colors, dynamic composition, sequential art style, graphic novel quality."
+    }
+  ]
+}

@@ -1,0 +1,54 @@
+{
+  "page_num": 20,
+  "title": "The Shadow Sorcerer",
+  "panel_count": 4,
+  "is_spread": false,
+  "panels": [
+    {
+      "panel_num": 1,
+      "annotation": "Wide",
+      "visual": "Visual: The inner sanctum - a circular chamber with a domed ceiling painted with stars (now dim). In the center, a stone altar. SPORE is bound to it by chains of shadow, releasing SCARED GRAY SPORES. And rising behind the altar - THE SHADOW SORCERER. Hooded figure, tattered robes, hollow masked face, BURNING PURPLE EYES. Location: Temple Inner Sanctum (corrupted) Characters: Shadow Sorcerer, Spore (captive)",
+      "dialogue": "Shadow Sorcerer: \"So. Another candidate. Another CHOSEN ONE.\"",
+      "characters": {},
+      "npcs": {},
+      "aspect_ratio": "wide",
+      "size": "1536x1024",
+      "prompt": "Professional comic book panel illustration.\n\nScene: Visual: The inner sanctum - a circular chamber with a domed ceiling painted with stars (now dim). In the center, a stone altar. SPORE is bound to it by chains of shadow, releasing SCARED GRAY SPORES. And rising behind the altar - THE SHADOW SORCERER. Hooded figure, tattered robes, hollow masked face, BURNING PURPLE EYES. Location: Temple Inner Sanctum (corrupted) Characters: Shadow Sorcerer, Spore (captive)\n\nDialogue: Shadow Sorcerer: \"So. Another candidate. Another CHOSEN ONE.\"\n\nInclude speech bubbles with the dialogue text clearly readable.\n\nStyle: Bold ink line art, vibrant colors, dynamic composition, sequential art style, graphic novel quality."
+    },
+    {
+      "panel_num": 2,
+      "annotation": null,
+      "visual": "Visual: Close-up on the Shadow Sorcerer's face - rage and centuries of jealousy burning in those purple eyes. Characters: Shadow Sorcerer",
+      "dialogue": "Shadow Sorcerer: \"I was like you once. I came to the Choosing. I gave EVERYTHING.\"",
+      "characters": {},
+      "npcs": {},
+      "aspect_ratio": "square",
+      "size": "1024x1024",
+      "prompt": "Professional comic book panel illustration.\n\nScene: Visual: Close-up on the Shadow Sorcerer's face - rage and centuries of jealousy burning in those purple eyes. Characters: Shadow Sorcerer\n\nDialogue: Shadow Sorcerer: \"I was like you once. I came to the Choosing. I gave EVERYTHING.\"\n\nInclude speech bubbles with the dialogue text clearly readable.\n\nStyle: Bold ink line art, vibrant colors, dynamic composition, sequential art style, graphic novel quality."
+    },
+    {
+      "panel_num": 3,
+      "annotation": null,
+      "visual": "Visual: The Sorcerer's form flickers with shadows, spreading arms wide. Characters: Shadow Sorcerer",
+      "dialogue": "Shadow Sorcerer: \"And I FAILED. I wasn't good enough. I died here, ALONE, FORGOTTEN!\"",
+      "characters": {},
+      "npcs": {},
+      "aspect_ratio": "square",
+      "size": "1024x1024",
+      "prompt": "Professional comic book panel illustration.\n\nScene: Visual: The Sorcerer's form flickers with shadows, spreading arms wide. Characters: Shadow Sorcerer\n\nDialogue: Shadow Sorcerer: \"And I FAILED. I wasn't good enough. I died here, ALONE, FORGOTTEN!\"\n\nInclude speech bubbles with the dialogue text clearly readable.\n\nStyle: Bold ink line art, vibrant colors, dynamic composition, sequential art style, graphic novel quality."
+    },
+    {
+      "panel_num": 4,
+      "annotation": null,
+      "visual": "Visual: The Sorcerer points accusingly at Lightsword, shadows swirling. Characters: Shadow Sorcerer, Lightsword",
+      "dialogue": "Shadow Sorcerer: \"Now I'll take YOUR power! I'll drain EVERYTHING you have!\" Lightsword: \"I won't let you hurt Spore.\" ",
+      "characters": {
+        "Lightsword": "A glowing, indeterminate humanoid figure wrapped in soft golden-white light No defined species - ethereal and mysterious Wearing simple ceremonial robes over the glowing form"
+      },
+      "npcs": {},
+      "aspect_ratio": "square",
+      "size": "1024x1024",
+      "prompt": "Professional comic book panel illustration.\n\nCharacters:\n- Lightsword: A glowing, indeterminate humanoid figure wrapped in soft golden-white light No defined species - ethereal and mysterious Wearing simple ceremonial robes over the glowing form\n\nScene: Visual: The Sorcerer points accusingly at Lightsword, shadows swirling. Characters: Shadow Sorcerer, Lightsword\n\nDialogue: Shadow Sorcerer: \"Now I'll take YOUR power! I'll drain EVERYTHING you have!\" Lightsword: \"I won't let you hurt Spore.\" \n\nInclude speech bubbles with the dialogue text clearly readable.\n\nStyle: Bold ink line art, vibrant colors, dynamic composition, sequential art style, graphic novel quality."
+    }
+  ]
+}

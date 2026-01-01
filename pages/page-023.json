@@ -1,0 +1,58 @@
+{
+  "page_num": 23,
+  "title": "The Choosing Ceremony",
+  "panel_count": 4,
+  "is_spread": false,
+  "panels": [
+    {
+      "panel_num": 1,
+      "annotation": "Wide",
+      "visual": "Visual: The Temple courtyard at sunset - sky painted in brilliant colors. The four towers GLOW again. Villagers have gathered. The Elder stands before Lightsword (now fully Lizardfolk), Spore at his side, all three companions nearby. Location: Temple Courtyard (restored) Characters: Lightsword (Lizardfolk), Elder, Spore, Darkstorm, Pip, Starwind, villagers",
+      "dialogue": "Elder: \"You have faced the trials. You have made your choices. You have shown who you truly are.\"",
+      "characters": {
+        "Lightsword": "A glowing, indeterminate humanoid figure wrapped in soft golden-white light No defined species - ethereal and mysterious Wearing simple ceremonial robes over the glowing form"
+      },
+      "npcs": {},
+      "aspect_ratio": "wide",
+      "size": "1536x1024",
+      "prompt": "Professional comic book panel illustration.\n\nCharacters:\n- Lightsword: A glowing, indeterminate humanoid figure wrapped in soft golden-white light No defined species - ethereal and mysterious Wearing simple ceremonial robes over the glowing form\n\nScene: Visual: The Temple courtyard at sunset - sky painted in brilliant colors. The four towers GLOW again. Villagers have gathered. The Elder stands before Lightsword (now fully Lizardfolk), Spore at his side, all three companions nearby. Location: Temple Courtyard (restored) Characters: Lightsword (Lizardfolk), Elder, Spore, Darkstorm, Pip, Starwind, villagers\n\nDialogue: Elder: \"You have faced the trials. You have made your choices. You have shown who you truly are.\"\n\nInclude speech bubbles with the dialogue text clearly readable.\n\nStyle: Bold ink line art, vibrant colors, dynamic composition, sequential art style, graphic novel quality."
+    },
+    {
+      "panel_num": 2,
+      "annotation": null,
+      "visual": "Visual: The BLUE pillar blazes BRIGHTEST - Arcane! The GOLD pillar pulses in harmony - Divine! The other two pillars glow softly in support. Characters: Lightsword, pillars",
+      "dialogue": "Elder: \"The Aspects have chosen.\"",
+      "characters": {
+        "Lightsword": "A glowing, indeterminate humanoid figure wrapped in soft golden-white light No defined species - ethereal and mysterious Wearing simple ceremonial robes over the glowing form"
+      },
+      "npcs": {},
+      "aspect_ratio": "square",
+      "size": "1024x1024",
+      "prompt": "Professional comic book panel illustration.\n\nCharacters:\n- Lightsword: A glowing, indeterminate humanoid figure wrapped in soft golden-white light No defined species - ethereal and mysterious Wearing simple ceremonial robes over the glowing form\n\nScene: Visual: The BLUE pillar blazes BRIGHTEST - Arcane! The GOLD pillar pulses in harmony - Divine! The other two pillars glow softly in support. Characters: Lightsword, pillars\n\nDialogue: Elder: \"The Aspects have chosen.\"\n\nInclude speech bubbles with the dialogue text clearly readable.\n\nStyle: Bold ink line art, vibrant colors, dynamic composition, sequential art style, graphic novel quality."
+    },
+    {
+      "panel_num": 3,
+      "annotation": null,
+      "visual": "Visual: Close-up on the Elder's proud, tear-filled eyes. Characters: Elder",
+      "dialogue": "Elder: \"Magic doesn't just flow through you - it IS you. You are a SORCERER.\" Elder: \"With DRACONIC SORCERY - power in your very blood!\"",
+      "characters": {},
+      "npcs": {},
+      "aspect_ratio": "square",
+      "size": "1024x1024",
+      "prompt": "Professional comic book panel illustration.\n\nScene: Visual: Close-up on the Elder's proud, tear-filled eyes. Characters: Elder\n\nDialogue: Elder: \"Magic doesn't just flow through you - it IS you. You are a SORCERER.\" Elder: \"With DRACONIC SORCERY - power in your very blood!\"\n\nInclude speech bubbles with the dialogue text clearly readable.\n\nStyle: Bold ink line art, vibrant colors, dynamic composition, sequential art style, graphic novel quality."
+    },
+    {
+      "panel_num": 4,
+      "annotation": null,
+      "visual": "Visual: Lightsword raises a hand - a blade of PURE LIGHT manifests from their palm. Scales shimmer with magical energy. Characters: Lightsword",
+      "dialogue": "Elder: \"What is your name, hero?\" Lightsword: \"I am LIGHTSWORD!\" ",
+      "characters": {
+        "Lightsword": "A glowing, indeterminate humanoid figure wrapped in soft golden-white light No defined species - ethereal and mysterious Wearing simple ceremonial robes over the glowing form"
+      },
+      "npcs": {},
+      "aspect_ratio": "square",
+      "size": "1024x1024",
+      "prompt": "Professional comic book panel illustration.\n\nCharacters:\n- Lightsword: A glowing, indeterminate humanoid figure wrapped in soft golden-white light No defined species - ethereal and mysterious Wearing simple ceremonial robes over the glowing form\n\nScene: Visual: Lightsword raises a hand - a blade of PURE LIGHT manifests from their palm. Scales shimmer with magical energy. Characters: Lightsword\n\nDialogue: Elder: \"What is your name, hero?\" Lightsword: \"I am LIGHTSWORD!\" \n\nInclude speech bubbles with the dialogue text clearly readable.\n\nStyle: Bold ink line art, vibrant colors, dynamic composition, sequential art style, graphic novel quality."
+    }
+  ]
+}
