@@ -9,21 +9,37 @@
     <style>
         .characters-grid {
             display: grid;
-            grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+            grid-template-columns: repeat(auto-fill, minmax(320px, 1fr));
             gap: 30px;
-            max-width: 1200px;
+            max-width: 1400px;
             margin: 0 auto;
             padding: 20px;
         }
         .character-card {
             background: var(--bg-secondary);
             border-radius: 12px;
-            padding: 25px;
+            overflow: hidden;
             border: 1px solid var(--border-color);
+            transition: transform 0.2s, box-shadow 0.2s;
+        }
+        .character-card:hover {
+            transform: translateY(-4px);
+            box-shadow: 0 8px 25px rgba(0,0,0,0.3);
+        }
+        .character-image {
+            width: 100%;
+            aspect-ratio: 3/4;
+            object-fit: cover;
+            display: block;
+            cursor: pointer;
+        }
+        .character-info {
+            padding: 20px;
         }
         .character-card h3 {
             color: var(--accent-color);
             margin-bottom: 5px;
+            font-size: 1.3rem;
         }
         .character-role {
             color: var(--text-secondary);
@@ -34,6 +50,7 @@
         .character-description {
             color: var(--text-primary);
             line-height: 1.7;
+            font-size: 14px;
         }
         .page-header {
             text-align: center;
@@ -60,6 +77,37 @@
             text-transform: uppercase;
             letter-spacing: 2px;
         }
+        /* Lightbox */
+        .lightbox {
+            display: none;
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background: rgba(0,0,0,0.9);
+            z-index: 1000;
+            justify-content: center;
+            align-items: center;
+            cursor: pointer;
+        }
+        .lightbox.active {
+            display: flex;
+        }
+        .lightbox img {
+            max-width: 90%;
+            max-height: 90%;
+            object-fit: contain;
+            border-radius: 8px;
+        }
+        .lightbox-close {
+            position: absolute;
+            top: 20px;
+            right: 30px;
+            color: white;
+            font-size: 40px;
+            cursor: pointer;
+        }
     </style>
 </head>
 <body>
@@ -78,21 +126,27 @@
     <main>
         <div class="page-header">
             <h1>Characters</h1>
-            <p>The heroes, allies, and adversaries of Lightsword's journey through the Trials of the Choosing.</p>
+            <p>The heroes, allies, and adversaries of Lightsword's journey through the Trials of the Choosing. Click any image to view full size.</p>
         </div>
 
         <section class="character-section">
             <h2 class="section-title">The Hero</h2>
             <div class="characters-grid">
                 <div class="character-card">
-                    <h3>Lightsword (Pre-Transformation)</h3>
-                    <div class="character-role">Main Character - Before Choosing</div>
-                    <p class="character-description">A glowing, indeterminate humanoid figure wrapped in soft golden-white light. No defined species yet - ethereal and mysterious. Wearing simple ceremonial robes over the glowing form. Eyes are bright points of warm light that pulse gently with emotions.</p>
+                    <img src="images/characters/lightsword-glowing.webp" alt="Lightsword Pre-Transformation" class="character-image" onclick="openLightbox(this)">
+                    <div class="character-info">
+                        <h3>Lightsword (Pre-Transformation)</h3>
+                        <div class="character-role">Main Character - Before Choosing</div>
+                        <p class="character-description">A glowing, indeterminate humanoid figure wrapped in soft golden-white light. No defined species yet - ethereal and mysterious. Wearing simple ceremonial robes over the glowing form. Eyes are bright points of warm light that pulse gently with emotions.</p>
+                    </div>
                 </div>
                 <div class="character-card">
-                    <h3>Lightsword (Lizardfolk Sorcerer)</h3>
-                    <div class="character-role">Main Character - After Transformation</div>
-                    <p class="character-description">A Lizardfolk with green-brown scales that shimmer with draconic heritage. Lean, athletic build. Golden-amber eyes with vertical pupils. Small horn-like ridges along the brow. Can manifest a blade of pure light from his palm.</p>
+                    <img src="images/characters/lightsword-lizardfolk.webp" alt="Lightsword Lizardfolk Sorcerer" class="character-image" onclick="openLightbox(this)">
+                    <div class="character-info">
+                        <h3>Lightsword (Lizardfolk Sorcerer)</h3>
+                        <div class="character-role">Main Character - After Transformation</div>
+                        <p class="character-description">A Lizardfolk with green-brown scales that shimmer with draconic heritage. Lean, athletic build. Golden-amber eyes with vertical pupils. Small horn-like ridges along the brow. Can manifest a blade of pure light from his palm.</p>
+                    </div>
                 </div>
             </div>
         </section>
@@ -101,24 +155,36 @@
             <h2 class="section-title">Companions</h2>
             <div class="characters-grid">
                 <div class="character-card">
-                    <h3>Spore the Myconid</h3>
-                    <div class="character-role">Beloved Best Friend</div>
-                    <p class="character-description">A small mushroom creature about knee-height. Pale cap with bioluminescent spots that glow soft blue. Big, expressive dark eyes. Releases colored spores based on emotion - gray when scared, rainbow when joyful. Lightsword's best friend from the underground village.</p>
+                    <img src="images/characters/spore.webp" alt="Spore the Myconid" class="character-image" onclick="openLightbox(this)">
+                    <div class="character-info">
+                        <h3>Spore the Myconid</h3>
+                        <div class="character-role">Beloved Best Friend</div>
+                        <p class="character-description">A small mushroom creature about knee-height. Pale cap with bioluminescent spots that glow soft blue. Big, expressive dark eyes. Releases colored spores based on emotion - gray when scared, rainbow when joyful. Lightsword's best friend from the underground village.</p>
+                    </div>
                 </div>
                 <div class="character-card">
-                    <h3>Darkstorm the Dire Wolf</h3>
-                    <div class="character-role">Redeemed Ally</div>
-                    <p class="character-description">An enormous wolf the size of a horse, with thick silver-grey fur. Once cursed and in pain, now healed and loyal. Intelligent amber eyes show gratitude and devotion. Named Darkstorm after being freed from shadow chains. Can be enchanted to fly temporarily.</p>
+                    <img src="images/characters/darkstorm.webp" alt="Darkstorm the Dire Wolf" class="character-image" onclick="openLightbox(this)">
+                    <div class="character-info">
+                        <h3>Darkstorm the Dire Wolf</h3>
+                        <div class="character-role">Redeemed Ally</div>
+                        <p class="character-description">An enormous wolf the size of a horse, with thick silver-grey fur. Once cursed and in pain, now healed and loyal. Intelligent amber eyes show gratitude and devotion. Named Darkstorm after being freed from shadow chains. Can be enchanted to fly temporarily.</p>
+                    </div>
                 </div>
                 <div class="character-card">
-                    <h3>Pip the Pseudodragon</h3>
-                    <div class="character-role">Rescued Companion</div>
-                    <p class="character-description">A cat-sized dragon with reddish-brown scales and iridescent bat-like wings. Large expressive amber eyes full of intelligence. Found injured in the maze, becomes a loyal companion when shown kindness. Communicates through emotion rather than words.</p>
+                    <img src="images/characters/pip.webp" alt="Pip the Pseudodragon" class="character-image" onclick="openLightbox(this)">
+                    <div class="character-info">
+                        <h3>Pip the Pseudodragon</h3>
+                        <div class="character-role">Rescued Companion</div>
+                        <p class="character-description">A cat-sized dragon with reddish-brown scales and iridescent bat-like wings. Large expressive amber eyes full of intelligence. Found injured in the maze, becomes a loyal companion when shown kindness. Communicates through emotion rather than words.</p>
+                    </div>
                 </div>
                 <div class="character-card">
-                    <h3>Starwind the Pegasus</h3>
-                    <div class="character-role">Rescued Mount</div>
-                    <p class="character-description">A magnificent winged horse with a pure white coat and feathered wings spanning 20 feet. Noble and intelligent, with silver hooves and a flowing mane. Freed from shadow chains in the Cursed Grove and eternally grateful.</p>
+                    <img src="images/characters/starwind.webp" alt="Starwind the Pegasus" class="character-image" onclick="openLightbox(this)">
+                    <div class="character-info">
+                        <h3>Starwind the Pegasus</h3>
+                        <div class="character-role">Rescued Mount</div>
+                        <p class="character-description">A magnificent winged horse with a pure white coat and feathered wings spanning 20 feet. Noble and intelligent, with silver hooves and a flowing mane. Freed from shadow chains in the Cursed Grove and eternally grateful.</p>
+                    </div>
                 </div>
             </div>
         </section>
@@ -127,14 +193,12 @@
             <h2 class="section-title">Allies</h2>
             <div class="characters-grid">
                 <div class="character-card">
-                    <h3>The Elder of Aspects</h3>
-                    <div class="character-role">Mentor / Quest Giver</div>
-                    <p class="character-description">An ancient and ageless figure who conducts the Choosing ceremony. Dressed in shimmering robes that shift between red, green, blue, and gold. Wise eyes that have seen countless heroes rise. Voice like warm thunder - powerful but kind.</p>
-                </div>
-                <div class="character-card">
-                    <h3>Garrett the Merchant</h3>
-                    <div class="character-role">Rescued NPC</div>
-                    <p class="character-description">A weathered but cheerful traveling merchant with a grey beard and kind eyes. Dressed in practical traveling clothes with many pockets. Grateful to be rescued from goblins and eager to reward his savior.</p>
+                    <img src="images/characters/elder.webp" alt="The Elder of Aspects" class="character-image" onclick="openLightbox(this)">
+                    <div class="character-info">
+                        <h3>The Elder of Aspects</h3>
+                        <div class="character-role">Mentor / Quest Giver</div>
+                        <p class="character-description">An ancient and ageless figure who conducts the Choosing ceremony. Dressed in shimmering robes that shift between red, green, blue, and gold. Wise eyes that have seen countless heroes rise. Voice like warm thunder - powerful but kind.</p>
+                    </div>
                 </div>
             </div>
         </section>
@@ -143,26 +207,38 @@
             <h2 class="section-title">Adversaries</h2>
             <div class="characters-grid">
                 <div class="character-card">
-                    <h3>The Shadow Sorcerer</h3>
-                    <div class="character-role">Final Boss</div>
-                    <p class="character-description">A hooded figure wreathed in shadow magic with glowing purple eyes. Once sought the power of the Choosing, now corrupted by dark magic. Has captured Spore and corrupted the Temple of Aspects. Vulnerable to radiant damage.</p>
-                </div>
-                <div class="character-card">
-                    <h3>Goblins</h3>
-                    <div class="character-role">Tower Ambushers</div>
-                    <p class="character-description">Small, cunning creatures with sharp teeth and cruel eyes. Armed with crude bows and rusty blades. Led by a goblin boss who can redirect attacks. Terrorize the road near the ruined tower.</p>
-                </div>
-                <div class="character-card">
-                    <h3>Shadows</h3>
-                    <div class="character-role">Grove Guardians</div>
-                    <p class="character-description">Incorporeal beings of pure darkness that drain life with their touch. Circle the captured Starwind in the Cursed Grove. Vulnerable to radiant damage and holy magic.</p>
+                    <img src="images/characters/shadow-sorcerer.webp" alt="The Shadow Sorcerer" class="character-image" onclick="openLightbox(this)">
+                    <div class="character-info">
+                        <h3>The Shadow Sorcerer</h3>
+                        <div class="character-role">Final Boss</div>
+                        <p class="character-description">A hooded figure wreathed in shadow magic with glowing purple eyes. Once sought the power of the Choosing, now corrupted by dark magic. Has captured Spore and corrupted the Temple of Aspects. Vulnerable to radiant damage.</p>
+                    </div>
                 </div>
             </div>
         </section>
     </main>
 
+    <!-- Lightbox -->
+    <div id="lightbox" class="lightbox" onclick="closeLightbox()">
+        <span class="lightbox-close">&times;</span>
+        <img id="lightbox-img" src="" alt="Character full view">
+    </div>
+
     <footer class="site-footer">
         <p>&copy; 2025 Lightsword: The Trials of the Choosing | AI-generated comic | Created with Google Gemini</p>
     </footer>
+
+    <script>
+        function openLightbox(img) {
+            document.getElementById('lightbox-img').src = img.src;
+            document.getElementById('lightbox').classList.add('active');
+        }
+        function closeLightbox() {
+            document.getElementById('lightbox').classList.remove('active');
+        }
+        document.addEventListener('keydown', (e) => {
+            if (e.key === 'Escape') closeLightbox();
+        });
+    </script>
 </body>
 </html>

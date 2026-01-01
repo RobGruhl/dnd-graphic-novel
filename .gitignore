@@ -37,11 +37,11 @@ output/*.cbz
 # Thumbnails
 Thumbs.db
 
-# Web assets (generated)
-docs/images/pages/
-docs/images/thumbnails/
-docs/images/characters/
-docs/images/locations/
+# Web assets - NOT ignored (needed for GitHub Pages)
+# docs/images/pages/
+# docs/images/thumbnails/
+# docs/images/characters/
+# docs/images/locations/
 
 # Keep data directory structure
 !docs/data/.gitkeep
