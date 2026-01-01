@@ -4,193 +4,145 @@
       "page": 1,
       "title": "Morning in the Deep",
       "image": "images/pages/page-001.webp",
-      "thumbnail": "images/thumbnails/page-001.webp",
-      "characters": ["Lightsword"],
-      "locations": ["Underground cave village"]
+      "thumbnail": "images/thumbnails/page-001.webp"
     },
     {
       "page": 2,
       "title": "Farewell to Spore",
       "image": "images/pages/page-002.webp",
-      "thumbnail": "images/thumbnails/page-002.webp",
-      "characters": ["Lightsword", "Spore"],
-      "locations": ["Cave bedroom doorway"]
+      "thumbnail": "images/thumbnails/page-002.webp"
     },
     {
       "page": 3,
       "title": "The Temple of Aspects",
       "image": "images/pages/page-003.webp",
-      "thumbnail": "images/thumbnails/page-003.webp",
-      "characters": ["Lightsword"],
-      "locations": ["Temple of Aspects courtyard"]
+      "thumbnail": "images/thumbnails/page-003.webp"
     },
     {
       "page": 4,
       "title": "The Four Pillars",
       "image": "images/pages/page-004.webp",
-      "thumbnail": "images/thumbnails/page-004.webp",
-      "characters": ["Lightsword"],
-      "locations": ["Temple courtyard"]
+      "thumbnail": "images/thumbnails/page-004.webp"
     },
     {
       "page": 5,
       "title": "The Beast at the Bridge",
       "image": "images/pages/page-005.webp",
-      "thumbnail": "images/thumbnails/page-005.webp",
-      "characters": ["Lightsword", "Cursed Dire Wolf"],
-      "locations": ["Stone bridge, Whispering Valley"]
+      "thumbnail": "images/thumbnails/page-005.webp"
     },
     {
       "page": 6,
       "title": "Compassion Over Combat",
       "image": "images/pages/page-006.webp",
-      "thumbnail": "images/thumbnails/page-006.webp",
-      "characters": ["Lightsword", "Darkstorm"],
-      "locations": ["Stone bridge"]
+      "thumbnail": "images/thumbnails/page-006.webp"
     },
     {
       "page": 7,
       "title": "Darkstorm Joins",
       "image": "images/pages/page-007.webp",
-      "thumbnail": "images/thumbnails/page-007.webp",
-      "characters": ["Lightsword", "Darkstorm"],
-      "locations": ["Whispering Valley"]
+      "thumbnail": "images/thumbnails/page-007.webp"
     },
     {
       "page": 8,
       "title": "Goblin Ambush",
       "image": "images/pages/page-008.webp",
-      "thumbnail": "images/thumbnails/page-008.webp",
-      "characters": ["Lightsword", "Darkstorm", "Goblins"],
-      "locations": ["Ruined tower clearing"]
+      "thumbnail": "images/thumbnails/page-008.webp"
     },
     {
       "page": 9,
       "title": "The Flying Wolf",
       "image": "images/pages/page-009.webp",
-      "thumbnail": "images/thumbnails/page-009.webp",
-      "characters": ["Lightsword", "Darkstorm"],
-      "locations": ["Ruined tower"]
+      "thumbnail": "images/thumbnails/page-009.webp"
     },
     {
       "page": 10,
       "title": "The Merchant's Gratitude",
       "image": "images/pages/page-010.webp",
-      "thumbnail": "images/thumbnails/page-010.webp",
-      "characters": ["Lightsword", "Darkstorm", "Garrett"],
-      "locations": ["Ruined tower clearing"]
+      "thumbnail": "images/thumbnails/page-010.webp"
     },
     {
       "page": 11,
       "title": "The Maze of Echoes",
       "image": "images/pages/page-011.webp",
-      "thumbnail": "images/thumbnails/page-011.webp",
-      "characters": ["Lightsword", "Darkstorm"],
-      "locations": ["Maze of Echoes entrance"]
+      "thumbnail": "images/thumbnails/page-011.webp"
     },
     {
       "page": 12,
       "title": "The Sword Chamber",
       "image": "images/pages/page-012.webp",
-      "thumbnail": "images/thumbnails/page-012.webp",
-      "characters": ["Lightsword", "Darkstorm"],
-      "locations": ["Maze - Sword Chamber"]
+      "thumbnail": "images/thumbnails/page-012.webp"
     },
     {
       "page": 13,
       "title": "Finding Pip",
       "image": "images/pages/page-013.webp",
-      "thumbnail": "images/thumbnails/page-013.webp",
-      "characters": ["Lightsword", "Pip"],
-      "locations": ["Maze - Hidden Alcove"]
+      "thumbnail": "images/thumbnails/page-013.webp"
     },
     {
       "page": 14,
       "title": "Pip Chooses",
       "image": "images/pages/page-014.webp",
-      "thumbnail": "images/thumbnails/page-014.webp",
-      "characters": ["Lightsword", "Pip", "Darkstorm"],
-      "locations": ["Maze exit"]
+      "thumbnail": "images/thumbnails/page-014.webp"
     },
     {
       "page": 15,
       "title": "The Cursed Grove",
       "image": "images/pages/page-015.webp",
-      "thumbnail": "images/thumbnails/page-015.webp",
-      "characters": ["Starwind", "Shadows"],
-      "locations": ["Cursed Grove"]
+      "thumbnail": "images/thumbnails/page-015.webp"
     },
     {
       "page": 16,
       "title": "Four Divine Cards",
       "image": "images/pages/page-016.webp",
-      "thumbnail": "images/thumbnails/page-016.webp",
-      "characters": ["Lightsword"],
-      "locations": ["Cursed Grove"]
+      "thumbnail": "images/thumbnails/page-016.webp"
     },
     {
       "page": 17,
       "title": "Natural Twenty",
       "image": "images/pages/page-017.webp",
-      "thumbnail": "images/thumbnails/page-017.webp",
-      "characters": ["Lightsword", "Starwind"],
-      "locations": ["Cursed Grove"]
+      "thumbnail": "images/thumbnails/page-017.webp"
     },
     {
       "page": 18,
       "title": "Flight to the Temple",
       "image": "images/pages/page-018.webp",
-      "thumbnail": "images/thumbnails/page-018.webp",
-      "characters": ["Lightsword", "Starwind", "Pip", "Darkstorm"],
-      "locations": ["Sky above the valley"]
+      "thumbnail": "images/thumbnails/page-018.webp"
     },
     {
       "page": 19,
       "title": "The Temple Under Shadow",
       "image": "images/pages/page-019.webp",
-      "thumbnail": "images/thumbnails/page-019.webp",
-      "characters": ["Lightsword"],
-      "locations": ["Temple of Aspects (corrupted)"]
+      "thumbnail": "images/thumbnails/page-019.webp"
     },
     {
       "page": 20,
       "title": "The Shadow Sorcerer",
       "image": "images/pages/page-020.webp",
-      "thumbnail": "images/thumbnails/page-020.webp",
-      "characters": ["Lightsword", "Shadow Sorcerer", "Spore"],
-      "locations": ["Temple Inner Sanctum"]
+      "thumbnail": "images/thumbnails/page-020.webp"
     },
     {
       "page": 21,
       "title": "The Final Strike",
       "image": "images/pages/page-021.webp",
-      "thumbnail": "images/thumbnails/page-021.webp",
-      "characters": ["Lightsword", "Darkstorm", "Pip", "Starwind"],
-      "locations": ["Temple Inner Sanctum"]
+      "thumbnail": "images/thumbnails/page-021.webp"
     },
     {
       "page": 22,
       "title": "The Transformation",
       "image": "images/pages/page-022.webp",
-      "thumbnail": "images/thumbnails/page-022.webp",
-      "characters": ["Lightsword"],
-      "locations": ["Temple Inner Sanctum (restored)"]
+      "thumbnail": "images/thumbnails/page-022.webp"
     },
     {
       "page": 23,
       "title": "The Choosing Ceremony",
       "image": "images/pages/page-023.webp",
-      "thumbnail": "images/thumbnails/page-023.webp",
-      "characters": ["Lightsword", "Elder", "Spore", "Darkstorm", "Pip", "Starwind"],
-      "locations": ["Temple Courtyard (restored)"]
+      "thumbnail": "images/thumbnails/page-023.webp"
     },
     {
       "page": 24,
       "title": "Legend Begins",
       "image": "images/pages/page-024.webp",
-      "thumbnail": "images/thumbnails/page-024.webp",
-      "characters": ["Lightsword", "Darkstorm", "Pip", "Starwind", "Spore"],
-      "locations": ["Temple Courtyard, sunset"]
+      "thumbnail": "images/thumbnails/page-024.webp"
     }
   ],
   "total": 24

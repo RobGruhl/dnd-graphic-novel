@@ -9,11 +9,14 @@
       "annotation": null,
       "visual": "Visual: A hidden alcove behind a cracked crystal column. Curled up inside is a tiny pseudodragon - cat-sized, reddish-brown scales, iridescent wings. One wing is bent wrong. Big, frightened eyes look up. Location: Maze - Hidden Alcove Characters: Pip (injured)",
       "dialogue": "(Caption): \"In a hidden alcove...\" Pip: *sad chirping sounds*",
-      "characters": {},
+      "characters": {
+        "PipInjured": "The same pseudodragon but hurt and frightened. One wing bent at wrong angle, curled up protectively in hidden alcove. Eyes huge with fear and hope when first seen. Surrounded by tiny treasures collected before injury."
+      },
       "npcs": {},
-      "aspect_ratio": "square",
-      "size": "1024x1024",
-      "prompt": "Professional comic book panel illustration.\n\nScene: Visual: A hidden alcove behind a cracked crystal column. Curled up inside is a tiny pseudodragon - cat-sized, reddish-brown scales, iridescent wings. One wing is bent wrong. Big, frightened eyes look up. Location: Maze - Hidden Alcove Characters: Pip (injured)\n\nDialogue: (Caption): \"In a hidden alcove...\" Pip: *sad chirping sounds*\n\nInclude speech bubbles with the dialogue text clearly readable.\n\nStyle: Bold ink line art, vibrant colors, dynamic composition, sequential art style, graphic novel quality."
+      "aspect_ratio": "3:4",
+      "size": "768x1024",
+      "prompt": "Professional comic book panel illustration.\n\nScene: Visual: A hidden alcove behind a cracked crystal column. Curled up inside is a tiny pseudodragon - cat-sized, reddish-brown scales, iridescent wings. One wing is bent wrong. Big, frightened eyes look up. Location: Maze - Hidden Alcove Characters: Pip (injured)\n\nDialogue: (Caption): \"In a hidden alcove...\" Pip: *sad chirping sounds*\n\nInclude speech bubbles with the dialogue text clearly readable.\n\nStyle: Bold ink line art, vibrant colors, dynamic composition, sequential art style, graphic novel quality.",
+      "location": "MazeCrystalHalls"
     },
     {
       "panel_num": 2,
@@ -21,11 +24,13 @@
       "visual": "Visual: Lightsword approaches slowly, hands raised gently. Animal Friendship card glows soft green. Characters: Lightsword, Pip",
       "dialogue": "Lightsword: \"Hey there, little one. I won't hurt you.\"",
       "characters": {
-        "Lightsword": "A GLOWING ETHEREAL FIGURE made entirely of soft golden-white light. NOT a lizard, NOT humanoid with defined features - pure luminous energy in vaguely humanoid shape. No visible face, just two bright points of warm light where eyes would be. The entire body GLOWS and PULSES with inner light. Wearing simple cream-colored ceremonial robes that the light shines through. Ethereal, mysterious, magical being of pure radiance."
+        "Lightsword": "A GLOWING ETHEREAL FIGURE made entirely of soft golden-white light. NOT a lizard, NOT humanoid with defined features - pure luminous energy in vaguely humanoid shape. No visible face, just two bright points of warm light where eyes would be. The entire body GLOWS and PULSES with inner light. Wearing simple cream-colored ceremonial robes that the light shines through. Ethereal, mysterious, magical being of pure radiance.",
+        "LightswordGlowing": "A glowing, indeterminate humanoid figure wrapped in soft golden-white light. No defined species yet - ethereal and mysterious. Wearing simple ceremonial robes over the glowing form. Eyes are bright points of warm light. The light pulses gently with emotions.",
+        "Pip": "A cat-sized dragon with reddish-brown scales and iridescent bat-like wings. Large expressive eyes full of intelligence and emotion. Found injured in the maze, becomes a loyal companion when shown kindness. Communicates through emotion rather than words."
       },
       "npcs": {},
-      "aspect_ratio": "square",
-      "size": "1024x1024",
+      "aspect_ratio": "3:4",
+      "size": "768x1024",
       "prompt": "Professional comic book panel illustration.\n\nCharacters:\n- Lightsword: A GLOWING ETHEREAL FIGURE made entirely of soft golden-white light. NOT a lizard, NOT humanoid with defined features - pure luminous energy in vaguely humanoid shape. No visible face, just two bright points of warm light where eyes would be. The entire body GLOWS and PULSES with inner light. Wearing simple cream-colored ceremonial robes that the light shines through. Ethereal, mysterious, magical being of pure radiance.\n\nScene: Visual: Lightsword approaches slowly, hands raised gently. Animal Friendship card glows soft green. Characters: Lightsword, Pip\n\nDialogue: Lightsword: \"Hey there, little one. I won't hurt you.\"\n\nInclude speech bubbles with the dialogue text clearly readable.\n\nStyle: Bold ink line art, vibrant colors, dynamic composition, sequential art style, graphic novel quality."
     },
     {
@@ -34,11 +39,13 @@
       "visual": "Visual: Healing Light bathes Pip in golden warmth. The bent wing straightens, glowing as it heals. Characters: Lightsword, Pip",
       "dialogue": "(SFX): \"Shhhhh-glow...\" Pip: *hopeful chirp*",
       "characters": {
-        "Lightsword": "A GLOWING ETHEREAL FIGURE made entirely of soft golden-white light. NOT a lizard, NOT humanoid with defined features - pure luminous energy in vaguely humanoid shape. No visible face, just two bright points of warm light where eyes would be. The entire body GLOWS and PULSES with inner light. Wearing simple cream-colored ceremonial robes that the light shines through. Ethereal, mysterious, magical being of pure radiance."
+        "Lightsword": "A GLOWING ETHEREAL FIGURE made entirely of soft golden-white light. NOT a lizard, NOT humanoid with defined features - pure luminous energy in vaguely humanoid shape. No visible face, just two bright points of warm light where eyes would be. The entire body GLOWS and PULSES with inner light. Wearing simple cream-colored ceremonial robes that the light shines through. Ethereal, mysterious, magical being of pure radiance.",
+        "LightswordGlowing": "A glowing, indeterminate humanoid figure wrapped in soft golden-white light. No defined species yet - ethereal and mysterious. Wearing simple ceremonial robes over the glowing form. Eyes are bright points of warm light. The light pulses gently with emotions.",
+        "Pip": "A cat-sized dragon with reddish-brown scales and iridescent bat-like wings. Large expressive eyes full of intelligence and emotion. Found injured in the maze, becomes a loyal companion when shown kindness. Communicates through emotion rather than words."
       },
       "npcs": {},
-      "aspect_ratio": "square",
-      "size": "1024x1024",
+      "aspect_ratio": "3:4",
+      "size": "768x1024",
       "prompt": "Professional comic book panel illustration.\n\nCharacters:\n- Lightsword: A GLOWING ETHEREAL FIGURE made entirely of soft golden-white light. NOT a lizard, NOT humanoid with defined features - pure luminous energy in vaguely humanoid shape. No visible face, just two bright points of warm light where eyes would be. The entire body GLOWS and PULSES with inner light. Wearing simple cream-colored ceremonial robes that the light shines through. Ethereal, mysterious, magical being of pure radiance.\n\nScene: Visual: Healing Light bathes Pip in golden warmth. The bent wing straightens, glowing as it heals. Characters: Lightsword, Pip\n\nDialogue: (SFX): \"Shhhhh-glow...\" Pip: *hopeful chirp*\n\nInclude speech bubbles with the dialogue text clearly readable.\n\nStyle: Bold ink line art, vibrant colors, dynamic composition, sequential art style, graphic novel quality."
     },
     {
@@ -47,11 +54,13 @@
       "visual": "Visual: Lightsword uses Enchant - mind link forming. A vision: Pip's memories - being chased by the animated swords, getting hurt, hiding alone and scared. Characters: Lightsword, Pip (vision overlay)",
       "dialogue": "(Caption): \"Through magic, their minds touched. Lightsword SAW Pip's pain.\" Lightsword: \"You've been so alone... not anymore.\" ",
       "characters": {
-        "Lightsword": "A GLOWING ETHEREAL FIGURE made entirely of soft golden-white light. NOT a lizard, NOT humanoid with defined features - pure luminous energy in vaguely humanoid shape. No visible face, just two bright points of warm light where eyes would be. The entire body GLOWS and PULSES with inner light. Wearing simple cream-colored ceremonial robes that the light shines through. Ethereal, mysterious, magical being of pure radiance."
+        "Lightsword": "A GLOWING ETHEREAL FIGURE made entirely of soft golden-white light. NOT a lizard, NOT humanoid with defined features - pure luminous energy in vaguely humanoid shape. No visible face, just two bright points of warm light where eyes would be. The entire body GLOWS and PULSES with inner light. Wearing simple cream-colored ceremonial robes that the light shines through. Ethereal, mysterious, magical being of pure radiance.",
+        "LightswordGlowing": "A glowing, indeterminate humanoid figure wrapped in soft golden-white light. No defined species yet - ethereal and mysterious. Wearing simple ceremonial robes over the glowing form. Eyes are bright points of warm light. The light pulses gently with emotions.",
+        "Pip": "A cat-sized dragon with reddish-brown scales and iridescent bat-like wings. Large expressive eyes full of intelligence and emotion. Found injured in the maze, becomes a loyal companion when shown kindness. Communicates through emotion rather than words."
       },
       "npcs": {},
-      "aspect_ratio": "square",
-      "size": "1024x1024",
+      "aspect_ratio": "3:4",
+      "size": "768x1024",
       "prompt": "Professional comic book panel illustration.\n\nCharacters:\n- Lightsword: A GLOWING ETHEREAL FIGURE made entirely of soft golden-white light. NOT a lizard, NOT humanoid with defined features - pure luminous energy in vaguely humanoid shape. No visible face, just two bright points of warm light where eyes would be. The entire body GLOWS and PULSES with inner light. Wearing simple cream-colored ceremonial robes that the light shines through. Ethereal, mysterious, magical being of pure radiance.\n\nScene: Visual: Lightsword uses Enchant - mind link forming. A vision: Pip's memories - being chased by the animated swords, getting hurt, hiding alone and scared. Characters: Lightsword, Pip (vision overlay)\n\nDialogue: (Caption): \"Through magic, their minds touched. Lightsword SAW Pip's pain.\" Lightsword: \"You've been so alone... not anymore.\" \n\nInclude speech bubbles with the dialogue text clearly readable.\n\nStyle: Bold ink line art, vibrant colors, dynamic composition, sequential art style, graphic novel quality."
     }
   ]

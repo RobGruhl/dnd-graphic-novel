@@ -185,6 +185,177 @@ output/
 - **OpenAI gpt-image-1**: ~$0.02-0.04 per image
 - **Google Gemini 3 Pro Image**: ~$0.134 per image
 - Full comic estimate: panels × cost per image × variants
+- **Gemini has daily quota limits** - if you get repeated 429 errors, wait until tomorrow
+
+---
+
+## CRITICAL: Prompt Assembly & Description Pipeline
+
+### How Descriptions Get Pulled Into Prompts
+
+The generator (`generate_nanobananapro.py`) assembles prompts from multiple sources:
+
+1. **Style** (`style.json`) - Applied automatically to ALL panels
+   - `base_style` added at start
+   - `art_style` added at end
+
+2. **Location** - Only if panel has `location` field pointing to key in `locations.json`
+
+3. **Characters** - From panel's `characters` dict:
+   - If dict with embedded descriptions → uses those directly (PREFERRED)
+   - If list of names → looks up in merged characters+monsters database
+
+4. **Monsters** - Now merged into characters_db automatically (fixed Jan 2026)
+
+### CRITICAL: Empty Characters Dict = No Descriptions!
+
+If a panel has `"characters": {}` (empty), NO character descriptions get added to the prompt, even if characters are mentioned in the `visual` text. The generator does NOT parse the visual text for character names.
+
+**BAD** - Characters mentioned in visual but empty dict:
+```json
+{
+  "visual": "Lightsword battles the Dire Wolf on the bridge",
+  "characters": {}  // NO descriptions will be added!
+}
+```
+
+**GOOD** - Characters with embedded descriptions:
+```json
+{
+  "visual": "Lightsword battles the Dire Wolf on the bridge",
+  "location": "StoneBridge",
+  "characters": {
+    "Lightsword": "A GLOWING ETHEREAL FIGURE made entirely of soft golden-white light...",
+    "DireWolfCursed": "An enormous wolf the size of a horse, thick silver-grey fur..."
+  }
+}
+```
+
+### Fix Script for Missing Descriptions
+
+Run `python scripts/utilities/fix_page_jsons.py` to automatically:
+- Add missing character/monster entries to panels (pulls from databases)
+- Add missing location fields (infers from visual text)
+
+### Database Files
+
+- `characters.json` - Player characters, NPCs, companions (17 entries)
+- `monsters.json` - Enemies, creatures (16 entries) - **NOW LOADED by generator**
+- `locations.json` - All locations (17 entries) - **ALL UNDERGROUND CAVES**
+
+---
+
+## Aspect Ratios - CRITICAL for Layout
+
+### Gemini Supported Ratios
+`1:1`, `3:4`, `4:3`, `9:16`, `16:9` (native support)
+
+### Panel Aspect Ratio Rules
+
+| Layout | Aspect Ratio | Size | Use For |
+|--------|--------------|------|---------|
+| **2x2 Grid** | `3:4` | `768x1024` | Standard panels in grid pages |
+| **Wide/Landscape** | `wide` | `1536x1024` | Establishing shots, action scenes |
+| **Splash/Portrait** | `splash` | `1024x1536` | Full-page dramatic moments |
+
+### NEVER Use `square` for Grid Pages!
+Square (1:1) panels create ugly gaps in 2x2 grids. Always use `3:4` for grid panels.
+
+**To fix square panels across all pages:**
+```python
+# In fix script or manually:
+if panel.get('aspect_ratio') == 'square':
+    panel['aspect_ratio'] = '3:4'
+    panel['size'] = '768x1024'
+```
+
+### Aspect Ratio Mapping in Generator
+```python
+# generate_nanobananapro.py maps these:
+'tall', 'splash', 'portrait' → '9:16'
+'wide', 'landscape' → '16:9'
+'square' → '1:1'
+'3:4' → '3:4' (passthrough - native)
+'2:3' → '9:16' (closest)
+```
+
+---
+
+## World Setting: UNDERGROUND
+
+**ALL locations are underground caves.** There is NO sunlight anywhere.
+
+### Lighting Sources (use these, never "daylight"):
+- Bioluminescent fungi and mushrooms
+- Glowing crystals (can be colored for Aspect towers)
+- Magical lanterns and enchanted items
+- Luminescent paint on underground trade wagons
+
+### Key Location Translations:
+| Concept | Underground Version |
+|---------|---------------------|
+| Temple courtyard | Grand underground cavern cathedral |
+| Forest/trees | Giant mushroom groves |
+| Sky/flight | Vast cavern so large ceiling is lost in darkness |
+| Valley | Network of interconnected caverns |
+| Bridge over river | Stone bridge over underground river chasm |
+| Tower ruins | Ancient structure carved from massive stalagmite |
+
+---
+
+## Resuming Partial Generation
+
+If generation is interrupted (quota, disconnect, etc.):
+
+```bash
+# Check what's been generated
+ls output/panels/ | wc -l
+
+# Continue from where you left off (generator skips existing files)
+python scripts/core/generate_nanobananapro.py 16-24
+```
+
+The generator automatically skips panels that already exist.
+
+---
+
+## GitHub Pages Deployment
+
+The comic is deployed to GitHub Pages from the `/docs` directory.
+
+### Key Files
+- `docs/index.html` - Comic reader web app
+- `docs/js/reader.js` - Navigation and display logic
+- `docs/data/pages.json` - Page metadata for reader
+- `docs/images/pages/` - WebP page images
+- `docs/images/thumbnails/` - Thumbnail images
+
+### pages.json Format
+```json
+{
+  "pages": [
+    {
+      "page": 0,
+      "title": "Cover",
+      "image": "images/pages/page-000.webp",
+      "thumbnail": "images/thumbnails/page-000.webp"
+    }
+  ],
+  "total": 24
+}
+```
+
+### Reader.js Note
+The reader expects `data.pages` array, not just an array:
+```javascript
+const data = await response.json();
+this.pages = data.pages || data;  // Handle both formats
+```
+
+### .gitignore Warning
+Make sure `docs/images/` directories are NOT gitignored, or images won't be pushed to GitHub.
+
+---
 
 ## Making Changes
 

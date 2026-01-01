@@ -7,15 +7,15 @@
     {
       "panel_num": 1,
       "annotation": "Splash - Full Page - LANDSCAPE",
-      "visual": "Visual: A magical underground cave bedroom. A glowing river runs through the center of the room, luminescent fish swimming lazily. Bioluminescent fungi and crystals line the walls, casting soft blue and purple light. A glowing, indeterminate figure sits up in a simple bed, light streaming from their form. Location: Underground cave village, Lightsword's bedroom Characters: Lightsword (pre-transformation glowing form)",
+      "visual": "Visual: A magical underground cave bedroom. A glowing river runs through the center of the room, luminescent fish swimming lazily. Bioluminescent fungi and crystals line the walls, casting soft blue and purple light. A glowing, indeterminate figure sits up in a simple bed, light streaming from their form.",
       "dialogue": "(Caption): \"In the caverns deep where rivers flow through bedrooms carved in stone...\" (Caption): \"Today is the Day of Choosing.\" ",
+      "location": "the PlayerRoom",
       "characters": {
-        "Lightsword": "A GLOWING ETHEREAL FIGURE made entirely of soft golden-white light. NOT a lizard, NOT humanoid with defined features - pure luminous energy in vaguely humanoid shape. No visible face, just two bright points of warm light where eyes would be. The entire body GLOWS and PULSES with inner light. Wearing simple cream-colored ceremonial robes that the light shines through. Ethereal, mysterious, magical being of pure radiance."
+        "Lightsword": "A GLOWING ETHEREAL FIGURE made entirely of soft golden-white light sitting up in bed. NOT a lizard, NOT humanoid with defined features - pure luminous energy in vaguely humanoid shape. No visible face, just two bright points of warm light where eyes would be. The entire body GLOWS and PULSES with inner light, just waking up. Wearing simple cream-colored ceremonial robes that the light shines through. Ethereal, mysterious, magical being of pure radiance."
       },
       "npcs": {},
       "aspect_ratio": "splash",
-      "size": "1024x1536",
-      "prompt": "Professional comic book panel illustration.\n\nCharacters:\n- Lightsword: A GLOWING ETHEREAL FIGURE made entirely of soft golden-white light. NOT a lizard, NOT humanoid with defined features - pure luminous energy in vaguely humanoid shape. No visible face, just two bright points of warm light where eyes would be. The entire body GLOWS and PULSES with inner light. Wearing simple cream-colored ceremonial robes that the light shines through. Ethereal, mysterious, magical being of pure radiance.\n\nScene: Visual: A magical underground cave bedroom. A glowing river runs through the center of the room, luminescent fish swimming lazily. Bioluminescent fungi and crystals line the walls, casting soft blue and purple light. A glowing, indeterminate figure sits up in a simple bed, light streaming from their form. Location: Underground cave village, Lightsword's bedroom Characters: Lightsword (pre-transformation glowing form)\n\nDialogue: (Caption): \"In the caverns deep where rivers flow through bedrooms carved in stone...\" (Caption): \"Today is the Day of Choosing.\" \n\nInclude speech bubbles with the dialogue text clearly readable.\n\nStyle: Bold ink line art, vibrant colors, dynamic composition, sequential art style, graphic novel quality."
+      "size": "1024x1536"
     }
   ]
 }

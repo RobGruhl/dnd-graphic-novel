@@ -10,11 +10,12 @@
       "visual": "Visual: Lightsword combines Smite with Healing Light, BOTH powers flowing together. Golden energy builds to blinding intensity. Characters: Lightsword",
       "dialogue": "Lightsword: \"PLEASE!\"",
       "characters": {
-        "Lightsword": "A GLOWING ETHEREAL FIGURE made entirely of soft golden-white light. NOT a lizard, NOT humanoid with defined features - pure luminous energy in vaguely humanoid shape. No visible face, just two bright points of warm light where eyes would be. The entire body GLOWS and PULSES with inner light. Wearing simple cream-colored ceremonial robes that the light shines through. Ethereal, mysterious, magical being of pure radiance."
+        "Lightsword": "A GLOWING ETHEREAL FIGURE made entirely of soft golden-white light. NOT a lizard, NOT humanoid with defined features - pure luminous energy in vaguely humanoid shape. No visible face, just two bright points of warm light where eyes would be. The entire body GLOWS and PULSES with inner light. Wearing simple cream-colored ceremonial robes that the light shines through. Ethereal, mysterious, magical being of pure radiance.",
+        "LightswordGlowing": "A glowing, indeterminate humanoid figure wrapped in soft golden-white light. No defined species yet - ethereal and mysterious. Wearing simple ceremonial robes over the glowing form. Eyes are bright points of warm light. The light pulses gently with emotions."
       },
       "npcs": {},
-      "aspect_ratio": "square",
-      "size": "1024x1024",
+      "aspect_ratio": "3:4",
+      "size": "768x1024",
       "prompt": "Professional comic book panel illustration.\n\nCharacters:\n- Lightsword: A GLOWING ETHEREAL FIGURE made entirely of soft golden-white light. NOT a lizard, NOT humanoid with defined features - pure luminous energy in vaguely humanoid shape. No visible face, just two bright points of warm light where eyes would be. The entire body GLOWS and PULSES with inner light. Wearing simple cream-colored ceremonial robes that the light shines through. Ethereal, mysterious, magical being of pure radiance.\n\nScene: Visual: Lightsword combines Smite with Healing Light, BOTH powers flowing together. Golden energy builds to blinding intensity. Characters: Lightsword\n\nDialogue: Lightsword: \"PLEASE!\"\n\nInclude speech bubbles with the dialogue text clearly readable.\n\nStyle: Bold ink line art, vibrant colors, dynamic composition, sequential art style, graphic novel quality."
     },
     {
@@ -23,11 +24,14 @@
       "visual": "Visual: NATURAL TWENTY! EXPLOSION OF DIVINE LIGHT! The chains SHATTER into a thousand pieces! The dark crystal EXPLODES! The last shadow is DESTROYED! The dead trees burst into BLOOM - flowers, leaves, LIFE returning! Characters: Lightsword, Starwind (chains breaking)",
       "dialogue": "(SFX): \"KA-KROOOOM!\" (Caption): \"NATURAL TWENTY!\"",
       "characters": {
-        "Lightsword": "A GLOWING ETHEREAL FIGURE made entirely of soft golden-white light. NOT a lizard, NOT humanoid with defined features - pure luminous energy in vaguely humanoid shape. No visible face, just two bright points of warm light where eyes would be. The entire body GLOWS and PULSES with inner light. Wearing simple cream-colored ceremonial robes that the light shines through. Ethereal, mysterious, magical being of pure radiance."
+        "Lightsword": "A GLOWING ETHEREAL FIGURE made entirely of soft golden-white light. NOT a lizard, NOT humanoid with defined features - pure luminous energy in vaguely humanoid shape. No visible face, just two bright points of warm light where eyes would be. The entire body GLOWS and PULSES with inner light. Wearing simple cream-colored ceremonial robes that the light shines through. Ethereal, mysterious, magical being of pure radiance.",
+        "LightswordGlowing": "A glowing, indeterminate humanoid figure wrapped in soft golden-white light. No defined species yet - ethereal and mysterious. Wearing simple ceremonial robes over the glowing form. Eyes are bright points of warm light. The light pulses gently with emotions.",
+        "Starwind": "A magnificent winged horse with a pure white coat and feathered wings spanning 20 feet. Noble and intelligent, with silver hooves and a flowing mane. Freed from shadow chains and eternally grateful, offering to carry the hero.",
+        "Shadow": "An incorporeal undead creature of pure darkness, vaguely humanoid silhouette with no distinguishing features except cold pinpricks of malevolent white light for eyes. Sliding along walls and floor, reaching with grasping shadow hands toward the trapped pegasus."
       },
       "npcs": {},
-      "aspect_ratio": "square",
-      "size": "1024x1024",
+      "aspect_ratio": "3:4",
+      "size": "768x1024",
       "prompt": "Professional comic book panel illustration.\n\nCharacters:\n- Lightsword: A GLOWING ETHEREAL FIGURE made entirely of soft golden-white light. NOT a lizard, NOT humanoid with defined features - pure luminous energy in vaguely humanoid shape. No visible face, just two bright points of warm light where eyes would be. The entire body GLOWS and PULSES with inner light. Wearing simple cream-colored ceremonial robes that the light shines through. Ethereal, mysterious, magical being of pure radiance.\n\nScene: Visual: NATURAL TWENTY! EXPLOSION OF DIVINE LIGHT! The chains SHATTER into a thousand pieces! The dark crystal EXPLODES! The last shadow is DESTROYED! The dead trees burst into BLOOM - flowers, leaves, LIFE returning! Characters: Lightsword, Starwind (chains breaking)\n\nDialogue: (SFX): \"KA-KROOOOM!\" (Caption): \"NATURAL TWENTY!\"\n\nInclude speech bubbles with the dialogue text clearly readable.\n\nStyle: Bold ink line art, vibrant colors, dynamic composition, sequential art style, graphic novel quality."
     },
     {
@@ -35,10 +39,12 @@
       "annotation": null,
       "visual": "Visual: Color returns to Starwind's wings - pure white, RADIANT. She stands tall, powerful, FREE. Characters: Starwind",
       "dialogue": "(Caption): \"The curse was broken.\"",
-      "characters": {},
+      "characters": {
+        "Starwind": "A magnificent winged horse with a pure white coat and feathered wings spanning 20 feet. Noble and intelligent, with silver hooves and a flowing mane. Freed from shadow chains and eternally grateful, offering to carry the hero."
+      },
       "npcs": {},
-      "aspect_ratio": "square",
-      "size": "1024x1024",
+      "aspect_ratio": "3:4",
+      "size": "768x1024",
       "prompt": "Professional comic book panel illustration.\n\nScene: Visual: Color returns to Starwind's wings - pure white, RADIANT. She stands tall, powerful, FREE. Characters: Starwind\n\nDialogue: (Caption): \"The curse was broken.\"\n\nInclude speech bubbles with the dialogue text clearly readable.\n\nStyle: Bold ink line art, vibrant colors, dynamic composition, sequential art style, graphic novel quality."
     },
     {
@@ -47,11 +53,13 @@
       "visual": "Visual: Starwind bows her great head to Lightsword. A telepathic connection forms - her gratitude flowing through. Characters: Starwind, Lightsword",
       "dialogue": "Starwind (telepathic): \"~You freed me. I am Starwind. And I am yours.~\" ",
       "characters": {
-        "Lightsword": "A GLOWING ETHEREAL FIGURE made entirely of soft golden-white light. NOT a lizard, NOT humanoid with defined features - pure luminous energy in vaguely humanoid shape. No visible face, just two bright points of warm light where eyes would be. The entire body GLOWS and PULSES with inner light. Wearing simple cream-colored ceremonial robes that the light shines through. Ethereal, mysterious, magical being of pure radiance."
+        "Lightsword": "A GLOWING ETHEREAL FIGURE made entirely of soft golden-white light. NOT a lizard, NOT humanoid with defined features - pure luminous energy in vaguely humanoid shape. No visible face, just two bright points of warm light where eyes would be. The entire body GLOWS and PULSES with inner light. Wearing simple cream-colored ceremonial robes that the light shines through. Ethereal, mysterious, magical being of pure radiance.",
+        "LightswordGlowing": "A glowing, indeterminate humanoid figure wrapped in soft golden-white light. No defined species yet - ethereal and mysterious. Wearing simple ceremonial robes over the glowing form. Eyes are bright points of warm light. The light pulses gently with emotions.",
+        "Starwind": "A magnificent winged horse with a pure white coat and feathered wings spanning 20 feet. Noble and intelligent, with silver hooves and a flowing mane. Freed from shadow chains and eternally grateful, offering to carry the hero."
       },
       "npcs": {},
-      "aspect_ratio": "square",
-      "size": "1024x1024",
+      "aspect_ratio": "3:4",
+      "size": "768x1024",
       "prompt": "Professional comic book panel illustration.\n\nCharacters:\n- Lightsword: A GLOWING ETHEREAL FIGURE made entirely of soft golden-white light. NOT a lizard, NOT humanoid with defined features - pure luminous energy in vaguely humanoid shape. No visible face, just two bright points of warm light where eyes would be. The entire body GLOWS and PULSES with inner light. Wearing simple cream-colored ceremonial robes that the light shines through. Ethereal, mysterious, magical being of pure radiance.\n\nScene: Visual: Starwind bows her great head to Lightsword. A telepathic connection forms - her gratitude flowing through. Characters: Starwind, Lightsword\n\nDialogue: Starwind (telepathic): \"~You freed me. I am Starwind. And I am yours.~\" \n\nInclude speech bubbles with the dialogue text clearly readable.\n\nStyle: Bold ink line art, vibrant colors, dynamic composition, sequential art style, graphic novel quality."
     }
   ]

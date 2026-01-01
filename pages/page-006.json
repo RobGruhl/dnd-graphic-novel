@@ -10,12 +10,15 @@
       "visual": "Visual: Lightsword creates illusory copies of themselves - five glowing figures spread across the bridge. The wolf's head swings back and forth, confused. Characters: Lightsword, Dire Wolf",
       "dialogue": "(Caption): \"First instinct: confusion. Create copies. Buy time.\"",
       "characters": {
-        "Lightsword": "A GLOWING ETHEREAL FIGURE made entirely of soft golden-white light. NOT a lizard, NOT humanoid with defined features - pure luminous energy in vaguely humanoid shape. No visible face, just two bright points of warm light where eyes would be. The entire body GLOWS and PULSES with inner light. Wearing simple cream-colored ceremonial robes that the light shines through. Ethereal, mysterious, magical being of pure radiance."
+        "Lightsword": "A GLOWING ETHEREAL FIGURE made entirely of soft golden-white light. NOT a lizard, NOT humanoid with defined features - pure luminous energy in vaguely humanoid shape. No visible face, just two bright points of warm light where eyes would be. The entire body GLOWS and PULSES with inner light. Wearing simple cream-colored ceremonial robes that the light shines through. Ethereal, mysterious, magical being of pure radiance.",
+        "LightswordGlowing": "A glowing, indeterminate humanoid figure wrapped in soft golden-white light. No defined species yet - ethereal and mysterious. Wearing simple ceremonial robes over the glowing form. Eyes are bright points of warm light. The light pulses gently with emotions.",
+        "DireWolfCursed": "An enormous wolf the size of a horse, thick silver-grey fur matted with pain. One front leg is wrapped in crackling dark energy - a visible curse causing agony. Intelligent pack-hunter eyes show fear and pain, not malice. Snarling defensively, blocking the bridge."
       },
       "npcs": {},
-      "aspect_ratio": "square",
-      "size": "1024x1024",
-      "prompt": "Professional comic book panel illustration.\n\nCharacters:\n- Lightsword: A GLOWING ETHEREAL FIGURE made entirely of soft golden-white light. NOT a lizard, NOT humanoid with defined features - pure luminous energy in vaguely humanoid shape. No visible face, just two bright points of warm light where eyes would be. The entire body GLOWS and PULSES with inner light. Wearing simple cream-colored ceremonial robes that the light shines through. Ethereal, mysterious, magical being of pure radiance.\n\nScene: Visual: Lightsword creates illusory copies of themselves - five glowing figures spread across the bridge. The wolf's head swings back and forth, confused. Characters: Lightsword, Dire Wolf\n\nDialogue: (Caption): \"First instinct: confusion. Create copies. Buy time.\"\n\nInclude speech bubbles with the dialogue text clearly readable.\n\nStyle: Bold ink line art, vibrant colors, dynamic composition, sequential art style, graphic novel quality."
+      "aspect_ratio": "3:4",
+      "size": "768x1024",
+      "prompt": "Professional comic book panel illustration.\n\nCharacters:\n- Lightsword: A GLOWING ETHEREAL FIGURE made entirely of soft golden-white light. NOT a lizard, NOT humanoid with defined features - pure luminous energy in vaguely humanoid shape. No visible face, just two bright points of warm light where eyes would be. The entire body GLOWS and PULSES with inner light. Wearing simple cream-colored ceremonial robes that the light shines through. Ethereal, mysterious, magical being of pure radiance.\n\nScene: Visual: Lightsword creates illusory copies of themselves - five glowing figures spread across the bridge. The wolf's head swings back and forth, confused. Characters: Lightsword, Dire Wolf\n\nDialogue: (Caption): \"First instinct: confusion. Create copies. Buy time.\"\n\nInclude speech bubbles with the dialogue text clearly readable.\n\nStyle: Bold ink line art, vibrant colors, dynamic composition, sequential art style, graphic novel quality.",
+      "location": "StoneBridge"
     },
     {
       "panel_num": 2,
@@ -23,11 +26,13 @@
       "visual": "Visual: Close-up on the wolf's face - pain visible in its eyes. Close-up on Lightsword noticing this, head tilted in concern. Characters: Lightsword, Dire Wolf",
       "dialogue": "Lightsword (thought): \"Wait... it's not attacking. It's... hurting.\"",
       "characters": {
-        "Lightsword": "A GLOWING ETHEREAL FIGURE made entirely of soft golden-white light. NOT a lizard, NOT humanoid with defined features - pure luminous energy in vaguely humanoid shape. No visible face, just two bright points of warm light where eyes would be. The entire body GLOWS and PULSES with inner light. Wearing simple cream-colored ceremonial robes that the light shines through. Ethereal, mysterious, magical being of pure radiance."
+        "Lightsword": "A GLOWING ETHEREAL FIGURE made entirely of soft golden-white light. NOT a lizard, NOT humanoid with defined features - pure luminous energy in vaguely humanoid shape. No visible face, just two bright points of warm light where eyes would be. The entire body GLOWS and PULSES with inner light. Wearing simple cream-colored ceremonial robes that the light shines through. Ethereal, mysterious, magical being of pure radiance.",
+        "LightswordGlowing": "A glowing, indeterminate humanoid figure wrapped in soft golden-white light. No defined species yet - ethereal and mysterious. Wearing simple ceremonial robes over the glowing form. Eyes are bright points of warm light. The light pulses gently with emotions.",
+        "DireWolfCursed": "An enormous wolf the size of a horse, thick silver-grey fur matted with pain. One front leg is wrapped in crackling dark energy - a visible curse causing agony. Intelligent pack-hunter eyes show fear and pain, not malice. Snarling defensively, blocking the bridge."
       },
       "npcs": {},
-      "aspect_ratio": "square",
-      "size": "1024x1024",
+      "aspect_ratio": "3:4",
+      "size": "768x1024",
       "prompt": "Professional comic book panel illustration.\n\nCharacters:\n- Lightsword: A GLOWING ETHEREAL FIGURE made entirely of soft golden-white light. NOT a lizard, NOT humanoid with defined features - pure luminous energy in vaguely humanoid shape. No visible face, just two bright points of warm light where eyes would be. The entire body GLOWS and PULSES with inner light. Wearing simple cream-colored ceremonial robes that the light shines through. Ethereal, mysterious, magical being of pure radiance.\n\nScene: Visual: Close-up on the wolf's face - pain visible in its eyes. Close-up on Lightsword noticing this, head tilted in concern. Characters: Lightsword, Dire Wolf\n\nDialogue: Lightsword (thought): \"Wait... it's not attacking. It's... hurting.\"\n\nInclude speech bubbles with the dialogue text clearly readable.\n\nStyle: Bold ink line art, vibrant colors, dynamic composition, sequential art style, graphic novel quality."
     },
     {
@@ -36,11 +41,13 @@
       "visual": "Visual: Lightsword approaches slowly, hands raised in peace. Two cards glow: Smite + Healing Light. Golden light builds around their hands. Characters: Lightsword, Dire Wolf",
       "dialogue": "Lightsword: \"Easy... I'm going to help you.\"",
       "characters": {
-        "Lightsword": "A GLOWING ETHEREAL FIGURE made entirely of soft golden-white light. NOT a lizard, NOT humanoid with defined features - pure luminous energy in vaguely humanoid shape. No visible face, just two bright points of warm light where eyes would be. The entire body GLOWS and PULSES with inner light. Wearing simple cream-colored ceremonial robes that the light shines through. Ethereal, mysterious, magical being of pure radiance."
+        "Lightsword": "A GLOWING ETHEREAL FIGURE made entirely of soft golden-white light. NOT a lizard, NOT humanoid with defined features - pure luminous energy in vaguely humanoid shape. No visible face, just two bright points of warm light where eyes would be. The entire body GLOWS and PULSES with inner light. Wearing simple cream-colored ceremonial robes that the light shines through. Ethereal, mysterious, magical being of pure radiance.",
+        "LightswordGlowing": "A glowing, indeterminate humanoid figure wrapped in soft golden-white light. No defined species yet - ethereal and mysterious. Wearing simple ceremonial robes over the glowing form. Eyes are bright points of warm light. The light pulses gently with emotions.",
+        "DireWolfAlly": "An enormous wolf the size of a horse, with thick silver-grey fur. Once cursed and in pain, now healed and loyal. Intelligent pack-hunter eyes now show gratitude and devotion. Follows at respectful distance, ready to protect."
       },
       "npcs": {},
-      "aspect_ratio": "square",
-      "size": "1024x1024",
+      "aspect_ratio": "3:4",
+      "size": "768x1024",
       "prompt": "Professional comic book panel illustration.\n\nCharacters:\n- Lightsword: A GLOWING ETHEREAL FIGURE made entirely of soft golden-white light. NOT a lizard, NOT humanoid with defined features - pure luminous energy in vaguely humanoid shape. No visible face, just two bright points of warm light where eyes would be. The entire body GLOWS and PULSES with inner light. Wearing simple cream-colored ceremonial robes that the light shines through. Ethereal, mysterious, magical being of pure radiance.\n\nScene: Visual: Lightsword approaches slowly, hands raised in peace. Two cards glow: Smite + Healing Light. Golden light builds around their hands. Characters: Lightsword, Dire Wolf\n\nDialogue: Lightsword: \"Easy... I'm going to help you.\"\n\nInclude speech bubbles with the dialogue text clearly readable.\n\nStyle: Bold ink line art, vibrant colors, dynamic composition, sequential art style, graphic novel quality."
     },
     {
@@ -49,7 +56,10 @@
       "visual": "Visual: EXPLOSION of golden light! The purple shadow chains SHATTER. The wolf's leg glows with healing warmth. The curse breaks! Characters: Lightsword, Dire Wolf (healing)",
       "dialogue": "(SFX): \"KRASH-SHOOM!\" (Caption): \"Compassion. Not combat.\" ",
       "characters": {
-        "Lightsword": "A GLOWING ETHEREAL FIGURE made entirely of soft golden-white light. NOT a lizard, NOT humanoid with defined features - pure luminous energy in vaguely humanoid shape. No visible face, just two bright points of warm light where eyes would be. The entire body GLOWS and PULSES with inner light. Wearing simple cream-colored ceremonial robes that the light shines through. Ethereal, mysterious, magical being of pure radiance."
+        "Lightsword": "A GLOWING ETHEREAL FIGURE made entirely of soft golden-white light. NOT a lizard, NOT humanoid with defined features - pure luminous energy in vaguely humanoid shape. No visible face, just two bright points of warm light where eyes would be. The entire body GLOWS and PULSES with inner light. Wearing simple cream-colored ceremonial robes that the light shines through. Ethereal, mysterious, magical being of pure radiance.",
+        "LightswordGlowing": "A glowing, indeterminate humanoid figure wrapped in soft golden-white light. No defined species yet - ethereal and mysterious. Wearing simple ceremonial robes over the glowing form. Eyes are bright points of warm light. The light pulses gently with emotions.",
+        "DireWolfAlly": "An enormous wolf the size of a horse, with thick silver-grey fur. Once cursed and in pain, now healed and loyal. Intelligent pack-hunter eyes now show gratitude and devotion. Follows at respectful distance, ready to protect.",
+        "Shadow": "An incorporeal undead creature of pure darkness, vaguely humanoid silhouette with no distinguishing features except cold pinpricks of malevolent white light for eyes. Sliding along walls and floor, reaching with grasping shadow hands toward the trapped pegasus."
       },
       "npcs": {},
       "aspect_ratio": "wide",

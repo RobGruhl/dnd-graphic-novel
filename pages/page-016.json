@@ -10,12 +10,16 @@
       "visual": "Visual: Lightsword stands at the grove's edge, Pip on shoulder, Darkstorm at side. They pull out FOUR cards - all glowing gold. Determination on their face. Characters: Lightsword, Pip, Darkstorm",
       "dialogue": "Lightsword: \"All or nothing.\" (Caption): \"Bless. Turn Undead. Smite. Healing Light.\"",
       "characters": {
-        "Lightsword": "A GLOWING ETHEREAL FIGURE made entirely of soft golden-white light. NOT a lizard, NOT humanoid with defined features - pure luminous energy in vaguely humanoid shape. No visible face, just two bright points of warm light where eyes would be. The entire body GLOWS and PULSES with inner light. Wearing simple cream-colored ceremonial robes that the light shines through. Ethereal, mysterious, magical being of pure radiance."
+        "Lightsword": "A GLOWING ETHEREAL FIGURE made entirely of soft golden-white light. NOT a lizard, NOT humanoid with defined features - pure luminous energy in vaguely humanoid shape. No visible face, just two bright points of warm light where eyes would be. The entire body GLOWS and PULSES with inner light. Wearing simple cream-colored ceremonial robes that the light shines through. Ethereal, mysterious, magical being of pure radiance.",
+        "LightswordGlowing": "A glowing, indeterminate humanoid figure wrapped in soft golden-white light. No defined species yet - ethereal and mysterious. Wearing simple ceremonial robes over the glowing form. Eyes are bright points of warm light. The light pulses gently with emotions.",
+        "Darkstorm": "An enormous wolf the size of a horse, with thick silver-grey fur. Once cursed and in pain, now healed and loyal. Intelligent amber eyes show gratitude and devotion. Follows at respectful distance, ready to protect. Named Darkstorm after being freed from shadow chains.",
+        "Pip": "A cat-sized dragon with reddish-brown scales and iridescent bat-like wings. Large expressive eyes full of intelligence and emotion. Found injured in the maze, becomes a loyal companion when shown kindness. Communicates through emotion rather than words."
       },
       "npcs": {},
-      "aspect_ratio": "square",
-      "size": "1024x1024",
-      "prompt": "Professional comic book panel illustration.\n\nCharacters:\n- Lightsword: A GLOWING ETHEREAL FIGURE made entirely of soft golden-white light. NOT a lizard, NOT humanoid with defined features - pure luminous energy in vaguely humanoid shape. No visible face, just two bright points of warm light where eyes would be. The entire body GLOWS and PULSES with inner light. Wearing simple cream-colored ceremonial robes that the light shines through. Ethereal, mysterious, magical being of pure radiance.\n\nScene: Visual: Lightsword stands at the grove's edge, Pip on shoulder, Darkstorm at side. They pull out FOUR cards - all glowing gold. Determination on their face. Characters: Lightsword, Pip, Darkstorm\n\nDialogue: Lightsword: \"All or nothing.\" (Caption): \"Bless. Turn Undead. Smite. Healing Light.\"\n\nInclude speech bubbles with the dialogue text clearly readable.\n\nStyle: Bold ink line art, vibrant colors, dynamic composition, sequential art style, graphic novel quality."
+      "aspect_ratio": "3:4",
+      "size": "768x1024",
+      "prompt": "Professional comic book panel illustration.\n\nCharacters:\n- Lightsword: A GLOWING ETHEREAL FIGURE made entirely of soft golden-white light. NOT a lizard, NOT humanoid with defined features - pure luminous energy in vaguely humanoid shape. No visible face, just two bright points of warm light where eyes would be. The entire body GLOWS and PULSES with inner light. Wearing simple cream-colored ceremonial robes that the light shines through. Ethereal, mysterious, magical being of pure radiance.\n\nScene: Visual: Lightsword stands at the grove's edge, Pip on shoulder, Darkstorm at side. They pull out FOUR cards - all glowing gold. Determination on their face. Characters: Lightsword, Pip, Darkstorm\n\nDialogue: Lightsword: \"All or nothing.\" (Caption): \"Bless. Turn Undead. Smite. Healing Light.\"\n\nInclude speech bubbles with the dialogue text clearly readable.\n\nStyle: Bold ink line art, vibrant colors, dynamic composition, sequential art style, graphic novel quality.",
+      "location": "DarkGrove"
     },
     {
       "panel_num": 2,
@@ -23,11 +27,12 @@
       "visual": "Visual: BLESS on the dead trees - they glow faintly, weakening the curse's grip. Characters: Lightsword",
       "dialogue": "(SFX): \"Hmmmmmm...\"",
       "characters": {
-        "Lightsword": "A GLOWING ETHEREAL FIGURE made entirely of soft golden-white light. NOT a lizard, NOT humanoid with defined features - pure luminous energy in vaguely humanoid shape. No visible face, just two bright points of warm light where eyes would be. The entire body GLOWS and PULSES with inner light. Wearing simple cream-colored ceremonial robes that the light shines through. Ethereal, mysterious, magical being of pure radiance."
+        "Lightsword": "A GLOWING ETHEREAL FIGURE made entirely of soft golden-white light. NOT a lizard, NOT humanoid with defined features - pure luminous energy in vaguely humanoid shape. No visible face, just two bright points of warm light where eyes would be. The entire body GLOWS and PULSES with inner light. Wearing simple cream-colored ceremonial robes that the light shines through. Ethereal, mysterious, magical being of pure radiance.",
+        "LightswordGlowing": "A glowing, indeterminate humanoid figure wrapped in soft golden-white light. No defined species yet - ethereal and mysterious. Wearing simple ceremonial robes over the glowing form. Eyes are bright points of warm light. The light pulses gently with emotions."
       },
       "npcs": {},
-      "aspect_ratio": "square",
-      "size": "1024x1024",
+      "aspect_ratio": "3:4",
+      "size": "768x1024",
       "prompt": "Professional comic book panel illustration.\n\nCharacters:\n- Lightsword: A GLOWING ETHEREAL FIGURE made entirely of soft golden-white light. NOT a lizard, NOT humanoid with defined features - pure luminous energy in vaguely humanoid shape. No visible face, just two bright points of warm light where eyes would be. The entire body GLOWS and PULSES with inner light. Wearing simple cream-colored ceremonial robes that the light shines through. Ethereal, mysterious, magical being of pure radiance.\n\nScene: Visual: BLESS on the dead trees - they glow faintly, weakening the curse's grip. Characters: Lightsword\n\nDialogue: (SFX): \"Hmmmmmm...\"\n\nInclude speech bubbles with the dialogue text clearly readable.\n\nStyle: Bold ink line art, vibrant colors, dynamic composition, sequential art style, graphic novel quality."
     },
     {
@@ -36,11 +41,13 @@
       "visual": "Visual: TURN UNDEAD (rolled 18!) - HOLY LIGHT EXPLODES outward! Two shadows SCREAM and DISSOLVE! The third flees wounded! Characters: Lightsword, Shadows (dissolving)",
       "dialogue": "Lightsword: \"TURN UNDEAD!\" (SFX): \"SHRIEEEEK!\"",
       "characters": {
-        "Lightsword": "A GLOWING ETHEREAL FIGURE made entirely of soft golden-white light. NOT a lizard, NOT humanoid with defined features - pure luminous energy in vaguely humanoid shape. No visible face, just two bright points of warm light where eyes would be. The entire body GLOWS and PULSES with inner light. Wearing simple cream-colored ceremonial robes that the light shines through. Ethereal, mysterious, magical being of pure radiance."
+        "Lightsword": "A GLOWING ETHEREAL FIGURE made entirely of soft golden-white light. NOT a lizard, NOT humanoid with defined features - pure luminous energy in vaguely humanoid shape. No visible face, just two bright points of warm light where eyes would be. The entire body GLOWS and PULSES with inner light. Wearing simple cream-colored ceremonial robes that the light shines through. Ethereal, mysterious, magical being of pure radiance.",
+        "LightswordGlowing": "A glowing, indeterminate humanoid figure wrapped in soft golden-white light. No defined species yet - ethereal and mysterious. Wearing simple ceremonial robes over the glowing form. Eyes are bright points of warm light. The light pulses gently with emotions.",
+        "Shadow": "An incorporeal undead creature of pure darkness, vaguely humanoid silhouette with no distinguishing features except cold pinpricks of malevolent white light for eyes. Sliding along walls and floor, reaching with grasping shadow hands toward the trapped pegasus."
       },
       "npcs": {},
-      "aspect_ratio": "square",
-      "size": "1024x1024",
+      "aspect_ratio": "3:4",
+      "size": "768x1024",
       "prompt": "Professional comic book panel illustration.\n\nCharacters:\n- Lightsword: A GLOWING ETHEREAL FIGURE made entirely of soft golden-white light. NOT a lizard, NOT humanoid with defined features - pure luminous energy in vaguely humanoid shape. No visible face, just two bright points of warm light where eyes would be. The entire body GLOWS and PULSES with inner light. Wearing simple cream-colored ceremonial robes that the light shines through. Ethereal, mysterious, magical being of pure radiance.\n\nScene: Visual: TURN UNDEAD (rolled 18!) - HOLY LIGHT EXPLODES outward! Two shadows SCREAM and DISSOLVE! The third flees wounded! Characters: Lightsword, Shadows (dissolving)\n\nDialogue: Lightsword: \"TURN UNDEAD!\" (SFX): \"SHRIEEEEK!\"\n\nInclude speech bubbles with the dialogue text clearly readable.\n\nStyle: Bold ink line art, vibrant colors, dynamic composition, sequential art style, graphic novel quality."
     },
     {
@@ -49,11 +56,13 @@
       "visual": "Visual: SMITE on the chains - they CRACK but hold! (Rolled a 2!) Lightsword strains, pouring more power. Characters: Lightsword, Starwind",
       "dialogue": "Lightsword: \"Come ON!\" (Caption): \"The chains held. But heroes don't give up.\" ",
       "characters": {
-        "Lightsword": "A GLOWING ETHEREAL FIGURE made entirely of soft golden-white light. NOT a lizard, NOT humanoid with defined features - pure luminous energy in vaguely humanoid shape. No visible face, just two bright points of warm light where eyes would be. The entire body GLOWS and PULSES with inner light. Wearing simple cream-colored ceremonial robes that the light shines through. Ethereal, mysterious, magical being of pure radiance."
+        "Lightsword": "A GLOWING ETHEREAL FIGURE made entirely of soft golden-white light. NOT a lizard, NOT humanoid with defined features - pure luminous energy in vaguely humanoid shape. No visible face, just two bright points of warm light where eyes would be. The entire body GLOWS and PULSES with inner light. Wearing simple cream-colored ceremonial robes that the light shines through. Ethereal, mysterious, magical being of pure radiance.",
+        "LightswordGlowing": "A glowing, indeterminate humanoid figure wrapped in soft golden-white light. No defined species yet - ethereal and mysterious. Wearing simple ceremonial robes over the glowing form. Eyes are bright points of warm light. The light pulses gently with emotions.",
+        "Starwind": "A magnificent winged horse with a pure white coat and feathered wings spanning 20 feet. Noble and intelligent, with silver hooves and a flowing mane. Freed from shadow chains and eternally grateful, offering to carry the hero."
       },
       "npcs": {},
-      "aspect_ratio": "square",
-      "size": "1024x1024",
+      "aspect_ratio": "3:4",
+      "size": "768x1024",
       "prompt": "Professional comic book panel illustration.\n\nCharacters:\n- Lightsword: A GLOWING ETHEREAL FIGURE made entirely of soft golden-white light. NOT a lizard, NOT humanoid with defined features - pure luminous energy in vaguely humanoid shape. No visible face, just two bright points of warm light where eyes would be. The entire body GLOWS and PULSES with inner light. Wearing simple cream-colored ceremonial robes that the light shines through. Ethereal, mysterious, magical being of pure radiance.\n\nScene: Visual: SMITE on the chains - they CRACK but hold! (Rolled a 2!) Lightsword strains, pouring more power. Characters: Lightsword, Starwind\n\nDialogue: Lightsword: \"Come ON!\" (Caption): \"The chains held. But heroes don't give up.\" \n\nInclude speech bubbles with the dialogue text clearly readable.\n\nStyle: Bold ink line art, vibrant colors, dynamic composition, sequential art style, graphic novel quality."
     }
   ]

@@ -10,11 +10,13 @@
       "visual": "Visual: Pip climbs up Lightsword's arm, nuzzling against their glowing cheek. A bond forms - visible as a gentle magical connection between them. Characters: Lightsword, Pip",
       "dialogue": "(Caption): \"Pip didn't just accept help.\" (Caption): \"Pip chose.\"",
       "characters": {
-        "Lightsword": "A GLOWING ETHEREAL FIGURE made entirely of soft golden-white light. NOT a lizard, NOT humanoid with defined features - pure luminous energy in vaguely humanoid shape. No visible face, just two bright points of warm light where eyes would be. The entire body GLOWS and PULSES with inner light. Wearing simple cream-colored ceremonial robes that the light shines through. Ethereal, mysterious, magical being of pure radiance."
+        "Lightsword": "A GLOWING ETHEREAL FIGURE made entirely of soft golden-white light. NOT a lizard, NOT humanoid with defined features - pure luminous energy in vaguely humanoid shape. No visible face, just two bright points of warm light where eyes would be. The entire body GLOWS and PULSES with inner light. Wearing simple cream-colored ceremonial robes that the light shines through. Ethereal, mysterious, magical being of pure radiance.",
+        "LightswordGlowing": "A glowing, indeterminate humanoid figure wrapped in soft golden-white light. No defined species yet - ethereal and mysterious. Wearing simple ceremonial robes over the glowing form. Eyes are bright points of warm light. The light pulses gently with emotions.",
+        "Pip": "A cat-sized dragon with reddish-brown scales and iridescent bat-like wings. Large expressive eyes full of intelligence and emotion. Found injured in the maze, becomes a loyal companion when shown kindness. Communicates through emotion rather than words."
       },
       "npcs": {},
-      "aspect_ratio": "square",
-      "size": "1024x1024",
+      "aspect_ratio": "3:4",
+      "size": "768x1024",
       "prompt": "Professional comic book panel illustration.\n\nCharacters:\n- Lightsword: A GLOWING ETHEREAL FIGURE made entirely of soft golden-white light. NOT a lizard, NOT humanoid with defined features - pure luminous energy in vaguely humanoid shape. No visible face, just two bright points of warm light where eyes would be. The entire body GLOWS and PULSES with inner light. Wearing simple cream-colored ceremonial robes that the light shines through. Ethereal, mysterious, magical being of pure radiance.\n\nScene: Visual: Pip climbs up Lightsword's arm, nuzzling against their glowing cheek. A bond forms - visible as a gentle magical connection between them. Characters: Lightsword, Pip\n\nDialogue: (Caption): \"Pip didn't just accept help.\" (Caption): \"Pip chose.\"\n\nInclude speech bubbles with the dialogue text clearly readable.\n\nStyle: Bold ink line art, vibrant colors, dynamic composition, sequential art style, graphic novel quality."
     },
     {
@@ -23,11 +25,14 @@
       "visual": "Visual: Pip settled on Lightsword's shoulder, looking content for the first time. Darkstorm sniffs at the tiny dragon curiously. Characters: Lightsword, Pip, Darkstorm",
       "dialogue": "Lightsword: \"Darkstorm, meet Pip. Pip, meet Darkstorm.\" Pip: *happy chirp*",
       "characters": {
-        "Lightsword": "A GLOWING ETHEREAL FIGURE made entirely of soft golden-white light. NOT a lizard, NOT humanoid with defined features - pure luminous energy in vaguely humanoid shape. No visible face, just two bright points of warm light where eyes would be. The entire body GLOWS and PULSES with inner light. Wearing simple cream-colored ceremonial robes that the light shines through. Ethereal, mysterious, magical being of pure radiance."
+        "Lightsword": "A GLOWING ETHEREAL FIGURE made entirely of soft golden-white light. NOT a lizard, NOT humanoid with defined features - pure luminous energy in vaguely humanoid shape. No visible face, just two bright points of warm light where eyes would be. The entire body GLOWS and PULSES with inner light. Wearing simple cream-colored ceremonial robes that the light shines through. Ethereal, mysterious, magical being of pure radiance.",
+        "LightswordGlowing": "A glowing, indeterminate humanoid figure wrapped in soft golden-white light. No defined species yet - ethereal and mysterious. Wearing simple ceremonial robes over the glowing form. Eyes are bright points of warm light. The light pulses gently with emotions.",
+        "Darkstorm": "An enormous wolf the size of a horse, with thick silver-grey fur. Once cursed and in pain, now healed and loyal. Intelligent amber eyes show gratitude and devotion. Follows at respectful distance, ready to protect. Named Darkstorm after being freed from shadow chains.",
+        "Pip": "A cat-sized dragon with reddish-brown scales and iridescent bat-like wings. Large expressive eyes full of intelligence and emotion. Found injured in the maze, becomes a loyal companion when shown kindness. Communicates through emotion rather than words."
       },
       "npcs": {},
-      "aspect_ratio": "square",
-      "size": "1024x1024",
+      "aspect_ratio": "3:4",
+      "size": "768x1024",
       "prompt": "Professional comic book panel illustration.\n\nCharacters:\n- Lightsword: A GLOWING ETHEREAL FIGURE made entirely of soft golden-white light. NOT a lizard, NOT humanoid with defined features - pure luminous energy in vaguely humanoid shape. No visible face, just two bright points of warm light where eyes would be. The entire body GLOWS and PULSES with inner light. Wearing simple cream-colored ceremonial robes that the light shines through. Ethereal, mysterious, magical being of pure radiance.\n\nScene: Visual: Pip settled on Lightsword's shoulder, looking content for the first time. Darkstorm sniffs at the tiny dragon curiously. Characters: Lightsword, Pip, Darkstorm\n\nDialogue: Lightsword: \"Darkstorm, meet Pip. Pip, meet Darkstorm.\" Pip: *happy chirp*\n\nInclude speech bubbles with the dialogue text clearly readable.\n\nStyle: Bold ink line art, vibrant colors, dynamic composition, sequential art style, graphic novel quality."
     },
     {
@@ -36,12 +41,17 @@
       "visual": "Visual: The maze exit opens to daylight - but the valley ahead is DARK. Shadows gather unnaturally around a grove of dead trees. Location: Maze exit, view of Cursed Grove Characters: Lightsword, Pip, Darkstorm",
       "dialogue": "(Caption): \"Two companions now. But the hardest trial lay ahead.\"",
       "characters": {
-        "Lightsword": "A GLOWING ETHEREAL FIGURE made entirely of soft golden-white light. NOT a lizard, NOT humanoid with defined features - pure luminous energy in vaguely humanoid shape. No visible face, just two bright points of warm light where eyes would be. The entire body GLOWS and PULSES with inner light. Wearing simple cream-colored ceremonial robes that the light shines through. Ethereal, mysterious, magical being of pure radiance."
+        "Lightsword": "A GLOWING ETHEREAL FIGURE made entirely of soft golden-white light. NOT a lizard, NOT humanoid with defined features - pure luminous energy in vaguely humanoid shape. No visible face, just two bright points of warm light where eyes would be. The entire body GLOWS and PULSES with inner light. Wearing simple cream-colored ceremonial robes that the light shines through. Ethereal, mysterious, magical being of pure radiance.",
+        "LightswordGlowing": "A glowing, indeterminate humanoid figure wrapped in soft golden-white light. No defined species yet - ethereal and mysterious. Wearing simple ceremonial robes over the glowing form. Eyes are bright points of warm light. The light pulses gently with emotions.",
+        "Darkstorm": "An enormous wolf the size of a horse, with thick silver-grey fur. Once cursed and in pain, now healed and loyal. Intelligent amber eyes show gratitude and devotion. Follows at respectful distance, ready to protect. Named Darkstorm after being freed from shadow chains.",
+        "Pip": "A cat-sized dragon with reddish-brown scales and iridescent bat-like wings. Large expressive eyes full of intelligence and emotion. Found injured in the maze, becomes a loyal companion when shown kindness. Communicates through emotion rather than words.",
+        "Shadow": "An incorporeal undead creature of pure darkness, vaguely humanoid silhouette with no distinguishing features except cold pinpricks of malevolent white light for eyes. Sliding along walls and floor, reaching with grasping shadow hands toward the trapped pegasus."
       },
       "npcs": {},
-      "aspect_ratio": "square",
-      "size": "1024x1024",
-      "prompt": "Professional comic book panel illustration.\n\nCharacters:\n- Lightsword: A GLOWING ETHEREAL FIGURE made entirely of soft golden-white light. NOT a lizard, NOT humanoid with defined features - pure luminous energy in vaguely humanoid shape. No visible face, just two bright points of warm light where eyes would be. The entire body GLOWS and PULSES with inner light. Wearing simple cream-colored ceremonial robes that the light shines through. Ethereal, mysterious, magical being of pure radiance.\n\nScene: Visual: The maze exit opens to daylight - but the valley ahead is DARK. Shadows gather unnaturally around a grove of dead trees. Location: Maze exit, view of Cursed Grove Characters: Lightsword, Pip, Darkstorm\n\nDialogue: (Caption): \"Two companions now. But the hardest trial lay ahead.\"\n\nInclude speech bubbles with the dialogue text clearly readable.\n\nStyle: Bold ink line art, vibrant colors, dynamic composition, sequential art style, graphic novel quality."
+      "aspect_ratio": "3:4",
+      "size": "768x1024",
+      "prompt": "Professional comic book panel illustration.\n\nCharacters:\n- Lightsword: A GLOWING ETHEREAL FIGURE made entirely of soft golden-white light. NOT a lizard, NOT humanoid with defined features - pure luminous energy in vaguely humanoid shape. No visible face, just two bright points of warm light where eyes would be. The entire body GLOWS and PULSES with inner light. Wearing simple cream-colored ceremonial robes that the light shines through. Ethereal, mysterious, magical being of pure radiance.\n\nScene: Visual: The maze exit opens to daylight - but the valley ahead is DARK. Shadows gather unnaturally around a grove of dead trees. Location: Maze exit, view of Cursed Grove Characters: Lightsword, Pip, Darkstorm\n\nDialogue: (Caption): \"Two companions now. But the hardest trial lay ahead.\"\n\nInclude speech bubbles with the dialogue text clearly readable.\n\nStyle: Bold ink line art, vibrant colors, dynamic composition, sequential art style, graphic novel quality.",
+      "location": "MazeCrystalHalls"
     },
     {
       "panel_num": 4,
@@ -49,12 +59,14 @@
       "visual": "Visual: Something WHITE moves in the darkness of the grove. Wings. Chained. Suffering. Location: Distant view of Cursed Grove Characters: Starwind (distant, chained)",
       "dialogue": "Lightsword: \"The pegasus... we have to help her!\" ",
       "characters": {
-        "Lightsword": "A GLOWING ETHEREAL FIGURE made entirely of soft golden-white light. NOT a lizard, NOT humanoid with defined features - pure luminous energy in vaguely humanoid shape. No visible face, just two bright points of warm light where eyes would be. The entire body GLOWS and PULSES with inner light. Wearing simple cream-colored ceremonial robes that the light shines through. Ethereal, mysterious, magical being of pure radiance."
+        "Lightsword": "A GLOWING ETHEREAL FIGURE made entirely of soft golden-white light. NOT a lizard, NOT humanoid with defined features - pure luminous energy in vaguely humanoid shape. No visible face, just two bright points of warm light where eyes would be. The entire body GLOWS and PULSES with inner light. Wearing simple cream-colored ceremonial robes that the light shines through. Ethereal, mysterious, magical being of pure radiance.",
+        "StarwindCursed": "The same magnificent pegasus but trapped and suffering. Shadow chains bind her legs, her wings hang limp and grey, eyes full of pain. Dark energy crackles around her as shadows circle menacingly."
       },
       "npcs": {},
-      "aspect_ratio": "square",
-      "size": "1024x1024",
-      "prompt": "Professional comic book panel illustration.\n\nCharacters:\n- Lightsword: A GLOWING ETHEREAL FIGURE made entirely of soft golden-white light. NOT a lizard, NOT humanoid with defined features - pure luminous energy in vaguely humanoid shape. No visible face, just two bright points of warm light where eyes would be. The entire body GLOWS and PULSES with inner light. Wearing simple cream-colored ceremonial robes that the light shines through. Ethereal, mysterious, magical being of pure radiance.\n\nScene: Visual: Something WHITE moves in the darkness of the grove. Wings. Chained. Suffering. Location: Distant view of Cursed Grove Characters: Starwind (distant, chained)\n\nDialogue: Lightsword: \"The pegasus... we have to help her!\" \n\nInclude speech bubbles with the dialogue text clearly readable.\n\nStyle: Bold ink line art, vibrant colors, dynamic composition, sequential art style, graphic novel quality."
+      "aspect_ratio": "3:4",
+      "size": "768x1024",
+      "prompt": "Professional comic book panel illustration.\n\nCharacters:\n- Lightsword: A GLOWING ETHEREAL FIGURE made entirely of soft golden-white light. NOT a lizard, NOT humanoid with defined features - pure luminous energy in vaguely humanoid shape. No visible face, just two bright points of warm light where eyes would be. The entire body GLOWS and PULSES with inner light. Wearing simple cream-colored ceremonial robes that the light shines through. Ethereal, mysterious, magical being of pure radiance.\n\nScene: Visual: Something WHITE moves in the darkness of the grove. Wings. Chained. Suffering. Location: Distant view of Cursed Grove Characters: Starwind (distant, chained)\n\nDialogue: Lightsword: \"The pegasus... we have to help her!\" \n\nInclude speech bubbles with the dialogue text clearly readable.\n\nStyle: Bold ink line art, vibrant colors, dynamic composition, sequential art style, graphic novel quality.",
+      "location": "DarkGrove"
     }
   ]
 }

@@ -10,11 +10,13 @@
       "visual": "Visual: Lightsword holds up the ENCHANT card, magical energy swirling toward Darkstorm. The wolf's eyes widen. Characters: Lightsword, Darkstorm",
       "dialogue": "Lightsword: \"Darkstorm! CATCH!\"",
       "characters": {
-        "Lightsword": "A GLOWING ETHEREAL FIGURE made entirely of soft golden-white light. NOT a lizard, NOT humanoid with defined features - pure luminous energy in vaguely humanoid shape. No visible face, just two bright points of warm light where eyes would be. The entire body GLOWS and PULSES with inner light. Wearing simple cream-colored ceremonial robes that the light shines through. Ethereal, mysterious, magical being of pure radiance."
+        "Lightsword": "A GLOWING ETHEREAL FIGURE made entirely of soft golden-white light. NOT a lizard, NOT humanoid with defined features - pure luminous energy in vaguely humanoid shape. No visible face, just two bright points of warm light where eyes would be. The entire body GLOWS and PULSES with inner light. Wearing simple cream-colored ceremonial robes that the light shines through. Ethereal, mysterious, magical being of pure radiance.",
+        "LightswordGlowing": "A glowing, indeterminate humanoid figure wrapped in soft golden-white light. No defined species yet - ethereal and mysterious. Wearing simple ceremonial robes over the glowing form. Eyes are bright points of warm light. The light pulses gently with emotions.",
+        "Darkstorm": "An enormous wolf the size of a horse, with thick silver-grey fur. Once cursed and in pain, now healed and loyal. Intelligent amber eyes show gratitude and devotion. Follows at respectful distance, ready to protect. Named Darkstorm after being freed from shadow chains."
       },
       "npcs": {},
-      "aspect_ratio": "square",
-      "size": "1024x1024",
+      "aspect_ratio": "3:4",
+      "size": "768x1024",
       "prompt": "Professional comic book panel illustration.\n\nCharacters:\n- Lightsword: A GLOWING ETHEREAL FIGURE made entirely of soft golden-white light. NOT a lizard, NOT humanoid with defined features - pure luminous energy in vaguely humanoid shape. No visible face, just two bright points of warm light where eyes would be. The entire body GLOWS and PULSES with inner light. Wearing simple cream-colored ceremonial robes that the light shines through. Ethereal, mysterious, magical being of pure radiance.\n\nScene: Visual: Lightsword holds up the ENCHANT card, magical energy swirling toward Darkstorm. The wolf's eyes widen. Characters: Lightsword, Darkstorm\n\nDialogue: Lightsword: \"Darkstorm! CATCH!\"\n\nInclude speech bubbles with the dialogue text clearly readable.\n\nStyle: Bold ink line art, vibrant colors, dynamic composition, sequential art style, graphic novel quality."
     },
     {
@@ -22,11 +24,15 @@
       "annotation": "Large - LANDSCAPE",
       "visual": "Visual: DARKSTORM TAKES FLIGHT! Massive silver wolf soaring through the air, magical energy trailing from its paws, lunging at the tower goblins with fangs bared! Characters: Darkstorm (flying), Tower Goblins",
       "dialogue": "(SFX): \"AROOOOO!\" Goblin: \"THE WOLF IS FLYING?!\"",
-      "characters": {},
+      "characters": {
+        "Darkstorm": "An enormous wolf the size of a horse, with thick silver-grey fur. Once cursed and in pain, now healed and loyal. Intelligent amber eyes show gratitude and devotion. Follows at respectful distance, ready to protect. Named Darkstorm after being freed from shadow chains.",
+        "GoblinWarrior": "A small green-skinned goblin with large pointed ears and a long nose. Yellow eyes gleaming with cruel mischief. Wearing scrappy leather armor, armed with scimitar and shield. Sneering from atop the ruined tower, firing arrows at helpless travelers."
+      },
       "npcs": {},
-      "aspect_ratio": "square",
-      "size": "1024x1024",
-      "prompt": "Professional comic book panel illustration.\n\nScene: Visual: DARKSTORM TAKES FLIGHT! Massive silver wolf soaring through the air, magical energy trailing from its paws, lunging at the tower goblins with fangs bared! Characters: Darkstorm (flying), Tower Goblins\n\nDialogue: (SFX): \"AROOOOO!\" Goblin: \"THE WOLF IS FLYING?!\"\n\nInclude speech bubbles with the dialogue text clearly readable.\n\nStyle: Bold ink line art, vibrant colors, dynamic composition, sequential art style, graphic novel quality."
+      "aspect_ratio": "3:4",
+      "size": "768x1024",
+      "prompt": "Professional comic book panel illustration.\n\nScene: Visual: DARKSTORM TAKES FLIGHT! Massive silver wolf soaring through the air, magical energy trailing from its paws, lunging at the tower goblins with fangs bared! Characters: Darkstorm (flying), Tower Goblins\n\nDialogue: (SFX): \"AROOOOO!\" Goblin: \"THE WOLF IS FLYING?!\"\n\nInclude speech bubbles with the dialogue text clearly readable.\n\nStyle: Bold ink line art, vibrant colors, dynamic composition, sequential art style, graphic novel quality.",
+      "location": "TowerRuins"
     },
     {
       "panel_num": 3,
@@ -34,22 +40,29 @@
       "visual": "Visual: Darkstorm's flying attack SLAMS into a goblin (rolled 22!). Lightsword's Precise Shot takes down the ground goblin. Characters: Darkstorm, Lightsword, Goblins",
       "dialogue": "(SFX): \"CRASH! THWACK!\"",
       "characters": {
-        "Lightsword": "A GLOWING ETHEREAL FIGURE made entirely of soft golden-white light. NOT a lizard, NOT humanoid with defined features - pure luminous energy in vaguely humanoid shape. No visible face, just two bright points of warm light where eyes would be. The entire body GLOWS and PULSES with inner light. Wearing simple cream-colored ceremonial robes that the light shines through. Ethereal, mysterious, magical being of pure radiance."
+        "Lightsword": "A GLOWING ETHEREAL FIGURE made entirely of soft golden-white light. NOT a lizard, NOT humanoid with defined features - pure luminous energy in vaguely humanoid shape. No visible face, just two bright points of warm light where eyes would be. The entire body GLOWS and PULSES with inner light. Wearing simple cream-colored ceremonial robes that the light shines through. Ethereal, mysterious, magical being of pure radiance.",
+        "LightswordGlowing": "A glowing, indeterminate humanoid figure wrapped in soft golden-white light. No defined species yet - ethereal and mysterious. Wearing simple ceremonial robes over the glowing form. Eyes are bright points of warm light. The light pulses gently with emotions.",
+        "Darkstorm": "An enormous wolf the size of a horse, with thick silver-grey fur. Once cursed and in pain, now healed and loyal. Intelligent amber eyes show gratitude and devotion. Follows at respectful distance, ready to protect. Named Darkstorm after being freed from shadow chains.",
+        "GoblinWarrior": "A small green-skinned goblin with large pointed ears and a long nose. Yellow eyes gleaming with cruel mischief. Wearing scrappy leather armor, armed with scimitar and shield. Sneering from atop the ruined tower, firing arrows at helpless travelers."
       },
       "npcs": {},
-      "aspect_ratio": "square",
-      "size": "1024x1024",
-      "prompt": "Professional comic book panel illustration.\n\nCharacters:\n- Lightsword: A GLOWING ETHEREAL FIGURE made entirely of soft golden-white light. NOT a lizard, NOT humanoid with defined features - pure luminous energy in vaguely humanoid shape. No visible face, just two bright points of warm light where eyes would be. The entire body GLOWS and PULSES with inner light. Wearing simple cream-colored ceremonial robes that the light shines through. Ethereal, mysterious, magical being of pure radiance.\n\nScene: Visual: Darkstorm's flying attack SLAMS into a goblin (rolled 22!). Lightsword's Precise Shot takes down the ground goblin. Characters: Darkstorm, Lightsword, Goblins\n\nDialogue: (SFX): \"CRASH! THWACK!\"\n\nInclude speech bubbles with the dialogue text clearly readable.\n\nStyle: Bold ink line art, vibrant colors, dynamic composition, sequential art style, graphic novel quality."
+      "aspect_ratio": "3:4",
+      "size": "768x1024",
+      "prompt": "Professional comic book panel illustration.\n\nCharacters:\n- Lightsword: A GLOWING ETHEREAL FIGURE made entirely of soft golden-white light. NOT a lizard, NOT humanoid with defined features - pure luminous energy in vaguely humanoid shape. No visible face, just two bright points of warm light where eyes would be. The entire body GLOWS and PULSES with inner light. Wearing simple cream-colored ceremonial robes that the light shines through. Ethereal, mysterious, magical being of pure radiance.\n\nScene: Visual: Darkstorm's flying attack SLAMS into a goblin (rolled 22!). Lightsword's Precise Shot takes down the ground goblin. Characters: Darkstorm, Lightsword, Goblins\n\nDialogue: (SFX): \"CRASH! THWACK!\"\n\nInclude speech bubbles with the dialogue text clearly readable.\n\nStyle: Bold ink line art, vibrant colors, dynamic composition, sequential art style, graphic novel quality.",
+      "location": "SkyFlight"
     },
     {
       "panel_num": 4,
       "annotation": null,
       "visual": "Visual: The Goblin Boss calls retreat, remaining goblins fleeing into the underbrush. Garrett emerges from behind his wagon, relieved. Characters: Goblin Boss (fleeing), Garrett",
       "dialogue": "Goblin Boss: \"RETREAT! RETREAT!\" Garrett: \"By the gods... you saved me!\" ",
-      "characters": {},
+      "characters": {
+        "GarrettMerchant": "A weathered but cheerful traveling merchant with a grey beard and kind eyes. Dressed in practical traveling clothes with many pockets. Grateful to be rescued from goblins and eager to reward his savior with goods from his wagon.",
+        "GoblinWarrior": "A small green-skinned goblin with large pointed ears and a long nose. Yellow eyes gleaming with cruel mischief. Wearing scrappy leather armor, armed with scimitar and shield. Sneering from atop the ruined tower, firing arrows at helpless travelers."
+      },
       "npcs": {},
-      "aspect_ratio": "square",
-      "size": "1024x1024",
+      "aspect_ratio": "3:4",
+      "size": "768x1024",
       "prompt": "Professional comic book panel illustration.\n\nScene: Visual: The Goblin Boss calls retreat, remaining goblins fleeing into the underbrush. Garrett emerges from behind his wagon, relieved. Characters: Goblin Boss (fleeing), Garrett\n\nDialogue: Goblin Boss: \"RETREAT! RETREAT!\" Garrett: \"By the gods... you saved me!\" \n\nInclude speech bubbles with the dialogue text clearly readable.\n\nStyle: Bold ink line art, vibrant colors, dynamic composition, sequential art style, graphic novel quality."
     }
   ]

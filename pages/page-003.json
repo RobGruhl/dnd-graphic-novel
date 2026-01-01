@@ -7,50 +7,56 @@
     {
       "panel_num": 1,
       "annotation": "Wide - LANDSCAPE",
-      "visual": "Visual: The Temple of Aspects rises magnificently - an ancient stone building with four towers, each glowing a different color: red, green, blue, and gold. Banners flutter in the breeze. The glowing figure approaches through a crowd of other young candidates. Location: Temple of Aspects courtyard Characters: Lightsword, other candidates (all glowing indeterminate figures), guards",
+      "visual": "Visual: The Temple of Aspects rises magnificently - an ancient stone building with four towers, each glowing a different color: red, green, blue, and gold. Banners flutter in the breeze. The glowing figure approaches through a crowd of other young candidates.",
       "dialogue": "(Caption): \"The Temple of Aspects. Four towers. Four powers. One destiny.\"",
+      "location": "TempleCourtyard",
       "characters": {
-        "Lightsword": "A GLOWING ETHEREAL FIGURE made entirely of soft golden-white light. NOT a lizard, NOT humanoid with defined features - pure luminous energy in vaguely humanoid shape. No visible face, just two bright points of warm light where eyes would be. The entire body GLOWS and PULSES with inner light. Wearing simple cream-colored ceremonial robes that the light shines through. Ethereal, mysterious, magical being of pure radiance."
+        "Lightsword": "A GLOWING ETHEREAL FIGURE made entirely of soft golden-white light approaching through a crowd. NOT a lizard, NOT humanoid with defined features - pure luminous energy in vaguely humanoid shape. No visible face, just two bright points of warm light where eyes would be. The entire body GLOWS and PULSES with inner light. Wearing simple cream-colored ceremonial robes that the light shines through. Walking toward the temple among other glowing candidate figures."
       },
       "npcs": {},
       "aspect_ratio": "wide",
-      "size": "1536x1024",
-      "prompt": "Professional comic book panel illustration.\n\nCharacters:\n- Lightsword: A GLOWING ETHEREAL FIGURE made entirely of soft golden-white light. NOT a lizard, NOT humanoid with defined features - pure luminous energy in vaguely humanoid shape. No visible face, just two bright points of warm light where eyes would be. The entire body GLOWS and PULSES with inner light. Wearing simple cream-colored ceremonial robes that the light shines through. Ethereal, mysterious, magical being of pure radiance.\n\nScene: Visual: The Temple of Aspects rises magnificently - an ancient stone building with four towers, each glowing a different color: red, green, blue, and gold. Banners flutter in the breeze. The glowing figure approaches through a crowd of other young candidates. Location: Temple of Aspects courtyard Characters: Lightsword, other candidates (all glowing indeterminate figures), guards\n\nDialogue: (Caption): \"The Temple of Aspects. Four towers. Four powers. One destiny.\"\n\nInclude speech bubbles with the dialogue text clearly readable.\n\nStyle: Bold ink line art, vibrant colors, dynamic composition, sequential art style, graphic novel quality."
+      "size": "1536x1024"
     },
     {
       "panel_num": 2,
       "annotation": null,
-      "visual": "Visual: The Elder emerges from the Temple doors, robes shimmering with all four colors. The crowd falls silent. Characters: The Elder",
+      "visual": "Visual: The Elder emerges from the Temple doors, robes shimmering with all four colors. The crowd falls silent.",
       "dialogue": "Elder: \"Welcome, young ones, to the Day of Choosing.\"",
-      "characters": {},
+      "location": "TempleCourtyard",
+      "characters": {
+        "TheElder": "An ancient and ageless figure conducting the Choosing ceremony. Tall and graceful, neither frail nor imposing. Ageless androgynous face, neither young nor old, wise knowing eyes that shift color subtly. Long silver-white hair flowing freely, serene expression of ancient wisdom. Dressed in flowing ceremonial ROBES THAT SHIMMER AND SHIFT BETWEEN RED, GREEN, BLUE, AND GOLD, embroidered with Aspect symbols. Simple circlet of intertwined metals (iron silver copper gold) on head."
+      },
       "npcs": {},
-      "aspect_ratio": "square",
-      "size": "1024x1024",
-      "prompt": "Professional comic book panel illustration.\n\nScene: Visual: The Elder emerges from the Temple doors, robes shimmering with all four colors. The crowd falls silent. Characters: The Elder\n\nDialogue: Elder: \"Welcome, young ones, to the Day of Choosing.\"\n\nInclude speech bubbles with the dialogue text clearly readable.\n\nStyle: Bold ink line art, vibrant colors, dynamic composition, sequential art style, graphic novel quality."
+      "aspect_ratio": "3:4",
+      "size": "768x1024"
     },
     {
       "panel_num": 3,
       "annotation": null,
-      "visual": "Visual: Four glowing orbs appear in the air above the Elder's outstretched hands - red, green, blue, gold. Characters: The Elder",
+      "visual": "Visual: Four glowing orbs appear in the air above the Elder's outstretched hands - red, green, blue, gold.",
       "dialogue": "Elder: \"The Warrior's Strength. The Hunter's Cunning. The Mage's Mystery. The Divine's Blessing.\"",
-      "characters": {},
+      "location": "TempleCourtyard",
+      "characters": {
+        "TheElder": "An ancient and ageless figure with hands outstretched, summoning magical orbs. Tall and graceful, ageless androgynous face with wise knowing eyes. Long silver-white hair flowing freely. Flowing ceremonial ROBES THAT SHIMMER AND SHIFT BETWEEN RED, GREEN, BLUE, AND GOLD. Four glowing orbs of energy (RED, GREEN, BLUE, GOLD) floating above outstretched hands."
+      },
       "npcs": {},
-      "aspect_ratio": "square",
-      "size": "1024x1024",
-      "prompt": "Professional comic book panel illustration.\n\nScene: Visual: Four glowing orbs appear in the air above the Elder's outstretched hands - red, green, blue, gold. Characters: The Elder\n\nDialogue: Elder: \"The Warrior's Strength. The Hunter's Cunning. The Mage's Mystery. The Divine's Blessing.\"\n\nInclude speech bubbles with the dialogue text clearly readable.\n\nStyle: Bold ink line art, vibrant colors, dynamic composition, sequential art style, graphic novel quality."
+      "aspect_ratio": "3:4",
+      "size": "768x1024"
     },
     {
       "panel_num": 4,
       "annotation": null,
-      "visual": "Visual: The Elder looks directly at Lightsword, holding out a deck of glowing cards. Characters: The Elder, Lightsword",
+      "visual": "Visual: The Elder looks directly at Lightsword, holding out a deck of glowing cards.",
       "dialogue": "Elder: \"Come forward. Receive the Aspects.\" ",
+      "location": "TempleCourtyard",
       "characters": {
-        "Lightsword": "A GLOWING ETHEREAL FIGURE made entirely of soft golden-white light. NOT a lizard, NOT humanoid with defined features - pure luminous energy in vaguely humanoid shape. No visible face, just two bright points of warm light where eyes would be. The entire body GLOWS and PULSES with inner light. Wearing simple cream-colored ceremonial robes that the light shines through. Ethereal, mysterious, magical being of pure radiance."
+        "Lightsword": "A GLOWING ETHEREAL FIGURE made entirely of soft golden-white light stepping forward nervously. NOT a lizard, NOT humanoid with defined features - pure luminous energy in vaguely humanoid shape. No visible face, just two bright points of warm light where eyes would be. The entire body GLOWS and PULSES with inner light. Wearing simple cream-colored ceremonial robes.",
+        "TheElder": "An ancient and ageless figure holding out a deck of glowing cards. Tall and graceful, ageless androgynous face with wise knowing eyes looking directly at Lightsword. Long silver-white hair. Flowing ceremonial ROBES THAT SHIMMER AND SHIFT BETWEEN RED, GREEN, BLUE, AND GOLD. Holding out a DECK OF GLOWING ASPECT CARDS (red, green, blue, gold glowing edges).",
+        "LightswordGlowing": "A glowing, indeterminate humanoid figure wrapped in soft golden-white light. No defined species yet - ethereal and mysterious. Wearing simple ceremonial robes over the glowing form. Eyes are bright points of warm light. The light pulses gently with emotions."
       },
       "npcs": {},
-      "aspect_ratio": "square",
-      "size": "1024x1024",
-      "prompt": "Professional comic book panel illustration.\n\nCharacters:\n- Lightsword: A GLOWING ETHEREAL FIGURE made entirely of soft golden-white light. NOT a lizard, NOT humanoid with defined features - pure luminous energy in vaguely humanoid shape. No visible face, just two bright points of warm light where eyes would be. The entire body GLOWS and PULSES with inner light. Wearing simple cream-colored ceremonial robes that the light shines through. Ethereal, mysterious, magical being of pure radiance.\n\nScene: Visual: The Elder looks directly at Lightsword, holding out a deck of glowing cards. Characters: The Elder, Lightsword\n\nDialogue: Elder: \"Come forward. Receive the Aspects.\" \n\nInclude speech bubbles with the dialogue text clearly readable.\n\nStyle: Bold ink line art, vibrant colors, dynamic composition, sequential art style, graphic novel quality."
+      "aspect_ratio": "3:4",
+      "size": "768x1024"
     }
   ]
 }

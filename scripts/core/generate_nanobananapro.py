@@ -25,6 +25,7 @@ OUTPUT_DIR = Path("output")
 PANELS_DIR = OUTPUT_DIR / "panels"
 CHARACTERS_DB_PATH = Path("characters.json")
 LOCATIONS_DB_PATH = Path("locations.json")
+MONSTERS_DB_PATH = Path("monsters.json")
 STYLE_DB_PATH = Path("style.json")
 
 # Rate limiting settings - adaptive
@@ -164,6 +165,15 @@ def load_location_database():
         return json.load(f)
 
 
+def load_monster_database():
+    """Load monster descriptions from monsters.json."""
+    if not MONSTERS_DB_PATH.exists():
+        logger.warning(f"⚠ Monster database not found at {MONSTERS_DB_PATH}")
+        return {}
+    with open(MONSTERS_DB_PATH, 'r') as f:
+        return json.load(f)
+
+
 def load_style_database():
     """Load comic style and aesthetic guidelines from style.json."""
     if not STYLE_DB_PATH.exists():
@@ -213,7 +223,11 @@ def build_character_prompt_section(char_name, characters_db):
 
 
 def assemble_prompt(panel_data, characters_db, locations_db, style_db=None):
-    """Dynamically assemble prompt from panel data and reference databases."""
+    """Dynamically assemble prompt from panel data and reference databases.
+
+    IMPORTANT: Character descriptions embedded in panel_data take priority
+    over database lookups. This allows per-panel customization.
+    """
     parts = []
 
     cover_style = panel_data.get('cover_style')
@@ -233,18 +247,30 @@ def assemble_prompt(panel_data, characters_db, locations_db, style_db=None):
         parts.append(build_location_prompt_section(location_name, locations_db))
         parts.append("")
 
-    characters = panel_data.get('characters', [])
+    # Characters - check if it's a dict (with embedded descriptions) or a list (names only)
+    characters = panel_data.get('characters', {})
     if characters:
         parts.append("Characters:")
-        for char_name in characters:
-            parts.append(build_character_prompt_section(char_name, characters_db))
+        if isinstance(characters, dict):
+            # Use embedded descriptions from panel data (preferred)
+            for char_name, char_desc in characters.items():
+                parts.append(f"- {char_name}: {char_desc}")
+        else:
+            # Fall back to database lookup for list of names
+            for char_name in characters:
+                parts.append(build_character_prompt_section(char_name, characters_db))
         parts.append("")
 
-    npcs = panel_data.get('npcs', [])
+    # NPCs - same logic
+    npcs = panel_data.get('npcs', {})
     if npcs:
         parts.append("NPCs:")
-        for npc_name in npcs:
-            parts.append(build_character_prompt_section(npc_name, characters_db))
+        if isinstance(npcs, dict):
+            for npc_name, npc_desc in npcs.items():
+                parts.append(f"- {npc_name}: {npc_desc}")
+        else:
+            for npc_name in npcs:
+                parts.append(build_character_prompt_section(npc_name, characters_db))
         parts.append("")
 
     visual = panel_data.get('visual', '')
@@ -446,9 +472,14 @@ async def main():
 
     logger.info("Loading databases...")
     characters_db = load_character_database()
+    monsters_db = load_monster_database()
     locations_db = load_location_database()
     style_db = load_style_database()
-    logger.info(f"✓ Loaded {len(characters_db)} characters, {len(locations_db)} locations, and style guidelines")
+
+    # Merge monsters into characters_db so monster lookups work the same way
+    # This allows referencing monsters by name in the characters list
+    characters_db.update(monsters_db)
+    logger.info(f"✓ Loaded {len(characters_db)} characters/monsters, {len(locations_db)} locations, and style guidelines")
 
     total_panels = 0
     for page_num in pages:

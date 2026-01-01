@@ -10,12 +10,19 @@
       "visual": "Visual: The Temple courtyard at sunset - sky painted in brilliant colors. The four towers GLOW again. Villagers have gathered. The Elder stands before Lightsword (now fully Lizardfolk), Spore at his side, all three companions nearby. Location: Temple Courtyard (restored) Characters: Lightsword (Lizardfolk), Elder, Spore, Darkstorm, Pip, Starwind, villagers",
       "dialogue": "Elder: \"You have faced the trials. You have made your choices. You have shown who you truly are.\"",
       "characters": {
-        "Lightsword": "A LIZARDFOLK SORCERER with green-brown SCALES covering entire body. Reptilian head with golden-amber eyes with vertical dragon-like pupils. Small horn ridges along the brow. Lean athletic build. Scales shimmer with magical draconic energy. Can manifest a blade of pure golden light from palm. Confident heroic stance."
+        "Lightsword": "A LIZARDFOLK SORCERER with green-brown SCALES covering entire body. Reptilian head with golden-amber eyes with vertical dragon-like pupils. Small horn ridges along the brow. Lean athletic build. Scales shimmer with magical draconic energy. Can manifest a blade of pure golden light from palm. Confident heroic stance.",
+        "LightswordGlowing": "A glowing, indeterminate humanoid figure wrapped in soft golden-white light. No defined species yet - ethereal and mysterious. Wearing simple ceremonial robes over the glowing form. Eyes are bright points of warm light. The light pulses gently with emotions.",
+        "Spore": "A small mushroom creature about knee-height. Pale cap with bioluminescent spots that glow soft blue. Big, expressive dark eyes. Releases colored spores based on emotion - gray when scared or sad, rainbow when joyful. Lightsword's best friend from the underground village.",
+        "Darkstorm": "An enormous wolf the size of a horse, with thick silver-grey fur. Once cursed and in pain, now healed and loyal. Intelligent amber eyes show gratitude and devotion. Follows at respectful distance, ready to protect. Named Darkstorm after being freed from shadow chains.",
+        "Pip": "A cat-sized dragon with reddish-brown scales and iridescent bat-like wings. Large expressive eyes full of intelligence and emotion. Found injured in the maze, becomes a loyal companion when shown kindness. Communicates through emotion rather than words.",
+        "Starwind": "A magnificent winged horse with a pure white coat and feathered wings spanning 20 feet. Noble and intelligent, with silver hooves and a flowing mane. Freed from shadow chains and eternally grateful, offering to carry the hero.",
+        "TheElder": "An ancient and ageless figure who conducts the Choosing ceremony. Dressed in shimmering robes that shift between red, green, blue, and gold. Wise eyes that have seen countless heroes rise. Voice like warm thunder - powerful but kind."
       },
       "npcs": {},
       "aspect_ratio": "wide",
       "size": "1536x1024",
-      "prompt": "Professional comic book panel illustration.\n\nCharacters:\n- Lightsword: A LIZARDFOLK SORCERER with green-brown SCALES covering entire body. Reptilian head with golden-amber eyes with vertical dragon-like pupils. Small horn ridges along the brow. Lean athletic build. Scales shimmer with magical draconic energy. Can manifest a blade of pure golden light from palm. Confident heroic stance.\n\nScene: Visual: The Temple courtyard at sunset - sky painted in brilliant colors. The four towers GLOW again. Villagers have gathered. The Elder stands before Lightsword (now fully Lizardfolk), Spore at his side, all three companions nearby. Location: Temple Courtyard (restored) Characters: Lightsword (Lizardfolk), Elder, Spore, Darkstorm, Pip, Starwind, villagers\n\nDialogue: Elder: \"You have faced the trials. You have made your choices. You have shown who you truly are.\"\n\nInclude speech bubbles with the dialogue text clearly readable.\n\nStyle: Bold ink line art, vibrant colors, dynamic composition, sequential art style, graphic novel quality."
+      "prompt": "Professional comic book panel illustration.\n\nCharacters:\n- Lightsword: A LIZARDFOLK SORCERER with green-brown SCALES covering entire body. Reptilian head with golden-amber eyes with vertical dragon-like pupils. Small horn ridges along the brow. Lean athletic build. Scales shimmer with magical draconic energy. Can manifest a blade of pure golden light from palm. Confident heroic stance.\n\nScene: Visual: The Temple courtyard at sunset - sky painted in brilliant colors. The four towers GLOW again. Villagers have gathered. The Elder stands before Lightsword (now fully Lizardfolk), Spore at his side, all three companions nearby. Location: Temple Courtyard (restored) Characters: Lightsword (Lizardfolk), Elder, Spore, Darkstorm, Pip, Starwind, villagers\n\nDialogue: Elder: \"You have faced the trials. You have made your choices. You have shown who you truly are.\"\n\nInclude speech bubbles with the dialogue text clearly readable.\n\nStyle: Bold ink line art, vibrant colors, dynamic composition, sequential art style, graphic novel quality.",
+      "location": "TempleCourtyard"
     },
     {
       "panel_num": 2,
@@ -23,22 +30,26 @@
       "visual": "Visual: The BLUE pillar blazes BRIGHTEST - Arcane! The GOLD pillar pulses in harmony - Divine! The other two pillars glow softly in support. Characters: Lightsword, pillars",
       "dialogue": "Elder: \"The Aspects have chosen.\"",
       "characters": {
-        "Lightsword": "A LIZARDFOLK SORCERER with green-brown SCALES covering entire body. Reptilian head with golden-amber eyes with vertical dragon-like pupils. Small horn ridges along the brow. Lean athletic build. Scales shimmer with magical draconic energy. Can manifest a blade of pure golden light from palm. Confident heroic stance."
+        "Lightsword": "A LIZARDFOLK SORCERER with green-brown SCALES covering entire body. Reptilian head with golden-amber eyes with vertical dragon-like pupils. Small horn ridges along the brow. Lean athletic build. Scales shimmer with magical draconic energy. Can manifest a blade of pure golden light from palm. Confident heroic stance.",
+        "LightswordGlowing": "A glowing, indeterminate humanoid figure wrapped in soft golden-white light. No defined species yet - ethereal and mysterious. Wearing simple ceremonial robes over the glowing form. Eyes are bright points of warm light. The light pulses gently with emotions."
       },
       "npcs": {},
-      "aspect_ratio": "square",
-      "size": "1024x1024",
-      "prompt": "Professional comic book panel illustration.\n\nCharacters:\n- Lightsword: A LIZARDFOLK SORCERER with green-brown SCALES covering entire body. Reptilian head with golden-amber eyes with vertical dragon-like pupils. Small horn ridges along the brow. Lean athletic build. Scales shimmer with magical draconic energy. Can manifest a blade of pure golden light from palm. Confident heroic stance.\n\nScene: Visual: The BLUE pillar blazes BRIGHTEST - Arcane! The GOLD pillar pulses in harmony - Divine! The other two pillars glow softly in support. Characters: Lightsword, pillars\n\nDialogue: Elder: \"The Aspects have chosen.\"\n\nInclude speech bubbles with the dialogue text clearly readable.\n\nStyle: Bold ink line art, vibrant colors, dynamic composition, sequential art style, graphic novel quality."
+      "aspect_ratio": "3:4",
+      "size": "768x1024",
+      "prompt": "Professional comic book panel illustration.\n\nCharacters:\n- Lightsword: A LIZARDFOLK SORCERER with green-brown SCALES covering entire body. Reptilian head with golden-amber eyes with vertical dragon-like pupils. Small horn ridges along the brow. Lean athletic build. Scales shimmer with magical draconic energy. Can manifest a blade of pure golden light from palm. Confident heroic stance.\n\nScene: Visual: The BLUE pillar blazes BRIGHTEST - Arcane! The GOLD pillar pulses in harmony - Divine! The other two pillars glow softly in support. Characters: Lightsword, pillars\n\nDialogue: Elder: \"The Aspects have chosen.\"\n\nInclude speech bubbles with the dialogue text clearly readable.\n\nStyle: Bold ink line art, vibrant colors, dynamic composition, sequential art style, graphic novel quality.",
+      "location": "TempleCourtyard"
     },
     {
       "panel_num": 3,
       "annotation": null,
       "visual": "Visual: Close-up on the Elder's proud, tear-filled eyes. Characters: Elder",
       "dialogue": "Elder: \"Magic doesn't just flow through you - it IS you. You are a SORCERER.\" Elder: \"With DRACONIC SORCERY - power in your very blood!\"",
-      "characters": {},
+      "characters": {
+        "TheElder": "An ancient and ageless figure who conducts the Choosing ceremony. Dressed in shimmering robes that shift between red, green, blue, and gold. Wise eyes that have seen countless heroes rise. Voice like warm thunder - powerful but kind."
+      },
       "npcs": {},
-      "aspect_ratio": "square",
-      "size": "1024x1024",
+      "aspect_ratio": "3:4",
+      "size": "768x1024",
       "prompt": "Professional comic book panel illustration.\n\nScene: Visual: Close-up on the Elder's proud, tear-filled eyes. Characters: Elder\n\nDialogue: Elder: \"Magic doesn't just flow through you - it IS you. You are a SORCERER.\" Elder: \"With DRACONIC SORCERY - power in your very blood!\"\n\nInclude speech bubbles with the dialogue text clearly readable.\n\nStyle: Bold ink line art, vibrant colors, dynamic composition, sequential art style, graphic novel quality."
     },
     {
@@ -47,11 +58,12 @@
       "visual": "Visual: Lightsword raises a hand - a blade of PURE LIGHT manifests from their palm. Scales shimmer with magical energy. Characters: Lightsword",
       "dialogue": "Elder: \"What is your name, hero?\" Lightsword: \"I am LIGHTSWORD!\" ",
       "characters": {
-        "Lightsword": "A LIZARDFOLK SORCERER with green-brown SCALES covering entire body. Reptilian head with golden-amber eyes with vertical dragon-like pupils. Small horn ridges along the brow. Lean athletic build. Scales shimmer with magical draconic energy. Can manifest a blade of pure golden light from palm. Confident heroic stance."
+        "Lightsword": "A LIZARDFOLK SORCERER with green-brown SCALES covering entire body. Reptilian head with golden-amber eyes with vertical dragon-like pupils. Small horn ridges along the brow. Lean athletic build. Scales shimmer with magical draconic energy. Can manifest a blade of pure golden light from palm. Confident heroic stance.",
+        "LightswordGlowing": "A glowing, indeterminate humanoid figure wrapped in soft golden-white light. No defined species yet - ethereal and mysterious. Wearing simple ceremonial robes over the glowing form. Eyes are bright points of warm light. The light pulses gently with emotions."
       },
       "npcs": {},
-      "aspect_ratio": "square",
-      "size": "1024x1024",
+      "aspect_ratio": "3:4",
+      "size": "768x1024",
       "prompt": "Professional comic book panel illustration.\n\nCharacters:\n- Lightsword: A LIZARDFOLK SORCERER with green-brown SCALES covering entire body. Reptilian head with golden-amber eyes with vertical dragon-like pupils. Small horn ridges along the brow. Lean athletic build. Scales shimmer with magical draconic energy. Can manifest a blade of pure golden light from palm. Confident heroic stance.\n\nScene: Visual: Lightsword raises a hand - a blade of PURE LIGHT manifests from their palm. Scales shimmer with magical energy. Characters: Lightsword\n\nDialogue: Elder: \"What is your name, hero?\" Lightsword: \"I am LIGHTSWORD!\" \n\nInclude speech bubbles with the dialogue text clearly readable.\n\nStyle: Bold ink line art, vibrant colors, dynamic composition, sequential art style, graphic novel quality."
     }
   ]

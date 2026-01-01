@@ -9,21 +9,29 @@
       "annotation": "Wide",
       "visual": "Visual: The inner sanctum - a circular chamber with a domed ceiling painted with stars (now dim). In the center, a stone altar. SPORE is bound to it by chains of shadow, releasing SCARED GRAY SPORES. And rising behind the altar - THE SHADOW SORCERER. Hooded figure, tattered robes, hollow masked face, BURNING PURPLE EYES. Location: Temple Inner Sanctum (corrupted) Characters: Shadow Sorcerer, Spore (captive)",
       "dialogue": "Shadow Sorcerer: \"So. Another candidate. Another CHOSEN ONE.\"",
-      "characters": {},
+      "characters": {
+        "SporeCaptive": "Spore bound to the altar by chains of shadow in the corrupted Temple sanctum. Releasing scared gray spores. Big eyes wide with fear but lighting up with hope when Lightsword arrives. Struggling weakly against the dark chains.",
+        "ShadowSorcerer": "A hooded figure in tattered dark robes - once a Choosing candidate who failed and died in bitterness centuries ago. Face is a hollow mask of who they once were. Purple eyes burning with jealousy and rage. Form flickers between solid and shadow. Tragic rather than purely evil.",
+        "Shadow": "An incorporeal undead creature of pure darkness, vaguely humanoid silhouette with no distinguishing features except cold pinpricks of malevolent white light for eyes. Sliding along walls and floor, reaching with grasping shadow hands toward the trapped pegasus."
+      },
       "npcs": {},
       "aspect_ratio": "wide",
       "size": "1536x1024",
-      "prompt": "Professional comic book panel illustration.\n\nScene: Visual: The inner sanctum - a circular chamber with a domed ceiling painted with stars (now dim). In the center, a stone altar. SPORE is bound to it by chains of shadow, releasing SCARED GRAY SPORES. And rising behind the altar - THE SHADOW SORCERER. Hooded figure, tattered robes, hollow masked face, BURNING PURPLE EYES. Location: Temple Inner Sanctum (corrupted) Characters: Shadow Sorcerer, Spore (captive)\n\nDialogue: Shadow Sorcerer: \"So. Another candidate. Another CHOSEN ONE.\"\n\nInclude speech bubbles with the dialogue text clearly readable.\n\nStyle: Bold ink line art, vibrant colors, dynamic composition, sequential art style, graphic novel quality."
+      "prompt": "Professional comic book panel illustration.\n\nScene: Visual: The inner sanctum - a circular chamber with a domed ceiling painted with stars (now dim). In the center, a stone altar. SPORE is bound to it by chains of shadow, releasing SCARED GRAY SPORES. And rising behind the altar - THE SHADOW SORCERER. Hooded figure, tattered robes, hollow masked face, BURNING PURPLE EYES. Location: Temple Inner Sanctum (corrupted) Characters: Shadow Sorcerer, Spore (captive)\n\nDialogue: Shadow Sorcerer: \"So. Another candidate. Another CHOSEN ONE.\"\n\nInclude speech bubbles with the dialogue text clearly readable.\n\nStyle: Bold ink line art, vibrant colors, dynamic composition, sequential art style, graphic novel quality.",
+      "location": "TempleSanctum"
     },
     {
       "panel_num": 2,
       "annotation": null,
       "visual": "Visual: Close-up on the Shadow Sorcerer's face - rage and centuries of jealousy burning in those purple eyes. Characters: Shadow Sorcerer",
       "dialogue": "Shadow Sorcerer: \"I was like you once. I came to the Choosing. I gave EVERYTHING.\"",
-      "characters": {},
+      "characters": {
+        "ShadowSorcerer": "A hooded figure in tattered dark robes - once a Choosing candidate who failed and died in bitterness centuries ago. Face is a hollow mask of who they once were. Purple eyes burning with jealousy and rage. Form flickers between solid and shadow. Tragic rather than purely evil.",
+        "Shadow": "An incorporeal undead creature of pure darkness, vaguely humanoid silhouette with no distinguishing features except cold pinpricks of malevolent white light for eyes. Sliding along walls and floor, reaching with grasping shadow hands toward the trapped pegasus."
+      },
       "npcs": {},
-      "aspect_ratio": "square",
-      "size": "1024x1024",
+      "aspect_ratio": "3:4",
+      "size": "768x1024",
       "prompt": "Professional comic book panel illustration.\n\nScene: Visual: Close-up on the Shadow Sorcerer's face - rage and centuries of jealousy burning in those purple eyes. Characters: Shadow Sorcerer\n\nDialogue: Shadow Sorcerer: \"I was like you once. I came to the Choosing. I gave EVERYTHING.\"\n\nInclude speech bubbles with the dialogue text clearly readable.\n\nStyle: Bold ink line art, vibrant colors, dynamic composition, sequential art style, graphic novel quality."
     },
     {
@@ -31,10 +39,13 @@
       "annotation": null,
       "visual": "Visual: The Sorcerer's form flickers with shadows, spreading arms wide. Characters: Shadow Sorcerer",
       "dialogue": "Shadow Sorcerer: \"And I FAILED. I wasn't good enough. I died here, ALONE, FORGOTTEN!\"",
-      "characters": {},
+      "characters": {
+        "ShadowSorcerer": "A hooded figure in tattered dark robes - once a Choosing candidate who failed and died in bitterness centuries ago. Face is a hollow mask of who they once were. Purple eyes burning with jealousy and rage. Form flickers between solid and shadow. Tragic rather than purely evil.",
+        "Shadow": "An incorporeal undead creature of pure darkness, vaguely humanoid silhouette with no distinguishing features except cold pinpricks of malevolent white light for eyes. Sliding along walls and floor, reaching with grasping shadow hands toward the trapped pegasus."
+      },
       "npcs": {},
-      "aspect_ratio": "square",
-      "size": "1024x1024",
+      "aspect_ratio": "3:4",
+      "size": "768x1024",
       "prompt": "Professional comic book panel illustration.\n\nScene: Visual: The Sorcerer's form flickers with shadows, spreading arms wide. Characters: Shadow Sorcerer\n\nDialogue: Shadow Sorcerer: \"And I FAILED. I wasn't good enough. I died here, ALONE, FORGOTTEN!\"\n\nInclude speech bubbles with the dialogue text clearly readable.\n\nStyle: Bold ink line art, vibrant colors, dynamic composition, sequential art style, graphic novel quality."
     },
     {
@@ -43,11 +54,14 @@
       "visual": "Visual: The Sorcerer points accusingly at Lightsword, shadows swirling. Characters: Shadow Sorcerer, Lightsword",
       "dialogue": "Shadow Sorcerer: \"Now I'll take YOUR power! I'll drain EVERYTHING you have!\" Lightsword: \"I won't let you hurt Spore.\" ",
       "characters": {
-        "Lightsword": "A GLOWING ETHEREAL FIGURE made entirely of soft golden-white light. NOT a lizard, NOT humanoid with defined features - pure luminous energy in vaguely humanoid shape. No visible face, just two bright points of warm light where eyes would be. The entire body GLOWS and PULSES with inner light. Wearing simple cream-colored ceremonial robes that the light shines through. Ethereal, mysterious, magical being of pure radiance."
+        "Lightsword": "A GLOWING ETHEREAL FIGURE made entirely of soft golden-white light. NOT a lizard, NOT humanoid with defined features - pure luminous energy in vaguely humanoid shape. No visible face, just two bright points of warm light where eyes would be. The entire body GLOWS and PULSES with inner light. Wearing simple cream-colored ceremonial robes that the light shines through. Ethereal, mysterious, magical being of pure radiance.",
+        "LightswordGlowing": "A glowing, indeterminate humanoid figure wrapped in soft golden-white light. No defined species yet - ethereal and mysterious. Wearing simple ceremonial robes over the glowing form. Eyes are bright points of warm light. The light pulses gently with emotions.",
+        "ShadowSorcerer": "A hooded figure in tattered dark robes - once a Choosing candidate who failed and died in bitterness centuries ago. Face is a hollow mask of who they once were. Purple eyes burning with jealousy and rage. Form flickers between solid and shadow. Tragic rather than purely evil.",
+        "Shadow": "An incorporeal undead creature of pure darkness, vaguely humanoid silhouette with no distinguishing features except cold pinpricks of malevolent white light for eyes. Sliding along walls and floor, reaching with grasping shadow hands toward the trapped pegasus."
       },
       "npcs": {},
-      "aspect_ratio": "square",
-      "size": "1024x1024",
+      "aspect_ratio": "3:4",
+      "size": "768x1024",
       "prompt": "Professional comic book panel illustration.\n\nCharacters:\n- Lightsword: A GLOWING ETHEREAL FIGURE made entirely of soft golden-white light. NOT a lizard, NOT humanoid with defined features - pure luminous energy in vaguely humanoid shape. No visible face, just two bright points of warm light where eyes would be. The entire body GLOWS and PULSES with inner light. Wearing simple cream-colored ceremonial robes that the light shines through. Ethereal, mysterious, magical being of pure radiance.\n\nScene: Visual: The Sorcerer points accusingly at Lightsword, shadows swirling. Characters: Shadow Sorcerer, Lightsword\n\nDialogue: Shadow Sorcerer: \"Now I'll take YOUR power! I'll drain EVERYTHING you have!\" Lightsword: \"I won't let you hurt Spore.\" \n\nInclude speech bubbles with the dialogue text clearly readable.\n\nStyle: Bold ink line art, vibrant colors, dynamic composition, sequential art style, graphic novel quality."
     }
   ]

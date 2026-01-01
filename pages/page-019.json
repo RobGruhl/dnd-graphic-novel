@@ -13,7 +13,8 @@
       "npcs": {},
       "aspect_ratio": "wide",
       "size": "1536x1024",
-      "prompt": "Professional comic book panel illustration.\n\nScene: Visual: The Temple of Aspects - but WRONG. The four towers are DIM. Banners are TORN. Cold, unnatural MIST seeps from the doors. DARKNESS surrounds it. Location: Temple of Aspects (corrupted) Characters: (Temple exterior)\n\nDialogue: (Caption): \"But the Temple... the Temple was under attack.\"\n\nInclude speech bubbles with the dialogue text clearly readable.\n\nStyle: Bold ink line art, vibrant colors, dynamic composition, sequential art style, graphic novel quality."
+      "prompt": "Professional comic book panel illustration.\n\nScene: Visual: The Temple of Aspects - but WRONG. The four towers are DIM. Banners are TORN. Cold, unnatural MIST seeps from the doors. DARKNESS surrounds it. Location: Temple of Aspects (corrupted) Characters: (Temple exterior)\n\nDialogue: (Caption): \"But the Temple... the Temple was under attack.\"\n\nInclude speech bubbles with the dialogue text clearly readable.\n\nStyle: Bold ink line art, vibrant colors, dynamic composition, sequential art style, graphic novel quality.",
+      "location": "TempleCourtyard"
     },
     {
       "panel_num": 2,
@@ -21,11 +22,14 @@
       "visual": "Visual: Starwind lands in the corrupted courtyard. The Elder stumbles out, looking older and weaker, face full of fear. Characters: Lightsword, Starwind, The Elder",
       "dialogue": "Elder: \"Thank the gods you've returned!\"",
       "characters": {
-        "Lightsword": "A GLOWING ETHEREAL FIGURE made entirely of soft golden-white light. NOT a lizard, NOT humanoid with defined features - pure luminous energy in vaguely humanoid shape. No visible face, just two bright points of warm light where eyes would be. The entire body GLOWS and PULSES with inner light. Wearing simple cream-colored ceremonial robes that the light shines through. Ethereal, mysterious, magical being of pure radiance."
+        "Lightsword": "A GLOWING ETHEREAL FIGURE made entirely of soft golden-white light. NOT a lizard, NOT humanoid with defined features - pure luminous energy in vaguely humanoid shape. No visible face, just two bright points of warm light where eyes would be. The entire body GLOWS and PULSES with inner light. Wearing simple cream-colored ceremonial robes that the light shines through. Ethereal, mysterious, magical being of pure radiance.",
+        "LightswordGlowing": "A glowing, indeterminate humanoid figure wrapped in soft golden-white light. No defined species yet - ethereal and mysterious. Wearing simple ceremonial robes over the glowing form. Eyes are bright points of warm light. The light pulses gently with emotions.",
+        "Starwind": "A magnificent winged horse with a pure white coat and feathered wings spanning 20 feet. Noble and intelligent, with silver hooves and a flowing mane. Freed from shadow chains and eternally grateful, offering to carry the hero.",
+        "TheElder": "An ancient and ageless figure who conducts the Choosing ceremony. Dressed in shimmering robes that shift between red, green, blue, and gold. Wise eyes that have seen countless heroes rise. Voice like warm thunder - powerful but kind."
       },
       "npcs": {},
-      "aspect_ratio": "square",
-      "size": "1024x1024",
+      "aspect_ratio": "3:4",
+      "size": "768x1024",
       "prompt": "Professional comic book panel illustration.\n\nCharacters:\n- Lightsword: A GLOWING ETHEREAL FIGURE made entirely of soft golden-white light. NOT a lizard, NOT humanoid with defined features - pure luminous energy in vaguely humanoid shape. No visible face, just two bright points of warm light where eyes would be. The entire body GLOWS and PULSES with inner light. Wearing simple cream-colored ceremonial robes that the light shines through. Ethereal, mysterious, magical being of pure radiance.\n\nScene: Visual: Starwind lands in the corrupted courtyard. The Elder stumbles out, looking older and weaker, face full of fear. Characters: Lightsword, Starwind, The Elder\n\nDialogue: Elder: \"Thank the gods you've returned!\"\n\nInclude speech bubbles with the dialogue text clearly readable.\n\nStyle: Bold ink line art, vibrant colors, dynamic composition, sequential art style, graphic novel quality."
     },
     {
@@ -33,10 +37,12 @@
       "annotation": null,
       "visual": "Visual: Close-up on the Elder's terrified face. Characters: The Elder",
       "dialogue": "Elder: \"A dark spirit... it came from the valley. It's taken over the inner sanctum.\"",
-      "characters": {},
+      "characters": {
+        "TheElder": "An ancient and ageless figure who conducts the Choosing ceremony. Dressed in shimmering robes that shift between red, green, blue, and gold. Wise eyes that have seen countless heroes rise. Voice like warm thunder - powerful but kind."
+      },
       "npcs": {},
-      "aspect_ratio": "square",
-      "size": "1024x1024",
+      "aspect_ratio": "3:4",
+      "size": "768x1024",
       "prompt": "Professional comic book panel illustration.\n\nScene: Visual: Close-up on the Elder's terrified face. Characters: The Elder\n\nDialogue: Elder: \"A dark spirit... it came from the valley. It's taken over the inner sanctum.\"\n\nInclude speech bubbles with the dialogue text clearly readable.\n\nStyle: Bold ink line art, vibrant colors, dynamic composition, sequential art style, graphic novel quality."
     },
     {
@@ -45,11 +51,13 @@
       "visual": "Visual: The Elder grabs Lightsword's glowing arm desperately. Characters: The Elder, Lightsword",
       "dialogue": "Elder: \"And it has... it has SPORE!\" Lightsword: \"SPORE?!\" ",
       "characters": {
-        "Lightsword": "A GLOWING ETHEREAL FIGURE made entirely of soft golden-white light. NOT a lizard, NOT humanoid with defined features - pure luminous energy in vaguely humanoid shape. No visible face, just two bright points of warm light where eyes would be. The entire body GLOWS and PULSES with inner light. Wearing simple cream-colored ceremonial robes that the light shines through. Ethereal, mysterious, magical being of pure radiance."
+        "Lightsword": "A GLOWING ETHEREAL FIGURE made entirely of soft golden-white light. NOT a lizard, NOT humanoid with defined features - pure luminous energy in vaguely humanoid shape. No visible face, just two bright points of warm light where eyes would be. The entire body GLOWS and PULSES with inner light. Wearing simple cream-colored ceremonial robes that the light shines through. Ethereal, mysterious, magical being of pure radiance.",
+        "LightswordGlowing": "A glowing, indeterminate humanoid figure wrapped in soft golden-white light. No defined species yet - ethereal and mysterious. Wearing simple ceremonial robes over the glowing form. Eyes are bright points of warm light. The light pulses gently with emotions.",
+        "TheElder": "An ancient and ageless figure who conducts the Choosing ceremony. Dressed in shimmering robes that shift between red, green, blue, and gold. Wise eyes that have seen countless heroes rise. Voice like warm thunder - powerful but kind."
       },
       "npcs": {},
-      "aspect_ratio": "square",
-      "size": "1024x1024",
+      "aspect_ratio": "3:4",
+      "size": "768x1024",
       "prompt": "Professional comic book panel illustration.\n\nCharacters:\n- Lightsword: A GLOWING ETHEREAL FIGURE made entirely of soft golden-white light. NOT a lizard, NOT humanoid with defined features - pure luminous energy in vaguely humanoid shape. No visible face, just two bright points of warm light where eyes would be. The entire body GLOWS and PULSES with inner light. Wearing simple cream-colored ceremonial robes that the light shines through. Ethereal, mysterious, magical being of pure radiance.\n\nScene: Visual: The Elder grabs Lightsword's glowing arm desperately. Characters: The Elder, Lightsword\n\nDialogue: Elder: \"And it has... it has SPORE!\" Lightsword: \"SPORE?!\" \n\nInclude speech bubbles with the dialogue text clearly readable.\n\nStyle: Bold ink line art, vibrant colors, dynamic composition, sequential art style, graphic novel quality."
     }
   ]

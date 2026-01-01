@@ -9,11 +9,15 @@
       "annotation": "Splash - LANDSCAPE",
       "visual": "Visual: STARWIND THE PEGASUS - magnificent but suffering. Dark shadow chains wrap around her legs, pinning her to the dead ground. Her wings hang limp and GRAY instead of white. THREE SHADOWS circle her like sharks, reaching with grasping hands, draining her life. At the base of the largest dead tree, a DARK CRYSTAL pulses with sickly purple light. Location: Cursed Grove Characters: Starwind (chained), Shadows (3)",
       "dialogue": "(Caption): \"Trial Four: The Cursed Grove\" Starwind: *a pleading whinny that breaks the heart* ",
-      "characters": {},
+      "characters": {
+        "StarwindCursed": "The same magnificent pegasus but trapped and suffering. Shadow chains bind her legs, her wings hang limp and grey, eyes full of pain. Dark energy crackles around her as shadows circle menacingly.",
+        "Shadow": "An incorporeal undead creature of pure darkness, vaguely humanoid silhouette with no distinguishing features except cold pinpricks of malevolent white light for eyes. Sliding along walls and floor, reaching with grasping shadow hands toward the trapped pegasus."
+      },
       "npcs": {},
       "aspect_ratio": "splash",
       "size": "1024x1536",
-      "prompt": "Professional comic book panel illustration.\n\nScene: Visual: STARWIND THE PEGASUS - magnificent but suffering. Dark shadow chains wrap around her legs, pinning her to the dead ground. Her wings hang limp and GRAY instead of white. THREE SHADOWS circle her like sharks, reaching with grasping hands, draining her life. At the base of the largest dead tree, a DARK CRYSTAL pulses with sickly purple light. Location: Cursed Grove Characters: Starwind (chained), Shadows (3)\n\nDialogue: (Caption): \"Trial Four: The Cursed Grove\" Starwind: *a pleading whinny that breaks the heart* \n\nInclude speech bubbles with the dialogue text clearly readable.\n\nStyle: Bold ink line art, vibrant colors, dynamic composition, sequential art style, graphic novel quality."
+      "prompt": "Professional comic book panel illustration.\n\nScene: Visual: STARWIND THE PEGASUS - magnificent but suffering. Dark shadow chains wrap around her legs, pinning her to the dead ground. Her wings hang limp and GRAY instead of white. THREE SHADOWS circle her like sharks, reaching with grasping hands, draining her life. At the base of the largest dead tree, a DARK CRYSTAL pulses with sickly purple light. Location: Cursed Grove Characters: Starwind (chained), Shadows (3)\n\nDialogue: (Caption): \"Trial Four: The Cursed Grove\" Starwind: *a pleading whinny that breaks the heart* \n\nInclude speech bubbles with the dialogue text clearly readable.\n\nStyle: Bold ink line art, vibrant colors, dynamic composition, sequential art style, graphic novel quality.",
+      "location": "DarkGrove"
     }
   ]
 }

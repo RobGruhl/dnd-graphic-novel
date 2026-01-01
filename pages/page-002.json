@@ -9,52 +9,59 @@
       "annotation": null,
       "visual": "Visual: The glowing figure (Lightsword) kneels down to be at eye level with Spore, the small myconid. The mushroom creature looks up with big, sad eyes. Location: Cave bedroom doorway Characters: Lightsword, Spore",
       "dialogue": "Lightsword: \"I have to go to the Temple today, Spore.\"",
+      "location": "the PlayerRoom",
       "characters": {
-        "Lightsword": "A GLOWING ETHEREAL FIGURE made entirely of soft golden-white light. NOT a lizard, NOT humanoid with defined features - pure luminous energy in vaguely humanoid shape. No visible face, just two bright points of warm light where eyes would be. The entire body GLOWS and PULSES with inner light. Wearing simple cream-colored ceremonial robes that the light shines through. Ethereal, mysterious, magical being of pure radiance."
+        "Lightsword": "A GLOWING ETHEREAL FIGURE made entirely of soft golden-white light. NOT a lizard, NOT humanoid with defined features - pure luminous energy in vaguely humanoid shape. No visible face, just two bright points of warm light where eyes would be. The entire body GLOWS and PULSES with inner light. Wearing simple cream-colored ceremonial robes that the light shines through. Ethereal, mysterious, magical being of pure radiance.",
+        "Spore": "A small MUSHROOM CREATURE (myconid) about knee-height to a humanoid. Pale cream-colored cap with BIOLUMINESCENT SPOTS that glow soft blue. Big, expressive dark eyes like pools of night. Small stubby arms and legs, spongy and soft looking body. Releases colored spores based on emotion - currently releasing GRAY SPORES showing sadness. Lightsword's best friend.",
+        "LightswordGlowing": "A glowing, indeterminate humanoid figure wrapped in soft golden-white light. No defined species yet - ethereal and mysterious. Wearing simple ceremonial robes over the glowing form. Eyes are bright points of warm light. The light pulses gently with emotions."
       },
       "npcs": {},
-      "aspect_ratio": "square",
-      "size": "1024x1024",
-      "prompt": "Professional comic book panel illustration.\n\nCharacters:\n- Lightsword: A GLOWING ETHEREAL FIGURE made entirely of soft golden-white light. NOT a lizard, NOT humanoid with defined features - pure luminous energy in vaguely humanoid shape. No visible face, just two bright points of warm light where eyes would be. The entire body GLOWS and PULSES with inner light. Wearing simple cream-colored ceremonial robes that the light shines through. Ethereal, mysterious, magical being of pure radiance.\n\nScene: Visual: The glowing figure (Lightsword) kneels down to be at eye level with Spore, the small myconid. The mushroom creature looks up with big, sad eyes. Location: Cave bedroom doorway Characters: Lightsword, Spore\n\nDialogue: Lightsword: \"I have to go to the Temple today, Spore.\"\n\nInclude speech bubbles with the dialogue text clearly readable.\n\nStyle: Bold ink line art, vibrant colors, dynamic composition, sequential art style, graphic novel quality."
+      "aspect_ratio": "3:4",
+      "size": "768x1024"
     },
     {
       "panel_num": 2,
       "annotation": null,
       "visual": "Visual: Spore releases soft gray spores - sadness. His small hands reach up toward Lightsword. Characters: Spore",
       "dialogue": "(Caption): \"Spore released sad gray spores...\"",
+      "location": "the PlayerRoom",
       "characters": {
-        "Lightsword": "A GLOWING ETHEREAL FIGURE made entirely of soft golden-white light. NOT a lizard, NOT humanoid with defined features - pure luminous energy in vaguely humanoid shape. No visible face, just two bright points of warm light where eyes would be. The entire body GLOWS and PULSES with inner light. Wearing simple cream-colored ceremonial robes that the light shines through. Ethereal, mysterious, magical being of pure radiance."
+        "Spore": "A small MUSHROOM CREATURE (myconid) about knee-height to a humanoid. Pale cream-colored cap with BIOLUMINESCENT SPOTS that glow soft blue. Big, expressive dark eyes like pools of night, looking up with sadness. Small stubby arms reaching upward, spongy and soft looking body. Releasing GRAY SPORES that float upward, expressing sadness and worry.",
+        "LightswordGlowing": "A glowing, indeterminate humanoid figure wrapped in soft golden-white light. No defined species yet - ethereal and mysterious. Wearing simple ceremonial robes over the glowing form. Eyes are bright points of warm light. The light pulses gently with emotions."
       },
       "npcs": {},
-      "aspect_ratio": "square",
-      "size": "1024x1024",
-      "prompt": "Professional comic book panel illustration.\n\nCharacters:\n- Lightsword: A GLOWING ETHEREAL FIGURE made entirely of soft golden-white light. NOT a lizard, NOT humanoid with defined features - pure luminous energy in vaguely humanoid shape. No visible face, just two bright points of warm light where eyes would be. The entire body GLOWS and PULSES with inner light. Wearing simple cream-colored ceremonial robes that the light shines through. Ethereal, mysterious, magical being of pure radiance.\n\nScene: Visual: Spore releases soft gray spores - sadness. His small hands reach up toward Lightsword. Characters: Spore\n\nDialogue: (Caption): \"Spore released sad gray spores...\"\n\nInclude speech bubbles with the dialogue text clearly readable.\n\nStyle: Bold ink line art, vibrant colors, dynamic composition, sequential art style, graphic novel quality."
+      "aspect_ratio": "3:4",
+      "size": "768x1024"
     },
     {
       "panel_num": 3,
       "annotation": null,
       "visual": "Visual: Lightsword gently pats Spore's cap, their glow warm and reassuring. Characters: Lightsword, Spore",
       "dialogue": "Lightsword: \"I'll be back before you know it. I promise.\"",
+      "location": "the PlayerRoom",
       "characters": {
-        "Lightsword": "A GLOWING ETHEREAL FIGURE made entirely of soft golden-white light. NOT a lizard, NOT humanoid with defined features - pure luminous energy in vaguely humanoid shape. No visible face, just two bright points of warm light where eyes would be. The entire body GLOWS and PULSES with inner light. Wearing simple cream-colored ceremonial robes that the light shines through. Ethereal, mysterious, magical being of pure radiance."
+        "Lightsword": "A GLOWING ETHEREAL FIGURE made entirely of soft golden-white light. NOT a lizard, NOT humanoid with defined features - pure luminous energy in vaguely humanoid shape. No visible face, just two bright points of warm light where eyes would be. The entire body GLOWS and PULSES with inner light. Wearing simple cream-colored ceremonial robes that the light shines through. One glowing hand gently patting Spore's mushroom cap.",
+        "Spore": "A small MUSHROOM CREATURE (myconid) about knee-height. Pale cream-colored cap being patted by Lightsword's glowing hand. BIOLUMINESCENT SPOTS glow soft blue. Big, expressive dark eyes looking up with hope. Small stubby body, spongy and soft looking.",
+        "LightswordGlowing": "A glowing, indeterminate humanoid figure wrapped in soft golden-white light. No defined species yet - ethereal and mysterious. Wearing simple ceremonial robes over the glowing form. Eyes are bright points of warm light. The light pulses gently with emotions."
       },
       "npcs": {},
-      "aspect_ratio": "square",
-      "size": "1024x1024",
-      "prompt": "Professional comic book panel illustration.\n\nCharacters:\n- Lightsword: A GLOWING ETHEREAL FIGURE made entirely of soft golden-white light. NOT a lizard, NOT humanoid with defined features - pure luminous energy in vaguely humanoid shape. No visible face, just two bright points of warm light where eyes would be. The entire body GLOWS and PULSES with inner light. Wearing simple cream-colored ceremonial robes that the light shines through. Ethereal, mysterious, magical being of pure radiance.\n\nScene: Visual: Lightsword gently pats Spore's cap, their glow warm and reassuring. Characters: Lightsword, Spore\n\nDialogue: Lightsword: \"I'll be back before you know it. I promise.\"\n\nInclude speech bubbles with the dialogue text clearly readable.\n\nStyle: Bold ink line art, vibrant colors, dynamic composition, sequential art style, graphic novel quality."
+      "aspect_ratio": "3:4",
+      "size": "768x1024"
     },
     {
       "panel_num": 4,
       "annotation": null,
       "visual": "Visual: Lightsword walking toward the cave exit, looking back with a wave. Spore waves a tiny hand, still releasing those gray spores. Characters: Lightsword, Spore",
       "dialogue": "Lightsword: \"Bye, Spore!\" (Caption): \"If only he knew what awaited...\" ",
+      "location": "the PlayerRoom",
       "characters": {
-        "Lightsword": "A GLOWING ETHEREAL FIGURE made entirely of soft golden-white light. NOT a lizard, NOT humanoid with defined features - pure luminous energy in vaguely humanoid shape. No visible face, just two bright points of warm light where eyes would be. The entire body GLOWS and PULSES with inner light. Wearing simple cream-colored ceremonial robes that the light shines through. Ethereal, mysterious, magical being of pure radiance."
+        "Lightsword": "A GLOWING ETHEREAL FIGURE made entirely of soft golden-white light walking toward a cave exit. NOT a lizard, NOT humanoid with defined features - pure luminous energy in vaguely humanoid shape. No visible face, just two bright points of warm light where eyes would be. Looking back and waving, body GLOWS and PULSES with inner light. Wearing simple cream-colored ceremonial robes.",
+        "Spore": "A small MUSHROOM CREATURE (myconid) about knee-height waving goodbye with a tiny stubby arm. Pale cream-colored cap with BIOLUMINESCENT SPOTS that glow soft blue. Big, expressive dark eyes showing sadness. Still releasing GRAY SPORES floating upward expressing worry and sadness.",
+        "LightswordGlowing": "A glowing, indeterminate humanoid figure wrapped in soft golden-white light. No defined species yet - ethereal and mysterious. Wearing simple ceremonial robes over the glowing form. Eyes are bright points of warm light. The light pulses gently with emotions."
       },
       "npcs": {},
-      "aspect_ratio": "square",
-      "size": "1024x1024",
-      "prompt": "Professional comic book panel illustration.\n\nCharacters:\n- Lightsword: A GLOWING ETHEREAL FIGURE made entirely of soft golden-white light. NOT a lizard, NOT humanoid with defined features - pure luminous energy in vaguely humanoid shape. No visible face, just two bright points of warm light where eyes would be. The entire body GLOWS and PULSES with inner light. Wearing simple cream-colored ceremonial robes that the light shines through. Ethereal, mysterious, magical being of pure radiance.\n\nScene: Visual: Lightsword walking toward the cave exit, looking back with a wave. Spore waves a tiny hand, still releasing those gray spores. Characters: Lightsword, Spore\n\nDialogue: Lightsword: \"Bye, Spore!\" (Caption): \"If only he knew what awaited...\" \n\nInclude speech bubbles with the dialogue text clearly readable.\n\nStyle: Bold ink line art, vibrant colors, dynamic composition, sequential art style, graphic novel quality."
+      "aspect_ratio": "3:4",
+      "size": "768x1024"
     }
   ]
 }
