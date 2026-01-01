@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About - Lightsword: The Trials of the Choosing</title>
+    <meta name="description" content="How this AI-generated graphic novel was created.">
+    <link rel="stylesheet" href="css/main.css">
+    <style>
+        .about-content {
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 40px 20px;
+        }
+        .about-section {
+            background: var(--bg-secondary);
+            border-radius: 12px;
+            padding: 30px;
+            margin-bottom: 30px;
+            border: 1px solid var(--border-color);
+        }
+        .about-section h2 {
+            color: var(--accent-color);
+            margin-bottom: 20px;
+        }
+        .about-section p {
+            line-height: 1.8;
+            margin-bottom: 15px;
+        }
+        .about-section ul {
+            list-style: none;
+            padding: 0;
+        }
+        .about-section li {
+            padding: 10px 0;
+            border-bottom: 1px solid var(--border-color);
+            display: flex;
+            align-items: baseline;
+            gap: 10px;
+        }
+        .about-section li:last-child {
+            border-bottom: none;
+        }
+        .about-section li strong {
+            color: var(--accent-color);
+            min-width: 150px;
+        }
+        .page-header {
+            text-align: center;
+            padding: 40px 20px;
+            background: var(--bg-secondary);
+            margin-bottom: 30px;
+        }
+        .stats-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+            gap: 20px;
+            margin-top: 20px;
+        }
+        .stat-box {
+            background: var(--bg-hover);
+            padding: 20px;
+            border-radius: 8px;
+            text-align: center;
+        }
+        .stat-number {
+            font-size: 2.5rem;
+            font-weight: bold;
+            color: var(--accent-color);
+        }
+        .stat-label {
+            color: var(--text-secondary);
+            font-size: 14px;
+            margin-top: 5px;
+        }
+    </style>
+</head>
+<body>
+    <header class="site-header">
+        <div class="header-content">
+            <h1 class="site-title">Lightsword: The Trials of the Choosing</h1>
+            <nav class="site-nav">
+                <a href="index.html" class="nav-link">Read</a>
+                <a href="characters.html" class="nav-link">Characters</a>
+                <a href="locations.html" class="nav-link">Locations</a>
+                <a href="about.html" class="nav-link active">About</a>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <div class="page-header">
+            <h1>About This Project</h1>
+        </div>
+
+        <div class="about-content">
+            <section class="about-section">
+                <h2>The Story</h2>
+                <p>"Lightsword: The Trials of the Choosing" is the origin story of a Lizardfolk Sorcerer, created as a graphic novel adaptation of an actual D&D session. The story follows a young hero through four trials, where choices made during the adventure determine their ultimate class and abilities.</p>
+                <p>Beginning as a glowing, indeterminate figure, our hero must prove themselves through acts of compassion, courage, and wisdom. Along the way, they gather four companions: Darkstorm the dire wolf, Pip the pseudodragon, Starwind the pegasus, and their best friend Spore the myconid.</p>
+            </section>
+
+            <section class="about-section">
+                <h2>How It Was Made</h2>
+                <p>This graphic novel was generated entirely using AI tools:</p>
+                <ul>
+                    <li><strong>Story Source:</strong> Original D&D campaign session transcript</li>
+                    <li><strong>Script Writing:</strong> Claude (Anthropic) adapted the session into comic panels</li>
+                    <li><strong>Image Generation:</strong> Google Gemini 3 Pro Image</li>
+                    <li><strong>Page Assembly:</strong> Python + Pillow for layout and packaging</li>
+                    <li><strong>Web Reader:</strong> Custom HTML/CSS/JavaScript comic reader</li>
+                </ul>
+            </section>
+
+            <section class="about-section">
+                <h2>By The Numbers</h2>
+                <div class="stats-grid">
+                    <div class="stat-box">
+                        <div class="stat-number">24</div>
+                        <div class="stat-label">Pages</div>
+                    </div>
+                    <div class="stat-box">
+                        <div class="stat-number">78</div>
+                        <div class="stat-label">Panels</div>
+                    </div>
+                    <div class="stat-box">
+                        <div class="stat-number">4</div>
+                        <div class="stat-label">Companions</div>
+                    </div>
+                    <div class="stat-box">
+                        <div class="stat-number">4</div>
+                        <div class="stat-label">Trials</div>
+                    </div>
+                </div>
+            </section>
+
+            <section class="about-section">
+                <h2>The Aspect Cards</h2>
+                <p>In the Trials of the Choosing, young heroes receive a deck of Aspect Cards representing the four paths:</p>
+                <ul>
+                    <li><strong>Warrior (Red):</strong> Strength, combat, protection</li>
+                    <li><strong>Hunter (Green):</strong> Stealth, precision, nature</li>
+                    <li><strong>Arcane (Blue):</strong> Magic, illusion, enchantment</li>
+                    <li><strong>Divine (Gold):</strong> Healing, holy power, blessing</li>
+                </ul>
+                <p>How often each aspect is used during the trials determines the hero's final class. Lightsword's heavy use of Divine and Arcane cards, combined with natural magical ability, revealed him to be a Sorcerer with Draconic heritage.</p>
+            </section>
+
+            <section class="about-section">
+                <h2>Credits</h2>
+                <ul>
+                    <li><strong>Original Session:</strong> Family D&D Campaign</li>
+                    <li><strong>AI Art:</strong> Google Gemini 3 Pro Image</li>
+                    <li><strong>Story Adaptation:</strong> Claude (Anthropic)</li>
+                    <li><strong>Year:</strong> 2025</li>
+                </ul>
+            </section>
+        </div>
+    </main>
+
+    <footer class="site-footer">
+        <p>&copy; 2025 Lightsword: The Trials of the Choosing | AI-generated comic | Created with Google Gemini</p>
+    </footer>
+</body>
+</html>
