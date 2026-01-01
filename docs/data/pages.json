@@ -3,256 +3,194 @@
     {
       "page": 1,
       "title": "Morning in the Deep",
-      "file": "page-001.webp",
-      "characters": [
-        "Lightsword"
-      ],
-      "locations": [
-        "Underground cave village, Lightsword's bedroom Characters: Lightsword (pre-transformation glowing form)"
-      ]
+      "image": "images/pages/page-001.webp",
+      "thumbnail": "images/thumbnails/page-001.webp",
+      "characters": ["Lightsword"],
+      "locations": ["Underground cave village"]
     },
     {
       "page": 2,
       "title": "Farewell to Spore",
-      "file": "page-002.webp",
-      "characters": [
-        "Lightsword"
-      ],
-      "locations": [
-        "Cave bedroom doorway Characters: Lightsword, Spore"
-      ]
+      "image": "images/pages/page-002.webp",
+      "thumbnail": "images/thumbnails/page-002.webp",
+      "characters": ["Lightsword", "Spore"],
+      "locations": ["Cave bedroom doorway"]
     },
     {
       "page": 3,
       "title": "The Temple of Aspects",
-      "file": "page-003.webp",
-      "characters": [
-        "Lightsword"
-      ],
-      "locations": [
-        "Temple of Aspects courtyard Characters: Lightsword, other candidates (all glowing indeterminate figures), guards"
-      ]
+      "image": "images/pages/page-003.webp",
+      "thumbnail": "images/thumbnails/page-003.webp",
+      "characters": ["Lightsword"],
+      "locations": ["Temple of Aspects courtyard"]
     },
     {
       "page": 4,
       "title": "The Four Pillars",
-      "file": "page-004.webp",
-      "characters": [
-        "Lightsword"
-      ],
-      "locations": [
-        "Temple courtyard, green pillar Characters: Lightsword",
-        "Temple courtyard, blue pillar Characters: Lightsword",
-        "Temple courtyard, gold pillar Characters: Lightsword",
-        "Temple courtyard, red pillar Characters: Lightsword"
-      ]
+      "image": "images/pages/page-004.webp",
+      "thumbnail": "images/thumbnails/page-004.webp",
+      "characters": ["Lightsword"],
+      "locations": ["Temple courtyard"]
     },
     {
       "page": 5,
       "title": "The Beast at the Bridge",
-      "file": "page-005.webp",
-      "characters": [
-        "Lightsword"
-      ],
-      "locations": [
-        "Stone bridge over river, Whispering Valley Characters: Lightsword, Cursed Dire Wolf"
-      ]
+      "image": "images/pages/page-005.webp",
+      "thumbnail": "images/thumbnails/page-005.webp",
+      "characters": ["Lightsword", "Cursed Dire Wolf"],
+      "locations": ["Stone bridge, Whispering Valley"]
     },
     {
       "page": 6,
       "title": "Compassion Over Combat",
-      "file": "page-006.webp",
-      "characters": [
-        "Lightsword"
-      ],
-      "locations": []
+      "image": "images/pages/page-006.webp",
+      "thumbnail": "images/thumbnails/page-006.webp",
+      "characters": ["Lightsword", "Darkstorm"],
+      "locations": ["Stone bridge"]
     },
     {
       "page": 7,
       "title": "Darkstorm Joins",
-      "file": "page-007.webp",
-      "characters": [
-        "Lightsword"
-      ],
-      "locations": []
+      "image": "images/pages/page-007.webp",
+      "thumbnail": "images/thumbnails/page-007.webp",
+      "characters": ["Lightsword", "Darkstorm"],
+      "locations": ["Whispering Valley"]
     },
     {
       "page": 8,
       "title": "Goblin Ambush",
-      "file": "page-008.webp",
-      "characters": [
-        "Lightsword"
-      ],
-      "locations": [
-        "Ruined tower clearing Characters: Goblins (5), Garrett the Merchant"
-      ]
+      "image": "images/pages/page-008.webp",
+      "thumbnail": "images/thumbnails/page-008.webp",
+      "characters": ["Lightsword", "Darkstorm", "Goblins"],
+      "locations": ["Ruined tower clearing"]
     },
     {
       "page": 9,
       "title": "The Flying Wolf",
-      "file": "page-009.webp",
-      "characters": [
-        "Lightsword"
-      ],
-      "locations": []
+      "image": "images/pages/page-009.webp",
+      "thumbnail": "images/thumbnails/page-009.webp",
+      "characters": ["Lightsword", "Darkstorm"],
+      "locations": ["Ruined tower"]
     },
     {
       "page": 10,
       "title": "The Merchant's Gratitude",
-      "file": "page-010.webp",
-      "characters": [
-        "Lightsword"
-      ],
-      "locations": []
+      "image": "images/pages/page-010.webp",
+      "thumbnail": "images/thumbnails/page-010.webp",
+      "characters": ["Lightsword", "Darkstorm", "Garrett"],
+      "locations": ["Ruined tower clearing"]
     },
     {
       "page": 11,
       "title": "The Maze of Echoes",
-      "file": "page-011.webp",
-      "characters": [
-        "Lightsword"
-      ],
-      "locations": [
-        "Maze of Echoes entrance Characters: Lightsword, Darkstorm",
-        "Maze - illusion walls Characters: Lightsword",
-        "Maze - shifting floor Characters: Lightsword"
-      ]
+      "image": "images/pages/page-011.webp",
+      "thumbnail": "images/thumbnails/page-011.webp",
+      "characters": ["Lightsword", "Darkstorm"],
+      "locations": ["Maze of Echoes entrance"]
     },
     {
       "page": 12,
       "title": "The Sword Chamber",
-      "file": "page-012.webp",
-      "characters": [
-        "Lightsword"
-      ],
-      "locations": [
-        "Maze - Sword Chamber Characters: Lightsword, Darkstorm, Animated Flying Swords (3)"
-      ]
+      "image": "images/pages/page-012.webp",
+      "thumbnail": "images/thumbnails/page-012.webp",
+      "characters": ["Lightsword", "Darkstorm"],
+      "locations": ["Maze - Sword Chamber"]
     },
     {
       "page": 13,
       "title": "Finding Pip",
-      "file": "page-013.webp",
-      "characters": [
-        "Lightsword"
-      ],
-      "locations": [
-        "Maze - Hidden Alcove Characters: Pip (injured)"
-      ]
+      "image": "images/pages/page-013.webp",
+      "thumbnail": "images/thumbnails/page-013.webp",
+      "characters": ["Lightsword", "Pip"],
+      "locations": ["Maze - Hidden Alcove"]
     },
     {
       "page": 14,
       "title": "Pip Chooses",
-      "file": "page-014.webp",
-      "characters": [
-        "Lightsword"
-      ],
-      "locations": [
-        "Maze exit, view of Cursed Grove Characters: Lightsword, Pip, Darkstorm",
-        "Distant view of Cursed Grove Characters: Starwind (distant, chained)"
-      ]
+      "image": "images/pages/page-014.webp",
+      "thumbnail": "images/thumbnails/page-014.webp",
+      "characters": ["Lightsword", "Pip", "Darkstorm"],
+      "locations": ["Maze exit"]
     },
     {
       "page": 15,
       "title": "The Cursed Grove",
-      "file": "page-015.webp",
-      "characters": [],
-      "locations": [
-        "Cursed Grove Characters: Starwind (chained), Shadows (3)"
-      ]
+      "image": "images/pages/page-015.webp",
+      "thumbnail": "images/thumbnails/page-015.webp",
+      "characters": ["Starwind", "Shadows"],
+      "locations": ["Cursed Grove"]
     },
     {
       "page": 16,
       "title": "Four Divine Cards",
-      "file": "page-016.webp",
-      "characters": [
-        "Lightsword"
-      ],
-      "locations": []
+      "image": "images/pages/page-016.webp",
+      "thumbnail": "images/thumbnails/page-016.webp",
+      "characters": ["Lightsword"],
+      "locations": ["Cursed Grove"]
     },
     {
       "page": 17,
       "title": "Natural Twenty",
-      "file": "page-017.webp",
-      "characters": [
-        "Lightsword"
-      ],
-      "locations": []
+      "image": "images/pages/page-017.webp",
+      "thumbnail": "images/thumbnails/page-017.webp",
+      "characters": ["Lightsword", "Starwind"],
+      "locations": ["Cursed Grove"]
     },
     {
       "page": 18,
       "title": "Flight to the Temple",
-      "file": "page-018.webp",
-      "characters": [
-        "Lightsword"
-      ],
-      "locations": [
-        "Sky above the valley Characters: Lightsword, Starwind (flying), Pip, Darkstorm (below)"
-      ]
+      "image": "images/pages/page-018.webp",
+      "thumbnail": "images/thumbnails/page-018.webp",
+      "characters": ["Lightsword", "Starwind", "Pip", "Darkstorm"],
+      "locations": ["Sky above the valley"]
     },
     {
       "page": 19,
       "title": "The Temple Under Shadow",
-      "file": "page-019.webp",
-      "characters": [
-        "Lightsword"
-      ],
-      "locations": [
-        "Temple of Aspects (corrupted) Characters: (Temple exterior)"
-      ]
+      "image": "images/pages/page-019.webp",
+      "thumbnail": "images/thumbnails/page-019.webp",
+      "characters": ["Lightsword"],
+      "locations": ["Temple of Aspects (corrupted)"]
     },
     {
       "page": 20,
       "title": "The Shadow Sorcerer",
-      "file": "page-020.webp",
-      "characters": [
-        "Lightsword"
-      ],
-      "locations": [
-        "Temple Inner Sanctum (corrupted) Characters: Shadow Sorcerer, Spore (captive)"
-      ]
+      "image": "images/pages/page-020.webp",
+      "thumbnail": "images/thumbnails/page-020.webp",
+      "characters": ["Lightsword", "Shadow Sorcerer", "Spore"],
+      "locations": ["Temple Inner Sanctum"]
     },
     {
       "page": 21,
       "title": "The Final Strike",
-      "file": "page-021.webp",
-      "characters": [
-        "Lightsword"
-      ],
-      "locations": []
+      "image": "images/pages/page-021.webp",
+      "thumbnail": "images/thumbnails/page-021.webp",
+      "characters": ["Lightsword", "Darkstorm", "Pip", "Starwind"],
+      "locations": ["Temple Inner Sanctum"]
     },
     {
       "page": 22,
       "title": "The Transformation",
-      "file": "page-022.webp",
-      "characters": [
-        "Lightsword"
-      ],
-      "locations": [
-        "Temple Inner Sanctum (restored) Characters: Lightsword (transforming)"
-      ]
+      "image": "images/pages/page-022.webp",
+      "thumbnail": "images/thumbnails/page-022.webp",
+      "characters": ["Lightsword"],
+      "locations": ["Temple Inner Sanctum (restored)"]
     },
     {
       "page": 23,
       "title": "The Choosing Ceremony",
-      "file": "page-023.webp",
-      "characters": [
-        "Lightsword"
-      ],
-      "locations": [
-        "Temple Courtyard (restored) Characters: Lightsword (Lizardfolk), Elder, Spore, Darkstorm, Pip, Starwind, villagers"
-      ]
+      "image": "images/pages/page-023.webp",
+      "thumbnail": "images/thumbnails/page-023.webp",
+      "characters": ["Lightsword", "Elder", "Spore", "Darkstorm", "Pip", "Starwind"],
+      "locations": ["Temple Courtyard (restored)"]
     },
     {
       "page": 24,
       "title": "Legend Begins",
-      "file": "page-024.webp",
-      "characters": [
-        "Lightsword"
-      ],
-      "locations": [
-        "Temple Courtyard, sunset Characters: Lightsword, Darkstorm, Pip, Starwind, Spore"
-      ]
+      "image": "images/pages/page-024.webp",
+      "thumbnail": "images/thumbnails/page-024.webp",
+      "characters": ["Lightsword", "Darkstorm", "Pip", "Starwind", "Spore"],
+      "locations": ["Temple Courtyard, sunset"]
     }
   ],
   "total": 24
