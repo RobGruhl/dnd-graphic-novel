@@ -61,7 +61,15 @@
                 </button>
             </div>
 
-            <div class="page-display">
+            <div class="zoom-controls">
+                <button id="zoom-fit" class="zoom-btn active" title="Fit to Screen (F)">Fit</button>
+                <button id="zoom-width" class="zoom-btn" title="Fit Width (W)">Width</button>
+                <button id="zoom-100" class="zoom-btn" title="100% Zoom (1)">100%</button>
+                <button id="zoom-150" class="zoom-btn" title="150% Zoom (2)">150%</button>
+                <span class="zoom-level" id="zoom-level">Click image to zoom</span>
+            </div>
+
+            <div class="page-display fit-screen">
                 <img id="main-page-image"
                      src="images/pages/page-001.webp"
                      alt="Comic page"
@@ -80,7 +88,7 @@
             </div>
 
             <div class="keyboard-hints">
-                <p>💡 Use arrow keys or A/D to navigate • G for grid view • Home/End for first/last page</p>
+                <p>💡 Arrow keys or A/D to navigate • F/W/1/2 for zoom • G for grid • Home/End for first/last</p>
             </div>
         </div>
 

@@ -7,6 +7,7 @@ class ComicReader {
         this.pages = [];
         this.currentPageIndex = 0;
         this.viewMode = 'single'; // 'single' or 'grid'
+        this.zoomMode = 'fit-screen'; // 'fit-screen', 'fit-width', '100', '150'
         this.isLoading = false;
     }
 
@@ -53,6 +54,67 @@ class ComicReader {
         document.getElementById('view-grid').addEventListener('click', () => this.switchView('grid'));
         document.getElementById('toggle-grid-view').addEventListener('click', () => this.switchView('grid'));
         document.getElementById('close-grid').addEventListener('click', () => this.switchView('single'));
+
+        // Zoom controls
+        document.getElementById('zoom-fit').addEventListener('click', () => this.setZoom('fit-screen'));
+        document.getElementById('zoom-width').addEventListener('click', () => this.setZoom('fit-width'));
+        document.getElementById('zoom-100').addEventListener('click', () => this.setZoom('100'));
+        document.getElementById('zoom-150').addEventListener('click', () => this.setZoom('150'));
+
+        // Click image to toggle zoom
+        const pageDisplay = document.querySelector('.page-display');
+        const img = document.getElementById('main-page-image');
+        img.addEventListener('click', () => this.toggleImageZoom());
+    }
+
+    setZoom(mode) {
+        this.zoomMode = mode;
+        const pageDisplay = document.querySelector('.page-display');
+        const img = document.getElementById('main-page-image');
+        const zoomLevel = document.getElementById('zoom-level');
+
+        // Remove all zoom classes
+        pageDisplay.classList.remove('fit-screen', 'fit-width', 'fit-height', 'zoomed');
+        img.style.transform = '';
+        img.style.width = '';
+        img.style.height = '';
+
+        // Update button states
+        document.querySelectorAll('.zoom-btn').forEach(btn => btn.classList.remove('active'));
+
+        switch(mode) {
+            case 'fit-screen':
+                pageDisplay.classList.add('fit-screen');
+                document.getElementById('zoom-fit').classList.add('active');
+                zoomLevel.textContent = 'Click image to zoom';
+                break;
+            case 'fit-width':
+                pageDisplay.classList.add('fit-width');
+                document.getElementById('zoom-width').classList.add('active');
+                zoomLevel.textContent = 'Fit to width';
+                break;
+            case '100':
+                pageDisplay.classList.add('zoomed');
+                document.getElementById('zoom-100').classList.add('active');
+                zoomLevel.textContent = '100% - scroll to pan';
+                break;
+            case '150':
+                pageDisplay.classList.add('zoomed');
+                img.style.transform = 'scale(1.5)';
+                img.style.transformOrigin = 'top center';
+                document.getElementById('zoom-150').classList.add('active');
+                zoomLevel.textContent = '150% - scroll to pan';
+                break;
+        }
+    }
+
+    toggleImageZoom() {
+        // Toggle between fit-screen and 100% zoom
+        if (this.zoomMode === 'fit-screen' || this.zoomMode === 'fit-width') {
+            this.setZoom('100');
+        } else {
+            this.setZoom('fit-screen');
+        }
     }
 
     setupKeyboardShortcuts() {
@@ -87,6 +149,24 @@ class ComicReader {
                 case 'G':
                     e.preventDefault();
                     this.toggleView();
+                    break;
+                case 'f':
+                case 'F':
+                    e.preventDefault();
+                    this.setZoom('fit-screen');
+                    break;
+                case 'w':
+                case 'W':
+                    e.preventDefault();
+                    this.setZoom('fit-width');
+                    break;
+                case '1':
+                    e.preventDefault();
+                    this.setZoom('100');
+                    break;
+                case '2':
+                    e.preventDefault();
+                    this.setZoom('150');
                     break;
             }
         });
