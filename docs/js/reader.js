@@ -183,6 +183,11 @@ class ComicReader {
         }, { passive: true });
 
         pageDisplay.addEventListener('touchend', (e) => {
+            // Don't navigate when zoomed - user is panning the image
+            if (this.zoomMode === '100' || this.zoomMode === '150') {
+                return;
+            }
+
             const touchEndX = e.changedTouches[0].clientX;
             const touchEndY = e.changedTouches[0].clientY;
 
