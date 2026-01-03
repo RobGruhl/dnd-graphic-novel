@@ -237,6 +237,32 @@ Run `python scripts/utilities/fix_page_jsons.py` to automatically:
 - Add missing character/monster entries to panels (pulls from databases)
 - Add missing location fields (infers from visual text)
 
+### CRITICAL: Keep `prompt` Field in Sync with `characters` Dict!
+
+Each panel has TWO places where character descriptions appear:
+1. **`characters` dict** - Embedded descriptions (used by dynamic assembly)
+2. **`prompt` field** - Pre-assembled prompt text (used directly by generator)
+
+**The generator uses the `prompt` field if it exists!** If you update the `characters` dict but not the `prompt` field, the old descriptions will still be used.
+
+**When editing character descriptions:**
+1. Update the `characters` dict with the new description
+2. **ALSO update the `prompt` field** to match
+3. Delete the existing panel image to force regeneration
+4. Regenerate the panel
+
+**Example of mismatched fields (BUG):**
+```json
+{
+  "characters": {
+    "ShadowSorcerer": "Menacing hooded figure with BURNING PURPLE EYES..."  // NEW
+  },
+  "prompt": "...Spirit Wizard: sad ghost, NOT scary, like Casper..."  // OLD - still used!
+}
+```
+
+**Fix:** Update BOTH fields to have consistent descriptions.
+
 ### Database Files
 
 - `characters.json` - Player characters, NPCs, companions (17 entries)
@@ -247,17 +273,30 @@ Run `python scripts/utilities/fix_page_jsons.py` to automatically:
 
 ## Character Description Guidelines for Image Generation
 
-### Spirit Wizard (Final Boss)
-The antagonist should be rendered as a **gentle, sad ghost** - NOT a scary zombie:
+### Shadow Sorcerer (Final Boss)
+The antagonist has TWO states - genuinely menacing BEFORE defeat, then revealed as tragic AFTER:
 
+**BEFORE DEFEAT (Pages 20-21 panels 1-3):** Menacing hooded villain
 ```
-AN ETHEREAL SPIRIT - translucent and wispy like a gentle ghost, NOT scary or undead-looking.
-Abstract humanoid form in tattered ceremonial robes. Glowing purple eyes that look SAD and LONELY,
-not evil. Form is translucent, you can see through it. A TRAGIC spirit - once was a young person
-who failed the Choosing long ago. More like Casper than a zombie.
+A hooded figure in tattered robes. Darkness swirls around them like a living cloak.
+Eyes burn with cold purple fire. NOT a zombie, NOT undead flesh - a formless spirit
+of rage and bitterness. Deep hood conceals face - only BURNING PURPLE EYES visible.
+Genuinely threatening and powerful. Arms spread in dramatic villain pose.
 ```
 
-**Why:** The player is young; no scary zombies/undead. The Spirit Wizard is a tragic figure to be redeemed.
+**AFTER DEFEAT (Page 21 panel 4):** Revealed as cursed victim, now freed
+```
+The darkness FADES to reveal who they used to be - not a monster, just someone young,
+someone scared. Young face now visible as darkness dissolves. Purple fire dims to soft
+light, then goes out. Expression shows recognition and release. Quietly dissolving into
+motes of fading light. Not pitiful - just finally at peace.
+```
+
+**Why:**
+- Before defeat: A real threat, not a sad ghost. Makes victory meaningful.
+- After defeat: Reveals the curse has been broken - heroic rescue moment.
+- NOT a zombie or undead human - formless spirit with hood hiding face.
+- The player (young) shouldn't see scary undead, but the villain should feel dangerous.
 
 ### Lizardfolk Sorcerer (Hero Post-Transformation)
 When generating Lightsword after transformation, **NEVER use the name "Lightsword"** - it causes swords to appear:
