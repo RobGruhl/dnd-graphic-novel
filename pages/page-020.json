@@ -23,46 +23,42 @@
     {
       "panel_num": 2,
       "annotation": null,
-      "visual": "Visual: Close-up on the Shadow Sorcerer's face - rage and centuries of jealousy burning in those purple eyes. Characters: Shadow Sorcerer",
-      "dialogue": "Shadow Sorcerer: \"I was like you once. I came to the Choosing. I gave EVERYTHING.\"",
+      "visual": "Visual: Close-up on the Spirit's translucent face - sadness and longing in those glowing purple eyes. NOT scary, NOT undead - a tragic ghost who looks more lonely than evil. Characters: Spirit Wizard",
+      "dialogue": "Spirit: \"I was like you once. I came to the Choosing. I gave EVERYTHING.\"",
       "characters": {
-        "ShadowSorcerer": "A hooded figure in tattered dark robes - once a Choosing candidate who failed and died in bitterness centuries ago. Face is a hollow mask of who they once were. Purple eyes burning with jealousy and rage. Form flickers between solid and shadow. Tragic rather than purely evil.",
-        "Shadow": "An incorporeal undead creature of pure darkness, vaguely humanoid silhouette with no distinguishing features except cold pinpricks of malevolent white light for eyes. Sliding along walls and floor, reaching with grasping shadow hands toward the trapped pegasus."
+        "SpiritWizard": "AN ETHEREAL SPIRIT - translucent and wispy like a gentle ghost, NOT scary or undead-looking. Abstract humanoid form in tattered ceremonial robes. Glowing purple eyes that look SAD and LONELY, not evil. Form is translucent, you can see through it. A TRAGIC spirit - once was a young person who failed the Choosing long ago. More like Casper than a zombie."
       },
       "npcs": {},
       "aspect_ratio": "3:4",
       "size": "768x1024",
-      "prompt": "Professional comic book panel illustration.\n\nScene: Visual: Close-up on the Shadow Sorcerer's face - rage and centuries of jealousy burning in those purple eyes. Characters: Shadow Sorcerer\n\nDialogue: Shadow Sorcerer: \"I was like you once. I came to the Choosing. I gave EVERYTHING.\"\n\nInclude speech bubbles with the dialogue text clearly readable.\n\nStyle: Bold ink line art, vibrant colors, dynamic composition, sequential art style, graphic novel quality."
+      "prompt": "Professional comic book panel illustration.\n\nCharacters:\n- Spirit Wizard: AN ETHEREAL SPIRIT - translucent and wispy like a gentle ghost, NOT scary or undead-looking. Glowing purple eyes that look SAD and LONELY. Form is see-through and translucent. A TRAGIC spirit, more like Casper than a monster.\n\nScene: Close-up on the Spirit's translucent face - sadness and longing in those glowing purple eyes. NOT scary, NOT undead - a tragic ghost who looks more lonely than evil.\n\nDialogue: Spirit: \"I was like you once. I came to the Choosing. I gave EVERYTHING.\"\n\nInclude speech bubbles with the dialogue text clearly readable.\n\nStyle: Bold ink line art, vibrant colors, dynamic composition, sequential art style, graphic novel quality."
     },
     {
       "panel_num": 3,
       "annotation": null,
-      "visual": "Visual: The Sorcerer's form flickers with shadows, spreading arms wide. Characters: Shadow Sorcerer",
-      "dialogue": "Shadow Sorcerer: \"And I FAILED. I wasn't good enough. I died here, ALONE, FORGOTTEN!\"",
+      "visual": "Visual: The Spirit's translucent form flickers, spreading arms wide in anguish. NOT scary - a sad lonely ghost expressing pain. Characters: Spirit Wizard",
+      "dialogue": "Spirit: \"And I FAILED. I wasn't good enough. I died here, ALONE, FORGOTTEN!\"",
       "characters": {
-        "ShadowSorcerer": "A hooded figure in tattered dark robes - once a Choosing candidate who failed and died in bitterness centuries ago. Face is a hollow mask of who they once were. Purple eyes burning with jealousy and rage. Form flickers between solid and shadow. Tragic rather than purely evil.",
-        "Shadow": "An incorporeal undead creature of pure darkness, vaguely humanoid silhouette with no distinguishing features except cold pinpricks of malevolent white light for eyes. Sliding along walls and floor, reaching with grasping shadow hands toward the trapped pegasus."
+        "SpiritWizard": "AN ETHEREAL SPIRIT - translucent and wispy like a gentle ghost, NOT scary or undead-looking. Abstract humanoid form in tattered ceremonial robes. Glowing purple eyes that look SAD and LONELY, not evil. Form is translucent, you can see through it. A TRAGIC spirit expressing anguish and loneliness. More like Casper than a zombie."
       },
       "npcs": {},
       "aspect_ratio": "3:4",
       "size": "768x1024",
-      "prompt": "Professional comic book panel illustration.\n\nScene: Visual: The Sorcerer's form flickers with shadows, spreading arms wide. Characters: Shadow Sorcerer\n\nDialogue: Shadow Sorcerer: \"And I FAILED. I wasn't good enough. I died here, ALONE, FORGOTTEN!\"\n\nInclude speech bubbles with the dialogue text clearly readable.\n\nStyle: Bold ink line art, vibrant colors, dynamic composition, sequential art style, graphic novel quality."
+      "prompt": "Professional comic book panel illustration.\n\nCharacters:\n- Spirit Wizard: AN ETHEREAL SPIRIT - translucent and wispy like a gentle ghost, NOT scary. Glowing purple eyes full of SADNESS. Form is see-through and translucent. A TRAGIC spirit expressing anguish. More like Casper than a monster.\n\nScene: The Spirit's translucent form flickers, spreading arms wide in anguish. NOT scary - a sad lonely ghost expressing pain.\n\nDialogue: Spirit: \"And I FAILED. I wasn't good enough. I died here, ALONE, FORGOTTEN!\"\n\nInclude speech bubbles with the dialogue text clearly readable.\n\nStyle: Bold ink line art, vibrant colors, dynamic composition, sequential art style, graphic novel quality."
     },
     {
       "panel_num": 4,
       "annotation": null,
-      "visual": "Visual: The Sorcerer points accusingly at Lightsword, shadows swirling. Characters: Shadow Sorcerer, Lightsword",
-      "dialogue": "Shadow Sorcerer: \"Now I'll take YOUR power! I'll drain EVERYTHING you have!\" Lightsword: \"I won't let you hurt Spore.\" ",
+      "visual": "Visual: The Spirit points accusingly at the Glowing Hero, wisps of energy swirling. The Spirit is NOT scary - still sad and lonely even in anger. Characters: Spirit Wizard, Glowing Hero",
+      "dialogue": "Spirit: \"Now I'll take YOUR power! I'll drain EVERYTHING you have!\" Hero: \"I won't let you hurt Spore.\" ",
       "characters": {
-        "Lightsword": "A GLOWING ETHEREAL FIGURE made entirely of soft golden-white light. NOT a lizard, NOT humanoid with defined features - pure luminous energy in vaguely humanoid shape. No visible face, just two bright points of warm light where eyes would be. The entire body GLOWS and PULSES with inner light. Wearing simple cream-colored ceremonial robes that the light shines through. Ethereal, mysterious, magical being of pure radiance.",
-        "LightswordGlowing": "A glowing, indeterminate humanoid figure wrapped in soft golden-white light. No defined species yet - ethereal and mysterious. Wearing simple ceremonial robes over the glowing form. Eyes are bright points of warm light. The light pulses gently with emotions.",
-        "ShadowSorcerer": "A hooded figure in tattered dark robes - once a Choosing candidate who failed and died in bitterness centuries ago. Face is a hollow mask of who they once were. Purple eyes burning with jealousy and rage. Form flickers between solid and shadow. Tragic rather than purely evil.",
-        "Shadow": "An incorporeal undead creature of pure darkness, vaguely humanoid silhouette with no distinguishing features except cold pinpricks of malevolent white light for eyes. Sliding along walls and floor, reaching with grasping shadow hands toward the trapped pegasus."
+        "GlowingHero": "A GLOWING ETHEREAL FIGURE made entirely of soft golden-white light. NOT a lizard, NOT humanoid with defined features - pure luminous energy in vaguely humanoid shape. No visible face, just two bright points of warm light where eyes would be. The entire body GLOWS and PULSES with inner light. Wearing simple cream-colored ceremonial robes that the light shines through. Ethereal, mysterious, magical being of pure radiance.",
+        "SpiritWizard": "AN ETHEREAL SPIRIT - translucent and wispy like a gentle ghost, NOT scary or undead-looking. Abstract humanoid form in tattered ceremonial robes. Glowing purple eyes - even in anger looks more sad than evil. Form is translucent. A TRAGIC spirit, more like Casper than a zombie."
       },
       "npcs": {},
       "aspect_ratio": "3:4",
       "size": "768x1024",
-      "prompt": "Professional comic book panel illustration.\n\nCharacters:\n- Lightsword: A GLOWING ETHEREAL FIGURE made entirely of soft golden-white light. NOT a lizard, NOT humanoid with defined features - pure luminous energy in vaguely humanoid shape. No visible face, just two bright points of warm light where eyes would be. The entire body GLOWS and PULSES with inner light. Wearing simple cream-colored ceremonial robes that the light shines through. Ethereal, mysterious, magical being of pure radiance.\n\nScene: Visual: The Sorcerer points accusingly at Lightsword, shadows swirling. Characters: Shadow Sorcerer, Lightsword\n\nDialogue: Shadow Sorcerer: \"Now I'll take YOUR power! I'll drain EVERYTHING you have!\" Lightsword: \"I won't let you hurt Spore.\" \n\nInclude speech bubbles with the dialogue text clearly readable.\n\nStyle: Bold ink line art, vibrant colors, dynamic composition, sequential art style, graphic novel quality."
+      "prompt": "Professional comic book panel illustration.\n\nCharacters:\n- Glowing Hero: A GLOWING ETHEREAL FIGURE made entirely of soft golden-white light. Pure luminous energy in humanoid shape. Two bright points of warm light for eyes. Wearing ceremonial robes that light shines through.\n- Spirit Wizard: AN ETHEREAL SPIRIT - translucent and wispy like a gentle ghost, NOT scary. Glowing purple eyes, still looks sad even in anger. A TRAGIC spirit, more like Casper than a monster.\n\nScene: The Spirit points accusingly at the Glowing Hero, wisps of energy swirling. The Spirit is NOT scary - still sad and lonely even in anger.\n\nDialogue: Spirit: \"Now I'll take YOUR power!\" Hero: \"I won't let you hurt Spore.\"\n\nInclude speech bubbles with the dialogue text clearly readable.\n\nStyle: Bold ink line art, vibrant colors, dynamic composition, sequential art style, graphic novel quality."
     }
   ]
 }
