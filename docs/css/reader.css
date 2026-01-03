@@ -194,6 +194,8 @@
 .page-display.zoomed {
     cursor: grab;
     overflow: auto;
+    justify-content: flex-start;
+    align-items: flex-start;
 }
 
 .page-display.zoomed:active {
