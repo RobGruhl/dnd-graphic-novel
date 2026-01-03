@@ -6,17 +6,17 @@
   "panels": [
     {
       "panel_num": 1,
-      "annotation": "Wide",
-      "visual": "Visual: The inner sanctum - a circular chamber with a domed ceiling painted with stars (now dim). In the center, a stone altar. SPORE is bound to it by chains of shadow, releasing SCARED GRAY SPORES. And rising behind the altar - THE SHADOW SORCERER. Hooded figure, tattered robes, hollow masked face, BURNING PURPLE EYES. Location: Temple Inner Sanctum (corrupted) Characters: Shadow Sorcerer, Spore (captive)",
-      "dialogue": "Shadow Sorcerer: \"So. Another candidate. Another CHOSEN ONE.\"",
+      "annotation": "Tall",
+      "visual": "Visual: The inner sanctum - a circular chamber with a domed ceiling painted with stars (now dim). In the center, a stone altar. SPORE THE MYCONID (a small mushroom creature with a pale cap and glowing blue spots, big dark eyes) is bound to the altar by chains of dark energy, releasing scared gray spores. And floating behind the altar - AN ETHEREAL SPIRIT WIZARD. Abstract ghostly form in tattered robes, glowing purple eyes, translucent and wispy - more like a sad spirit than a scary monster. Location: Temple Inner Sanctum (corrupted) Characters: Spirit Wizard, Spore the Myconid (captive)",
+      "dialogue": "Spirit: \"So. Another candidate. Another CHOSEN ONE.\"",
       "characters": {
-        "SporeCaptive": "Spore bound to the altar by chains of shadow in the corrupted Temple sanctum. Releasing scared gray spores. Big eyes wide with fear but lighting up with hope when Lightsword arrives. Struggling weakly against the dark chains.",
-        "ShadowSorcerer": "A hooded figure in tattered dark robes - once a Choosing candidate who failed and died in bitterness centuries ago. Face is a hollow mask of who they once were. Purple eyes burning with jealousy and rage. Form flickers between solid and shadow. Tragic rather than purely evil.",
-        "Shadow": "An incorporeal undead creature of pure darkness, vaguely humanoid silhouette with no distinguishing features except cold pinpricks of malevolent white light for eyes. Sliding along walls and floor, reaching with grasping shadow hands toward the trapped pegasus."
+        "SporeCaptive": "SPORE THE MYCONID - a small MUSHROOM CREATURE about knee-height. Pale cream-colored mushroom cap head with bioluminescent BLUE GLOWING SPOTS. Big expressive DARK EYES like pools of night. Short stubby mushroom body with tiny arms and legs. Bound to altar by chains of dark energy, releasing scared GRAY SPORES from fear. NOT a human, NOT an animal - a MUSHROOM PERSON.",
+        "ShadowSorcerer": "AN ETHEREAL SPIRIT - translucent and wispy like a ghost, NOT scary or undead-looking. Abstract humanoid form in tattered ceremonial robes. Glowing purple eyes that look more SAD than evil. Form is translucent, you can see through it. Floating gently, trailing wisps of energy. A TRAGIC spirit, not a monster - once was a young person who failed the Choosing long ago.",
+        "Shadow": "Wisps of dark energy floating in the air, abstract shapes, not threatening creatures."
       },
       "npcs": {},
-      "aspect_ratio": "wide",
-      "size": "1536x1024",
+      "aspect_ratio": "3:4",
+      "size": "768x1024",
       "prompt": "Professional comic book panel illustration.\n\nScene: Visual: The inner sanctum - a circular chamber with a domed ceiling painted with stars (now dim). In the center, a stone altar. SPORE is bound to it by chains of shadow, releasing SCARED GRAY SPORES. And rising behind the altar - THE SHADOW SORCERER. Hooded figure, tattered robes, hollow masked face, BURNING PURPLE EYES. Location: Temple Inner Sanctum (corrupted) Characters: Shadow Sorcerer, Spore (captive)\n\nDialogue: Shadow Sorcerer: \"So. Another candidate. Another CHOSEN ONE.\"\n\nInclude speech bubbles with the dialogue text clearly readable.\n\nStyle: Bold ink line art, vibrant colors, dynamic composition, sequential art style, graphic novel quality.",
       "location": "TempleSanctum"
     },

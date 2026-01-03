@@ -11,8 +11,8 @@
       "dialogue": "(Caption): \"But the Temple... the Temple was under attack.\"",
       "characters": {},
       "npcs": {},
-      "aspect_ratio": "wide",
-      "size": "1536x1024",
+      "aspect_ratio": "3:4",
+      "size": "768x1024",
       "prompt": "Professional comic book panel illustration.\n\nScene: Visual: The Temple of Aspects - but WRONG. The four towers are DIM. Banners are TORN. Cold, unnatural MIST seeps from the doors. DARKNESS surrounds it. Location: Temple of Aspects (corrupted) Characters: (Temple exterior)\n\nDialogue: (Caption): \"But the Temple... the Temple was under attack.\"\n\nInclude speech bubbles with the dialogue text clearly readable.\n\nStyle: Bold ink line art, vibrant colors, dynamic composition, sequential art style, graphic novel quality.",
       "location": "TempleCourtyard"
     },

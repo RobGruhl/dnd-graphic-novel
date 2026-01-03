@@ -37,12 +37,12 @@
     {
       "panel_num": 3,
       "annotation": null,
-      "visual": "Visual: ACTION SCENE - Darkstorm the flying wolf SLAMS into a goblin mid-air, knocking it from the tower. Below, Lightsword fires a glowing energy bolt that strikes a ground goblin. Two goblins falling defeated. Characters: Darkstorm (flying), Lightsword, Goblins (defeated)",
+      "visual": "Visual: ACTION SCENE - Darkstorm the dire wolf MAGICALLY FLOATING through the air (NO WINGS - enchanted with flight magic, golden energy swirls around paws). The wolf SLAMS into a goblin mid-air. Below, a glowing figure fires an energy bolt at a ground goblin. Two goblins falling defeated. Characters: Darkstorm (magically flying, no wings), Glowing Hero, Goblins (defeated)",
       "dialogue": "NO TEXT IN THIS PANEL - pure action scene with no speech bubbles or sound effects",
       "characters": {
         "Lightsword": "A GLOWING ETHEREAL FIGURE made entirely of soft golden-white light. NOT a lizard, NOT humanoid with defined features - pure luminous energy in vaguely humanoid shape. No visible face, just two bright points of warm light where eyes would be. The entire body GLOWS and PULSES with inner light. Wearing simple cream-colored ceremonial robes that the light shines through. Ethereal, mysterious, magical being of pure radiance.",
         "LightswordGlowing": "A glowing, indeterminate humanoid figure wrapped in soft golden-white light. No defined species yet - ethereal and mysterious. Wearing simple ceremonial robes over the glowing form. Eyes are bright points of warm light. The light pulses gently with emotions.",
-        "Darkstorm": "An enormous wolf the size of a horse, with thick silver-grey fur. Once cursed and in pain, now healed and loyal. Intelligent amber eyes show gratitude and devotion. Follows at respectful distance, ready to protect. Named Darkstorm after being freed from shadow chains.",
+        "Darkstorm": "An enormous wolf the size of a horse with thick silver-grey fur. NO WINGS - magically enchanted to fly with golden energy swirling around its paws. Floating through the air supernaturally. Intelligent amber eyes, fangs bared in attack.",
         "GoblinWarrior": "A small green-skinned goblin with large pointed ears and a long nose. Yellow eyes gleaming with cruel mischief. Wearing scrappy leather armor, armed with scimitar and shield. Sneering from atop the ruined tower, firing arrows at helpless travelers."
       },
       "npcs": {},
