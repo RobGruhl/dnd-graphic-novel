@@ -79,18 +79,18 @@
   "GarrettMerchant": {
     "name": "Garrett the Traveling Merchant",
     "role": "Rescued NPC / Reward Giver",
-    "full_description": "A weathered but cheerful traveling merchant with a grey beard and kind eyes. Dressed in practical traveling clothes with many pockets. Grateful to be rescued from goblins and eager to reward his savior with goods from his wagon.",
+    "full_description": "A jovial MEDIEVAL FANTASY traveling merchant with a full grey beard and kind eyes. Dressed in a colorful patchwork traveling cloak over simple medieval peasant clothes. Wears a floppy wide-brimmed hat. His wooden merchant wagon is painted with faded guild symbols. Grateful to be rescued from goblins.",
     "description_components": {
-      "head_face": "Weathered human face with laugh lines, bushy grey beard, kind twinkling brown eyes, balding head with remaining grey hair, grateful relieved expression",
+      "head_face": "Round friendly human face with rosy cheeks, full bushy grey beard, kind twinkling brown eyes, weathered skin from travel, wearing a floppy wide-brimmed cloth hat",
       "body_build": "Stocky middle-aged build, slight paunch from good living, strong arms from loading wagons, mid-50s",
-      "armor_clothing": "Practical brown traveling coat with many pockets, cream linen shirt, sturdy leather belt with coin pouches, worn leather boots",
-      "accessories": "Leather satchel over shoulder, merchant guild medallion on chain, small knife at belt for cutting rope and packages"
+      "armor_clothing": "Colorful patchwork traveling cloak with many sewn patches, simple cream tunic underneath, brown leather vest, rope belt with coin pouches, worn leather boots - MEDIEVAL FANTASY style",
+      "accessories": "Wooden walking staff, leather satchel with brass buckles, merchant guild bronze medallion on leather cord"
     }
   },
   "GarrettHiding": {
     "name": "Garrett (Under Attack)",
     "role": "NPC in Peril",
-    "full_description": "Garrett cowering behind his wagon as goblin arrows thud into the wood around him. Terrified but calling for help. Trying to protect his draft horse while staying in cover.",
+    "full_description": "A jovial MEDIEVAL FANTASY traveling merchant cowering behind his wooden wagon as goblin arrows thud into the wood around him. Full grey beard, floppy wide-brimmed hat, colorful patchwork cloak. Terrified but calling for help.",
     "description_components": {
       "head_face": "Same weathered face now pale with fear, eyes wide and searching for help, beard disheveled, mouth open calling for aid",
       "body_build": "Same stocky frame now crouched low behind wagon wheel, making himself small",
@@ -123,21 +123,21 @@
   "Pip": {
     "name": "Pip the Pseudodragon",
     "role": "Rescued Companion",
-    "full_description": "A cat-sized dragon with reddish-brown scales and iridescent bat-like wings. Large expressive eyes full of intelligence and emotion. Found injured in the maze, becomes a loyal companion when shown kindness. Communicates through emotion rather than words.",
+    "full_description": "A tiny dragon about the size of a rabbit, with warm reddish-brown scales and beautiful iridescent bat-like wings. Has a distinctly reptilian dragon head with large expressive amber eyes, small curved horns, and an elongated snout. Long serpentine neck and tail. Found injured in the maze, becomes a loyal companion when shown kindness. Communicates through emotion rather than words.",
     "description_components": {
-      "head_face": "Small DRAGON head with large expressive amber eyes, tiny curved horns, elongated reptilian snout with small nostrils, intelligent curious expression - this is a dragon not a cat",
-      "body_build": "Cat-sized dragon body covered in reddish-brown scales, sinuous and graceful, long neck and tail",
-      "armor_clothing": "Natural scales in warm reddish-brown tones, iridescent sheen catching light, no clothing or adornment",
-      "accessories": "Bat-like wings folded or spread, long tail ending in venomous stinger (only used to help friends), small clawed feet for perching on shoulders"
+      "head_face": "Small reptilian DRAGON head with large expressive amber eyes, tiny curved horns, elongated snout with small nostrils, intelligent curious expression",
+      "body_build": "Tiny dragon body about the size of a rabbit, covered in warm reddish-brown scales, sinuous serpentine form with long graceful neck and tail",
+      "armor_clothing": "Natural scales in warm reddish-brown tones with iridescent sheen catching light, no clothing",
+      "accessories": "Bat-like wings folded or spread, long tail ending in small stinger, small clawed feet for perching on shoulders"
     }
   },
   "PipInjured": {
     "name": "Pip (Injured in Maze)",
     "role": "NPC in Need",
-    "full_description": "The same pseudodragon but hurt and frightened. One wing bent at wrong angle, curled up protectively in hidden alcove. Eyes huge with fear and hope when first seen. Surrounded by tiny treasures collected before injury.",
+    "full_description": "A tiny injured dragon (pseudodragon) about the size of a rabbit. Warm reddish-brown scales, reptilian dragon head with large frightened amber eyes, one bat-like wing bent at wrong angle. Curled up protectively in hidden alcove. Eyes huge with fear and hope when first seen.",
     "description_components": {
-      "head_face": "Same small dragon head, eyes enormous with fear and hope, pressed low against ground, tiny whimper",
-      "body_build": "Same cat-sized body curled up defensively, one wing bent at painful angle, shivering slightly",
+      "head_face": "Small reptilian dragon head with enormous frightened amber eyes, pressed low against ground, tiny whimper",
+      "body_build": "Tiny dragon body about rabbit-sized, curled up defensively, one wing bent at painful angle, shivering slightly",
       "armor_clothing": "Same reddish-brown scales now dusty, some scales scuffed from injury, iridescence dimmed",
       "accessories": "One wing bent wrong trailing painfully, tail curled around body protectively, surrounded by small shiny treasures (coins broken crystal pretty stones)"
     }

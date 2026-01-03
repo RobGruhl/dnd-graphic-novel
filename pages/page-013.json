@@ -7,10 +7,10 @@
     {
       "panel_num": 1,
       "annotation": null,
-      "visual": "Visual: A hidden alcove behind a cracked crystal column. Curled up inside is a tiny pseudodragon - cat-sized, reddish-brown scales, iridescent wings. One wing is bent wrong. Big, frightened eyes look up. Location: Maze - Hidden Alcove Characters: Pip (injured)",
+      "visual": "Visual: A hidden alcove in the UNDERGROUND crystal maze behind a cracked crystal column. Curled up inside is a tiny dragon (pseudodragon) - rabbit-sized, reddish-brown scales, iridescent wings. One wing is bent wrong. Large frightened amber eyes look up from a reptilian dragon face. Location: Maze - Hidden Alcove Characters: Pip (injured)",
       "dialogue": "(Caption): \"In a hidden alcove...\" Pip: *sad chirping sounds*",
       "characters": {
-        "PipInjured": "The same pseudodragon but hurt and frightened. One wing bent at wrong angle, curled up protectively in hidden alcove. Eyes huge with fear and hope when first seen. Surrounded by tiny treasures collected before injury."
+        "PipInjured": "A tiny injured dragon (pseudodragon) about the size of a rabbit. Warm reddish-brown scales, reptilian dragon head with large frightened amber eyes, one bat-like wing bent at wrong angle. Curled up protectively."
       },
       "npcs": {},
       "aspect_ratio": "3:4",
@@ -26,7 +26,7 @@
       "characters": {
         "Lightsword": "A GLOWING ETHEREAL FIGURE made entirely of soft golden-white light. NOT a lizard, NOT humanoid with defined features - pure luminous energy in vaguely humanoid shape. No visible face, just two bright points of warm light where eyes would be. The entire body GLOWS and PULSES with inner light. Wearing simple cream-colored ceremonial robes that the light shines through. Ethereal, mysterious, magical being of pure radiance.",
         "LightswordGlowing": "A glowing, indeterminate humanoid figure wrapped in soft golden-white light. No defined species yet - ethereal and mysterious. Wearing simple ceremonial robes over the glowing form. Eyes are bright points of warm light. The light pulses gently with emotions.",
-        "Pip": "A cat-sized dragon with reddish-brown scales and iridescent bat-like wings. Large expressive eyes full of intelligence and emotion. Found injured in the maze, becomes a loyal companion when shown kindness. Communicates through emotion rather than words."
+        "Pip": "A tiny dragon (pseudodragon) about the size of a rabbit, with warm reddish-brown scales and iridescent bat-like wings. Distinctly reptilian dragon head with large expressive amber eyes, small curved horns, elongated snout. Long serpentine neck and tail. Communicates through emotion."
       },
       "npcs": {},
       "aspect_ratio": "3:4",
@@ -41,7 +41,7 @@
       "characters": {
         "Lightsword": "A GLOWING ETHEREAL FIGURE made entirely of soft golden-white light. NOT a lizard, NOT humanoid with defined features - pure luminous energy in vaguely humanoid shape. No visible face, just two bright points of warm light where eyes would be. The entire body GLOWS and PULSES with inner light. Wearing simple cream-colored ceremonial robes that the light shines through. Ethereal, mysterious, magical being of pure radiance.",
         "LightswordGlowing": "A glowing, indeterminate humanoid figure wrapped in soft golden-white light. No defined species yet - ethereal and mysterious. Wearing simple ceremonial robes over the glowing form. Eyes are bright points of warm light. The light pulses gently with emotions.",
-        "Pip": "A cat-sized dragon with reddish-brown scales and iridescent bat-like wings. Large expressive eyes full of intelligence and emotion. Found injured in the maze, becomes a loyal companion when shown kindness. Communicates through emotion rather than words."
+        "Pip": "A tiny dragon (pseudodragon) about the size of a rabbit, with warm reddish-brown scales and iridescent bat-like wings. Distinctly reptilian dragon head with large expressive amber eyes, small curved horns, elongated snout. Long serpentine neck and tail. Communicates through emotion."
       },
       "npcs": {},
       "aspect_ratio": "3:4",
@@ -56,7 +56,7 @@
       "characters": {
         "Lightsword": "A GLOWING ETHEREAL FIGURE made entirely of soft golden-white light. NOT a lizard, NOT humanoid with defined features - pure luminous energy in vaguely humanoid shape. No visible face, just two bright points of warm light where eyes would be. The entire body GLOWS and PULSES with inner light. Wearing simple cream-colored ceremonial robes that the light shines through. Ethereal, mysterious, magical being of pure radiance.",
         "LightswordGlowing": "A glowing, indeterminate humanoid figure wrapped in soft golden-white light. No defined species yet - ethereal and mysterious. Wearing simple ceremonial robes over the glowing form. Eyes are bright points of warm light. The light pulses gently with emotions.",
-        "Pip": "A cat-sized dragon with reddish-brown scales and iridescent bat-like wings. Large expressive eyes full of intelligence and emotion. Found injured in the maze, becomes a loyal companion when shown kindness. Communicates through emotion rather than words."
+        "Pip": "A tiny dragon (pseudodragon) about the size of a rabbit, with warm reddish-brown scales and iridescent bat-like wings. Distinctly reptilian dragon head with large expressive amber eyes, small curved horns, elongated snout. Long serpentine neck and tail. Communicates through emotion."
       },
       "npcs": {},
       "aspect_ratio": "3:4",

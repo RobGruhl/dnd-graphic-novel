@@ -10,12 +10,12 @@
       "visual": "Visual: CHAOS! A ruined tower (30 feet high) with THREE GOBLIN ARCHERS on top raining arrows down. A merchant's wagon is pinned in a clearing - GARRETT hiding behind it. On the ground, a GOBLIN and GOBLIN BOSS creep toward him with drawn swords. Location: Ruined tower clearing Characters: Goblins (5), Garrett the Merchant",
       "dialogue": "Garrett: \"HELP! Please, someone help!\" Goblin Boss: \"Heheheh! Give us your gold, human!\"",
       "characters": {
-        "GarrettMerchant": "A weathered but cheerful traveling merchant with a grey beard and kind eyes. Dressed in practical traveling clothes with many pockets. Grateful to be rescued from goblins and eager to reward his savior with goods from his wagon.",
+        "GarrettMerchant": "A jovial MEDIEVAL FANTASY traveling merchant with a full grey beard and kind eyes. Wears a colorful patchwork traveling cloak over simple medieval peasant clothes, floppy wide-brimmed cloth hat. His wooden merchant wagon is painted with faded guild symbols.",
         "GoblinWarrior": "A small green-skinned goblin with large pointed ears and a long nose. Yellow eyes gleaming with cruel mischief. Wearing scrappy leather armor, armed with scimitar and shield. Sneering from atop the ruined tower, firing arrows at helpless travelers."
       },
       "npcs": {},
-      "aspect_ratio": "wide",
-      "size": "1536x1024",
+      "aspect_ratio": "3:4",
+      "size": "768x1024",
       "prompt": "Professional comic book panel illustration.\n\nScene: Visual: CHAOS! A ruined tower (30 feet high) with THREE GOBLIN ARCHERS on top raining arrows down. A merchant's wagon is pinned in a clearing - GARRETT hiding behind it. On the ground, a GOBLIN and GOBLIN BOSS creep toward him with drawn swords. Location: Ruined tower clearing Characters: Goblins (5), Garrett the Merchant\n\nDialogue: Garrett: \"HELP! Please, someone help!\" Goblin Boss: \"Heheheh! Give us your gold, human!\"\n\nInclude speech bubbles with the dialogue text clearly readable.\n\nStyle: Bold ink line art, vibrant colors, dynamic composition, sequential art style, graphic novel quality.",
       "location": "TowerRuins"
     },
@@ -28,7 +28,7 @@
         "Lightsword": "A GLOWING ETHEREAL FIGURE made entirely of soft golden-white light. NOT a lizard, NOT humanoid with defined features - pure luminous energy in vaguely humanoid shape. No visible face, just two bright points of warm light where eyes would be. The entire body GLOWS and PULSES with inner light. Wearing simple cream-colored ceremonial robes that the light shines through. Ethereal, mysterious, magical being of pure radiance.",
         "LightswordGlowing": "A glowing, indeterminate humanoid figure wrapped in soft golden-white light. No defined species yet - ethereal and mysterious. Wearing simple ceremonial robes over the glowing form. Eyes are bright points of warm light. The light pulses gently with emotions.",
         "Darkstorm": "An enormous wolf the size of a horse, with thick silver-grey fur. Once cursed and in pain, now healed and loyal. Intelligent amber eyes show gratitude and devotion. Follows at respectful distance, ready to protect. Named Darkstorm after being freed from shadow chains.",
-        "GarrettMerchant": "A weathered but cheerful traveling merchant with a grey beard and kind eyes. Dressed in practical traveling clothes with many pockets. Grateful to be rescued from goblins and eager to reward his savior with goods from his wagon."
+        "GarrettMerchant": "A jovial MEDIEVAL FANTASY traveling merchant with a full grey beard and kind eyes. Wears a colorful patchwork traveling cloak over simple medieval peasant clothes, floppy wide-brimmed cloth hat. His wooden merchant wagon is painted with faded guild symbols."
       },
       "npcs": {},
       "aspect_ratio": "3:4",

@@ -7,7 +7,7 @@
     {
       "panel_num": 1,
       "annotation": "Wide",
-      "visual": "Visual: Inside the maze - walls of shimmering crystal that reflect Lightsword's image a thousand times. Some reflections look normal, others... wrong. Colored lights pulse through the crystal. Location: Maze of Echoes entrance Characters: Lightsword, Darkstorm",
+      "visual": "Visual: UNDERGROUND crystal maze - walls of shimmering crystal that reflect Lightsword's image a thousand times. Bioluminescent crystals embedded in the cave walls pulse with colored light. Some reflections look normal, others... wrong. Location: Maze of Echoes entrance Characters: Lightsword, Darkstorm",
       "dialogue": "(Caption): \"The Maze of Echoes. Illusions, traps, and somewhere deeper... crying.\"",
       "characters": {
         "Lightsword": "A GLOWING ETHEREAL FIGURE made entirely of soft golden-white light. NOT a lizard, NOT humanoid with defined features - pure luminous energy in vaguely humanoid shape. No visible face, just two bright points of warm light where eyes would be. The entire body GLOWS and PULSES with inner light. Wearing simple cream-colored ceremonial robes that the light shines through. Ethereal, mysterious, magical being of pure radiance.",
@@ -15,8 +15,8 @@
         "Darkstorm": "An enormous wolf the size of a horse, with thick silver-grey fur. Once cursed and in pain, now healed and loyal. Intelligent amber eyes show gratitude and devotion. Follows at respectful distance, ready to protect. Named Darkstorm after being freed from shadow chains."
       },
       "npcs": {},
-      "aspect_ratio": "wide",
-      "size": "1536x1024",
+      "aspect_ratio": "3:4",
+      "size": "768x1024",
       "prompt": "Professional comic book panel illustration.\n\nCharacters:\n- Lightsword: A GLOWING ETHEREAL FIGURE made entirely of soft golden-white light. NOT a lizard, NOT humanoid with defined features - pure luminous energy in vaguely humanoid shape. No visible face, just two bright points of warm light where eyes would be. The entire body GLOWS and PULSES with inner light. Wearing simple cream-colored ceremonial robes that the light shines through. Ethereal, mysterious, magical being of pure radiance.\n\nScene: Visual: Inside the maze - walls of shimmering crystal that reflect Lightsword's image a thousand times. Some reflections look normal, others... wrong. Colored lights pulse through the crystal. Location: Maze of Echoes entrance Characters: Lightsword, Darkstorm\n\nDialogue: (Caption): \"The Maze of Echoes. Illusions, traps, and somewhere deeper... crying.\"\n\nInclude speech bubbles with the dialogue text clearly readable.\n\nStyle: Bold ink line art, vibrant colors, dynamic composition, sequential art style, graphic novel quality.",
       "location": "MazeEntrance"
     },

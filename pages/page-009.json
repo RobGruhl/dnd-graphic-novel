@@ -57,7 +57,7 @@
       "visual": "Visual: The Goblin Boss calls retreat, remaining goblins fleeing into the underbrush. Garrett emerges from behind his wagon, relieved. Characters: Goblin Boss (fleeing), Garrett",
       "dialogue": "Goblin Boss: \"RETREAT! RETREAT!\" Garrett: \"By the gods... you saved me!\" ",
       "characters": {
-        "GarrettMerchant": "A weathered but cheerful traveling merchant with a grey beard and kind eyes. Dressed in practical traveling clothes with many pockets. Grateful to be rescued from goblins and eager to reward his savior with goods from his wagon.",
+        "GarrettMerchant": "A jovial MEDIEVAL FANTASY traveling merchant with a full grey beard and kind eyes. Wears a colorful patchwork traveling cloak over simple medieval peasant clothes, floppy wide-brimmed cloth hat. His wooden merchant wagon is painted with faded guild symbols.",
         "GoblinWarrior": "A small green-skinned goblin with large pointed ears and a long nose. Yellow eyes gleaming with cruel mischief. Wearing scrappy leather armor, armed with scimitar and shield. Sneering from atop the ruined tower, firing arrows at helpless travelers."
       },
       "npcs": {},

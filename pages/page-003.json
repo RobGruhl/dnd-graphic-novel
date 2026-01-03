@@ -7,7 +7,7 @@
     {
       "panel_num": 1,
       "annotation": "Wide - LANDSCAPE",
-      "visual": "Visual: The Temple of Aspects rises magnificently - an ancient stone building with four towers, each glowing a different color: red, green, blue, and gold. Banners flutter in the breeze. The glowing figure approaches through a crowd of other young candidates.",
+      "visual": "Visual: UNDERGROUND CAVERN - Lightsword approaches through a crowd of other glowing candidates in the vast Temple Cavern. Bioluminescent crystals light the massive underground space. The Temple of Aspects rises from the cavern floor ahead. Characters: Lightsword (among candidates)",
       "dialogue": "(Caption): \"The Temple of Aspects. Four towers. Four powers. One destiny.\"",
       "location": "TempleCourtyard",
       "characters": {
@@ -15,7 +15,8 @@
       },
       "npcs": {},
       "aspect_ratio": "3:4",
-      "size": "768x1024"
+      "size": "768x1024",
+      "prompt": "Professional comic book panel illustration.\n\nLocation: A sacred underground cathedral carved into a massive natural cavern. The Temple of Aspects rises from the cavern floor, its four towers reaching toward the distant ceiling where massive crystals glow in red, green, blue, and gold. Young candidates gather nervously on the polished stone floor while guards stand at attention. Stalactites hang like chandeliers above.\n\nCharacters:\n- Lightsword: A GLOWING ETHEREAL FIGURE made entirely of soft golden-white light approaching through a crowd. NOT a lizard, NOT humanoid with defined features - pure luminous energy in vaguely humanoid shape. No visible face, just two bright points of warm light where eyes would be. The entire body GLOWS and PULSES with inner light. Wearing simple cream-colored ceremonial robes that the light shines through. Walking toward the temple among other glowing candidate figures.\n\nScene: Visual: UNDERGROUND CAVERN - Lightsword approaches through a crowd of other glowing candidates in the vast Temple Cavern. Bioluminescent crystals light the massive underground space. The Temple of Aspects rises from the cavern floor ahead. Characters: Lightsword (among candidates)\n\nDialogue: (Caption): \"The Temple of Aspects. Four towers. Four powers. One destiny.\"\n\nInclude speech bubbles with the dialogue text clearly readable.\n\nStyle: Bold ink line art, vibrant colors, dynamic composition, sequential art style, graphic novel quality."
     },
     {
       "panel_num": 2,
