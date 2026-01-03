@@ -11,15 +11,30 @@
             display: grid;
             grid-template-columns: repeat(auto-fill, minmax(350px, 1fr));
             gap: 30px;
-            max-width: 1200px;
+            max-width: 1400px;
             margin: 0 auto;
             padding: 20px;
         }
         .location-card {
             background: var(--bg-secondary);
             border-radius: 12px;
-            padding: 25px;
+            overflow: hidden;
             border: 1px solid var(--border-color);
+            transition: transform 0.2s, box-shadow 0.2s;
+        }
+        .location-card:hover {
+            transform: translateY(-4px);
+            box-shadow: 0 8px 25px rgba(0,0,0,0.3);
+        }
+        .location-image {
+            width: 100%;
+            aspect-ratio: 16/9;
+            object-fit: cover;
+            display: block;
+            cursor: pointer;
+        }
+        .location-info {
+            padding: 25px;
         }
         .location-card h3 {
             color: var(--accent-color);
@@ -39,6 +54,37 @@
         .location-description {
             color: var(--text-primary);
             line-height: 1.7;
+        }
+        /* Lightbox */
+        .lightbox {
+            display: none;
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background: rgba(0,0,0,0.9);
+            z-index: 1000;
+            justify-content: center;
+            align-items: center;
+            cursor: pointer;
+        }
+        .lightbox.active {
+            display: flex;
+        }
+        .lightbox img {
+            max-width: 90%;
+            max-height: 90%;
+            object-fit: contain;
+            border-radius: 8px;
+        }
+        .lightbox-close {
+            position: absolute;
+            top: 20px;
+            right: 30px;
+            color: white;
+            font-size: 40px;
+            cursor: pointer;
         }
         .page-header {
             text-align: center;
@@ -77,63 +123,109 @@
 
         <div class="locations-grid">
             <div class="location-card">
-                <h3>Underground Cave Village</h3>
-                <span class="location-type">Starting Area</span>
-                <p class="location-description">Lightsword's home deep beneath the earth. A cozy cave bedroom beside an underground river teeming with blind cave fish. Soft bioluminescent mushrooms provide gentle light. Where Lightsword and Spore share their friendship before the Choosing.</p>
+                <img src="images/locations/cave-village.webp" alt="Underground Cave Village" class="location-image" onclick="openLightbox(this)">
+                <div class="location-info">
+                    <h3>Underground Cave Village</h3>
+                    <span class="location-type">Starting Area</span>
+                    <p class="location-description">Lightsword's home deep beneath the earth. A cozy cave bedroom beside an underground river teeming with blind cave fish. Soft bioluminescent mushrooms provide gentle light. Where Lightsword and Spore share their friendship before the Choosing.</p>
+                </div>
             </div>
 
             <div class="location-card">
-                <h3>Temple of Aspects</h3>
-                <span class="location-type">Sacred Site</span>
-                <p class="location-description">A magnificent temple complex with four towers representing the Aspects: red for Warrior, green for Hunter, blue for Arcane, and gold for Divine. The central courtyard hosts the Choosing ceremony where young heroes receive their Aspect cards and begin their trials.</p>
+                <img src="images/locations/temple-courtyard.webp" alt="Temple of Aspects" class="location-image" onclick="openLightbox(this)">
+                <div class="location-info">
+                    <h3>Temple of Aspects</h3>
+                    <span class="location-type">Sacred Site</span>
+                    <p class="location-description">A magnificent temple complex with four towers representing the Aspects: red for Warrior, green for Hunter, blue for Arcane, and gold for Divine. The central courtyard hosts the Choosing ceremony where young heroes receive their Aspect cards and begin their trials.</p>
+                </div>
             </div>
 
             <div class="location-card">
-                <h3>The Four Pillars</h3>
-                <span class="location-type">Tutorial Area</span>
-                <p class="location-description">Four glowing pillars in the Temple courtyard, each demonstrating an Aspect. The red pillar summons a training dummy, the green reveals illusory bushes, the blue creates a spinning crystal puzzle, and the gold presents a shadow over a flower.</p>
+                <img src="images/locations/four-pillars.webp" alt="The Four Pillars" class="location-image" onclick="openLightbox(this)">
+                <div class="location-info">
+                    <h3>The Four Pillars</h3>
+                    <span class="location-type">Tutorial Area</span>
+                    <p class="location-description">Four glowing pillars in the Temple courtyard, each demonstrating an Aspect. The red pillar summons a training dummy, the green reveals illusory bushes, the blue creates a spinning crystal puzzle, and the gold presents a shadow over a flower.</p>
+                </div>
             </div>
 
             <div class="location-card">
-                <h3>Whispering Valley</h3>
-                <span class="location-type">Trial 1</span>
-                <p class="location-description">A misty valley crossed by an ancient stone bridge over a rushing river. Wind whispers through twisted trees. The Cursed Dire Wolf guards the bridge, blocking passage until a hero shows compassion over combat.</p>
+                <img src="images/locations/stone-bridge.webp" alt="Whispering Valley" class="location-image" onclick="openLightbox(this)">
+                <div class="location-info">
+                    <h3>Whispering Valley</h3>
+                    <span class="location-type">Trial 1</span>
+                    <p class="location-description">A misty valley crossed by an ancient stone bridge over a rushing river. Wind whispers through twisted trees. The Cursed Dire Wolf guards the bridge, blocking passage until a hero shows compassion over combat.</p>
+                </div>
             </div>
 
             <div class="location-card">
-                <h3>Ruined Tower Clearing</h3>
-                <span class="location-type">Trial 2</span>
-                <p class="location-description">A crumbling stone tower surrounded by overgrown ruins. Once a watchtower, now a goblin ambush point. A merchant's wagon is trapped here, arrows thudding into wood as goblins attack from the tower's heights.</p>
+                <img src="images/locations/ruined-tower.webp" alt="Ruined Tower Clearing" class="location-image" onclick="openLightbox(this)">
+                <div class="location-info">
+                    <h3>Ruined Tower Clearing</h3>
+                    <span class="location-type">Trial 2</span>
+                    <p class="location-description">A crumbling stone tower surrounded by overgrown ruins. Once a watchtower, now a goblin ambush point. A merchant's wagon is trapped here, arrows thudding into wood as goblins attack from the tower's heights.</p>
+                </div>
             </div>
 
             <div class="location-card">
-                <h3>Maze of Echoes</h3>
-                <span class="location-type">Trial 3</span>
-                <p class="location-description">A labyrinth of crystal walls that shift and change. Illusions mask dead ends while real paths appear blocked. Features a sword chamber with animated flying blades, and hidden alcoves where injured creatures hide. Pip the pseudodragon waits here.</p>
+                <img src="images/locations/maze-entrance.webp" alt="Maze of Echoes" class="location-image" onclick="openLightbox(this)">
+                <div class="location-info">
+                    <h3>Maze of Echoes</h3>
+                    <span class="location-type">Trial 3</span>
+                    <p class="location-description">A labyrinth of crystal walls that shift and change. Illusions mask dead ends while real paths appear blocked. Features a sword chamber with animated flying blades, and hidden alcoves where injured creatures hide. Pip the pseudodragon waits here.</p>
+                </div>
             </div>
 
             <div class="location-card">
-                <h3>Cursed Grove</h3>
-                <span class="location-type">Trial 4</span>
-                <p class="location-description">A once-beautiful forest clearing now twisted by shadow magic. Dead trees claw at purple-tinged sky. At its center, Starwind the pegasus is bound by chains of shadow, circled by three malevolent Shadows. Requires a powerful divine intervention to break the curse.</p>
+                <img src="images/locations/cursed-grove.webp" alt="Cursed Grove" class="location-image" onclick="openLightbox(this)">
+                <div class="location-info">
+                    <h3>Cursed Grove</h3>
+                    <span class="location-type">Trial 4</span>
+                    <p class="location-description">A once-beautiful forest clearing now twisted by shadow magic. Dead trees claw at purple-tinged sky. At its center, Starwind the pegasus is bound by chains of shadow, circled by three malevolent Shadows. Requires a powerful divine intervention to break the curse.</p>
+                </div>
             </div>
 
             <div class="location-card">
-                <h3>Temple Inner Sanctum</h3>
-                <span class="location-type">Final Battle</span>
-                <p class="location-description">The heart of the Temple of Aspects, corrupted by the Shadow Sorcerer. Once a place of starlight and hope, now filled with creeping darkness. The altar where Spore is held captive. Where the final confrontation takes place and the transformation occurs.</p>
+                <img src="images/locations/temple-sanctum-corrupted.webp" alt="Temple Inner Sanctum" class="location-image" onclick="openLightbox(this)">
+                <div class="location-info">
+                    <h3>Temple Inner Sanctum</h3>
+                    <span class="location-type">Final Battle</span>
+                    <p class="location-description">The heart of the Temple of Aspects, corrupted by the Shadow Sorcerer. Once a place of starlight and hope, now filled with creeping darkness. The altar where Spore is held captive. Where the final confrontation takes place and the transformation occurs.</p>
+                </div>
             </div>
 
             <div class="location-card">
-                <h3>Temple Courtyard (Restored)</h3>
-                <span class="location-type">Finale</span>
-                <p class="location-description">The Temple courtyard returned to glory after the Shadow Sorcerer's defeat. The four towers glow bright again. Villagers gather to witness the Choosing ceremony as Lightsword is revealed as a Sorcerer with Draconic heritage.</p>
+                <img src="images/locations/temple-restored.webp" alt="Temple Courtyard Restored" class="location-image" onclick="openLightbox(this)">
+                <div class="location-info">
+                    <h3>Temple Courtyard (Restored)</h3>
+                    <span class="location-type">Finale</span>
+                    <p class="location-description">The Temple courtyard returned to glory after the Shadow Sorcerer's defeat. The four towers glow bright again. Villagers gather to witness the Choosing ceremony as Lightsword is revealed as a Sorcerer with Draconic heritage.</p>
+                </div>
             </div>
+        </div>
+
+        <!-- Lightbox -->
+        <div id="lightbox" class="lightbox" onclick="closeLightbox()">
+            <span class="lightbox-close">&times;</span>
+            <img id="lightbox-img" src="" alt="Location full view">
         </div>
     </main>
 
     <footer class="site-footer">
         <p>&copy; 2025 Lightsword: The Trials of the Choosing | AI-generated comic | Created with Google Gemini</p>
     </footer>
+
+    <script>
+        function openLightbox(img) {
+            document.getElementById('lightbox-img').src = img.src;
+            document.getElementById('lightbox').classList.add('active');
+        }
+        function closeLightbox() {
+            document.getElementById('lightbox').classList.remove('active');
+        }
+        document.addEventListener('keydown', (e) => {
+            if (e.key === 'Escape') closeLightbox();
+        });
+    </script>
 </body>
 </html>
