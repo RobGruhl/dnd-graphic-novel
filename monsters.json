@@ -100,57 +100,24 @@
   },
   "ShadowSorcerer": {
     "name": "The Shadow Sorcerer",
-    "role": "Final Boss - Tragic Villain",
-    "full_description": "A hooded figure in tattered dark robes - once a Choosing candidate who failed and died in bitterness centuries ago. Face is a hollow mask of who they once were. Purple eyes burning with jealousy and rage. Form flickers between solid and shadow. Tragic rather than purely evil.",
+    "role": "Final Boss - Menacing Spirit",
+    "full_description": "A hooded figure in tattered robes. Darkness swirls around them like a living cloak. Eyes burn with cold purple fire. NOT a zombie, NOT undead flesh - a formless spirit of rage and bitterness. Once a young candidate who failed the Choosing and died bitter. Now centuries of jealousy and hatred given form. Genuinely threatening and powerful.",
     "description_components": {
-      "head_face": "Hollow masked face - once young, now twisted by centuries of jealousy, hood casting deep shadows, purple eyes burning with hateful fire, features flickering between solid and shadow",
-      "body_build": "Humanoid form in tattered robes, neither fully solid nor fully shadow, floating slightly above ground, trails wisps of darkness",
-      "distinguishing_features": "Burning purple eyes visible even in shadow, tattered ceremonial Choosing robes now grey and torn, hands wreathed in shadow energy, form flickers and wavers",
-      "pose_behavior": "Hovering behind altar where Spore is bound, arms spread in dramatic villain pose, ancient rage and bitter jealousy in every gesture"
+      "head_face": "Deep hood conceals face - only BURNING PURPLE EYES visible, cold fire of centuries of rage. No rotting flesh, no zombie features - just formless darkness and those menacing burning eyes.",
+      "body_build": "Hooded figure in tattered ceremonial robes. Darkness swirls around them like a living cloak. Floating above ground, larger than a normal human. Form is abstract - NOT solid flesh.",
+      "distinguishing_features": "Cold purple fire eyes, deep hood hiding face, darkness swirling like a living cloak, tattered ceremonial Choosing robes, genuinely menacing presence",
+      "pose_behavior": "Commanding and threatening. Arms spread in dramatic villain pose. Voice drips with centuries of hate. A formidable foe - genuinely dangerous."
     }
   },
   "ShadowSorcererFading": {
-    "name": "The Shadow Sorcerer (Defeated)",
-    "role": "Villain's End",
-    "full_description": "The Shadow Sorcerer after being struck by Lightsword's three-card attack. Form dissolving, shadows fading. The rage draining away to reveal the sad, lonely person they once were - a young face, regretful eyes. Finding a moment of peace before fading completely.",
+    "name": "The Shadow Sorcerer (Fading)",
+    "role": "Final Boss - Defeated/Freed",
+    "full_description": "The darkness FADES to reveal who they used to be - not a monster, just someone young, someone scared, someone who wanted to be chosen. The cold purple fire dims and goes out. Voice becomes softer, recognizing what they were missing: 'Not power. Just someone who cared.' Form dissolves into motes of fading light. A moment of understanding before they're gone.",
     "description_components": {
-      "head_face": "Face transforming - rage fading to reveal young features, purple fire in eyes dimming to soft light, expression shifting from hatred to regret to peace",
-      "body_build": "Form dissolving into motes of shadow and light, becoming transparent, robes becoming less tattered as they fade",
-      "distinguishing_features": "Arrow of light piercing chest, shadows streaming away like smoke, young face briefly visible beneath the mask of centuries",
-      "pose_behavior": "Floating but sinking, hands lowered in surrender, head bowing, fading into nothing with words of regret"
-    }
-  },
-  "Specter": {
-    "name": "The Jealous Specter",
-    "role": "Final Boss - Tragic Villain (Alternate Name)",
-    "full_description": "A translucent ghostly humanoid in tattered ceremonial robes - once a Choosing candidate who failed and died in bitterness. Twisted spectral features frozen between anguish and rage. Trailing wisps of ectoplasm. Hovering in the corrupted sanctum, life-draining touch ready.",
-    "description_components": {
-      "head_face": "Translucent ghostly face twisted between pain and rage, features that might have once been young now distorted, hollow eyes burning with jealous purple-white fire",
-      "body_build": "Ghostly humanoid form in tattered robes, translucent enough to see through, floating above ground, trailing wisps of ectoplasm",
-      "distinguishing_features": "Remnants of ceremonial Choosing robes now tattered and grey, spectral hands with long draining fingers, purple-white ghostfire in eyes and around hands",
-      "pose_behavior": "Hovering above altar where beloved NPC is bound, arms spread in dramatic villain pose, face showing bitter triumph and ancient pain"
-    }
-  },
-  "SpecterAttacking": {
-    "name": "The Specter (Attacking)",
-    "role": "Combat",
-    "full_description": "The specter in full attack mode, rushing forward with life-draining hands extended. Face twisted in pure rage. Trailing ectoplasmic wake. Cold aura visible as frost forms in the air around it.",
-    "description_components": {
-      "head_face": "Same ghostly face now contorted in rage, mouth open in silent shriek, eyes blazing with purple-white fire",
-      "body_build": "Same spectral form now rushing forward, robes streaming behind, form more solid with aggressive intent",
-      "distinguishing_features": "Hands wreathed in life-draining purple-white energy, frost forming in air around it, ectoplasm trailing like dark comet tail",
-      "pose_behavior": "Rushing attack, hands reaching for hero's heart, entire form leaning into aggressive charge"
-    }
-  },
-  "SpecterRedeemed": {
-    "name": "The Specter (Finding Peace)",
-    "role": "Redemption Ending",
-    "full_description": "The same specter but transformed by the hero's compassion. Rage fading to sorrow, then acceptance. The purple-white fire softening to gentle golden light. Features smoothing from twisted to peaceful. Finally ready to move on after centuries of anger.",
-    "description_components": {
-      "head_face": "Same ghostly face now softening, rage fading to tears, features becoming young and peaceful again, eyes filled with golden light instead of angry fire",
-      "body_build": "Same spectral form now becoming more translucent, edges softening, beginning to disperse into motes of light",
-      "distinguishing_features": "Purple-white fire transforming to soft golden glow, tattered robes becoming whole briefly, peaceful expression replacing anguish",
-      "pose_behavior": "Floating peacefully, hands lowered non-threatening, head slightly bowed in gratitude and release, beginning to fade into light"
+      "head_face": "Young face now visible as darkness fades - NOT monstrous, just a young person who failed and died alone. Purple fire dims to soft light, then goes out. Expression shows recognition and release.",
+      "body_build": "Form wavering, darkness dissolving away. Tattered robes becoming translucent. The monster is gone - only the young person who was trapped inside remains briefly.",
+      "distinguishing_features": "Darkness fading away like lifting fog, young face briefly visible, purple fire dimming to nothing, form dissolving into motes of light",
+      "pose_behavior": "Looking at the hero's companions with understanding. Realizing what they were missing. Quietly fading without fanfare. Not pitiful - just finally at peace."
     }
   },
   "GhostWolf": {

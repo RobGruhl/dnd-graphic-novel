@@ -11,8 +11,7 @@
       "dialogue": "Spirit: \"So. Another candidate. Another CHOSEN ONE.\"",
       "characters": {
         "SporeCaptive": "SPORE THE MYCONID - a small MUSHROOM CREATURE about knee-height. Pale cream-colored mushroom cap head with bioluminescent BLUE GLOWING SPOTS. Big expressive DARK EYES like pools of night. Short stubby mushroom body with tiny arms and legs. Bound to altar by chains of dark energy, releasing scared GRAY SPORES from fear. NOT a human, NOT an animal - a MUSHROOM PERSON.",
-        "ShadowSorcerer": "AN ETHEREAL SPIRIT - translucent and wispy like a ghost, NOT scary or undead-looking. Abstract humanoid form in tattered ceremonial robes. Glowing purple eyes that look more SAD than evil. Form is translucent, you can see through it. Floating gently, trailing wisps of energy. A TRAGIC spirit, not a monster - once was a young person who failed the Choosing long ago.",
-        "Shadow": "Wisps of dark energy floating in the air, abstract shapes, not threatening creatures."
+        "ShadowSorcerer": "A hooded figure in tattered robes. Darkness swirls around them like a living cloak. Eyes burn with cold purple fire. NOT a zombie, NOT undead flesh - a formless spirit of rage and bitterness. Centuries of jealousy and hatred given form. Genuinely threatening and powerful. Deep hood conceals face - only BURNING PURPLE EYES visible."
       },
       "npcs": {},
       "aspect_ratio": "3:4",
@@ -23,10 +22,10 @@
     {
       "panel_num": 2,
       "annotation": null,
-      "visual": "Visual: Close-up on the Spirit's translucent face - sadness and longing in those glowing purple eyes. NOT scary, NOT undead - a tragic ghost who looks more lonely than evil. Characters: Spirit Wizard",
-      "dialogue": "Spirit: \"I was like you once. I came to the Choosing. I gave EVERYTHING.\"",
+      "visual": "Visual: Close-up on the Shadow Sorcerer - deep hood concealing face, only BURNING PURPLE EYES visible in the darkness. Voice full of bitter rage. Centuries of jealousy. Threatening, NOT sad. Characters: Shadow Sorcerer",
+      "dialogue": "Shadow Sorcerer: \"I was like you once. I came to the Choosing. I gave EVERYTHING.\"",
       "characters": {
-        "SpiritWizard": "AN ETHEREAL SPIRIT - translucent and wispy like a gentle ghost, NOT scary or undead-looking. Abstract humanoid form in tattered ceremonial robes. Glowing purple eyes that look SAD and LONELY, not evil. Form is translucent, you can see through it. A TRAGIC spirit - once was a young person who failed the Choosing long ago. More like Casper than a zombie."
+        "ShadowSorcerer": "Close-up on hooded figure. Deep hood conceals face - only BURNING PURPLE EYES visible, cold fire of centuries of rage. Voice drips with bitter resentment. NOT sad or lonely - ANGRY and BITTER. A formless spirit of rage, NOT undead flesh."
       },
       "npcs": {},
       "aspect_ratio": "3:4",
@@ -36,10 +35,10 @@
     {
       "panel_num": 3,
       "annotation": null,
-      "visual": "Visual: The Spirit's translucent form flickers, spreading arms wide in anguish. NOT scary - a sad lonely ghost expressing pain. Characters: Spirit Wizard",
-      "dialogue": "Spirit: \"And I FAILED. I wasn't good enough. I died here, ALONE, FORGOTTEN!\"",
+      "visual": "Visual: The Shadow Sorcerer spreads arms wide in RAGE. Darkness swirls around the form like a living cloak. Eyes BLAZE with purple fire. Voice dripping with centuries of hate and resentment. Dramatic villain pose. Characters: Shadow Sorcerer",
+      "dialogue": "Shadow Sorcerer: \"And I FAILED. I wasn't good enough. I died here, ALONE, FORGOTTEN!\"",
       "characters": {
-        "SpiritWizard": "AN ETHEREAL SPIRIT - translucent and wispy like a gentle ghost, NOT scary or undead-looking. Abstract humanoid form in tattered ceremonial robes. Glowing purple eyes that look SAD and LONELY, not evil. Form is translucent, you can see through it. A TRAGIC spirit expressing anguish and loneliness. More like Casper than a zombie."
+        "ShadowSorcerer": "Hooded figure with arms spread wide in dramatic villain pose. Darkness swirls around them like a living cloak. BURNING PURPLE EYES blaze with rage. Voice dripping with centuries of hate: 'I FAILED... I died here, ALONE, FORGOTTEN!' Menacing and powerful, NOT pitiful."
       },
       "npcs": {},
       "aspect_ratio": "3:4",
@@ -49,11 +48,11 @@
     {
       "panel_num": 4,
       "annotation": null,
-      "visual": "Visual: The Spirit points accusingly at the Glowing Hero, wisps of energy swirling. The Spirit is NOT scary - still sad and lonely even in anger. Characters: Spirit Wizard, Glowing Hero",
-      "dialogue": "Spirit: \"Now I'll take YOUR power! I'll drain EVERYTHING you have!\" Hero: \"I won't let you hurt Spore.\" ",
+      "visual": "Visual: The Shadow Sorcerer points accusingly at the Glowing Hero, darkness swirling menacingly. THREATENING villain pose. Burning purple eyes full of rage. Characters: Shadow Sorcerer, Lightsword (Glowing)",
+      "dialogue": "Shadow Sorcerer: \"Now I'll take YOUR power! I'll drain EVERYTHING you have!\" Lightsword: \"I won't let you hurt Spore.\"",
       "characters": {
-        "GlowingHero": "A GLOWING ETHEREAL FIGURE made entirely of soft golden-white light. NOT a lizard, NOT humanoid with defined features - pure luminous energy in vaguely humanoid shape. No visible face, just two bright points of warm light where eyes would be. The entire body GLOWS and PULSES with inner light. Wearing simple cream-colored ceremonial robes that the light shines through. Ethereal, mysterious, magical being of pure radiance.",
-        "SpiritWizard": "AN ETHEREAL SPIRIT - translucent and wispy like a gentle ghost, NOT scary or undead-looking. Abstract humanoid form in tattered ceremonial robes. Glowing purple eyes - even in anger looks more sad than evil. Form is translucent. A TRAGIC spirit, more like Casper than a zombie."
+        "Lightsword": "A GLOWING ETHEREAL FIGURE made entirely of soft golden-white light. NOT a lizard, NOT humanoid with defined features - pure luminous energy in vaguely humanoid shape. No visible face, just two bright points of warm light where eyes would be. The entire body GLOWS and PULSES with inner light. Wearing simple cream-colored ceremonial robes that the light shines through. Ethereal, mysterious, magical being of pure radiance.",
+        "ShadowSorcerer": "Hooded figure pointing accusingly. Darkness swirls around them menacingly. BURNING PURPLE EYES blaze with rage and hunger. Voice threatening: 'Now I'll take YOUR power!' A formidable foe, genuinely dangerous."
       },
       "npcs": {},
       "aspect_ratio": "3:4",

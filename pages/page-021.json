@@ -30,7 +30,7 @@
         "Lightsword": "A GLOWING ETHEREAL FIGURE made entirely of soft golden-white light. NOT a lizard, NOT humanoid with defined features - pure luminous energy in vaguely humanoid shape. No visible face, just two bright points of warm light where eyes would be. The entire body GLOWS and PULSES with inner light. Wearing simple cream-colored ceremonial robes that the light shines through. Ethereal, mysterious, magical being of pure radiance.",
         "LightswordGlowing": "A glowing, indeterminate humanoid figure wrapped in soft golden-white light. No defined species yet - ethereal and mysterious. Wearing simple ceremonial robes over the glowing form. Eyes are bright points of warm light. The light pulses gently with emotions.",
         "Spore": "A small mushroom creature about knee-height. Pale cap with bioluminescent spots that glow soft blue. Big, expressive dark eyes. Releases colored spores based on emotion - gray when scared or sad, rainbow when joyful. Lightsword's best friend from the underground village.",
-        "SpiritWizard": "AN ETHEREAL SPIRIT - translucent and wispy like a gentle ghost, NOT scary or undead-looking. Abstract humanoid form in tattered ceremonial robes. Glowing purple eyes that look SAD and LONELY, not evil. Form is translucent. A TRAGIC spirit, more like Casper than a zombie."
+        "ShadowSorcerer": "The Shadow Sorcerer being struck by holy light! Hooded figure STAGGERING back, form burning with golden fire. Screaming a sound of rage and pain and centuries of loneliness as the light burns through the darkness. Arrow of pure light piercing the chest. The darkness around them dissolving under the holy assault."
       },
       "npcs": {},
       "aspect_ratio": "3:4",
@@ -58,7 +58,7 @@
       "visual": "Visual: The Shadow Sorcerer's form fades - the shadows dissolving to reveal the SAD, LONELY person they once were. A young face, eyes no longer burning but full of regret. Characters: Shadow Sorcerer (fading)",
       "dialogue": "Shadow Sorcerer: \"Maybe that's what I was missing. Not power. Just... someone who cared.\" (Caption): \"The specter faded. The darkness lifted.\" ",
       "characters": {
-        "SpiritFading": "The Spirit after being struck by the hero's three-card attack. Translucent form dissolving peacefully. The sadness giving way to PEACE and RELIEF - a gentle face, grateful eyes. Finding release and rest at last. NOT scary - a peaceful passing, like finally being set free."
+        "ShadowSorcererFading": "The darkness FADES to reveal who they used to be - not a monster, just someone young, someone scared, someone who wanted to be chosen. The cold purple fire dims and goes out. Young face now visible as the darkness dissolves - NOT monstrous, just a young person who failed and died alone. Expression shows recognition and understanding. Voice softer: 'Maybe that's what I was missing. Not power. Just... someone who cared.' Quietly dissolving into motes of fading light. Not pitiful - just finally at peace."
       },
       "npcs": {},
       "aspect_ratio": "3:4",
