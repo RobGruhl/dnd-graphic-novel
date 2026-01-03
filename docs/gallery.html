@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gallery - Lightsword: The Trials of the Choosing</title>
+    <meta name="description" content="Epic artwork from Lightsword's adventure.">
+    <link rel="stylesheet" href="css/main.css">
+    <style>
+        .gallery-content {
+            max-width: 1600px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+        .page-header {
+            text-align: center;
+            padding: 40px 20px;
+            background: var(--bg-secondary);
+            margin-bottom: 30px;
+        }
+        .page-header h1 {
+            margin-bottom: 10px;
+        }
+        .page-header p {
+            color: var(--text-secondary);
+            max-width: 600px;
+            margin: 0 auto;
+        }
+        .gallery-grid {
+            display: flex;
+            flex-direction: column;
+            gap: 40px;
+        }
+        .gallery-item {
+            background: var(--bg-secondary);
+            border-radius: 12px;
+            overflow: hidden;
+            border: 1px solid var(--border-color);
+        }
+        .gallery-image {
+            width: 100%;
+            display: block;
+            cursor: pointer;
+        }
+        .gallery-info {
+            padding: 25px;
+        }
+        .gallery-item h3 {
+            color: var(--accent-color);
+            margin-bottom: 10px;
+            font-size: 1.5rem;
+        }
+        .gallery-description {
+            color: var(--text-primary);
+            line-height: 1.7;
+        }
+        /* Lightbox */
+        .lightbox {
+            display: none;
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background: rgba(0,0,0,0.95);
+            z-index: 1000;
+            justify-content: center;
+            align-items: center;
+            cursor: pointer;
+        }
+        .lightbox.active {
+            display: flex;
+        }
+        .lightbox img {
+            max-width: 95%;
+            max-height: 95%;
+            object-fit: contain;
+        }
+        .lightbox-close {
+            position: absolute;
+            top: 20px;
+            right: 30px;
+            color: white;
+            font-size: 40px;
+            cursor: pointer;
+        }
+        .back-link {
+            display: inline-block;
+            margin-bottom: 20px;
+            color: var(--accent-color);
+            text-decoration: none;
+        }
+        .back-link:hover {
+            text-decoration: underline;
+        }
+    </style>
+</head>
+<body>
+    <header class="site-header">
+        <div class="header-content">
+            <h1 class="site-title">Lightsword: The Trials of the Choosing</h1>
+            <nav class="site-nav">
+                <a href="index.html" class="nav-link">Read</a>
+                <a href="characters.html" class="nav-link">Characters</a>
+                <a href="locations.html" class="nav-link">Locations</a>
+                <a href="cards.html" class="nav-link">Cards</a>
+                <a href="gallery.html" class="nav-link active">Gallery</a>
+                <a href="about.html" class="nav-link">About</a>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <div class="page-header">
+            <h1>Epic Gallery</h1>
+            <p>Full-size artwork celebrating Lightsword's journey through the Trials of the Choosing.</p>
+        </div>
+
+        <div class="gallery-content">
+            <a href="index.html" class="back-link">&larr; Back to Comic</a>
+
+            <div class="gallery-grid">
+                <div class="gallery-item">
+                    <img src="images/gallery/hero-portrait.webp" alt="Hero Portrait with All Companions" class="gallery-image" onclick="openLightbox(this)">
+                    <div class="gallery-info">
+                        <h3>The Hero and Companions</h3>
+                        <p class="gallery-description">Lightsword the Lizardfolk Sorcerer stands triumphant in the Temple of Aspects, surrounded by the companions gathered during the Trials: Darkstorm the dire wolf, Starwind the pegasus, Pip the pseudodragon, and beloved best friend Spore the myconid. The four Aspect pillars glow behind them as magical constellations shimmer in the crystal dome above.</p>
+                    </div>
+                </div>
+
+                <div class="gallery-item">
+                    <img src="images/gallery/spore-warrior.webp" alt="Spore the Myconid Warrior" class="gallery-image" onclick="openLightbox(this)">
+                    <div class="gallery-info">
+                        <h3>Spore the Warrior</h3>
+                        <p class="gallery-description">Though small, Spore the myconid proves that courage comes in all sizes. Armed with twin blades of purple magical energy, this mushroom warrior from the underground caves stands ready to defend friends and home. The bioluminescent fungi of the deep caverns glow around this unlikely hero.</p>
+                    </div>
+                </div>
+
+                <div class="gallery-item">
+                    <img src="images/gallery/battle-duo.webp" alt="Lightsword and Spore in Battle" class="gallery-image" onclick="openLightbox(this)">
+                    <div class="gallery-info">
+                        <h3>Fighting Together</h3>
+                        <p class="gallery-description">Lightsword and Spore fight side-by-side against the forces of darkness. Fire magic blazes from the sorcerer's claws while Spore's enchanted blades flash through shadow creatures. Best friends since childhood in the underground village, they face every challenge as a team.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Lightbox -->
+        <div id="lightbox" class="lightbox" onclick="closeLightbox()">
+            <span class="lightbox-close">&times;</span>
+            <img id="lightbox-img" src="" alt="Full size view">
+        </div>
+    </main>
+
+    <footer class="site-footer">
+        <p>&copy; 2025 Lightsword: The Trials of the Choosing | AI-generated comic | Created with Google Gemini</p>
+    </footer>
+
+    <script>
+        function openLightbox(img) {
+            document.getElementById('lightbox-img').src = img.src;
+            document.getElementById('lightbox').classList.add('active');
+        }
+        function closeLightbox() {
+            document.getElementById('lightbox').classList.remove('active');
+        }
+        document.addEventListener('keydown', (e) => {
+            if (e.key === 'Escape') closeLightbox();
+        });
+    </script>
+</body>
+</html>

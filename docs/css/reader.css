@@ -481,6 +481,55 @@
     }
 }
 
+/* Wide screen responsive - show full page when there's room */
+@media (min-width: 1200px) {
+    .reader-container {
+        max-width: none;
+        padding: 20px 40px;
+    }
+
+    .page-display {
+        /* Let the page expand based on available height */
+        max-height: calc(100vh - 260px);
+    }
+
+    .page-display.fit-screen img {
+        max-height: calc(100vh - 280px);
+        /* On wide screens, let image be larger if viewport allows */
+        max-width: min(100%, calc((100vh - 280px) * 0.667));
+    }
+}
+
+@media (min-width: 1600px) {
+    .reader-container {
+        padding: 20px 60px;
+    }
+
+    .page-display {
+        max-height: calc(100vh - 240px);
+        padding: 30px;
+    }
+
+    .page-display.fit-screen img {
+        max-height: calc(100vh - 260px);
+        /* At very wide viewports, size by height and let width follow */
+        max-width: calc((100vh - 260px) * 0.667);
+    }
+
+    .page-display.fit-width img {
+        /* For fit-width mode on wide screens */
+        max-width: 1200px;
+    }
+}
+
+@media (min-width: 2000px) {
+    .page-display.fit-screen img {
+        /* On very wide screens (4K), allow even larger display */
+        max-height: calc(100vh - 240px);
+        max-width: calc((100vh - 240px) * 0.667);
+    }
+}
+
 /* Print styles */
 @media print {
     .site-header,
