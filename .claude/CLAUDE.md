@@ -245,6 +245,44 @@ Run `python scripts/utilities/fix_page_jsons.py` to automatically:
 
 ---
 
+## Character Description Guidelines for Image Generation
+
+### Spirit Wizard (Final Boss)
+The antagonist should be rendered as a **gentle, sad ghost** - NOT a scary zombie:
+
+```
+AN ETHEREAL SPIRIT - translucent and wispy like a gentle ghost, NOT scary or undead-looking.
+Abstract humanoid form in tattered ceremonial robes. Glowing purple eyes that look SAD and LONELY,
+not evil. Form is translucent, you can see through it. A TRAGIC spirit - once was a young person
+who failed the Choosing long ago. More like Casper than a zombie.
+```
+
+**Why:** The player is young; no scary zombies/undead. The Spirit Wizard is a tragic figure to be redeemed.
+
+### Lizardfolk Sorcerer (Hero Post-Transformation)
+When generating Lightsword after transformation, **NEVER use the name "Lightsword"** - it causes swords to appear:
+
+```
+A LIZARDFOLK SORCERER - NO SWORD, this is a MAGIC USER. Green-brown SCALES covering entire body.
+Reptilian head with golden-amber eyes with vertical dragon-like pupils. Small horn ridges along
+the brow. Lean athletic build. Scales shimmer with magical draconic energy. Hands may GLOW with
+magical power but NO WEAPONS. Confident heroic stance. Wearing simple robes.
+```
+
+**Why:** AI interprets "Lightsword" literally and adds a sword. He's a Sorcerer - magic user, not a fighter.
+
+### Underground Locations
+ALL locations must explicitly emphasize underground setting:
+
+```
+CRITICAL: This is DEEP UNDERGROUND. Show cave ceiling with stalactites. NO sky visible anywhere.
+Light sources: bioluminescent mushrooms, glowing crystals, magical lanterns - NEVER sunlight.
+```
+
+**Why:** The story takes place entirely in underground caves with myconid villages.
+
+---
+
 ## Aspect Ratios - CRITICAL for Layout
 
 ### Gemini Supported Ratios
@@ -323,12 +361,46 @@ The generator automatically skips panels that already exist.
 
 The comic is deployed to GitHub Pages from the `/docs` directory.
 
+### Site Structure
+```
+docs/
+├── index.html           # Comic reader (main page)
+├── characters.html      # Character gallery with lightbox
+├── locations.html       # Location gallery with lightbox
+├── cards.html           # Aspect Cards gallery (24 cards)
+├── gallery.html         # Epic artwork gallery
+├── about.html           # About the project
+├── css/
+│   ├── main.css         # Global styles
+│   └── reader.css       # Reader-specific styles (responsive)
+├── js/
+│   └── reader.js        # Navigation and display logic
+├── data/
+│   └── pages.json       # Page metadata for reader
+└── images/
+    ├── pages/           # Full-size comic pages (WebP)
+    ├── thumbnails/      # Page thumbnails
+    ├── characters/      # Character portraits
+    ├── locations/       # Location images
+    ├── cards/           # Aspect Card images (24 cards)
+    └── gallery/         # Epic artwork images
+```
+
+### Responsive Layout (reader.css)
+The reader adapts to screen width with media queries:
+- **< 1200px**: Constrained max-width, standard mobile/tablet view
+- **1200-1600px**: Wider display, images scale with viewport
+- **1600-2000px**: Even wider, reduced constraints
+- **> 2000px**: Full width utilization, images use available space
+
 ### Key Files
 - `docs/index.html` - Comic reader web app
 - `docs/js/reader.js` - Navigation and display logic
 - `docs/data/pages.json` - Page metadata for reader
 - `docs/images/pages/` - WebP page images
 - `docs/images/thumbnails/` - Thumbnail images
+- `docs/images/cards/` - 24 Aspect Cards (Warrior, Hunter, Arcane, Divine)
+- `docs/images/gallery/` - Epic artwork images
 
 ### pages.json Format
 ```json

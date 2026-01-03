@@ -167,6 +167,32 @@ Host your comic online by copying the `docs/` folder to any web server. The view
 - Keyboard shortcuts (arrow keys, A/D, G for grid)
 - Touch gestures for mobile
 - Character and location galleries
+- **Aspect Cards gallery** - View all 24 game cards organized by type
+- **Epic artwork gallery** - Full-size artwork with lightbox viewer
+- **Responsive layout** - Images expand on wide screens (1200px+)
+
+### Web Viewer Structure
+
+```
+docs/
+├── index.html           # Comic reader (main page)
+├── characters.html      # Character portraits gallery
+├── locations.html       # Location images gallery
+├── cards.html           # Aspect Cards (Warrior, Hunter, Arcane, Divine)
+├── gallery.html         # Epic artwork gallery
+├── about.html           # About the project
+├── css/main.css         # Global styles
+├── css/reader.css       # Reader styles with responsive breakpoints
+├── js/reader.js         # Navigation logic
+├── data/pages.json      # Page metadata
+└── images/
+    ├── pages/           # Full-size comic pages (WebP)
+    ├── thumbnails/      # Page thumbnails
+    ├── characters/      # Character portraits
+    ├── locations/       # Location images
+    ├── cards/           # Aspect Card images
+    └── gallery/         # Epic artwork
+```
 
 Create `docs/data/pages.json` to configure your pages:
 
