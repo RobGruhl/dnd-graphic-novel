@@ -24,7 +24,6 @@ class ComicReader {
             // Initialize UI
             this.setupControls();
             this.setupKeyboardShortcuts();
-            this.setupTouchGestures();
             this.setupBrowserNavigation();
             this.loadPageFromURL();
             this.updateDisplay();
@@ -75,7 +74,6 @@ class ComicReader {
 
         // Remove all zoom classes
         pageDisplay.classList.remove('fit-screen', 'fit-width', 'fit-height', 'zoomed');
-        img.style.transform = '';
         img.style.width = '';
         img.style.height = '';
 
@@ -100,8 +98,7 @@ class ComicReader {
                 break;
             case '150':
                 pageDisplay.classList.add('zoomed');
-                img.style.transform = 'scale(1.5)';
-                img.style.transformOrigin = 'top center';
+                img.style.width = '150%';
                 document.getElementById('zoom-150').classList.add('active');
                 zoomLevel.textContent = '150% - scroll to pan';
                 break;
@@ -170,39 +167,6 @@ class ComicReader {
                     break;
             }
         });
-    }
-
-    setupTouchGestures() {
-        let touchStartX = 0;
-        let touchStartY = 0;
-        const pageDisplay = document.querySelector('.page-display');
-
-        pageDisplay.addEventListener('touchstart', (e) => {
-            touchStartX = e.touches[0].clientX;
-            touchStartY = e.touches[0].clientY;
-        }, { passive: true });
-
-        pageDisplay.addEventListener('touchend', (e) => {
-            // Don't navigate when zoomed - user is panning the image
-            if (this.zoomMode === '100' || this.zoomMode === '150') {
-                return;
-            }
-
-            const touchEndX = e.changedTouches[0].clientX;
-            const touchEndY = e.changedTouches[0].clientY;
-
-            const diffX = touchStartX - touchEndX;
-            const diffY = touchStartY - touchEndY;
-
-            // Only trigger if horizontal swipe is dominant
-            if (Math.abs(diffX) > Math.abs(diffY) && Math.abs(diffX) > 50) {
-                if (diffX > 0) {
-                    this.nextPage(); // Swipe left
-                } else {
-                    this.previousPage(); // Swipe right
-                }
-            }
-        }, { passive: true });
     }
 
     setupBrowserNavigation() {
